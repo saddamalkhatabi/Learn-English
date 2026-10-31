@@ -31,3 +31,17 @@ The workflow `.github/workflows/preview.yml` runs this batch if it is missing. I
 
 ## Preview
 Use the ZIP artifact from a successful GitHub Actions run. Enable GitHub Pages if your plan/repo settings allow it; no Pages URL is guaranteed for a private repository.
+
+
+## 2026-11-01: Acoustic timing migration from Family School 360
+
+The original app360 implementation was inspected, specifically:
+- `apps/1-4/my-little-routine/tools/align_routine_words.py`: MMS_FA acoustic alignment of exact unchanged MP3s, source SHA-256, duration in milliseconds, explicit word indices.
+- `assets/js/app360-read-along-v1.js`: audio clock and measured [index,start,end] cues, no highlights during silence.
+- `apps/4-8/story-language-lab/tools/build_read_along.py`: alternatively, the boundary metadata of the SAME TTS synthesis, shifted after trimming and validated against text.
+
+Learn English now includes `scripts/align_recordings.py`, `.github/workflows/align-english-words.yml`, and a player that consumes `data/audio-word-cues.json` only when exact transcript and measured cues validate. The waveform is the already-committed Kokoro recording. The renderer follows `audio.currentTime` with animation frames and suppresses highlights in pauses.
+
+**Important:** Adding the script does not imply the alignment output exists or has passed QA. Until the GitHub Actions acoustic alignment run succeeds and publishes its JSON to both the private project and public preview, the MP3 continues to play without guessed word-by-word highlighting. Browser synthesis uses native boundary callbacks if available.
+
+Photo-scene preview currently uses mapped real-life images from Pexels with the old SVG as fallback. The separately generated image atlas is a prototype concept asset, not yet self-hosted.
