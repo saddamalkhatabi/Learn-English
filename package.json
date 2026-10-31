@@ -1,0 +1,14 @@
+{
+  "name": "learn-english-pattern-universe",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Read-only public preview of the Learn English learning prototype",
+  "scripts": {
+    "start": "node server.mjs",
+    "check": "node --check app.js && node --check server.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
