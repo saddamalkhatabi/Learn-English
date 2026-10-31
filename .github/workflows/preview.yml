@@ -42,12 +42,22 @@ jobs:
           assert all(len(x['levels'])==3 and all(len(d['scenes'])==4 for d in x['levels']) for x in l['lessons'])
           print('Validated all lesson and catalog data.')
           PY
+      - name: Check whether Kokoro audio must be regenerated
+        id: needvoice
+        run: |
+          if [ -f assets/audio/this/intro.mp3 ] && [ -f assets/audio/have/intro.mp3 ] && [ -f assets/audio/got/intro.mp3 ] && [ "$(find assets/audio -name '*.mp3' | wc -l)" -ge 15 ] && [ "${{ github.event.inputs.full_voice_library }}" != "true" ]; then
+            echo "required=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "required=true" >> "$GITHUB_OUTPUT"
+          fi
       - name: Setup Python
+        if: steps.needvoice.outputs.required == 'true'
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
       - name: Install Kokoro dependencies
         id: setup_tts
+        if: steps.needvoice.outputs.required == 'true'
         continue-on-error: true
         run: |
           sudo apt-get update -qq
@@ -56,7 +66,7 @@ jobs:
           python -m pip install "kokoro>=0.9.2,<1" soundfile numpy
       - name: Generate first 3 English explanations and scenario recordings
         id: tts
-        if: steps.setup_tts.outcome == 'success'
+        if: steps.needvoice.outputs.required == 'true' && steps.setup_tts.outcome == 'success'
         continue-on-error: true
         env:
           HF_HUB_DISABLE_TELEMETRY: '1'
