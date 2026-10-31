@@ -15,9 +15,25 @@ function toast(message){let el=$("toast");el.textContent=message;el.classList.ad
 function stopAudio(){state.playSeq++;clearTimeout(conf.autoTimer);if(state.playing){state.playing.pause();state.playing.currentTime=0;state.playing=null}if("speechSynthesis" in window)speechSynthesis.cancel()}
 function statusAudio(kind){$("audioStatus").textContent="مصدر الصوت الحالي: "+kind}
 function utter(text,slow,onDone,seq,target=null){if(!("speechSynthesis" in window)){toast("لا يتوفر صوت اصطناعي في هذا المتصفح.");return}const u=new SpeechSynthesisUtterance(text);u.lang="en-US";u.rate=slow?.78:.94;u.pitch=1.02;let vs=speechSynthesis.getVoices().filter(v=>v.lang.toLowerCase().startsWith("en"));let choice=vs.find(v=>/natural|samantha|jenny|google us english|aria|emma/i.test(v.name));if(choice)u.voice=choice;u.onend=()=>{if(seq===state.playSeq&&onDone)onDone()};u.onerror=()=>{};if(target){u.onboundary=e=>{const hits=[...text.matchAll(/\S+/g)];const idx=hits.findIndex((m,i)=>e.charIndex>=m.index&&(i===hits.length-1||e.charIndex<hits[i+1].index));if(idx>=0)markWord(target,text,idx)}}speechSynthesis.speak(u)}
+// Prefer measured word timestamps when a matching audio alignment file is available.
+// Schema: {"text":"exact spoken text","words":[{"start":0.1,"end":0.3,"text":"word"}]}.
+const alignmentCache=new Map();
+async function getAlignment(path,text){
+ if(!path)return null;
+ const url=path.replace(/\.mp3(?:\?.*)?$/i,".alignment.json");
+ if(!alignmentCache.has(url)){
+  alignmentCache.set(url,fetch(url).then(r=>r.ok?r.json():null).catch(()=>null));
+ }
+ const data=await alignmentCache.get(url);
+ const tokens=text.trim().split(/\s+/);
+ if(!data||data.text!==text||!Array.isArray(data.words)||data.words.length!==tokens.length)return null;
+ if(!data.words.every((w,i)=>Number.isFinite(w.start)&&Number.isFinite(w.end)&&w.start>=0&&w.end>=w.start&&w.text===tokens[i]))return null;
+ return data.words;
+}
 function playAudio(path,text,slow=false,onDone=null,target=null){stopAudio();const seq=state.playSeq;let done=false;const fallback=()=>{if(seq!==state.playSeq||done)return;done=true;statusAudio("صوت المتصفح الإنجليزي (بديل مؤقت)");utter(text,slow,onDone,seq,target)};
  if(!path){fallback();return}const audio=new Audio(path);state.playing=audio;audio.preload="auto";audio.playbackRate=slow?.78:1;
- audio.addEventListener("playing",()=>{if(seq===state.playSeq)statusAudio("تسجيل Kokoro جاهز بصيغة MP3")},{once:true});if(target)audio.addEventListener("timeupdate",()=>{if(!audio.duration||!isFinite(audio.duration))return;const words=text.trim().split(/\s+/);const weights=words.map(w=>Math.max(2,w.length));let passed=(audio.currentTime/audio.duration)*weights.reduce((a,b)=>a+b,0),i=0;while(i<weights.length-1&&passed>weights[i]){passed-=weights[i];i++}markWord(target,text,i)});
+ let measuredWords=null;if(target)getAlignment(path,text).then(words=>{if(seq===state.playSeq)measuredWords=words});
+ audio.addEventListener("playing",()=>{if(seq===state.playSeq)statusAudio("تسجيل Kokoro جاهز بصيغة MP3")},{once:true});if(target)audio.addEventListener("timeupdate",()=>{if(!audio.duration||!isFinite(audio.duration))return;if(measuredWords){const t=audio.currentTime;let i=measuredWords.findIndex(w=>t>=w.start&&t<w.end);if(i<0)i=Math.max(0,measuredWords.findIndex(w=>w.start>t)-1);if(i<0)i=measuredWords.length-1;markWord(target,text,i);return}const words=text.trim().split(/\s+/);const weights=words.map(w=>Math.max(2,w.length));let passed=(audio.currentTime/audio.duration)*weights.reduce((a,b)=>a+b,0),i=0;while(i<weights.length-1&&passed>weights[i]){passed-=weights[i];i++}markWord(target,text,i)});
  audio.addEventListener("ended",()=>{if(seq===state.playSeq&&onDone)onDone()},{once:true});
  audio.addEventListener("error",()=>fallback(),{once:true});
  audio.play().catch(()=>fallback());
