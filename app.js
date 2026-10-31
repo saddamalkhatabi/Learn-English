@@ -14,10 +14,10 @@ const activeScene=()=>activeLevel().scenes[state.scene];
 function toast(message){let el=$("toast");el.textContent=message;el.classList.add("show");clearTimeout(conf.toastTimer);conf.toastTimer=setTimeout(()=>el.classList.remove("show"),3300)}
 function stopAudio(){state.playSeq++;clearTimeout(conf.autoTimer);if(state.playing){state.playing.pause();state.playing.currentTime=0;state.playing=null}if("speechSynthesis" in window)speechSynthesis.cancel()}
 function statusAudio(kind){$("audioStatus").textContent="مصدر الصوت الحالي: "+kind}
-function utter(text,slow,onDone,seq){if(!("speechSynthesis" in window)){toast("لا يتوفر صوت اصطناعي في هذا المتصفح.");return}const u=new SpeechSynthesisUtterance(text);u.lang="en-US";u.rate=slow?.78:.94;u.pitch=1.02;let vs=speechSynthesis.getVoices().filter(v=>v.lang.toLowerCase().startsWith("en"));let choice=vs.find(v=>/natural|samantha|jenny|google us english|aria|emma/i.test(v.name));if(choice)u.voice=choice;u.onend=()=>{if(seq===state.playSeq&&onDone)onDone()};u.onerror=()=>{};speechSynthesis.speak(u)}
-function playAudio(path,text,slow=false,onDone=null){stopAudio();const seq=state.playSeq;let done=false;const fallback=()=>{if(seq!==state.playSeq||done)return;done=true;statusAudio("صوت المتصفح الإنجليزي (بديل مؤقت)");utter(text,slow,onDone,seq)};
+function utter(text,slow,onDone,seq,target=null){if(!("speechSynthesis" in window)){toast("لا يتوفر صوت اصطناعي في هذا المتصفح.");return}const u=new SpeechSynthesisUtterance(text);u.lang="en-US";u.rate=slow?.78:.94;u.pitch=1.02;let vs=speechSynthesis.getVoices().filter(v=>v.lang.toLowerCase().startsWith("en"));let choice=vs.find(v=>/natural|samantha|jenny|google us english|aria|emma/i.test(v.name));if(choice)u.voice=choice;u.onend=()=>{if(seq===state.playSeq&&onDone)onDone()};u.onerror=()=>{};if(target){u.onboundary=e=>{const hits=[...text.matchAll(/\S+/g)];const idx=hits.findIndex((m,i)=>e.charIndex>=m.index&&(i===hits.length-1||e.charIndex<hits[i+1].index));if(idx>=0)markWord(target,text,idx)}}speechSynthesis.speak(u)}
+function playAudio(path,text,slow=false,onDone=null,target=null){stopAudio();const seq=state.playSeq;let done=false;const fallback=()=>{if(seq!==state.playSeq||done)return;done=true;statusAudio("صوت المتصفح الإنجليزي (بديل مؤقت)");utter(text,slow,onDone,seq,target)};
  if(!path){fallback();return}const audio=new Audio(path);state.playing=audio;audio.preload="auto";audio.playbackRate=slow?.78:1;
- audio.addEventListener("playing",()=>{if(seq===state.playSeq)statusAudio("تسجيل Kokoro جاهز بصيغة MP3")},{once:true});
+ audio.addEventListener("playing",()=>{if(seq===state.playSeq)statusAudio("تسجيل Kokoro جاهز بصيغة MP3")},{once:true});if(target)audio.addEventListener("timeupdate",()=>{if(!audio.duration||!isFinite(audio.duration))return;const words=text.trim().split(/\s+/);const weights=words.map(w=>Math.max(2,w.length));let passed=(audio.currentTime/audio.duration)*weights.reduce((a,b)=>a+b,0),i=0;while(i<weights.length-1&&passed>weights[i]){passed-=weights[i];i++}markWord(target,text,i)});
  audio.addEventListener("ended",()=>{if(seq===state.playSeq&&onDone)onDone()},{once:true});
  audio.addEventListener("error",()=>fallback(),{once:true});
  audio.play().catch(()=>fallback());
@@ -36,7 +36,7 @@ function renderStudy(){renderLessonCards();let l=activeLesson(),lev=activeLevel(
  document.querySelectorAll("[data-depth]").forEach(b=>b.onclick=()=>{stopAudio();state.auto=false;state.depth=+b.dataset.depth;state.scene=0;renderStudy()});
  $("relationships").innerHTML=l.related.map(id=>{let other=LIB.find(x=>x.id===id);return other?'<button class="btn tiny" data-rel="'+escapeHtml(id)+'">'+escapeHtml(other.title)+'</button>':""}).join("")+'<button class="btn tiny" id="viewLibrary">بحث في المكتبة ←</button>';
  document.querySelectorAll("[data-rel]").forEach(b=>b.onclick=()=>chooseLesson(LIB.findIndex(x=>x.id===b.dataset.rel)));$("viewLibrary").onclick=()=>{go("catalog");$("search").value=state.lesson===0?"this":state.lesson===1?"have":"got";renderCatalog()};
- renderScene()}
+ renderScene();renderStory()}
 function renderScene(){const s=activeScene(),l=activeLesson(),lev=activeLevel(),i=state.scene;const col=s.tile%4,row=Math.floor(s.tile/4);
  $("sceneArt").style.backgroundPosition=col*100/3+"% "+row*50+"%";$("sceneLocation").textContent=s.context;$("sceneBubble").textContent=s.en;$("sceneCount").textContent="المشهد "+(i+1)+" / "+lev.scenes.length;$("sentenceEn").innerHTML=highlighted(s.en);$("sentenceAr").textContent=s.ar;$("sentenceHint").textContent="مفتاح الفهم: "+s.hint;
  $("stepLabel").textContent=lev.label+" · المشهد "+(i+1)+" / 4";$("prevScene").disabled=state.depth===0&&i===0;
@@ -46,7 +46,7 @@ function renderScene(){const s=activeScene(),l=activeLesson(),lev=activeLevel(),
  $("autoplay").textContent="⟳ تسلسل المشاهد: "+(state.auto?"مفعّل":"مغلق");
  $("quizFeedback").textContent="";$("builderFeedback").textContent="";renderQuiz();resetBuilder();renderStats()}
 function move(dir){stopAudio();let n=state.scene+dir;if(n>=4){state.scene=0;state.depth=(state.depth+1)%3;renderStudy()}else if(n<0){if(state.depth===0)return;state.depth--;state.scene=3;renderStudy()}else{state.scene=n;renderScene()};$("study").scrollIntoView({block:"start",behavior:"smooth"})}
-function playCurrent(chain=false){const s=activeScene();playAudio(audioFile("scene"),s.en,false,()=>{if(chain&&state.auto){markComplete();conf.autoTimer=setTimeout(()=>moveAuto(),700)}})}
+function playCurrent(chain=false){const s=activeScene();playAudio(audioFile("scene"),s.en,false,()=>{if(chain&&state.auto){markComplete();conf.autoTimer=setTimeout(()=>moveAuto(),700)}},$("sentenceEn"))}
 function moveAuto(){if(!state.auto)return;if(state.scene===3&&state.depth===2){state.auto=false;toast("أتممت رحلة المشاهد الثلاثة. جرّب الاختبار الآن.");renderScene();return}move(1);playCurrent(true)}
 function playIntro(){playAudio(audioFile("intro"),activeLesson().explanationEn,false,null)}
 function shuffle(xs){let a=[...xs];for(let i=a.length-1;i>0;i--){let j=(i*5+state.lesson+state.scene*7+state.depth)% (i+1);[a[i],a[j]]=[a[j],a[i]]}return a}
@@ -66,10 +66,49 @@ function renderCatalog(){let arr=filteredPatterns();$("resultCount").textContent
 function openPattern(id){let p=CORPUS.patterns.find(x=>x.id===id);if(!p)return;state.modal=p;$("modalId").textContent="المصدر الأصلي #"+p.id+" · "+deepNames[p.depth];$("modalEn").textContent=p.en;$("modalRule").textContent=p.rule;$("modalTags").innerHTML=p.tags.map(t=>'<span class="pill">'+escapeHtml(categoryName(t))+'</span>').join(" ");$("modalRelated").style.display=p.id<=3?"inline-flex":"none";$("modalNeighbors").innerHTML="<h3>أنماط قريبة من هذا المدخل</h3><p class=\"muted\">علاقات مقترحة آليًا؛ تحتاج مراجعة دلالية.</p>"+(p.relatedIds||[]).map(id=>{let x=CORPUS.patterns.find(q=>q.id===id);return x?'<button class="btn tiny" data-neighbor="'+id+'">#'+id+" · "+escapeHtml(x.en)+"</button>":""}).join(" ");document.querySelectorAll("[data-neighbor]").forEach(n=>n.onclick=()=>openPattern(+n.dataset.neighbor));if(!$("patternDialog").open)$("patternDialog").showModal()}
 function renderCompare(){const items=[["This is / That is","This is my house. / That is my house.","قريب / بعيد",0],["Have / Have got","I have a job. / I've got a job.","معنى الملكية أو الوجود؛ فروق في الصياغة والسياق",1],["Have / Have to","I have a job. / I have to work.","الامتلاك يختلف عن الضرورة",1],["Have got / Have got to","I've got a ticket. / I've got to leave.","ملكية مقابل ضرورة",2],["This is + want to","This is the house I want to buy.","اشِر ثم أضف رغبتك",0],["If + have + can","If you have time, we can talk.","الشرط ثم الإمكان",1]];
  $("connectGrid").innerHTML=items.map(x=>'<article class="connectItem"><div class="pill">'+escapeHtml(x[0])+'</div><div class="equation">'+escapeHtml(x[1])+'</div><p>'+escapeHtml(x[2])+'</p><button class="btn tiny primary" data-link="'+x[3]+'">شاهد تطبيقًا عمليًا</button></article>').join("");document.querySelectorAll("[data-link]").forEach(b=>b.onclick=()=>chooseLesson(+b.dataset.link))}
+
+let STORIES={lessons:{}},storyPlayToken=0;
+function markWord(target,text,idx){
+ if(!target||!target.isConnected)return;
+ const words=text.trim().split(/\s+/);
+ target.innerHTML=words.map((w,i)=>i===idx?'<span class="speakingWord">'+escapeHtml(w)+'</span>':escapeHtml(w)).join(" ");
+}
+function storyLines(){
+ const d=STORIES.lessons[activeLesson().id];
+ if(!d)return [];
+ return $("storyMode").value==="dialogue"?d.dialogue:d.levels[state.depth].lines;
+}
+function renderStory(){
+ if(!$("storyList")||!STORIES.lessons[activeLesson().id])return;
+ const lesson=STORIES.lessons[activeLesson().id],isDialogue=$("storyMode").value==="dialogue",part=lesson.levels[state.depth],items=storyLines();
+ $("storyHeading").textContent="📖 "+lesson.title;
+ $("storySummary").textContent=lesson.ar+" · خمسة مواقف مترابطة في كل مستوى، وحوار قابل للاستماع";
+ $("storyChapter").textContent=isDialogue?"🎭 حوار بين شخصين":("الفصل "+(state.depth+1)+" · "+part.title+" — "+part.ar);
+ $("introDownload").href="assets/audio/"+activeLesson().id+"/intro.mp3";
+ $("storyAudioState").textContent="استمع للنطق الطبيعي المسجل عند توفره؛ البديل صوت الجهاز. تلوين MP3 تقريبي، وتلوين صوت المتصفح يعتمد على حدود الكلمات إذا توفرت.";
+ $("storyList").innerHTML=items.map((x,i)=>{
+ const pos=(x.tile%4)*100/3+"% "+Math.floor(x.tile/4)*50+"%";
+ const speaker=isDialogue?'<span class="storySpeaker">'+(i%2?"المتحدث B":"المتحدث A")+"</span>":"";
+ return '<button type="button" class="storyLine" data-story-index="'+i+'" aria-label="استمع للجملة '+(i+1)+'"><span class="storyMini" style="background-position:'+pos+'"></span><span class="storyText">'+speaker+'<span class="storyEnglish" lang="en" dir="ltr">'+escapeHtml(x.en)+'</span><span class="storyArabic">'+escapeHtml(x.ar)+'</span></span></button>';
+ }).join("");
+ document.querySelectorAll("[data-story-index]").forEach(b=>b.onclick=()=>{storyPlayToken++;playStoryLine(+b.dataset.storyIndex,false,storyPlayToken)});
+}
+function playStoryLine(i,all=false,session=storyPlayToken){
+ if(session!==storyPlayToken)return;
+ const list=storyLines(),x=list[i];if(!x)return;
+ document.querySelectorAll(".storyLine").forEach(b=>b.classList.toggle("playing",+b.dataset.storyIndex===i));
+ const target=$('storyList').querySelector('[data-story-index="'+i+'"] .storyEnglish');
+ const isDialogue=$("storyMode").value==="dialogue";
+ const file="assets/audio/"+activeLesson().id+"/"+(isDialogue?"dialogue-"+(i+1):"story-"+(state.depth+1)+"-"+(i+1))+".mp3";
+ $("storyAudioState").textContent="يتم تشغيل تسجيل Kokoro إن كان موجودًا، وإلا يُستخدم صوت المتصفح الإنجليزي؛ مع إبراز الكلمات أثناء التشغيل.";
+ playAudio(file,x.en,false,()=>{if(session!==storyPlayToken)return;markWord(target,x.en,-1);if(all&&i+1<list.length){setTimeout(()=>{if(session===storyPlayToken)playStoryLine(i+1,true,session)},450)}else document.querySelectorAll(".storyLine").forEach(b=>b.classList.remove("playing"))},target);
+}
+
 async function init(){
- try{const [lr,pr]=await Promise.all([fetch("data/lessons.json"),fetch("data/patterns.json")]);if(!lr.ok||!pr.ok)throw Error("HTTP "+lr.status+" / "+pr.status);const l=await lr.json(),p=await pr.json();LIB=l.lessons;CORPUS=p;renderStats();renderStudy();renderFilters()}catch(e){document.querySelector(".layout").innerHTML='<div class="empty"><h2>تعذر تحميل محتوى التطبيق</h2><p>افتح التطبيق عبر GitHub Pages أو خادم HTTP محلي. لا يعمل تحميل JSON مباشرة باستخدام عنوان file:// في أغلب المتصفحات.</p><p dir="ltr">'+escapeHtml(e.message)+'</p></div>';return}
+ try{const [lr,pr,sr]=await Promise.all([fetch("data/lessons.json"),fetch("data/patterns.json"),fetch("data/stories.json")]);if(!lr.ok||!pr.ok)throw Error("HTTP "+lr.status+" / "+pr.status);const l=await lr.json(),p=await pr.json();LIB=l.lessons;CORPUS=p;STORIES=sr.ok?await sr.json():{lessons:{}};renderStats();renderStudy();renderFilters()}catch(e){document.querySelector(".layout").innerHTML='<div class="empty"><h2>تعذر تحميل محتوى التطبيق</h2><p>افتح التطبيق عبر GitHub Pages أو خادم HTTP محلي. لا يعمل تحميل JSON مباشرة باستخدام عنوان file:// في أغلب المتصفحات.</p><p dir="ltr">'+escapeHtml(e.message)+'</p></div>';return}
  document.querySelectorAll("[data-view]").forEach(b=>b.onclick=()=>go(b.dataset.view));$("heroStart").onclick=()=>$("study").scrollIntoView({behavior:"smooth",block:"start"});
- $("sceneAudio").onclick=()=>playCurrent(false);$("slowAudio").onclick=()=>playAudio(audioFile("scene"),activeScene().en,true);$("explanationAudio").onclick=playIntro;
+ $("sceneAudio").onclick=()=>playCurrent(false);$("slowAudio").onclick=()=>playAudio(audioFile("scene"),activeScene().en,true,null,$("sentenceEn"));$("explanationAudio").onclick=playIntro;
+ $("storyMode").onchange=()=>{storyPlayToken++;stopAudio();renderStory()};$("storyAll").onclick=()=>{storyPlayToken++;playStoryLine(0,true,storyPlayToken)};$("storyStop").onclick=()=>{storyPlayToken++;stopAudio();document.querySelectorAll(".storyLine").forEach(x=>x.classList.remove("playing"))};
  $("prevScene").onclick=()=>move(-1);$("nextScene").onclick=()=>move(1);$("resetWords").onclick=resetBuilder;
  $("autoplay").onclick=()=>{stopAudio();state.auto=!state.auto;$("autoplay").textContent="⟳ تسلسل المشاهد: "+(state.auto?"مفعّل":"مغلق");if(state.auto)playCurrent(true)};
  $("reviewAudio").onclick=()=>playAudio(null,activeLevel().scenes.map(x=>x.en).join(" ... "));
