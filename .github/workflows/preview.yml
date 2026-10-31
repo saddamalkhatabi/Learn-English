@@ -48,7 +48,7 @@ jobs:
       - name: Check whether Kokoro audio must be regenerated
         id: needvoice
         run: |
-          if [ -f assets/audio/this/intro.mp3 ] && [ -f assets/audio/have/intro.mp3 ] && [ -f assets/audio/got/intro.mp3 ] && [ -f assets/audio/this/story-3-5.mp3 ] && [ -f assets/audio/have/story-3-5.mp3 ] && [ -f assets/audio/got/story-3-5.mp3 ] && [ -f assets/audio/this/dialogue-4.mp3 ] && [ -f assets/audio/have/dialogue-4.mp3 ] && [ -f assets/audio/got/dialogue-4.mp3 ] && [ "$(find assets/audio -name '*.mp3' | wc -l)" -ge 72 ] && [ "${{ github.event.inputs.full_voice_library }}" != "true" ]; then
+          if [ -f assets/audio/this/intro.mp3 ] && [ -f assets/audio/have/intro.mp3 ] && [ -f assets/audio/got/intro.mp3 ] && [ -f assets/audio/this/story-3-5.mp3 ] && [ -f assets/audio/have/story-3-5.mp3 ] && [ -f assets/audio/got/story-3-5.mp3 ] && [ -f assets/audio/this/dialogue-4.mp3 ] && [ -f assets/audio/have/dialogue-4.mp3 ] && [ -f assets/audio/got/dialogue-4.mp3 ] && [ "$(find assets/audio -name '*.mp3' | wc -l)" -ge 96 ] && [ "${{ github.event.inputs.full_voice_library }}" != "true" ]; then
             echo "required=false" >> "$GITHUB_OUTPUT"
           else
             echo "required=true" >> "$GITHUB_OUTPUT"
@@ -67,18 +67,14 @@ jobs:
           sudo apt-get install -y -qq espeak-ng ffmpeg
           python -m pip install --upgrade pip
           python -m pip install "kokoro>=0.9.2,<1" soundfile numpy
-      - name: Generate first 3 English explanations and scenario recordings
+      - name: Generate complete 36-scene, 45-story and 12-dialogue voice library
         id: tts
         if: steps.needvoice.outputs.required == 'true' && steps.setup_tts.outcome == 'success'
         continue-on-error: true
         env:
           HF_HUB_DISABLE_TELEMETRY: '1'
         run: |
-          if [ "${{ github.event.inputs.full_voice_library }}" = "true" ]; then
-            python scripts/generate_audio.py --full --stories
-          else
-            python scripts/generate_audio.py --stories
-          fi
+          python scripts/generate_audio.py --full --stories
       - name: Prepare preview and report real voice status
         run: |
           mkdir -p _site
