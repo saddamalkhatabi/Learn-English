@@ -1,0 +1,108 @@
+name: Learn English — Preview, Kokoro Audio & Pages
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'assets/audio/**'
+  workflow_dispatch:
+    inputs:
+      full_voice_library:
+        description: 'Generate all 36 scene MP3 recordings'
+        required: false
+        type: boolean
+        default: false
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: learn-english-preview
+  cancel-in-progress: false
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Validate JavaScript, corpus and 36 scenes
+        run: |
+          node --check app.js
+          python -m py_compile scripts/generate_audio.py
+          python - <<'PY'
+          import json
+          p=json.load(open('data/patterns.json'))
+          l=json.load(open('data/lessons.json'))
+          assert len(p['patterns'])==1034
+          assert len(l['lessons'])==3
+          assert sum(len(d['scenes']) for x in l['lessons'] for d in x['levels'])==36
+          assert all(len(x['levels'])==3 and all(len(d['scenes'])==4 for d in x['levels']) for x in l['lessons'])
+          print('Validated all lesson and catalog data.')
+          PY
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install Kokoro dependencies
+        id: setup_tts
+        continue-on-error: true
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq espeak-ng ffmpeg
+          python -m pip install --upgrade pip
+          python -m pip install "kokoro>=0.9.2,<1" soundfile numpy
+      - name: Generate first 3 English explanations and scenario recordings
+        id: tts
+        if: steps.setup_tts.outcome == 'success'
+        continue-on-error: true
+        env:
+          HF_HUB_DISABLE_TELEMETRY: '1'
+        run: |
+          if [ "${{ github.event.inputs.full_voice_library }}" = "true" ]; then
+            python scripts/generate_audio.py --full
+          else
+            python scripts/generate_audio.py
+          fi
+      - name: Prepare preview and report real voice status
+        run: |
+          mkdir -p _site
+          cp index.html app.js styles.css manifest.webmanifest _site/
+          cp -r data assets _site/
+          echo "## Pattern Universe preview" >> "$GITHUB_STEP_SUMMARY"
+          echo "3 deep lessons, 36 scenes, 1034 source records." >> "$GITHUB_STEP_SUMMARY"
+          echo "Kokoro setup: ${{ steps.setup_tts.outcome }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "Kokoro rendering: ${{ steps.tts.outcome }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "Recorded MP3 count: $(find assets/audio -name '*.mp3' 2>/dev/null | wc -l)" >> "$GITHUB_STEP_SUMMARY"
+      - name: Always upload a testable preview ZIP
+        uses: actions/upload-artifact@v4
+        with:
+          name: learn-english-preview-with-audio
+          path: _site/
+          retention-days: 30
+      - name: Save rendered recordings in main
+        if: steps.tts.outcome == 'success'
+        continue-on-error: true
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/audio
+          if ! git diff --cached --quiet; then
+            git commit -m "Add Kokoro English voice recordings [skip ci]"
+            git push
+          fi
+      - name: Detect existing GitHub Pages configuration
+        id: pages
+        uses: actions/configure-pages@v5
+        continue-on-error: true
+      - name: Package GitHub Pages
+        if: steps.pages.outcome == 'success'
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site/
+      - name: Deploy GitHub Pages preview
+        if: steps.pages.outcome == 'success'
+        id: deployment
+        uses: actions/deploy-pages@v4
