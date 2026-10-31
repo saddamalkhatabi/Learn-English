@@ -20,6 +20,9 @@ OUT = ROOT / "assets" / "audio"
 RATE = 24000
 
 def write_clip(pipeline, voice: str, text: str, out: pathlib.Path):
+    if out.exists() and out.stat().st_size > 1024:
+        print(f"REUSED {out.relative_to(ROOT)}", flush=True)
+        return False
     chunks = []
     for graphemes, phonemes, audio in pipeline(text, voice=voice, speed=0.96):
         arr = np.asarray(audio, dtype=np.float32).flatten()
@@ -47,10 +50,12 @@ def write_clip(pipeline, voice: str, text: str, out: pathlib.Path):
     )
     wav.unlink(missing_ok=True)
     print(f"CREATED {out.relative_to(ROOT)} {out.stat().st_size} bytes", flush=True)
+    return True
 
 def main():
     arg = argparse.ArgumentParser()
     arg.add_argument("--full", action="store_true", help="Generate all three depths")
+    arg.add_argument("--stories", action="store_true", help="Narrate all story chapters and dialogues with Kokoro")
     a = arg.parse_args()
     data = json.loads((ROOT / "data" / "lessons.json").read_text("utf-8"))
     pipeline = KPipeline(lang_code="a", repo_id="hexgrad/Kokoro-82M")
@@ -58,17 +63,27 @@ def main():
     for li, lesson in enumerate(data["lessons"]):
         lid = lesson["id"]
         # Use one consistent narrator for the English explanation.
-        write_clip(pipeline, "af_heart", lesson["explanationEn"], OUT / lid / "intro.mp3")
-        count += 1
+        count += int(write_clip(pipeline, "af_heart", lesson["explanationEn"], OUT / lid / "intro.mp3"))
         for depth, level in enumerate(lesson["levels"]):
             if depth > 0 and not a.full:
                 continue
             for i, scene in enumerate(level["scenes"], start=1):
                 # Alternate two natural English voices for variety.
                 voice = "af_bella" if (li + i) % 2 else "am_adam"
-                write_clip(pipeline, voice, scene["en"], OUT / lid / f"scene-{depth+1}-{i}.mp3")
-                count += 1
-    print(f"Generated and validated {count} Kokoro MP3 recordings.", flush=True)
+                count += int(write_clip(pipeline, voice, scene["en"], OUT / lid / f"scene-{depth+1}-{i}.mp3"))
+    if a.stories:
+        stories = json.loads((ROOT / "data" / "stories.json").read_text("utf-8"))["lessons"]
+        for li, lesson in enumerate(data["lessons"]):
+            lid = lesson["id"]
+            content = stories[lid]
+            for depth, chapter in enumerate(content["levels"], start=1):
+                for i, line in enumerate(chapter["lines"], start=1):
+                    voice = "af_bella" if i % 2 else "am_adam"
+                    count += int(write_clip(pipeline, voice, line["en"], OUT / lid / f"story-{depth}-{i}.mp3"))
+            for i, line in enumerate(content["dialogue"], start=1):
+                voice = "af_bella" if i % 2 else "am_adam"
+                count += int(write_clip(pipeline, voice, line["en"], OUT / lid / f"dialogue-{i}.mp3"))
+    print(f"New Kokoro MP3 recordings created: {count}.", flush=True)
 
 if __name__ == "__main__":
     main()
