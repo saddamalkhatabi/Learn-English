@@ -36,16 +36,19 @@ jobs:
           import json
           p=json.load(open('data/patterns.json'))
           l=json.load(open('data/lessons.json'))
+          st=json.load(open('data/stories.json'))
           assert len(p['patterns'])==1034
           assert len(l['lessons'])==3
           assert sum(len(d['scenes']) for x in l['lessons'] for d in x['levels'])==36
           assert all(len(x['levels'])==3 and all(len(d['scenes'])==4 for d in x['levels']) for x in l['lessons'])
-          print('Validated all lesson and catalog data.')
+          assert len(st['lessons'])==3
+          assert all(len(v['levels'])==3 and all(len(l['lines'])==5 for l in v['levels']) and len(v['dialogue'])==4 for v in st['lessons'].values())
+          print('Validated 36 scenes, 45 story lines and 12 dialogue lines.')
           PY
       - name: Check whether Kokoro audio must be regenerated
         id: needvoice
         run: |
-          if [ -f assets/audio/this/intro.mp3 ] && [ -f assets/audio/have/intro.mp3 ] && [ -f assets/audio/got/intro.mp3 ] && [ "$(find assets/audio -name '*.mp3' | wc -l)" -ge 15 ] && [ "${{ github.event.inputs.full_voice_library }}" != "true" ]; then
+          if [ -f assets/audio/this/intro.mp3 ] && [ -f assets/audio/have/intro.mp3 ] && [ -f assets/audio/got/intro.mp3 ] && [ -f assets/audio/this/story-3-5.mp3 ] && [ -f assets/audio/have/story-3-5.mp3 ] && [ -f assets/audio/got/story-3-5.mp3 ] && [ -f assets/audio/this/dialogue-4.mp3 ] && [ -f assets/audio/have/dialogue-4.mp3 ] && [ -f assets/audio/got/dialogue-4.mp3 ] && [ "$(find assets/audio -name '*.mp3' | wc -l)" -ge 72 ] && [ "${{ github.event.inputs.full_voice_library }}" != "true" ]; then
             echo "required=false" >> "$GITHUB_OUTPUT"
           else
             echo "required=true" >> "$GITHUB_OUTPUT"
@@ -72,9 +75,9 @@ jobs:
           HF_HUB_DISABLE_TELEMETRY: '1'
         run: |
           if [ "${{ github.event.inputs.full_voice_library }}" = "true" ]; then
-            python scripts/generate_audio.py --full
+            python scripts/generate_audio.py --full --stories
           else
-            python scripts/generate_audio.py
+            python scripts/generate_audio.py --stories
           fi
       - name: Prepare preview and report real voice status
         run: |
@@ -82,7 +85,7 @@ jobs:
           cp index.html app.js styles.css manifest.webmanifest _site/
           cp -r data assets _site/
           echo "## Pattern Universe preview" >> "$GITHUB_STEP_SUMMARY"
-          echo "3 deep lessons, 36 scenes, 1034 source records." >> "$GITHUB_STEP_SUMMARY"
+          echo "3 deep lessons, 36 scenes, 1034 source records, 45 story lines, 12 dialogue lines." >> "$GITHUB_STEP_SUMMARY"
           echo "Kokoro setup: ${{ steps.setup_tts.outcome }}" >> "$GITHUB_STEP_SUMMARY"
           echo "Kokoro rendering: ${{ steps.tts.outcome }}" >> "$GITHUB_STEP_SUMMARY"
           echo "Recorded MP3 count: $(find assets/audio -name '*.mp3' 2>/dev/null | wc -l)" >> "$GITHUB_STEP_SUMMARY"
