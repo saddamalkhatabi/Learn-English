@@ -1,0 +1,69 @@
+name: Generate original Kokoro Bella and Adam voice pairs
+on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/render_dual_kokoro.py
+      - .github/workflows/record-dual-kokoro.yml
+  workflow_dispatch:
+    inputs:
+      group:
+        description: Group to process
+        type: choice
+        options: [one, two, three, four, five, six, seven, eight, nine, ten]
+        default: one
+      first_pattern:
+        type: number
+        default: 1
+      last_pattern:
+        type: number
+        default: 3
+permissions:
+  contents: write
+concurrency:
+  group: english-original-bella-adam-audio
+  cancel-in-progress: false
+jobs:
+  produce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 110
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install Kokoro, acoustic model and FFmpeg
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq espeak-ng ffmpeg
+          python -m pip install --disable-pip-version-check 'torch==2.6.0' 'torchaudio==2.6.0' --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install --disable-pip-version-check 'kokoro>=0.9.2,<1' 'soundfile>=0.12' 'numpy<2'
+      - name: Render two authentic Kokoro voices and align their individual words
+        env:
+          GROUP: ${{ inputs.group || 'one' }}
+          FIRST: ${{ inputs.first_pattern || 1 }}
+          LAST: ${{ inputs.last_pattern || 3 }}
+        run: |
+          python scripts/render_dual_kokoro.py --group "$GROUP" --first "$FIRST" --last "$LAST"
+      - name: Recheck preservation of 96 Kokoro and ten existing group voice libraries
+        run: python scripts/audit_original_audio.py
+      - name: Keep an independently downloadable pilot
+        uses: actions/upload-artifact@v4
+        with:
+          name: english-dual-kokoro
+          path: |
+            assets/group-dual-audio/
+            data/group-*-dual-audio-index.json
+          retention-days: 30
+      - name: Commit only NEW voice variants and corresponding measured cues
+        env:
+          GROUP: ${{ inputs.group || 'one' }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add "assets/group-dual-audio/$GROUP" "data/group-$GROUP-dual-audio-index.json"
+          if ! git diff --cached --quiet; then
+            git commit -m "Publish verified Bella and Adam recordings for $GROUP [skip ci]"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
