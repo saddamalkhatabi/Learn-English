@@ -107,7 +107,7 @@ function selectedImage(p){
  if(p.id===1)source={file:"this",index:0};
  if(p.id===2)source={file:"have",index:0};
  if(p.id===3)source={file:"got",index:0};
- if(p.id>=4&&p.id<=27)source={file:p.id<=15?"patterns-4-15":"patterns-16-27",index:(p.id<=15?p.id-4:p.id-16)};
+ if(window.PATTERN_ATLAS_AVAILABLE&&p.id>=4&&p.id<=27)source={file:p.id<=15?"patterns-4-15":"patterns-16-27",index:(p.id<=15?p.id-4:p.id-16)};
  var picture=$("patternPhoto"),empty=$("patternPlaceholder");
  if(source){
   var col=source.index%4,row=Math.floor(source.index/4);
