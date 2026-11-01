@@ -10,7 +10,7 @@
   - **A Thoughtful Classroom** — صف يفكر بعمق.
   - **The Missed Opportunity** — الفرصة التي فاتت.
   - **The Future Inventors** — مخترعو المستقبل.
-- الهدف الصوتي **198 مادة** تشمل الشروح والمواقف والقصص والحوارات، مع تشغيل MP3 وتلوين الكلمات وفق WordBoundary المستخرج من الصوت نفسه، وفحص SHA256. يبدأ الفهرس من غير ملفات مزعومة، ولا يعتمد إلا بعد نجاح توليد الصوت والتحقق.
+- **اكتمل الصوت: 198/198 ملف MP3 جديدًا** للشروح والمواقف والقصص والحوارات، مع تلوين الكلمات وفق WordBoundary مستخرج من التسجيل نفسه والتحقق من SHA256 لكل ملف. لم تُستخدم تسجيلات سابقة، واجتاز الفهرس `data/group-ten-audio-index.json` فحص `--require-audio`.
 - الصور الواقعية وأطالس WebP **مستثناة عمدًا** وتعرض بدائل رسومية خفيفة متجاوبة.
 
 ## مقارنات أساسية لا ينبغي خلطها
@@ -36,8 +36,12 @@ npm run check
 node --check group-ten.js
 python scripts/test_group_ten.py
 python scripts/audit_ten_groups.py
-# بعد إتمام نشر كل ملفات الصوت:
+# إعادة فحص جميع الأصول الصوتية الموثقة:
 python scripts/test_group_ten.py --require-audio
 python scripts/audit_ten_groups.py --require-ten-audio
 node scripts/smoke_group_ten.mjs
 ```
+
+## اعتماد الصوت
+
+نجح [سير عمل إنتاج الصوت للمجموعة العاشرة](https://github.com/saddamalkhatabi/Learn-English/actions/workflows/group-ten-voices.yml)، مع **198 ملفًا جديدًا و198 توقيت كلمة موثوقًا لكل الجمل المعنية**؛ والمقصود بتوقيت الكلمات وجود مصفوفات حدود زمنية لكل كلمة داخل كل تسجيل، لا توقيت واحد للملف. تبقى مراجعة طبيعة النبرة البشرية والاستماع اليدوي عبر الأجهزة مرحلة منفصلة، وتظل الصور مستثناة.

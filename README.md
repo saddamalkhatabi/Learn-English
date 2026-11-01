@@ -48,7 +48,7 @@ An Arabic-first, offline-friendly learning prototype that teaches English **thro
 ## المجموعة العاشرة — التعبير المركب والجمل المتقدمة
 - [المجموعة العاشرة: 18 نمطًا و72 موقفًا وثلاث قصص مترابطة](docs/GROUP-TEN-AR.md). افتح «🧠 المجموعة العاشرة».
 - **What I mean is / What matters is / The reason is that / I wonder if / I wonder how / Could you tell me whether / The person who / The book that / The place where / The day when / I wish I could / If I were / If I had ..., I would have / I should have / I could have / I had already / By the time / The more ..., the more**.
-- **198 مقطعًا صوتيًا مستهدفًا** مع حدود كلمات حقيقية تُراجع في خط إنتاج الصوت الموثّق؛ تظل الصور المؤلفة والمشاهد الواقعية مؤجلة.
+- **198/198 تسجيل MP3 جديد مكتمل ومتحقق منه** (دون إعادة استخدام)، مع حدود كلمات WordBoundary مأخوذة من الصوت نفسه وبصمات SHA256؛ وتظل الصور الواقعية مؤجلة.
 
 ## مراجعة المجموعات العشر على main
 - يحتوي المسار التعليمي التفاعلي على **10 مجموعات × 18 نمطًا = 180 نمطًا معمقًا**، و**10 × 72 = 720 موقفًا**، إضافة إلى الدروس المعمقة الثلاثة ومسرد المصدر الذي يضم **1,034 مدخلًا**. ليست المدخلات الأصلية الـ1,034 كلها دروسًا معمقة بعد.

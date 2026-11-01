@@ -25,7 +25,7 @@ jobs:
           set -o pipefail
           npm run check
           node --check group-ten.js
-          python scripts/test_group_ten.py 2>&1 | tee /tmp/g10-verify.log
+          python scripts/test_group_ten.py --require-audio 2>&1 | tee /tmp/g10-verify.log
       - name: Confirm group navigator is integrated and no shared API was replaced
         run: |
           node --input-type=module <<'JS'
@@ -46,4 +46,4 @@ jobs:
       - name: Summarize Group Ten verification
         run: |
           echo "✅ Group Ten curriculum, source links and JavaScript checks passed" >> "$GITHUB_STEP_SUMMARY"
-          echo "Group Ten source validated; voice recordings require separate synthesis and strict media validation." >> "$GITHUB_STEP_SUMMARY"
+          echo "All 198 Group Ten MP3 files and measured word cues passed mandatory verification." >> "$GITHUB_STEP_SUMMARY"

@@ -28,10 +28,10 @@ jobs:
       - name: Verify all groups, navigation, patterns and references
         run: |
           set -euo pipefail
-          python scripts/audit_ten_groups.py
+          python scripts/audit_ten_groups.py --require-ten-audio
           npm run check
           for group in one two three four five six seven eight nine ten; do
             node --check "group-$group.js"
           done
       - name: Record audit result
-        run: echo "✅ 10 groups, 180 patterns, 720 scenes and all source routes verified" >> "$GITHUB_STEP_SUMMARY"
+        run: echo "✅ 10 groups, 180 patterns, 720 scenes, 198 Group Ten recordings, all source routes verified" >> "$GITHUB_STEP_SUMMARY"
