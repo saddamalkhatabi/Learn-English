@@ -1,0 +1,73 @@
+name: Record verified English pattern audio and same-synthesis cues
+on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/render_pattern_audio.py
+      - .github/workflows/record-pattern-audio.yml
+  workflow_dispatch:
+    inputs:
+      from_id:
+        description: "Source pattern ID at the beginning of this batch"
+        required: false
+        default: "4"
+      through_id:
+        description: "Last pattern ID in this batch"
+        required: false
+        default: "15"
+permissions:
+  contents: write
+concurrency:
+  group: english-pattern-voice-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  record:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install voice and metadata tools
+        run: |
+          python -m pip install --disable-pip-version-check 'edge-tts>=7,<8'
+          ffprobe -version | head -n 1
+      - name: Generate MP3 plus real matching word boundary offsets
+        env:
+          FROM_ID: ${{ inputs.from_id || '4' }}
+          THROUGH_ID: ${{ inputs.through_id || '15' }}
+        run: |
+          python scripts/render_pattern_audio.py --start "$FROM_ID" --end "$THROUGH_ID" --concurrency 3
+      - name: Validate generated audio and exact transcript
+        env:
+          FROM_ID: ${{ inputs.from_id || '4' }}
+          THROUGH_ID: ${{ inputs.through_id || '15' }}
+        run: |
+          python - <<'PY'
+          import hashlib,json,os,pathlib
+          root=pathlib.Path('.')
+          data=json.loads((root/'data/pattern-audio-index.json').read_text(encoding='utf-8'))
+          corpus=json.loads((root/'data/patterns.json').read_text())['patterns']
+          start,end=int(os.environ['FROM_ID']),int(os.environ['THROUGH_ID'])
+          targets=[p for p in corpus if start<=p['id']<=end and not p['duplicateOf']]
+          for p in targets:
+              row=data['items'][str(p['id'])]
+              assert row['text']==p['en']
+              f=root/row['path'];assert f.is_file()
+              assert hashlib.sha256(f.read_bytes()).hexdigest()==row['audio_sha256']
+              assert len(row['cues'])==len(p['en'].split())
+              assert all(c[0]==i and 0<=c[1]<c[2]<=row['duration_ms']+45 for i,c in enumerate(row['cues']))
+              assert all(row['cues'][i-1][2]<=row['cues'][i][1] for i in range(1,len(row['cues'])))
+          print('Validated exact recorded words:',len(targets))
+          PY
+      - name: Commit ONLY source-matched recordings to main
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/pattern-audio-index.json assets/pattern-audio/
+          if ! git diff --cached --quiet; then
+            git commit -m 'Publish verified pattern voice and same-synthesis word boundaries [skip ci]'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
