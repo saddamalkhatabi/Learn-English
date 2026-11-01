@@ -11,7 +11,7 @@ on:
       - .github/workflows/smoke-group-seven.yml
   workflow_dispatch:
 permissions:
-  contents: write
+  contents: read
 jobs:
   browser:
     runs-on: ubuntu-latest
@@ -32,33 +32,10 @@ jobs:
           for i in $(seq 1 30); do curl -fsS http://127.0.0.1:3178/health && break || sleep 1; done
           node scripts/smoke_group_seven.mjs 2>&1 | tee /tmp/g7-private-browser.log
 
-      - name: Record successful real-browser acceptance check
-        run: |
-          mkdir -p reports
-          printf '{"status":"passed","run_id":"%s","source_sha":"%s","test":"group-seven-mobile-chromium","browser":"chromium"}' "$GITHUB_RUN_ID" "$GITHUB_SHA" > reports/group-seven-private-smoke.json
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add reports/group-seven-private-smoke.json
-          if ! git diff --cached --quiet; then
-            git commit -m 'Attest Group Seven mobile browser acceptance [skip ci]'
-            git pull --rebase origin main
-            git push origin HEAD:main
-          fi
+      - name: Summarize real-browser acceptance
+        run: echo "✅ Group Seven mobile Chromium interactions passed" >> "$GITHUB_STEP_SUMMARY"
 
-      - name: Preserve failure trace for Group Seven diagnostics
+      - name: Display diagnostic trace on failure
         if: failure()
         run: |
-          mkdir -p reports
-          if [ -s "/tmp/g7-private-browser.log" ]; then
-            tail -n 85 "/tmp/g7-private-browser.log" > reports/group-seven-private-smoke-error.txt
-          else
-            echo "No recording or browser trace was produced; inspect earlier installation and validation steps." > reports/group-seven-private-smoke-error.txt
-          fi
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add reports/group-seven-private-smoke-error.txt
-          if ! git diff --cached --quiet; then
-            git commit -m 'Capture Group Seven CI failure details [skip ci]'
-            git pull --rebase origin main
-            git push origin HEAD:main
-          fi
+          if [ -s /tmp/g7-private-browser.log ]; then tail -n 75 /tmp/g7-private-browser.log; fi
