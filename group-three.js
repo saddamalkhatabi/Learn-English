@@ -5,7 +5,7 @@ const $=id=>document.getElementById(id);
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const STORE="pattern-universe-group-three-v1";
 const LINKS={"i-can":["i-cant","can-you","can-i"],"i-cant":["i-can","i-need-to"],"can-you":["can-i","please","let-me"],"can-i":["can-you","is-it-okay-if","you-may"],"is-it-okay-if":["can-i","you-may"],"you-may":["can-i","is-it-okay-if"],"i-need":["i-need-to","i-have-to"],"i-need-to":["i-need","i-have-to"],"i-have-to":["dont-have-to","i-must","i-need-to"],"dont-have-to":["i-have-to","i-must"],"i-must":["i-have-to","i-should"],"i-should":["you-should","i-must"],"you-should":["i-should","lets"],"lets":["let-me","would-you-like-to"],"let-me":["lets","can-you"],"please":["can-you","can-i"],"would-you-like":["would-you-like-to","please"],"would-you-like-to":["would-you-like","lets"]};
-let data=null,voices={},sourceVoices={},kokoroVoices={},chapterSelected=0,selected=0,scene=0,mode="story",answers={},answer=[],quizResult=false,builderResult=false,seq=0,audio=null,utterance=null,frame=0,highlightTarget=null,highlightText="",auto=false,active=false;
+let data=null,voices={},sourceVoices={},kokoroVoices={},dualVoices={},dualTurn=0,chapterSelected=0,selected=0,scene=0,mode="story",answers={},answer=[],quizResult=false,builderResult=false,seq=0,audio=null,utterance=null,frame=0,highlightTarget=null,highlightText="",auto=false,active=false;
 try{answers=JSON.parse(localStorage.getItem(STORE)||"{}")||{}}catch(e){answers={}}
 function focusHtml(value){
  const pattern=/\b(would you like to|would you like|is it okay if|don't have to|have to|need to|can you|can i|you may|you should|let me|let's|please|can't|must|should|need|can)\b/gi;
@@ -38,7 +38,15 @@ function findCue(cues,ms){
 function audioRow(text,clip){
  const original=Object.entries(kokoroVoices?.items||{}).find(([path,item])=>item.text===text);
  const specific=voices?.items?.[clip],existing=Object.values(sourceVoices?.items||{}).find(x=>x.text===text);
- const row=original?{...original[1],path:original[0]}:(specific?.text===text?specific:existing);
+ let row=original?{...original[1],path:original[0]}:(specific?.text===text?specific:existing);
+ // Use new Bella/Adam pairs only after both original MP3s and measured cues exist.
+ const pair=dualVoices?.items?.[clip];
+ const validPair=v=>v?.text===text&&v.audio_sha256&&v.path&&
+   v.language==="en"&&Number.isFinite(v.duration_ms)&&
+   Array.isArray(v.cues)&&v.cues.length===text.trim().split(/\s+/).length&&
+   v.cues.every((c,i)=>c.length===3&&c[0]===i&&c[1]>=0&&c[2]>c[1]&&c[2]<=v.duration_ms+45&&(!i||v.cues[i-1][2]<=c[1]));
+ if(validPair(pair?.female)&&validPair(pair?.male))
+   row=(dualTurn++%2===0)?pair.female:pair.male;
  if(!row||!row.audio_sha256||!row.path||row.language!=="en"||!Number.isFinite(row.duration_ms))return null;
  const parts=text.trim().split(/\s+/),cues=row.cues;
  if(!Array.isArray(cues)||cues.length!==parts.length)return null;
@@ -71,7 +79,7 @@ function play(text,clip,target=null,slow=false,done=null){
   if(target&&i!==last){last=i;paintWord(target,text,i)}
   frame=requestAnimationFrame(tick);
  };
- player.onplaying=()=>{if(token!==seq)return;showStatus("MP3 مُسجّل · تمييز الكلمات بحسب توقيتات التسجيل الحقيقي");tick()};
+ player.onplaying=()=>{if(token!==seq)return;showStatus("MP3 مُسجّل · تمييز الكلمات بحسب توقيتات التسجيل الحقيقي"+(row.voice==="af_bella"?" · Bella":row.voice==="am_adam"?" · Adam":""));tick()};
  player.onended=()=>{if(token!==seq)return;completed=true;if(frame)cancelAnimationFrame(frame);frame=0;if(target)paintWord(target,text,-1);if(done)done()};
  player.onerror=fallback;
  player.play().catch(fallback);
@@ -181,12 +189,13 @@ function useAction(node){
 }
 async function load(){
  if(data)return;
- const [a,b,c,d]=await Promise.all([fetch("data/group-three.json"),fetch("data/group-three-audio-index.json").catch(()=>null),fetch("data/pattern-audio-index.json").catch(()=>null),fetch("data/audio-word-cues.json").catch(()=>null)]);
+ const [a,b,c,d,e]=await Promise.all([fetch("data/group-three.json"),fetch("data/group-three-audio-index.json").catch(()=>null),fetch("data/pattern-audio-index.json").catch(()=>null),fetch("data/audio-word-cues.json").catch(()=>null),fetch("data/group-three-dual-audio-index.json").catch(()=>null)]);
  if(!a.ok)throw Error("تعذر تحميل ملف المجموعة الثالثة: HTTP "+a.status);
  data=await a.json();if(data.schema!==1||data.items?.length!==18||data.items.some(p=>p.scenes?.length!==4||p.story?.length!==3||p.dialogue?.length!==2)||data.chapters?.length!==3||data.chapters.some(c=>c.lines?.length!==6))throw Error("بيانات المجموعة غير مكتملة");
  if(b?.ok){const j=await b.json();if(j.schema===1&&j.items)voices=j}
  if(c?.ok){const j=await c.json();if(j.schema===1&&j.items)sourceVoices=j}
  if(d?.ok){const j=await d.json();if(j.items)kokoroVoices=j}
+ if(e?.ok){const j=await e.json();if(j.schema===1&&j.items)dualVoices=j}
 }
 async function open(){
  active=true;$("g3Loading").textContent="تحميل محتوى المجموعة الثالثة...";
