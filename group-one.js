@@ -5,7 +5,7 @@ const $=id=>document.getElementById(id);
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const STORE="pattern-universe-group-one-v1";
 const LINKS={"this-is":["that-is","this-is-my","these-are"],"that-is":["this-is"],"i-am":["my-name-is","it-is"],"it-is":["i-am","this-is"],"i-have":["ive-got","i-want"],"ive-got":["i-have"],"i-want":["i-want-to","id-like"],"i-want-to":["i-want","id-like-to"],"id-like":["id-like-to","i-want"],"id-like-to":["id-like","i-want-to"],"i-like":["i-dont-like","i-want"],"i-dont-like":["i-like","i-want"],"my-name-is":["whats-your-name","i-am"],"whats-your-name":["my-name-is"],"this-is-my":["this-is","these-are"],"these-are":["this-is","there-are"],"there-is":["there-are","this-is"],"there-are":["there-is","these-are"]};
-let data=null,voices={},sourceVoices={},selected=0,scene=0,mode="story",answers={},answer=[],quizResult=false,builderResult=false,seq=0,audio=null,utterance=null,frame=0,highlightTarget=null,highlightText="",auto=false,active=false;
+let data=null,voices={},sourceVoices={},kokoroVoices={},selected=0,scene=0,mode="story",answers={},answer=[],quizResult=false,builderResult=false,seq=0,audio=null,utterance=null,frame=0,highlightTarget=null,highlightText="",auto=false,active=false;
 try{answers=JSON.parse(localStorage.getItem(STORE)||"{}")||{}}catch(e){answers={}}
 function current(){return data?.items[selected]}
 function example(){return current()?.scenes[scene]}
@@ -32,8 +32,9 @@ function findCue(cues,ms){
  return n>=0&&ms<cues[n][2]?cues[n][0]:-1;
 }
 function audioRow(text,clip){
+ const original=Object.entries(kokoroVoices?.items||{}).find(([path,item])=>item.text===text);
  const specific=voices?.items?.[clip],existing=Object.values(sourceVoices?.items||{}).find(x=>x.text===text);
- const row=specific?.text===text?specific:existing;
+ const row=original?{...original[1],path:original[0]}:(specific?.text===text?specific:existing);
  if(!row||!row.audio_sha256||!row.path||row.language!=="en"||!Number.isFinite(row.duration_ms))return null;
  const parts=text.trim().split(/\s+/),cues=row.cues;
  if(!Array.isArray(cues)||cues.length!==parts.length)return null;
@@ -165,11 +166,12 @@ function useAction(node){
 }
 async function load(){
  if(data)return;
- const [a,b,c]=await Promise.all([fetch("data/group-one.json"),fetch("data/group-one-audio-index.json").catch(()=>null),fetch("data/pattern-audio-index.json").catch(()=>null)]);
+ const [a,b,c,d]=await Promise.all([fetch("data/group-one.json"),fetch("data/group-one-audio-index.json").catch(()=>null),fetch("data/pattern-audio-index.json").catch(()=>null),fetch("data/audio-word-cues.json").catch(()=>null)]);
  if(!a.ok)throw Error("تعذر تحميل ملف المجموعة الأولى: HTTP "+a.status);
  data=await a.json();if(data.schema!==1||data.items?.length!==18||data.items.some(p=>p.scenes?.length!==4||p.story?.length!==3||p.dialogue?.length!==2))throw Error("بيانات المجموعة غير مكتملة");
  if(b?.ok){const j=await b.json();if(j.schema===1&&j.items)voices=j}
  if(c?.ok){const j=await c.json();if(j.schema===1&&j.items)sourceVoices=j}
+ if(d?.ok){const j=await d.json();if(j.items)kokoroVoices=j}
 }
 async function open(){
  active=true;$("g1Loading").textContent="تحميل محتوى المجموعة الأولى...";
