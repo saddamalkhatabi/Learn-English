@@ -12,7 +12,6 @@ import re
 import subprocess
 import unicodedata
 import edge_tts
-from acoustic_pattern_fallback import ForcedAligner
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 SOURCE = json.loads((ROOT / "data/patterns.json").read_text(encoding="utf-8"))["patterns"]
@@ -109,6 +108,7 @@ async def build_one(item, semaphore, attempts):
                     issue = str(exc)
                     if ACOUSTIC is None:
                         print("Using direct MP3 acoustic alignment for invalid WordBoundary events",flush=True)
+                        from acoustic_pattern_fallback import ForcedAligner
                         ACOUSTIC = ForcedAligner()
                     cues = await asyncio.to_thread(ACOUSTIC.align, path, item["en"])
                     repairs = []
