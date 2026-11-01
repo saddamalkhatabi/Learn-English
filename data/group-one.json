@@ -444,8 +444,8 @@
       "scenes": [
         {
           "id": 1,
-          "en": "I've got a job.",
-          "ar": "لدي وظيفة.",
+          "en": "I've got a job!",
+          "ar": "لقد حصلت على وظيفة!",
           "context": "إعلان خبر العمل",
           "icon": "💼",
           "photo": [
