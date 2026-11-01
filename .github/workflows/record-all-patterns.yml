@@ -1,0 +1,125 @@
+name: Build complete source-faithful pattern speech collection
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/record-all-patterns.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: all-english-pattern-speech
+  cancel-in-progress: false
+jobs:
+  batch:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { key: a, start: 16, end: 143 }
+          - { key: b, start: 144, end: 271 }
+          - { key: c, start: 272, end: 399 }
+          - { key: d, start: 400, end: 527 }
+          - { key: e, start: 528, end: 655 }
+          - { key: f, start: 656, end: 783 }
+          - { key: g, start: 784, end: 911 }
+          - { key: h, start: 912, end: 1034 }
+    runs-on: ubuntu-latest
+    timeout-minutes: 100
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install verified TTS dependency and media probe
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+          python -m pip install --disable-pip-version-check 'edge-tts>=7,<8'
+      - name: Synthesize batch ${{ matrix.key }} with real same-recording WordBoundary cues
+        run: |
+          python scripts/render_pattern_audio.py \
+            --start ${{ matrix.start }} \
+            --end ${{ matrix.end }} \
+            --concurrency 2 \
+            --retry 5
+      - name: Cross-check all voice files against source, audio hashes, cue count and ranges
+        env:
+          START: ${{ matrix.start }}
+          END: ${{ matrix.end }}
+        run: |
+          python - <<'PY'
+          import hashlib,json,os,pathlib
+          root=pathlib.Path('.')
+          data=json.loads((root/'data/pattern-audio-index.json').read_text(encoding='utf-8'))
+          patterns=json.loads((root/'data/patterns.json').read_text(encoding='utf-8'))['patterns']
+          targets=[p for p in patterns if int(os.environ['START'])<=p['id']<=int(os.environ['END']) and not p['duplicateOf']]
+          for p in targets:
+              row=data['items'][str(p['id'])]
+              f=root/row['path']
+              assert f.is_file() and row['text']==p['en']
+              assert hashlib.sha256(f.read_bytes()).hexdigest()==row['audio_sha256']
+              assert len(row['cues'])==len(p['en'].split())
+              assert all(c[0]==i and 0<=c[1]<c[2]<=row['duration_ms']+45
+                         for i,c in enumerate(row['cues']))
+              assert all(row['cues'][i-1][2]<=row['cues'][i][1] for i in range(1,len(row['cues'])))
+          print('PASS', len(targets), 'verified recorded phrases in this batch')
+          PY
+      - name: Upload voice and alignment shard
+        uses: actions/upload-artifact@v4
+        with:
+          name: verified-pattern-voice-${{ matrix.key }}
+          path: |
+            assets/pattern-audio/
+            data/pattern-audio-index.json
+          retention-days: 14
+          compression-level: 6
+  publish:
+    needs: batch
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: verified-pattern-voice-*
+          path: imported
+      - name: Merge each batch only after every one passes
+        run: |
+          python - <<'PY'
+          import hashlib,json,pathlib,shutil
+          root=pathlib.Path('.')
+          base=json.loads((root/'data/pattern-audio-index.json').read_text(encoding='utf-8'))
+          source={p['id']:p for p in json.loads((root/'data/patterns.json').read_text())['patterns']}
+          for key in 'abcdefgh':
+              folder=root/'imported'/('verified-pattern-voice-'+key)
+              idx=json.loads((folder/'data/pattern-audio-index.json').read_text(encoding='utf-8'))
+              for sid,row in idx['items'].items():
+                  if int(sid)<=15:continue
+                  p=source[int(sid)]
+                  assert not p['duplicateOf'] and row['text']==p['en']
+                  source_file=folder/row['path']
+                  assert source_file.is_file(),row['path']
+                  assert hashlib.sha256(source_file.read_bytes()).hexdigest()==row['audio_sha256']
+                  target=root/row['path']
+                  target.parent.mkdir(parents=True,exist_ok=True)
+                  shutil.copyfile(source_file,target)
+                  base['items'][sid]=row
+          assert len(base['items'])==997,('Expected 997 additional unique records',len(base['items']))
+          assert all(str(p['id']) in base['items'] for p in source.values()
+                     if p['id']>3 and not p['duplicateOf'])
+          base['status']='recorded-and-source-verified'
+          base['verified_count']=len(base['items'])
+          (root/'data/pattern-audio-index.json').write_text(json.dumps(base,ensure_ascii=False,separators=(',',':'))+'\n',encoding='utf-8')
+          print('PASS: 997 verified unique phrase recordings, plus three core pattern recordings')
+          PY
+      - name: Commit verified complete audio library to main
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/pattern-audio data/pattern-audio-index.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Publish all verified pattern recordings with word cues [skip ci]'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
