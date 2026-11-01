@@ -882,7 +882,7 @@
       "meaning": "قد / ربما",
       "formula": "I might + base verb",
       "explanation": "يشير إلى احتمال مستقبلي غير مؤكد؛ الفعل بعد might في المصدر دون to.",
-      "explanationEn": "Use might + base verb for an uncertain future possibility.",
+      "explanationEn": "Use might followed by a base verb to describe an uncertain future possibility.",
       "contrast": "I might come احتمال؛ I'm going to come نية؛ I'll definitely come تأكيد.",
       "sourceIds": [
         223,
@@ -961,7 +961,7 @@
       "meaning": "قد / من المحتمل",
       "formula": "I may + base verb",
       "explanation": "نستخدم may للتعبير عن احتمال، وقد تبدو أكثر رسمية من might؛ ولها أيضًا استعمال مستقل للإذن.",
-      "explanationEn": "Use may + base verb for possibility; may also expresses permission in other contexts.",
+      "explanationEn": "Use may followed by a base verb to express possibility. May can also express permission.",
       "contrast": "It may rain احتمال؛ May I leave? طلب إذن، وهذا معنى مختلف.",
       "sourceIds": [
         456,
@@ -1198,7 +1198,7 @@
       "meaning": "إذا ... فسوف",
       "formula": "If + present simple, I'll + base verb",
       "explanation": "في الشرط المستقبلي الممكن نستخدم المضارع البسيط بعد if، وwill في جملة النتيجة؛ لا نكتب عادة if it will rain.",
-      "explanationEn": "Use if + present simple and will in the result clause for a real future possibility.",
+      "explanationEn": "Use if followed by the simple present, then will in the result clause for a real future possibility.",
       "contrast": "If it rains, I'll stay home شرط؛ When it rains, I'll ... يتعامل مع حدوثه بوصفه متوقعًا.",
       "sourceIds": [
         275,
@@ -1278,7 +1278,7 @@
       "meaning": "عندما ... سوف",
       "formula": "When + present simple, I'll + base verb",
       "explanation": "نربط فعلًا مستقبلًا متوقع الحدوث بنتيجته؛ بعد when الزمن للمستقبل يكون غالبًا المضارع لا will.",
-      "explanationEn": "Use when + present simple for an expected future time, with will in the main clause.",
+      "explanationEn": "Use when followed by the simple present for an expected future time, and will in the main clause.",
       "contrast": "When I get home, I'll call = عند الوصول المتوقع؛ If I get home early = شرط.",
       "sourceIds": [
         175,
@@ -1357,7 +1357,7 @@
       "meaning": "فور أن ... سوف",
       "formula": "As soon as + present simple, I'll + base verb",
       "explanation": "يعني حصول الفعل الثاني فور وقوع الأول تقريبًا؛ وبعد as soon as نستخدم المضارع للمعنى المستقبلي.",
-      "explanationEn": "Use as soon as + present simple for an immediate future sequence.",
+      "explanationEn": "Use as soon as followed by the simple present for a future action that follows immediately.",
       "contrast": "As soon as I arrive أقوى في الفورية من When I arrive.",
       "sourceIds": [
         175,

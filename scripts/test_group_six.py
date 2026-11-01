@@ -34,6 +34,9 @@ for chapter in chapters:
         assert line["en"] and line["ar"]
         expected[f"chapters/c{chapter['id']:02d}/line-{line['id']}"]=line["en"]
 assert len(expected)==198
+# Narration must contain pronounceable words; a standalone + or / cannot get a real WordBoundary.
+for clip_id, spoken in expected.items():
+    assert all(any(c.isalnum() for c in token) for token in spoken.split()), (clip_id, spoken)
 index=json.loads((root/"data/group-six-audio-index.json").read_text(encoding="utf-8"))
 assert index["schema"]==1 and index.get("verified_count")==len(index["items"])
 sources=[]
