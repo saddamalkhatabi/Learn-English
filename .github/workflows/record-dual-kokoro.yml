@@ -18,6 +18,9 @@ on:
       last_pattern:
         type: number
         default: 3
+      include_chapters:
+        type: boolean
+        default: false
 permissions:
   contents: write
 concurrency:
@@ -32,6 +35,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+      - name: Update working tree from latest main before producing optional indexes
+        run: |
+          git fetch origin main
+          git checkout -B main origin/main
       - name: Install Kokoro, acoustic model and FFmpeg
         run: |
           sudo apt-get update -qq
@@ -43,8 +50,10 @@ jobs:
           GROUP: ${{ inputs.group || 'one' }}
           FIRST: ${{ inputs.first_pattern || 1 }}
           LAST: ${{ inputs.last_pattern || 3 }}
+          CHAPTERS: ${{ inputs.include_chapters || 'false' }}
         run: |
-          python scripts/render_dual_kokoro.py --group "$GROUP" --first "$FIRST" --last "$LAST"
+          if [ "$CHAPTERS" = "true" ]; then CHAPTER_ARGS=--chapters; else CHAPTER_ARGS=; fi
+          python scripts/render_dual_kokoro.py --group "$GROUP" --first "$FIRST" --last "$LAST" $CHAPTER_ARGS
       - name: Recheck preservation of 96 Kokoro and ten existing group voice libraries
         run: python scripts/audit_original_audio.py
       - name: Keep an independently downloadable pilot
