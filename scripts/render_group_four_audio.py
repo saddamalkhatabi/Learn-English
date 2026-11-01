@@ -91,7 +91,7 @@ async def main():
     args = ap.parse_args()
     raw = clips()
     if len(raw) != 198 or len(set(key for key, _ in raw)) != len(raw):
-        raise ValueError("Expect exactly 180 unique fourth-group clip IDs")
+        raise ValueError("Expect exactly 198 unique fourth-group clip IDs")
     if args.only_pattern:
         raw = [(k, t) for k, t in raw if k.startswith(f"p{args.only_pattern:02d}/")]
     original = preexisting()

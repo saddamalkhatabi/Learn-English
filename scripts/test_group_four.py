@@ -42,6 +42,21 @@ for chapter in chapters:
         assert line["en"] and line["ar"]
         words[f"chapters/c{chapter['id']:02d}/line-{line['id']}"]=line["en"]
 assert len(words)==198
+# Resolve all 198 clips from either group-specific MP3s or verified original audio.
+source=json.loads((root/"data/audio-word-cues.json").read_text(encoding="utf-8"))["items"]
+reused={}
+for key,text in words.items():
+    if key in recorded["items"]:
+        continue
+    matches=[(path,row) for path,row in source.items() if row.get("text")==text]
+    assert matches, f"Uncovered Group Four clip: {key}: {text}"
+    path,row=matches[0]
+    assert (root/path).is_file(), path
+    assert hashlib.sha256((root/path).read_bytes()).hexdigest()==row["audio_sha256"],path
+    assert len(row["cues"])==len(text.split()),path
+    reused[key]=path
+assert len(recorded["items"])+len(reused)==198
+assert recorded.get("verified_count")==len(recorded["items"])
 assert all(item["sourceIds"] and len(item["scenes"])==4 for item in pack["items"])
 for key,v in recorded["items"].items():
     assert key in words and v["text"]==words[key]
@@ -59,4 +74,4 @@ for id_ in ("view-group-four","g4PatternList","g4QuizOptions","g4BankWords","g4S
 print(f"OK: {len(pack['items'])} patterns, {sum(len(x['scenes']) for x in pack['items'])} scenes, "+
       f"{sum(len(x['story']) for x in pack['items'])} story lines, "+
       f"{sum(len(x['dialogue']) for x in pack['items'])} dialogues, "+
-      f"{len(recorded['items'])} verified group voice files")
+      f"{len(recorded['items'])} dedicated voice files plus {len(reused)} reused verified sources")
