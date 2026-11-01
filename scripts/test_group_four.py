@@ -54,7 +54,7 @@ for key,v in recorded["items"].items():
 for name in ("index.html","app.js","group-four.js"):
     assert (root/name).is_file()
 html=(root/"index.html").read_text(encoding="utf-8")
-for id_ in ("view-group-four","g1PatternList","g1QuizOptions","g1BankWords","g1StoryList"):
+for id_ in ("view-group-four","g4PatternList","g4QuizOptions","g4BankWords","g4StoryList","g4ChapterTabs","g4ChapterLines"):
     assert f'id="{id_}"' in html
 print(f"OK: {len(pack['items'])} patterns, {sum(len(x['scenes']) for x in pack['items'])} scenes, "+
       f"{sum(len(x['story']) for x in pack['items'])} story lines, "+
