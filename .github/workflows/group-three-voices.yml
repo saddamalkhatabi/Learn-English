@@ -29,7 +29,7 @@ jobs:
           sudo apt-get install -y -qq ffmpeg
           python -m pip install --disable-pip-version-check 'edge-tts>=7,<8'
       - name: Record each new narration, scene, story and dialogue
-        run: python scripts/render_group_three_audio.py --concurrency 3 --retries 4
+        run: python scripts/render_group_three_audio.py --concurrency 3 --retries 4 2>&1 | tee /tmp/g3-private-voices.log
       - name: Validate clips, originals, images and same-recording word cues
         run: python scripts/test_group_three.py
       - name: Publish only verified group voice files
@@ -39,6 +39,24 @@ jobs:
           git add data/group-three-audio-index.json assets/group-three-audio/
           if ! git diff --cached --quiet; then
             git commit -m 'Publish verified group three recordings and measured word cues [skip ci]'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+
+      - name: Preserve failure trace for Group Three diagnostics
+        if: failure()
+        run: |
+          mkdir -p reports
+          if [ -s "/tmp/g3-private-voices.log" ]; then
+            tail -n 85 "/tmp/g3-private-voices.log" > reports/group-three-private-voice-error.txt
+          else
+            echo "No recording or browser trace was produced; inspect earlier installation and validation steps." > reports/group-three-private-voice-error.txt
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add reports/group-three-private-voice-error.txt
+          if ! git diff --cached --quiet; then
+            git commit -m 'Capture Group Three CI failure details [skip ci]'
             git pull --rebase origin main
             git push origin HEAD:main
           fi
