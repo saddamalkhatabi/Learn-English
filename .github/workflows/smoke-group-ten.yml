@@ -1,0 +1,41 @@
+name: Group Ten real-browser mobile smoke
+on:
+  push:
+    branches: [main]
+    paths:
+      - group-ten.js
+      - index.html
+      - styles.css
+      - server.mjs
+      - scripts/smoke_group_ten.mjs
+      - .github/workflows/smoke-group-ten.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Install browser runner
+        run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Run real mobile interaction smoke
+        run: |
+          set -o pipefail
+          PORT=3178 node server.mjs >/tmp/learn-english-smoke.log 2>&1 &
+          for i in $(seq 1 30); do curl -fsS http://127.0.0.1:3178/health && break || sleep 1; done
+          node scripts/smoke_group_ten.mjs 2>&1 | tee /tmp/g10-private-browser.log
+
+      - name: Summarize real-browser acceptance
+        run: echo "✅ Group Ten mobile Chromium interactions passed" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Display diagnostic trace on failure
+        if: failure()
+        run: |
+          if [ -s /tmp/g10-private-browser.log ]; then tail -n 75 /tmp/g10-private-browser.log; fi

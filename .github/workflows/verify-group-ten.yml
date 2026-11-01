@@ -1,0 +1,49 @@
+name: Verify tenth English advanced-expression group
+on:
+  push:
+    branches: [main]
+    paths: ["group-ten.js", "data/group-ten.json", "data/group-ten-audio-index.json", "scripts/test_group_ten.py", "index.html", "app.js", "styles.css", ".github/workflows/verify-group-ten.yml"]
+  pull_request:
+    paths: ["group-ten.js", "data/group-ten.json", "data/group-ten-audio-index.json", "scripts/test_group_ten.py", "index.html", "app.js", "styles.css", ".github/workflows/verify-group-ten.yml"]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: JavaScript syntax and source validation
+        run: |
+          set -o pipefail
+          npm run check
+          node --check group-ten.js
+          python scripts/test_group_ten.py 2>&1 | tee /tmp/g10-verify.log
+      - name: Confirm group navigator is integrated and no shared API was replaced
+        run: |
+          node --input-type=module <<'JS'
+          import fs from 'node:fs';
+          import assert from 'node:assert/strict';
+          const app=fs.readFileSync('app.js','utf8'),html=fs.readFileSync('index.html','utf8');
+          assert.match(app,/GROUP_TEN\?\.open/);
+          assert.match(app,/GROUP_TEN\?\.stop/);
+          assert.match(html,/data-view="group-ten"/);
+          assert.match(html,/id="g10ChapterTabs"/);
+          assert.match(html,/data-view="group-one"/);
+          assert.match(html,/src="group-ten\.js"/);
+          assert.match(html,/data-view="paths"/);
+          assert.match(html,/data-view="learn"/);
+          console.log("Navigation integration OK");
+          JS
+
+      - name: Summarize Group Ten verification
+        run: |
+          echo "✅ Group Ten curriculum, source links and JavaScript checks passed" >> "$GITHUB_STEP_SUMMARY"
+          echo "Group Ten source validated; voice recordings require separate synthesis and strict media validation." >> "$GITHUB_STEP_SUMMARY"

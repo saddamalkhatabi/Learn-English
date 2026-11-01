@@ -1,0 +1,37 @@
+name: Audit all ten interactive learning groups
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'group-*.js'
+      - 'data/group-*.json'
+      - 'index.html'
+      - 'app.js'
+      - 'server.mjs'
+      - 'scripts/audit_ten_groups.py'
+      - '.github/workflows/audit-ten-groups.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify all groups, navigation, patterns and references
+        run: |
+          set -euo pipefail
+          python scripts/audit_ten_groups.py
+          npm run check
+          for group in one two three four five six seven eight nine ten; do
+            node --check "group-$group.js"
+          done
+      - name: Record audit result
+        run: echo "✅ 10 groups, 180 patterns, 720 scenes and all source routes verified" >> "$GITHUB_STEP_SUMMARY"

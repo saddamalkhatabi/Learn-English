@@ -45,6 +45,16 @@ An Arabic-first, offline-friendly learning prototype that teaches English **thro
 - تدريب عملي على **because / because of / so / That's why / so that / to / although / even though / but / however / while / instead of / in addition to / not only ... but also / for example / such as / unless / even if** مع مقارنات بين الصيغ المتشابهة وأسباب استخدامها.
 - **198/198 تسجيل MP3 جديد مكتمل ومتحقق منه**، بلا إعادة استخدام، مع WordBoundary مقاس من كل ملف وبصمة SHA256 وتغطية صوتية كاملة. الصور مؤجلة إلى مرحلة التصاميم.
 
+## المجموعة العاشرة — التعبير المركب والجمل المتقدمة
+- [المجموعة العاشرة: 18 نمطًا و72 موقفًا وثلاث قصص مترابطة](docs/GROUP-TEN-AR.md). افتح «🧠 المجموعة العاشرة».
+- **What I mean is / What matters is / The reason is that / I wonder if / I wonder how / Could you tell me whether / The person who / The book that / The place where / The day when / I wish I could / If I were / If I had ..., I would have / I should have / I could have / I had already / By the time / The more ..., the more**.
+- **198 مقطعًا صوتيًا مستهدفًا** مع حدود كلمات حقيقية تُراجع في خط إنتاج الصوت الموثّق؛ تظل الصور المؤلفة والمشاهد الواقعية مؤجلة.
+
+## مراجعة المجموعات العشر على main
+- يحتوي المسار التعليمي التفاعلي على **10 مجموعات × 18 نمطًا = 180 نمطًا معمقًا**، و**10 × 72 = 720 موقفًا**، إضافة إلى الدروس المعمقة الثلاثة ومسرد المصدر الذي يضم **1,034 مدخلًا**. ليست المدخلات الأصلية الـ1,034 كلها دروسًا معمقة بعد.
+- تحقق مستقل: `python scripts/audit_ten_groups.py` يفحص ملفات `data/group-{name}.json` وعرضها وتكاملها في `index.html` و`app.js` و`server.mjs`.
+- فحص الجوال الحقيقي في `scripts/smoke_group_ten.mjs` يفتح **المجموعات العشر كلها** ويختبر تفاعل المجموعة العاشرة؛ الصور لا تدخل في اعتماد هذه المرحلة.
+
 ## Learning experience
 - Three fully scripted seed lessons from the supplied source: **This is my house**, **I have a good job**, and **I've got a job**.
 - Each seed lesson includes three levels, 12 contextual scene examples, a recorded Kokoro explanation, clickable story chapters (5 lines per level), a 4-turn dialogue, active vocabulary highlighting and quiz/reconstruction.

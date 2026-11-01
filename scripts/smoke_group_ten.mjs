@@ -1,0 +1,72 @@
+import { chromium } from "playwright";
+import assert from "node:assert/strict";
+const root=process.env.G10_SMOKE_URL || "http://127.0.0.1:3178/";
+const browser=await chromium.launch({headless:true,args:["--no-sandbox"]});
+const page=await browser.newPage({viewport:{width:390,height:844},deviceScaleFactor:1});
+const errors=[],bad=[];
+page.on("pageerror",e=>errors.push(e.message));
+page.on("response",r=>{if(r.status()>=400&&/\.(js|json|mp3)/.test(r.url()))bad.push(r.status()+" "+r.url())});
+try{
+ await page.goto(root,{waitUntil:"networkidle",timeout:30000});
+ const scriptResponse=await page.request.get(new URL("group-ten.js",root).toString());
+ assert.equal(scriptResponse.status(),200,"Group Ten JavaScript must be served by the local server");
+ await page.locator('[data-view="group-ten"]').click();
+ await page.locator("#g10PatternList .g10PatternChip").first().waitFor({timeout:15000});
+ assert.equal(await page.locator("#g10PatternList .g10PatternChip").count(),18);
+ const source=await page.evaluate(async()=>await (await fetch("data/group-ten.json")).json());
+ assert.equal(source.items.length,18);
+ assert.equal(source.chapters.length,3);
+
+assert.equal((await page.locator("#g10Title").innerText()).trim(),"What I mean is");
+ assert.equal(await page.locator("#g10SceneSteps button").count(),4);
+ assert.equal((await page.locator("#g10MainEnglish").innerText()).trim(),"What I mean is we need more practice.");
+ assert.equal(await page.locator("#g10ChapterTabs button").count(),3);
+ assert.equal(await page.locator("#g10ChapterLines button").count(),6);
+ assert.match(await page.locator("#g10Visual").innerText(),/مشهد توضيحي مؤقت/);
+ assert.equal(await page.locator("#g10Visual img").count(),0);
+ const sentence="I stayed inside because it was raining.";
+ await page.locator("#g10QuizOptions button").filter({hasText:sentence}).click();
+ assert.match(await page.locator("#g10QuizFeedback").innerText(),/أحسنت/);
+ const words=sentence.split(/\s+/);
+ for(let i=0;i<words.length;i++) await page.locator('[data-g10-token="'+i+'"]').click();
+ assert.match(await page.locator("#g10Progress").innerText(),/1 \/ 72/);
+ await page.locator("#g10ChapterTabs [data-g10-chapter='1']").click();
+ assert.match(await page.locator("#g10ChapterLines").innerText(),/Sami planned to join a school trip on Saturday./);
+ await page.locator("#g10StoryToggle").click();
+ assert.equal(await page.locator("#g10StoryList .g10StoryRow").count(),2);
+ await page.locator('[data-g10-pattern="17"]').first().click();
+ assert.equal((await page.locator("#g10Title").innerText()).trim(),"The more ..., the more");
+ assert.equal(await page.locator("#g10SceneSteps button").count(),4);
+ assert.equal(await page.locator("#g10ChapterTabs button").count(),3);
+ assert.equal(await page.locator("#g10Visual img").count(),0);
+ const overflow=await page.evaluate(()=>document.documentElement.scrollWidth>window.innerWidth+2);
+ assert.equal(overflow,false,"Mobile horizontal overflow");
+ await page.reload({waitUntil:"networkidle"});
+ await page.locator('[data-view="group-ten"]').click();
+ await page.locator("#g10PatternList .g10PatternChip").first().waitFor();
+ assert.match(await page.locator("#g10Progress").innerText(),/1 \/ 72/);
+ await page.locator('[data-view="group-three"]').click();
+ await page.locator("#g3PatternList .g3PatternChip").first().waitFor();
+ assert.equal(await page.locator("#g3PatternList .g3PatternChip").count(),18);
+ await page.locator('[data-view="group-two"]').click();
+ await page.locator("#g2PatternList .g2PatternChip").first().waitFor();
+ assert.equal(await page.locator("#g2PatternList .g2PatternChip").count(),18);
+ await page.locator('[data-view="group-one"]').click();
+ await page.locator("#g1PatternList .g1PatternChip").first().waitFor();
+ assert.equal(await page.locator("#g1PatternList .g1PatternChip").count(),18);
+ // Audit every group module, curriculum and tab using the actual mobile browser.
+ const groupNames=["one","two","three","four","five","six","seven","eight","nine","ten"];
+ const groupIds=["g1","g2","g3","g4","g5","g6","g7","g8","g9","g10"];
+ for(let i=0;i<groupNames.length;i++){
+   const name=groupNames[i],short=groupIds[i];
+   assert.equal(await page.locator('[data-view="group-'+name+'"]').count(),1);
+   assert.equal((await page.request.get(new URL("group-"+name+".js",root))).status(),200,"JS module missing for "+name);
+   assert.equal((await page.request.get(new URL("data/group-"+name+".json",root))).status(),200,"curriculum JSON missing for "+name);
+   await page.locator('[data-view="group-'+name+'"]').click();
+   await page.locator("#"+short+"PatternList ."+short+"PatternChip").first().waitFor({timeout:15000});
+   assert.equal(await page.locator("#"+short+"PatternList ."+short+"PatternChip").count(),18,"Wrong count for "+name);
+ }
+ assert.deepEqual(errors,[]);
+ assert.deepEqual(bad,[]);
+ console.log("OK mobile smoke: 18 group-ten patterns, quiz, word builder, 3 chapter stories, progress, zero broken assets; all ten groups integrated");
+}finally{await browser.close()}
