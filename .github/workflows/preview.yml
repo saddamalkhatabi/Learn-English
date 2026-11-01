@@ -78,10 +78,10 @@ jobs:
       - name: Prepare preview and report real voice status
         run: |
           mkdir -p _site
-          cp index.html app.js styles.css manifest.webmanifest _site/
+          cp index.html *.js styles.css manifest.webmanifest _site/
           cp -r data assets _site/
           echo "## Pattern Universe preview" >> "$GITHUB_STEP_SUMMARY"
-          echo "3 deep lessons, 36 scenes, 1034 source records, 45 story lines, 12 dialogue lines." >> "$GITHUB_STEP_SUMMARY"
+          echo "3 original deep lessons plus Group One: 18 authored patterns, 72 scenes, 54 story lines, 36 dialogue turns." >> "$GITHUB_STEP_SUMMARY"
           echo "Kokoro setup: ${{ steps.setup_tts.outcome }}" >> "$GITHUB_STEP_SUMMARY"
           echo "Kokoro rendering: ${{ steps.tts.outcome }}" >> "$GITHUB_STEP_SUMMARY"
           echo "Recorded MP3 count: $(find assets/audio -name '*.mp3' 2>/dev/null | wc -l)" >> "$GITHUB_STEP_SUMMARY"
