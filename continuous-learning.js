@@ -8,10 +8,10 @@ const LABELS=["الأولى","الثانية","الثالثة","الرابعة",
 const STORE="pattern-universe-continuous-v1";
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-let units=[],index=0,seconds=0,rate=1,turn=0,loaded=false,loading=null,playing=false,player=new Audio(),utter=null,seq=0,frame=0,lastWord=-2,sourceRows=new Map(),groupIndexes={},pairIndexes={},groupData=[];
+let units=[],index=0,seconds=0,rate=1,turn=0,voiceChoice=null,loaded=false,loading=null,playing=false,player=new Audio(),utter=null,seq=0,frame=0,lastWord=-2,sourceRows=new Map(),groupIndexes={},pairIndexes={},groupData=[];
 let error=null;
-try{const saved=JSON.parse(localStorage.getItem(STORE)||"{}");index=Math.max(0,Math.floor(saved.index||0));seconds=Math.max(0,Number(saved.seconds)||0);rate=[0.8,1,1.15].includes(saved.rate)?saved.rate:1;turn=Math.max(0,Math.floor(saved.turn||0))}catch(e){}
-function save(){try{localStorage.setItem(STORE,JSON.stringify({index,seconds:Math.round(seconds*10)/10,rate,turn}))}catch(e){}}
+try{const saved=JSON.parse(localStorage.getItem(STORE)||"{}");index=Math.max(0,Math.floor(saved.index||0));seconds=Math.max(0,Number(saved.seconds)||0);rate=[0.8,1,1.15].includes(saved.rate)?saved.rate:1;turn=Math.max(0,Math.floor(saved.turn||0));voiceChoice=["female","male"].includes(saved.voiceChoice)?saved.voiceChoice:null}catch(e){}
+function save(){try{localStorage.setItem(STORE,JSON.stringify({index,seconds:Math.round(seconds*10)/10,rate,turn,voiceChoice}))}catch(e){}}
 function status(msg){if($("mlStatus"))$("mlStatus").textContent=msg}
 function selected(){return units[index]}
 function hasCues(row,text){const arr=text.trim().split(/\s+/);return row&&row.text===text&&row.path&&row.audio_sha256&&row.language==="en"&&Number.isFinite(row.duration_ms)&&Array.isArray(row.cues)&&row.cues.length===arr.length&&row.cues.every((c,i)=>Array.isArray(c)&&c.length===3&&c[0]===i&&c[1]>=0&&c[2]>c[1]&&c[2]<=row.duration_ms+45&&(!i||row.cues[i-1][2]<=c[1]))}
@@ -66,8 +66,8 @@ async function load(){
 function choice(u){
  const pair=pairIndexes[u.group]?.[u.clip];
  if(hasCues(pair?.female,u.text)&&hasCues(pair?.male,u.text)){
-  const voice=turn++%2===0?"female":"male";
-  save();
+  const voice=seconds>0&&["female","male"].includes(voiceChoice)?voiceChoice:(turn++%2===0?"female":"male");
+  voiceChoice=voice;save();
   return pair[voice];
  }
  const original=sourceRows.get(u.text);
@@ -91,7 +91,7 @@ function stopPlayback(reset=false){
  player.pause();player.removeAttribute("src");player.load();
  if(utter){utter.onend=null;utter.onerror=null;utter=null}
  if("speechSynthesis" in window)speechSynthesis.cancel();
- if(reset){seconds=0;activeRow=null}else if(Number.isFinite(player.currentTime)&&player.currentTime>0){seconds=player.currentTime}
+ if(reset){seconds=0;activeRow=null;voiceChoice=null}else if(Number.isFinite(player.currentTime)&&player.currentTime>0){seconds=player.currentTime}
  highlighted(-1);save();updateButtons();
 }
 function tick(token){
@@ -203,7 +203,7 @@ function setup(){
  $("mlPause").onclick=pause;
  $("mlPrev").onclick=()=>previous();
  $("mlNext").onclick=()=>next(false);
- $("mlRestart").onclick=()=>{stopPlayback(true);index=0;seconds=0;turn=0;save();render();status("أُعيد المسار للبداية. اضغط ابدأ لتشغيله")};
+ $("mlRestart").onclick=()=>{stopPlayback(true);index=0;seconds=0;turn=0;voiceChoice=null;save();render();status("أُعيد المسار للبداية. اضغط ابدأ لتشغيله")};
  $("mlRate").onchange=()=>{rate=Number($("mlRate").value)||1;player.playbackRate=rate;save()};
  $("mlJump").onclick=()=>{
   if(!loaded)return;
