@@ -1,0 +1,38 @@
+name: Continuous all-group mobile browser and recorded-audio smoke
+on:
+  push:
+    branches: [main]
+    paths:
+      - continuous-learning.js
+      - index.html
+      - app.js
+      - styles.css
+      - server.mjs
+      - scripts/smoke_continuous.mjs
+      - .github/workflows/smoke-continuous.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 22
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Check JavaScript syntax
+        run: |
+          node --check continuous-learning.js
+          node --check app.js
+          node --check server.mjs
+      - name: Install browser and dependencies
+        run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Run all-group learner controls in real Android-size browser
+        run: |
+          PORT=3178 node server.mjs >/tmp/english-continuous.log 2>&1 &
+          for i in $(seq 1 30); do curl -fsS http://127.0.0.1:3178/health && break || sleep 1; done
+          node scripts/smoke_continuous.mjs
