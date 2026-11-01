@@ -30,7 +30,7 @@ jobs:
           python -m pip install --disable-pip-version-check 'edge-tts>=7,<8'
       - name: Record each new narration, scene, story and dialogue
         run: python scripts/render_group_five_audio.py --concurrency 3 --retries 6 2>&1 | tee /tmp/g5-private-voices.log
-      - name: Validate clips, originals, images and same-recording word cues
+      - name: Validate clips, source references and same-recording word cues
         run: python scripts/test_group_five.py --require-audio
       - name: Publish only verified group voice files
         run: |
@@ -38,7 +38,7 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add data/group-five-audio-index.json assets/group-five-audio/
           if ! git diff --cached --quiet; then
-            git commit -m 'Publish verified group four recordings and measured word cues [skip ci]'
+            git commit -m 'Publish verified group five recordings and measured word cues [skip ci]'
             git pull --rebase origin main
             git push origin HEAD:main
           fi

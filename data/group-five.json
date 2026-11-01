@@ -2,7 +2,7 @@
   "schema": 1,
   "group": "past-events-memories-and-stories",
   "title": "المجموعة الخامسة: الماضي والذكريات وسرد الأحداث",
-  "status": "18 authored patterns and 72 scenes; realistic images intentionally deferred; voice assets require generation and verification",
+  "status": "18 authored patterns and 72 scenes; 198/198 verified English audio clips with measured word boundaries (197 new, 1 reused); realistic images intentionally deferred",
   "items": [
     {
       "id": 1,
