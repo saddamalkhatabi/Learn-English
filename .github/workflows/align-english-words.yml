@@ -12,8 +12,8 @@ on:
 permissions:
   contents: write
 concurrency:
-  group: learn-english-acoustic-alignment
-  cancel-in-progress: false
+  group: english-ctc-3way-alignment-v2
+  cancel-in-progress: true
 jobs:
   measure:
     strategy:
