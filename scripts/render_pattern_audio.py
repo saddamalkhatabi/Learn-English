@@ -12,6 +12,7 @@ import re
 import subprocess
 import unicodedata
 import edge_tts
+from acoustic_pattern_fallback import ForcedAligner
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 SOURCE = json.loads((ROOT / "data/patterns.json").read_text(encoding="utf-8"))["patterns"]
@@ -19,6 +20,7 @@ OUT = ROOT / "assets/pattern-audio"
 INDEX = ROOT / "data/pattern-audio-index.json"
 VOICE = "en-US-JennyNeural"
 RATE = "-10%"
+ACOUSTIC = None
 
 def normalize(text):
     return "".join(c.lower() for c in unicodedata.normalize("NFKD", text)
@@ -98,13 +100,26 @@ async def build_one(item, semaphore, attempts):
                     await asyncio.wait_for(client.save(str(path), str(meta)), 90)
                 boundary = [json.loads(line) for line in meta.read_text().splitlines() if line.strip()]
                 duration = duration_ms(path)
-                cues, repairs = cue_words(item["en"], boundary, duration)
+                global ACOUSTIC
+                issue = None
+                try:
+                    cues, repairs = cue_words(item["en"], boundary, duration)
+                    timing_source = "WordBoundary from same Edge TTS MP3 synthesis"
+                except ValueError as exc:
+                    issue = str(exc)
+                    if ACOUSTIC is None:
+                        print("Using direct MP3 acoustic alignment for invalid WordBoundary events",flush=True)
+                        ACOUSTIC = ForcedAligner()
+                    cues = await asyncio.to_thread(ACOUSTIC.align, path, item["en"])
+                    repairs = []
+                    timing_source = "English Wav2Vec2 acoustic alignment of exact source MP3"
                 row = {"id":item["id"], "text":item["en"],
                        "path":"assets/pattern-audio/" + str(item["id"]) + ".mp3",
                        "audio_sha256":hashlib.sha256(path.read_bytes()).hexdigest(),
                        "duration_ms":duration, "language":"en", "voice":VOICE,
-                       "timing_source":"WordBoundary from same Edge TTS MP3 synthesis",
+                       "timing_source":timing_source,
                        "small_overlap_repairs":repairs,
+                       "wordboundary_rejection":issue,
                        "cues":cues}
                 meta.unlink(missing_ok=True)
                 return row
