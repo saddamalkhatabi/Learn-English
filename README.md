@@ -25,6 +25,11 @@ An Arabic-first, offline-friendly learning prototype that teaches English **thro
 - أنماط الماضي البسيط والنفي والسؤال والأفعال الشاذة والماضي المستمر و`used to`، مع ترجمة ومقارنات واختبارات وتركيب جمل وحفظ تقدم منفصل. الصور الفوتوغرافية مؤجلة.
 - **اكتمل الصوت: 198/198 مقطعًا موثقًا** (197 تسجيل MP3 جديدًا + مقطع واحد مطابق من المكتبة السابقة)، مع توقيت الكلمات من التسجيل الحقيقي، والرجوع لنطق المتصفح عند تعذر تحميل ملف.
 
+## المجموعة السادسة — المستقبل والخطط والاحتمال
+- [المجموعة السادسة: 18 نمطًا و72 موقفًا وثلاث قصص مترابطة](docs/GROUP-SIX-AR.md). افتح «🗓️ المجموعة السادسة».
+- **I'll / won't / Will you**، **going to** للنوايا، **I'm meeting** للترتيبات، **The class starts** للجداول، **hope / expect / might / may / probably** لدرجات التوقع، **about to** للفورية، **if / when / as soon as** للشرط والزمن المستقبلي.
+- 198 مقطعًا صوتيًا مستهدفًا من Edge Neural مع حدود الكلمات المقاسة؛ لا تُعد المقاطع جاهزة حتى نجاح التوليد والتحقق. الصور مؤجلة، وتظهر بدائل توضيحية خفيفة.
+
 ## Learning experience
 - Three fully scripted seed lessons from the supplied source: **This is my house**, **I have a good job**, and **I've got a job**.
 - Each seed lesson includes three levels, 12 contextual scene examples, a recorded Kokoro explanation, clickable story chapters (5 lines per level), a 4-turn dialogue, active vocabulary highlighting and quiz/reconstruction.

@@ -1,0 +1,64 @@
+name: Group Six real-browser mobile smoke
+on:
+  push:
+    branches: [main]
+    paths:
+      - group-six.js
+      - index.html
+      - styles.css
+      - server.mjs
+      - scripts/smoke_group_six.mjs
+      - .github/workflows/smoke-group-six.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Install browser runner
+        run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Run real mobile interaction smoke
+        run: |
+          set -o pipefail
+          PORT=3178 node server.mjs >/tmp/learn-english-smoke.log 2>&1 &
+          for i in $(seq 1 30); do curl -fsS http://127.0.0.1:3178/health && break || sleep 1; done
+          node scripts/smoke_group_six.mjs 2>&1 | tee /tmp/g6-private-browser.log
+
+      - name: Record successful real-browser acceptance check
+        run: |
+          mkdir -p reports
+          printf '{"status":"passed","run_id":"%s","source_sha":"%s","test":"group-six-mobile-chromium","browser":"chromium"}' "$GITHUB_RUN_ID" "$GITHUB_SHA" > reports/group-six-private-smoke.json
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add reports/group-six-private-smoke.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Attest Group Six mobile browser acceptance [skip ci]'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+
+      - name: Preserve failure trace for Group Six diagnostics
+        if: failure()
+        run: |
+          mkdir -p reports
+          if [ -s "/tmp/g6-private-browser.log" ]; then
+            tail -n 85 "/tmp/g6-private-browser.log" > reports/group-six-private-smoke-error.txt
+          else
+            echo "No recording or browser trace was produced; inspect earlier installation and validation steps." > reports/group-six-private-smoke-error.txt
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add reports/group-six-private-smoke-error.txt
+          if ! git diff --cached --quiet; then
+            git commit -m 'Capture Group Six CI failure details [skip ci]'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi

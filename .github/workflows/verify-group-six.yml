@@ -1,0 +1,75 @@
+name: Verify sixth English future-tense group
+on:
+  push:
+    branches: [main]
+    paths: ["group-six.js", "data/group-six.json", "data/group-six-audio-index.json", "scripts/test_group_six.py", "index.html", "app.js", "styles.css"]
+  pull_request:
+    paths: ["group-six.js", "data/group-six.json", "data/group-six-audio-index.json", "scripts/test_group_six.py", "index.html", "app.js", "styles.css"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: JavaScript syntax and source validation
+        run: |
+          set -o pipefail
+          npm run check
+          node --check group-six.js
+          python scripts/test_group_six.py 2>&1 | tee /tmp/g6-verify.log
+      - name: Confirm group navigator is integrated and no shared API was replaced
+        run: |
+          node --input-type=module <<'JS'
+          import fs from 'node:fs';
+          import assert from 'node:assert/strict';
+          const app=fs.readFileSync('app.js','utf8'),html=fs.readFileSync('index.html','utf8');
+          assert.match(app,/GROUP_SIX\?\.open/);
+          assert.match(app,/GROUP_SIX\?\.stop/);
+          assert.match(html,/data-view="group-six"/);
+          assert.match(html,/id="g6ChapterTabs"/);
+          assert.match(html,/data-view="group-one"/);
+          assert.match(html,/src="group-six\.js"/);
+          assert.match(html,/data-view="paths"/);
+          assert.match(html,/data-view="learn"/);
+          console.log("Navigation integration OK");
+          JS
+
+      - name: Publish successful Group Six source and media acceptance marker
+        run: |
+          mkdir -p reports
+          printf '{"status":"passed","run_id":"%s","source_sha":"%s","test":"group-six-content-and-voice-validation"}' "$GITHUB_RUN_ID" "$GITHUB_SHA" > reports/group-six-content-validation.json
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add reports/group-six-content-validation.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Attest Group Six source, word cues and assets tests [skip ci]'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+
+      - name: Capture failed Group Six content verification for repair
+        if: failure()
+        run: |
+          mkdir -p reports
+          if [ -s /tmp/g6-verify.log ]; then
+            tail -n 120 /tmp/g6-verify.log > reports/group-six-content-validation-error.txt
+          else
+            echo "Source or dependency check failed before Python verification; inspect preceding GitHub Actions steps." > reports/group-six-content-validation-error.txt
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add reports/group-six-content-validation-error.txt
+          if ! git diff --cached --quiet; then
+            git commit -m 'Capture Group Six curriculum verification failure [skip ci]'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
