@@ -81,7 +81,7 @@ jobs:
           cp index.html *.js styles.css manifest.webmanifest _site/
           cp -r data assets _site/
           echo "## Pattern Universe preview" >> "$GITHUB_STEP_SUMMARY"
-          echo "3 original deep lessons plus Group One: 18 authored patterns, 72 scenes, 54 story lines, 36 dialogue turns." >> "$GITHUB_STEP_SUMMARY"
+          echo "3 original deep lessons, Group One (18 patterns, 72 scenes), and Group Two (18 patterns, 72 scenes plus three daily-routine chapters)." >> "$GITHUB_STEP_SUMMARY"
           echo "Kokoro setup: ${{ steps.setup_tts.outcome }}" >> "$GITHUB_STEP_SUMMARY"
           echo "Kokoro rendering: ${{ steps.tts.outcome }}" >> "$GITHUB_STEP_SUMMARY"
           echo "Recorded MP3 count: $(find assets/audio -name '*.mp3' 2>/dev/null | wc -l)" >> "$GITHUB_STEP_SUMMARY"
