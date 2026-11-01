@@ -7,7 +7,7 @@ on:
     paths: ["group-four.js", "data/group-four.json", "data/group-four-audio-index.json", "scripts/test_group_four.py", "index.html", "app.js", "styles.css"]
   workflow_dispatch:
 permissions:
-  contents: read
+  contents: write
 jobs:
   quality:
     runs-on: ubuntu-latest
@@ -41,3 +41,16 @@ jobs:
           assert.match(html,/data-view="learn"/);
           console.log("Navigation integration OK");
           JS
+
+      - name: Publish successful Group Four source and media acceptance marker
+        run: |
+          mkdir -p reports
+          printf '{"status":"passed","run_id":"%s","source_sha":"%s","test":"group-four-content-and-voice-validation"}' "$GITHUB_RUN_ID" "$GITHUB_SHA" > reports/group-four-content-validation.json
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add reports/group-four-content-validation.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Attest Group Four source, word cues and assets tests [skip ci]'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
