@@ -1,0 +1,43 @@
+name: Verify fourth English communications group
+on:
+  push:
+    branches: [main]
+    paths: ["group-four.js", "data/group-four.json", "data/group-four-audio-index.json", "scripts/test_group_four.py", "index.html", "app.js", "styles.css"]
+  pull_request:
+    paths: ["group-four.js", "data/group-four.json", "data/group-four-audio-index.json", "scripts/test_group_four.py", "index.html", "app.js", "styles.css"]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: JavaScript syntax and source validation
+        run: |
+          npm run check
+          node --check group-four.js
+          python scripts/test_group_four.py
+      - name: Confirm group navigator is integrated and no shared API was replaced
+        run: |
+          node --input-type=module <<'JS'
+          import fs from 'node:fs';
+          import assert from 'node:assert/strict';
+          const app=fs.readFileSync('app.js','utf8'),html=fs.readFileSync('index.html','utf8');
+          assert.match(app,/GROUP_FOUR\?\.open/);
+          assert.match(app,/GROUP_FOUR\?\.stop/);
+          assert.match(html,/data-view="group-four"/);
+          assert.match(html,/id="g4ChapterTabs"/);
+          assert.match(html,/data-view="group-one"/);
+          assert.match(html,/src="group-four\.js"/);
+          assert.match(html,/data-view="paths"/);
+          assert.match(html,/data-view="learn"/);
+          console.log("Navigation integration OK");
+          JS
