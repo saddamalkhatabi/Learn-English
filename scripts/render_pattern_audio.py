@@ -61,9 +61,24 @@ def cue_words(text, boundaries, duration):
     cues = [[i, int(spans[i][0]), int(spans[i][1])] for i in range(len(parts))]
     if any(not (0 <= v[1] < v[2] <= duration + 45) for v in cues):
         raise ValueError("Word boundary exceeds audio duration")
+    # Edge WordBoundary occasionally reports adjacent words with a small overlap
+    # (typically around a contraction or number). Preserve the measured onsets;
+    # use their intervening midpoint only for the overlap, never length heuristics.
+    overlap_repairs = []
+    for i in range(1, len(cues)):
+        overlap = cues[i-1][2] - cues[i][1]
+        if overlap > 0:
+            if overlap > 220:
+                raise ValueError(f"Unreliable WordBoundary overlap {overlap}ms at word {i}: {text}")
+            midpoint = round((cues[i-1][2] + cues[i][1]) / 2)
+            if midpoint <= cues[i-1][1] or midpoint >= cues[i][2]:
+                raise ValueError(f"Impossible adjacent acoustic cue repair at word {i}: {text}")
+            cues[i-1][2] = midpoint
+            cues[i][1] = midpoint
+            overlap_repairs.append({"at_word": i, "overlap_ms": overlap})
     if any(cues[i-1][2] > cues[i][1] for i in range(1, len(cues))):
-        raise ValueError("Overlapping words from same source audio")
-    return cues
+        raise ValueError("Overlapping same-recording cues remain after repair")
+    return cues, overlap_repairs
 
 def duration_ms(path):
     data = subprocess.check_output(["ffprobe", "-v", "error", "-show_entries",
@@ -83,12 +98,13 @@ async def build_one(item, semaphore, attempts):
                     await asyncio.wait_for(client.save(str(path), str(meta)), 90)
                 boundary = [json.loads(line) for line in meta.read_text().splitlines() if line.strip()]
                 duration = duration_ms(path)
-                cues = cue_words(item["en"], boundary, duration)
+                cues, repairs = cue_words(item["en"], boundary, duration)
                 row = {"id":item["id"], "text":item["en"],
                        "path":"assets/pattern-audio/" + str(item["id"]) + ".mp3",
                        "audio_sha256":hashlib.sha256(path.read_bytes()).hexdigest(),
                        "duration_ms":duration, "language":"en", "voice":VOICE,
                        "timing_source":"WordBoundary from same Edge TTS MP3 synthesis",
+                       "small_overlap_repairs":repairs,
                        "cues":cues}
                 meta.unlink(missing_ok=True)
                 return row
