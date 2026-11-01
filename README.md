@@ -9,7 +9,7 @@ An Arabic-first, offline-friendly learning prototype that teaches English **thro
 
 ## المجموعة الثانية — الحياة اليومية والعادات
 - [المجموعة الثانية: 18 نمطًا و72 موقفًا وثلاث قصص مترابطة](docs/GROUP-TWO-AR.md). افتح «🌤️ المجموعة الثانية».
-- مشاهد توضيحية مؤقتة حتى تصميم الصور، مع تجهيز 198 تسجيلًا قابلًا للتحقق وتلوين الكلمات المتزامن عند توفر تسجيل MP3 موثق.
+- مشاهد توضيحية مؤقتة حتى تصميم الصور، مع 198 مادة صوتية مغطاة بأصول MP3 محققة وتوقيتات كلمات حقيقية، وتلوين الكلمات متزامن عند التشغيل.
 
 ## Learning experience
 - Three fully scripted seed lessons from the supplied source: **This is my house**, **I have a good job**, and **I've got a job**.
