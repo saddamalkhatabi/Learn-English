@@ -41,7 +41,7 @@ class ForcedAligner:
         words=text.strip().split()
         tokens=[];owners=[]
         for i,word in enumerate(words):
-            word="".join(c for c in spoken_token(word) if c in self.labels and c!="|")
+            word="".join(c for c in spoken_token(word).upper() if c in self.labels and c!="|")
             if not word:raise ValueError("No acoustic symbols for a word")
             for c in word:
                 tokens.append(self.labels[c]);owners.append(i)
