@@ -19,12 +19,12 @@ try{
 
 assert.equal((await page.locator("#g8Title").innerText()).trim(),"Excuse me");
  assert.equal(await page.locator("#g8SceneSteps button").count(),4);
- assert.equal((await page.locator("#g8MainEnglish").innerText()).trim(),"Excuse me, is this seat free.");
+ assert.equal((await page.locator("#g8MainEnglish").innerText()).trim(),"Excuse me, is this seat free?");
  assert.equal(await page.locator("#g8ChapterTabs button").count(),3);
  assert.equal(await page.locator("#g8ChapterLines button").count(),6);
  assert.match(await page.locator("#g8Visual").innerText(),/مشهد توضيحي مؤقت/);
  assert.equal(await page.locator("#g8Visual img").count(),0);
- const sentence="Excuse me, is this seat free.";
+ const sentence="Excuse me, is this seat free?";
  await page.locator("#g8QuizOptions button").filter({hasText:sentence}).click();
  assert.match(await page.locator("#g8QuizFeedback").innerText(),/أحسنت/);
  const words=sentence.split(/\s+/);
