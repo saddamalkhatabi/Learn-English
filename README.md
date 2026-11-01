@@ -40,6 +40,11 @@ An Arabic-first, offline-friendly learning prototype that teaches English **thro
 - تدرّب على **Excuse me / Could you please / Would you mind / Do you mind if I / May I / Would you like to / I'd love to / I'm afraid I can't / How about / Let's / Let me / Thank you for / I appreciate / You're welcome / I'm sorry for / That's all right / Could you clarify / Let me know if**.
 - **198/198 مقطعًا صوتيًا مكتملًا ومتحققًا منه** (197 ملف MP3 جديدًا + ملف مطابق مُعاد الاستخدام من المكتبة الأصلية)، مع توقيت الكلمات المأخوذ من التسجيل نفسه وبصمات SHA256. الصور الواقعية مؤجلة وفق الاتفاق.
 
+## المجموعة التاسعة — ربط الأفكار وتوسيع التعبير
+- [المجموعة التاسعة: 18 نمطًا و72 موقفًا وثلاث قصص مترابطة](docs/GROUP-NINE-AR.md). افتح «🔗 المجموعة التاسعة».
+- تدريب عملي على **because / because of / so / That's why / so that / to / although / even though / but / however / while / instead of / in addition to / not only ... but also / for example / such as / unless / even if** مع مقارنات بين الصيغ المتشابهة وأسباب استخدامها.
+- **198 مقطعًا صوتيًا مستهدفًا** عبر توليد MP3 وتوقيتات الكلمات من نفس التسجيل؛ لا يُعد الصوت متحققًا منه إلا بعد نجاح Workflow المخصص. الصور مؤجلة إلى مرحلة التصاميم.
+
 ## Learning experience
 - Three fully scripted seed lessons from the supplied source: **This is my house**, **I have a good job**, and **I've got a job**.
 - Each seed lesson includes three levels, 12 contextual scene examples, a recorded Kokoro explanation, clickable story chapters (5 lines per level), a 4-turn dialogue, active vocabulary highlighting and quiz/reconstruction.

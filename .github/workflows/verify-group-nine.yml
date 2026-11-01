@@ -1,0 +1,49 @@
+name: Verify ninth English discourse-connectors group
+on:
+  push:
+    branches: [main]
+    paths: ["group-nine.js", "data/group-nine.json", "data/group-nine-audio-index.json", "scripts/test_group_nine.py", "index.html", "app.js", "styles.css", ".github/workflows/verify-group-nine.yml"]
+  pull_request:
+    paths: ["group-nine.js", "data/group-nine.json", "data/group-nine-audio-index.json", "scripts/test_group_nine.py", "index.html", "app.js", "styles.css", ".github/workflows/verify-group-nine.yml"]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: JavaScript syntax and source validation
+        run: |
+          set -o pipefail
+          npm run check
+          node --check group-nine.js
+          python scripts/test_group_nine.py 2>&1 | tee /tmp/g9-verify.log
+      - name: Confirm group navigator is integrated and no shared API was replaced
+        run: |
+          node --input-type=module <<'JS'
+          import fs from 'node:fs';
+          import assert from 'node:assert/strict';
+          const app=fs.readFileSync('app.js','utf8'),html=fs.readFileSync('index.html','utf8');
+          assert.match(app,/GROUP_NINE\?\.open/);
+          assert.match(app,/GROUP_NINE\?\.stop/);
+          assert.match(html,/data-view="group-nine"/);
+          assert.match(html,/id="g9ChapterTabs"/);
+          assert.match(html,/data-view="group-one"/);
+          assert.match(html,/src="group-nine\.js"/);
+          assert.match(html,/data-view="paths"/);
+          assert.match(html,/data-view="learn"/);
+          console.log("Navigation integration OK");
+          JS
+
+      - name: Summarize Group Nine verification
+        run: |
+          echo "✅ Group Nine curriculum, source links and JavaScript checks passed" >> "$GITHUB_STEP_SUMMARY"
+          echo "Curriculum and source links passed; full audio coverage is separately checked by the recording workflow." >> "$GITHUB_STEP_SUMMARY"
