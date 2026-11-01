@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "group": "two",
+  "engine": "Kokoro-82M",
+  "voices": {
+    "female": "af_bella",
+    "male": "am_adam"
+  },
+  "items": {}
+}
