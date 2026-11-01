@@ -1,5 +1,8590 @@
 {
   "schema": 1,
-  "source": "Verified group-two MP3s and measured same-synthesis word boundaries only",
-  "items": {}
+  "source": "Only verified group-two MP3s and measured same-synthesis word boundaries",
+  "items": {
+    "p01/intro": {
+      "text": "Wake up means to stop sleeping. Use at before a clock time.",
+      "path": "assets/group-two-audio/p01/intro.mp3",
+      "audio_sha256": "7c5f0b1738d18e9a8f8dc6992697a7fa6bbc655b95043e838c901e42afa5f711",
+      "duration_ms": 5544,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          390
+        ],
+        [
+          1,
+          403,
+          566
+        ],
+        [
+          2,
+          580,
+          865
+        ],
+        [
+          3,
+          879,
+          987
+        ],
+        [
+          4,
+          1001,
+          1314
+        ],
+        [
+          5,
+          1327,
+          1966
+        ],
+        [
+          6,
+          2908,
+          3207
+        ],
+        [
+          7,
+          3220,
+          3315
+        ],
+        [
+          8,
+          3329,
+          3668
+        ],
+        [
+          9,
+          3682,
+          3750
+        ],
+        [
+          10,
+          3764,
+          4103
+        ],
+        [
+          11,
+          4117,
+          4606
+        ]
+      ]
+    },
+    "p01/scene-1": {
+      "text": "I wake up at six.",
+      "path": "assets/group-two-audio/p01/scene-1.mp3",
+      "audio_sha256": "04e3db0c8cebaf44548aafca47c10dd16bda3cc428f1dcfe7aef304ea89502fe",
+      "duration_ms": 2424,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          240
+        ],
+        [
+          1,
+          254,
+          526
+        ],
+        [
+          2,
+          539,
+          675
+        ],
+        [
+          3,
+          689,
+          838
+        ],
+        [
+          4,
+          852,
+          1477
+        ]
+      ]
+    },
+    "p01/scene-2": {
+      "text": "I wake up early.",
+      "path": "assets/group-two-audio/p01/scene-2.mp3",
+      "audio_sha256": "45678532e61032f35eafadb3f8a34d2a6a790cfcb61b9e0f8ba03e9760df3c8d",
+      "duration_ms": 2184,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          539
+        ],
+        [
+          2,
+          553,
+          702
+        ],
+        [
+          3,
+          716,
+          1246
+        ]
+      ]
+    },
+    "p01/scene-3": {
+      "text": "I wake up at seven on Sunday.",
+      "path": "assets/group-two-audio/p01/scene-3.mp3",
+      "audio_sha256": "6b3909e2b1620c1c530d5f165786402ebb1627488e73e0dee5b792410788ab4b",
+      "duration_ms": 2880,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          512
+        ],
+        [
+          2,
+          526,
+          648
+        ],
+        [
+          3,
+          661,
+          811
+        ],
+        [
+          4,
+          824,
+          1151
+        ],
+        [
+          5,
+          1164,
+          1327
+        ],
+        [
+          6,
+          1341,
+          1939
+        ]
+      ]
+    },
+    "p01/scene-4": {
+      "text": "I wake up when my alarm rings.",
+      "path": "assets/group-two-audio/p01/scene-4.mp3",
+      "audio_sha256": "48e257a2e2a245f666397b51c7c10fb7e3fe253220d556eaa5a1b4bc79f0fd12",
+      "duration_ms": 3000,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          539
+        ],
+        [
+          2,
+          553,
+          743
+        ],
+        [
+          3,
+          757,
+          879
+        ],
+        [
+          4,
+          892,
+          1069
+        ],
+        [
+          5,
+          1083,
+          1463
+        ],
+        [
+          6,
+          1477,
+          2061
+        ]
+      ]
+    },
+    "p01/story-1": {
+      "text": "Maya wakes up at six.",
+      "path": "assets/group-two-audio/p01/story-1.mp3",
+      "audio_sha256": "ecc52935286367d5840263c8965e5ef6f82df3a9fe79b1a17b7e34f99a16716a",
+      "duration_ms": 2664,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          458
+        ],
+        [
+          1,
+          471,
+          770
+        ],
+        [
+          2,
+          784,
+          906
+        ],
+        [
+          3,
+          920,
+          1069
+        ],
+        [
+          4,
+          1083,
+          1708
+        ]
+      ]
+    },
+    "p01/story-2": {
+      "text": "She opens her eyes and smiles.",
+      "path": "assets/group-two-audio/p01/story-2.mp3",
+      "audio_sha256": "38a18ab3a6cff70b845f38ac6450555085d62414ccdf884052fca2d927d726cc",
+      "duration_ms": 2952,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          349
+        ],
+        [
+          1,
+          362,
+          675
+        ],
+        [
+          2,
+          689,
+          865
+        ],
+        [
+          3,
+          879,
+          1137
+        ],
+        [
+          4,
+          1151,
+          1286
+        ],
+        [
+          5,
+          1300,
+          2007
+        ]
+      ]
+    },
+    "p01/story-3": {
+      "text": "She says, 'I wake up early on school days.'",
+      "path": "assets/group-two-audio/p01/story-3.mp3",
+      "audio_sha256": "06c89e992bca18865c98fe6111780990e2dcbe7a93ea2a02784f78c3b9c70397",
+      "duration_ms": 3792,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          335
+        ],
+        [
+          1,
+          349,
+          865
+        ],
+        [
+          2,
+          1001,
+          1069
+        ],
+        [
+          3,
+          1083,
+          1327
+        ],
+        [
+          4,
+          1341,
+          1477
+        ],
+        [
+          5,
+          1490,
+          1816
+        ],
+        [
+          6,
+          1830,
+          1993
+        ],
+        [
+          7,
+          2007,
+          2305
+        ],
+        [
+          8,
+          2319,
+          2849
+        ]
+      ]
+    },
+    "p01/dialogue-1": {
+      "text": "What time do you wake up?",
+      "path": "assets/group-two-audio/p01/dialogue-1.mp3",
+      "audio_sha256": "3699e8975e8bd32f900da05e948746638cf27664913902fb7b0e2a72e62df95d",
+      "duration_ms": 2376,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          335
+        ],
+        [
+          1,
+          349,
+          566
+        ],
+        [
+          2,
+          580,
+          661
+        ],
+        [
+          3,
+          675,
+          811
+        ],
+        [
+          4,
+          824,
+          1069
+        ],
+        [
+          5,
+          1083,
+          1422
+        ]
+      ]
+    },
+    "p01/dialogue-2": {
+      "text": "I wake up at six.",
+      "path": "assets/group-two-audio/p01/dialogue-2.mp3",
+      "audio_sha256": "511e7252420216731bcb1f6d8714458f0a457f57124c63c93faa178e6ed2be28",
+      "duration_ms": 2424,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          240
+        ],
+        [
+          1,
+          254,
+          526
+        ],
+        [
+          2,
+          539,
+          675
+        ],
+        [
+          3,
+          689,
+          838
+        ],
+        [
+          4,
+          852,
+          1477
+        ]
+      ]
+    },
+    "p02/intro": {
+      "text": "Get up means to leave your bed. You can wake up before you get up.",
+      "path": "assets/group-two-audio/p02/intro.mp3",
+      "audio_sha256": "6ab13cfabae289cbd882afc63d4082e714e1dffaf37e7b01cdd06f3e1b568288",
+      "duration_ms": 5448,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          295
+        ],
+        [
+          1,
+          308,
+          430
+        ],
+        [
+          2,
+          444,
+          743
+        ],
+        [
+          3,
+          757,
+          879
+        ],
+        [
+          4,
+          892,
+          1069
+        ],
+        [
+          5,
+          1083,
+          1232
+        ],
+        [
+          6,
+          1246,
+          1694
+        ],
+        [
+          7,
+          2636,
+          2826
+        ],
+        [
+          8,
+          2840,
+          3003
+        ],
+        [
+          9,
+          3016,
+          3261
+        ],
+        [
+          10,
+          3274,
+          3465
+        ],
+        [
+          11,
+          3478,
+          3859
+        ],
+        [
+          12,
+          3872,
+          3981
+        ],
+        [
+          13,
+          3995,
+          4185
+        ],
+        [
+          14,
+          4198,
+          4511
+        ]
+      ]
+    },
+    "p02/scene-1": {
+      "text": "I get up at six thirty.",
+      "path": "assets/group-two-audio/p02/scene-1.mp3",
+      "audio_sha256": "b9628e6c4693e070092f8139a6c3f378fcccc76eea6379438c78afac0328c58f",
+      "duration_ms": 2496,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          240
+        ],
+        [
+          1,
+          254,
+          430
+        ],
+        [
+          2,
+          444,
+          580
+        ],
+        [
+          3,
+          593,
+          729
+        ],
+        [
+          4,
+          743,
+          1055
+        ],
+        [
+          5,
+          1069,
+          1558
+        ]
+      ]
+    },
+    "p02/scene-2": {
+      "text": "I get up and open the window.",
+      "path": "assets/group-two-audio/p02/scene-2.mp3",
+      "audio_sha256": "ef704640c9953c1737077b3440cfb6364bc50602d94bd6516b0e2542d3c2c788",
+      "duration_ms": 2664,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          444
+        ],
+        [
+          2,
+          458,
+          607
+        ],
+        [
+          3,
+          621,
+          743
+        ],
+        [
+          4,
+          757,
+          1015
+        ],
+        [
+          5,
+          1028,
+          1110
+        ],
+        [
+          6,
+          1123,
+          1708
+        ]
+      ]
+    },
+    "p02/scene-3": {
+      "text": "I get up early for school.",
+      "path": "assets/group-two-audio/p02/scene-3.mp3",
+      "audio_sha256": "4af75a5b13ae9b5e70107feafd8386a6f910a97a83aa09aea9498f03ba0bd9e8",
+      "duration_ms": 2592,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          240
+        ],
+        [
+          1,
+          254,
+          430
+        ],
+        [
+          2,
+          444,
+          580
+        ],
+        [
+          3,
+          593,
+          879
+        ],
+        [
+          4,
+          892,
+          1069
+        ],
+        [
+          5,
+          1083,
+          1653
+        ]
+      ]
+    },
+    "p02/scene-4": {
+      "text": "I get up slowly on weekends.",
+      "path": "assets/group-two-audio/p02/scene-4.mp3",
+      "audio_sha256": "9f369a15969e7f3c7d8124a35aa2d7d92b29bfa9f4631e8d7f20b08be988ae59",
+      "duration_ms": 2904,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          430
+        ],
+        [
+          2,
+          444,
+          566
+        ],
+        [
+          3,
+          580,
+          1055
+        ],
+        [
+          4,
+          1069,
+          1205
+        ],
+        [
+          5,
+          1218,
+          1952
+        ]
+      ]
+    },
+    "p02/story-1": {
+      "text": "Omar wakes up at six.",
+      "path": "assets/group-two-audio/p02/story-1.mp3",
+      "audio_sha256": "a6efe4431465fc5c210b76818747ebc461f27427120f65a032ae49708eb1f148",
+      "duration_ms": 2688,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          485
+        ],
+        [
+          1,
+          498,
+          797
+        ],
+        [
+          2,
+          811,
+          933
+        ],
+        [
+          3,
+          947,
+          1083
+        ],
+        [
+          4,
+          1096,
+          1735
+        ]
+      ]
+    },
+    "p02/story-2": {
+      "text": "He stays in bed for five minutes.",
+      "path": "assets/group-two-audio/p02/story-2.mp3",
+      "audio_sha256": "1bd807a0b45a4ed1e8cb4879612806e8baaa1b1678bcb451720e9da66f84cc0b",
+      "duration_ms": 3168,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          308
+        ],
+        [
+          1,
+          322,
+          675
+        ],
+        [
+          2,
+          689,
+          811
+        ],
+        [
+          3,
+          824,
+          1110
+        ],
+        [
+          4,
+          1123,
+          1286
+        ],
+        [
+          5,
+          1300,
+          1612
+        ],
+        [
+          6,
+          1626,
+          2224
+        ]
+      ]
+    },
+    "p02/story-3": {
+      "text": "Then he gets up and starts his day.",
+      "path": "assets/group-two-audio/p02/story-3.mp3",
+      "audio_sha256": "8e55756d19ca78e87062f5058b53940662fb9fab5f547c835fa1f03e50c4a45c",
+      "duration_ms": 2952,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          308
+        ],
+        [
+          1,
+          322,
+          417
+        ],
+        [
+          2,
+          430,
+          675
+        ],
+        [
+          3,
+          689,
+          906
+        ],
+        [
+          4,
+          920,
+          1055
+        ],
+        [
+          5,
+          1069,
+          1422
+        ],
+        [
+          6,
+          1436,
+          1585
+        ],
+        [
+          7,
+          1599,
+          2007
+        ]
+      ]
+    },
+    "p02/dialogue-1": {
+      "text": "Do you get up right away?",
+      "path": "assets/group-two-audio/p02/dialogue-1.mp3",
+      "audio_sha256": "a72a8df033545be9facbe904bf91a7c17a047eabadb4874c5d73ce5421e328e0",
+      "duration_ms": 2304,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          227
+        ],
+        [
+          1,
+          240,
+          335
+        ],
+        [
+          2,
+          349,
+          512
+        ],
+        [
+          3,
+          526,
+          675
+        ],
+        [
+          4,
+          689,
+          906
+        ],
+        [
+          5,
+          920,
+          1368
+        ]
+      ]
+    },
+    "p02/dialogue-2": {
+      "text": "No, I get up after a few minutes.",
+      "path": "assets/group-two-audio/p02/dialogue-2.mp3",
+      "audio_sha256": "0e37a47f2910229640bb965d4cb9da22f926e3aeb3f82db9f57558f1e0c4fbd7",
+      "duration_ms": 3360,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          593
+        ],
+        [
+          1,
+          716,
+          824
+        ],
+        [
+          2,
+          838,
+          1015
+        ],
+        [
+          3,
+          1028,
+          1164
+        ],
+        [
+          4,
+          1178,
+          1477
+        ],
+        [
+          5,
+          1490,
+          1545
+        ],
+        [
+          6,
+          1558,
+          1762
+        ],
+        [
+          7,
+          1776,
+          2401
+        ]
+      ]
+    },
+    "p03/intro": {
+      "text": "In the morning names a part of the day, not one exact clock time.",
+      "path": "assets/group-two-audio/p03/intro.mp3",
+      "audio_sha256": "52181f1c6252e035869594cf5d017c0586921246b2ff7d84f1e03419650f0335",
+      "duration_ms": 4872,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          335
+        ],
+        [
+          2,
+          349,
+          743
+        ],
+        [
+          3,
+          757,
+          1028
+        ],
+        [
+          4,
+          1042,
+          1096
+        ],
+        [
+          5,
+          1110,
+          1368
+        ],
+        [
+          6,
+          1382,
+          1449
+        ],
+        [
+          7,
+          1463,
+          1572
+        ],
+        [
+          8,
+          1585,
+          2007
+        ],
+        [
+          9,
+          2210,
+          2428
+        ],
+        [
+          10,
+          2441,
+          2604
+        ],
+        [
+          11,
+          2618,
+          3080
+        ],
+        [
+          12,
+          3093,
+          3420
+        ],
+        [
+          13,
+          3433,
+          3936
+        ]
+      ]
+    },
+    "p03/scene-1": {
+      "text": "In the morning, I drink water.",
+      "path": "assets/group-two-audio/p03/scene-1.mp3",
+      "audio_sha256": "3397dd3890f3f23b6dac7821df47472fbde89b8a1b14e33dc096d4f755fd7ecd",
+      "duration_ms": 2952,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          267
+        ],
+        [
+          1,
+          281,
+          349
+        ],
+        [
+          2,
+          362,
+          920
+        ],
+        [
+          3,
+          1083,
+          1151
+        ],
+        [
+          4,
+          1164,
+          1463
+        ],
+        [
+          5,
+          1477,
+          1993
+        ]
+      ]
+    },
+    "p03/scene-2": {
+      "text": "I study English in the morning.",
+      "path": "assets/group-two-audio/p03/scene-2.mp3",
+      "audio_sha256": "b260b9bd7bd646adb488c2d7e46247127d4e68eb6696a927d1c62a3839bd3ec8",
+      "duration_ms": 2736,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          648
+        ],
+        [
+          2,
+          661,
+          1042
+        ],
+        [
+          3,
+          1055,
+          1151
+        ],
+        [
+          4,
+          1164,
+          1232
+        ],
+        [
+          5,
+          1246,
+          1789
+        ]
+      ]
+    },
+    "p03/scene-3": {
+      "text": "In the morning, the streets are quiet.",
+      "path": "assets/group-two-audio/p03/scene-3.mp3",
+      "audio_sha256": "1d26fc4dc83e6540cc3f4ac65e789cf2837e78873259ce27bf1a6149e62e01b0",
+      "duration_ms": 3264,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          267
+        ],
+        [
+          1,
+          281,
+          349
+        ],
+        [
+          2,
+          362,
+          879
+        ],
+        [
+          3,
+          1042,
+          1151
+        ],
+        [
+          4,
+          1164,
+          1517
+        ],
+        [
+          5,
+          1531,
+          1640
+        ],
+        [
+          6,
+          1653,
+          2319
+        ]
+      ]
+    },
+    "p03/scene-4": {
+      "text": "I take a short walk in the morning.",
+      "path": "assets/group-two-audio/p03/scene-4.mp3",
+      "audio_sha256": "4d5fba544a1ddd1f14df926fc2f225b7eab5d287c615d6913ff3ef0b63cf26a6",
+      "duration_ms": 2904,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          526
+        ],
+        [
+          2,
+          539,
+          593
+        ],
+        [
+          3,
+          607,
+          920
+        ],
+        [
+          4,
+          933,
+          1218
+        ],
+        [
+          5,
+          1232,
+          1327
+        ],
+        [
+          6,
+          1341,
+          1409
+        ],
+        [
+          7,
+          1422,
+          1952
+        ]
+      ]
+    },
+    "p03/story-1": {
+      "text": "Sara loves the quiet morning.",
+      "path": "assets/group-two-audio/p03/story-1.mp3",
+      "audio_sha256": "8ac728aa5c3343743d3242ce252aaa92f4d78f565975d17a59299df78f5e25bc",
+      "duration_ms": 2808,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          539
+        ],
+        [
+          1,
+          553,
+          824
+        ],
+        [
+          2,
+          838,
+          947
+        ],
+        [
+          3,
+          960,
+          1300
+        ],
+        [
+          4,
+          1314,
+          1857
+        ]
+      ]
+    },
+    "p03/story-2": {
+      "text": "In the morning, she drinks water.",
+      "path": "assets/group-two-audio/p03/story-2.mp3",
+      "audio_sha256": "b24ae8c9a095d6b856e01315c029f8ddb4955ff813e2abeb5b3f83bdb2f1e4de",
+      "duration_ms": 3096,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          267
+        ],
+        [
+          1,
+          281,
+          349
+        ],
+        [
+          2,
+          362,
+          892
+        ],
+        [
+          3,
+          1042,
+          1232
+        ],
+        [
+          4,
+          1246,
+          1585
+        ],
+        [
+          5,
+          1599,
+          2142
+        ]
+      ]
+    },
+    "p03/story-3": {
+      "text": "Then she reads for ten minutes.",
+      "path": "assets/group-two-audio/p03/story-3.mp3",
+      "audio_sha256": "7493072327f092b206b088511bac5cf30027d0bed2d567804076e55b160f0f95",
+      "duration_ms": 2904,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          362
+        ],
+        [
+          1,
+          376,
+          566
+        ],
+        [
+          2,
+          580,
+          906
+        ],
+        [
+          3,
+          920,
+          1083
+        ],
+        [
+          4,
+          1096,
+          1341
+        ],
+        [
+          5,
+          1354,
+          1952
+        ]
+      ]
+    },
+    "p03/dialogue-1": {
+      "text": "When do you study?",
+      "path": "assets/group-two-audio/p03/dialogue-1.mp3",
+      "audio_sha256": "2025ffc98be2aa969c97b4d72c16bc160c7eec1f4054485368f264dff2fdc9e5",
+      "duration_ms": 2040,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          308
+        ],
+        [
+          1,
+          322,
+          390
+        ],
+        [
+          2,
+          403,
+          526
+        ],
+        [
+          3,
+          539,
+          1096
+        ]
+      ]
+    },
+    "p03/dialogue-2": {
+      "text": "I study in the morning.",
+      "path": "assets/group-two-audio/p03/dialogue-2.mp3",
+      "audio_sha256": "47555385095eedee9a83dc68aee2931072ac6324204a009fd8c19ac4707c9bdb",
+      "duration_ms": 2400,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          661
+        ],
+        [
+          2,
+          675,
+          784
+        ],
+        [
+          3,
+          797,
+          865
+        ],
+        [
+          4,
+          879,
+          1463
+        ]
+      ]
+    },
+    "p04/intro": {
+      "text": "Say brush my teeth for cleaning teeth with a toothbrush.",
+      "path": "assets/group-two-audio/p04/intro.mp3",
+      "audio_sha256": "9630c47fcb5ee559f08f46737422ab1b70bf0e1de6dbe83f13f8ff6f808f3d2c",
+      "duration_ms": 4176,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          376
+        ],
+        [
+          1,
+          390,
+          702
+        ],
+        [
+          2,
+          716,
+          852
+        ],
+        [
+          3,
+          865,
+          1218
+        ],
+        [
+          4,
+          1232,
+          1395
+        ],
+        [
+          5,
+          1409,
+          1803
+        ],
+        [
+          6,
+          1816,
+          2197
+        ],
+        [
+          7,
+          2210,
+          2360
+        ],
+        [
+          8,
+          2373,
+          2428
+        ],
+        [
+          9,
+          2441,
+          3229
+        ]
+      ]
+    },
+    "p04/scene-1": {
+      "text": "I brush my teeth every morning.",
+      "path": "assets/group-two-audio/p04/scene-1.mp3",
+      "audio_sha256": "04b1fcb5bf5201d870f00ce821bd61945c844821ca00de8fa47a921174797628",
+      "duration_ms": 2832,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          593
+        ],
+        [
+          2,
+          607,
+          729
+        ],
+        [
+          3,
+          743,
+          1055
+        ],
+        [
+          4,
+          1069,
+          1314
+        ],
+        [
+          5,
+          1327,
+          1884
+        ]
+      ]
+    },
+    "p04/scene-2": {
+      "text": "I brush my teeth after breakfast.",
+      "path": "assets/group-two-audio/p04/scene-2.mp3",
+      "audio_sha256": "8766674eb2cd16237e47d3145ff2f1ea50a7180046bdbe036ae8fb7cb0109c91",
+      "duration_ms": 3168,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          593
+        ],
+        [
+          2,
+          607,
+          743
+        ],
+        [
+          3,
+          757,
+          1096
+        ],
+        [
+          4,
+          1110,
+          1409
+        ],
+        [
+          5,
+          1422,
+          2210
+        ]
+      ]
+    },
+    "p04/scene-3": {
+      "text": "I brush my teeth before bed.",
+      "path": "assets/group-two-audio/p04/scene-3.mp3",
+      "audio_sha256": "774cb9120fd1b6782ddb77b974ad10b70aeb79c4549c3723e763102809c2666d",
+      "duration_ms": 2880,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          593
+        ],
+        [
+          2,
+          607,
+          729
+        ],
+        [
+          3,
+          743,
+          1096
+        ],
+        [
+          4,
+          1110,
+          1490
+        ],
+        [
+          5,
+          1504,
+          1925
+        ]
+      ]
+    },
+    "p04/scene-4": {
+      "text": "I brush my teeth for two minutes.",
+      "path": "assets/group-two-audio/p04/scene-4.mp3",
+      "audio_sha256": "3167cd4e6ecd6c34d37fdd09b77ab56cfe84c36f80d068c5ca6dbcf70c08f7af",
+      "duration_ms": 3024,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          593
+        ],
+        [
+          2,
+          607,
+          729
+        ],
+        [
+          3,
+          743,
+          1083
+        ],
+        [
+          4,
+          1096,
+          1246
+        ],
+        [
+          5,
+          1259,
+          1449
+        ],
+        [
+          6,
+          1463,
+          2074
+        ]
+      ]
+    },
+    "p04/story-1": {
+      "text": "Ali finishes breakfast.",
+      "path": "assets/group-two-audio/p04/story-1.mp3",
+      "audio_sha256": "bd9470a3c9c1794ca7fef01224b40a401a78a805268e24678e6d3cd4290b82ac",
+      "duration_ms": 2712,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          417
+        ],
+        [
+          1,
+          430,
+          947
+        ],
+        [
+          2,
+          960,
+          1776
+        ]
+      ]
+    },
+    "p04/story-2": {
+      "text": "He brushes his teeth carefully.",
+      "path": "assets/group-two-audio/p04/story-2.mp3",
+      "audio_sha256": "98d8cdbd4b87cbdd340be4cf1e035b063276d734c9a6e81f4271e66fd03209f2",
+      "duration_ms": 3000,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          308
+        ],
+        [
+          1,
+          322,
+          770
+        ],
+        [
+          2,
+          784,
+          960
+        ],
+        [
+          3,
+          974,
+          1273
+        ],
+        [
+          4,
+          1286,
+          2047
+        ]
+      ]
+    },
+    "p04/story-3": {
+      "text": "He smiles before leaving home.",
+      "path": "assets/group-two-audio/p04/story-3.mp3",
+      "audio_sha256": "779bed4ace4e2e514d77fb38930c70c5ff37506d6d98653aa4f45257ba66fb06",
+      "duration_ms": 2952,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          295
+        ],
+        [
+          1,
+          308,
+          770
+        ],
+        [
+          2,
+          784,
+          1178
+        ],
+        [
+          3,
+          1191,
+          1517
+        ],
+        [
+          4,
+          1531,
+          1993
+        ]
+      ]
+    },
+    "p04/dialogue-1": {
+      "text": "Do you brush your teeth before bed?",
+      "path": "assets/group-two-audio/p04/dialogue-1.mp3",
+      "audio_sha256": "95d8229d0941b26d775cb128f574491913bedca30a7b722988fc05beddab806b",
+      "duration_ms": 2856,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          213
+        ],
+        [
+          1,
+          227,
+          322
+        ],
+        [
+          2,
+          335,
+          621
+        ],
+        [
+          3,
+          634,
+          757
+        ],
+        [
+          4,
+          770,
+          1083
+        ],
+        [
+          5,
+          1096,
+          1477
+        ],
+        [
+          6,
+          1490,
+          1898
+        ]
+      ]
+    },
+    "p04/dialogue-2": {
+      "text": "Yes, I brush my teeth every night.",
+      "path": "assets/group-two-audio/p04/dialogue-2.mp3",
+      "audio_sha256": "9110ec7e4d49bb3701a1d4603871c8d6b1d04ed975959cd864ccb0a6bbb707da",
+      "duration_ms": 3384,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          621
+        ],
+        [
+          1,
+          757,
+          852
+        ],
+        [
+          2,
+          865,
+          1191
+        ],
+        [
+          3,
+          1205,
+          1327
+        ],
+        [
+          4,
+          1341,
+          1653
+        ],
+        [
+          5,
+          1667,
+          1911
+        ],
+        [
+          6,
+          1925,
+          2441
+        ]
+      ]
+    },
+    "p05/intro": {
+      "text": "Have breakfast means eat your morning meal. Usually do not add a before breakfast.",
+      "path": "assets/group-two-audio/p05/intro.mp3",
+      "audio_sha256": "f30745b3c4f43e724e598a255e23c834a5ade1942c2734b9a9b4da0da4546794",
+      "duration_ms": 6552,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          322
+        ],
+        [
+          1,
+          335,
+          892
+        ],
+        [
+          2,
+          906,
+          1205
+        ],
+        [
+          3,
+          1218,
+          1368
+        ],
+        [
+          4,
+          1382,
+          1504
+        ],
+        [
+          5,
+          1517,
+          1884
+        ],
+        [
+          6,
+          1898,
+          2319
+        ],
+        [
+          7,
+          3261,
+          3764
+        ],
+        [
+          8,
+          3777,
+          3913
+        ],
+        [
+          9,
+          3927,
+          4185
+        ],
+        [
+          10,
+          4198,
+          4361
+        ],
+        [
+          11,
+          4375,
+          4416
+        ],
+        [
+          12,
+          4429,
+          4810
+        ],
+        [
+          13,
+          4823,
+          5611
+        ]
+      ]
+    },
+    "p05/scene-1": {
+      "text": "I have breakfast at seven.",
+      "path": "assets/group-two-audio/p05/scene-1.mp3",
+      "audio_sha256": "760fa1fa6e02332a07ba72dffe6b0d7b4a2e94f524bf6fb1186a010cde2c6461",
+      "duration_ms": 2616,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          458
+        ],
+        [
+          2,
+          471,
+          987
+        ],
+        [
+          3,
+          1001,
+          1123
+        ],
+        [
+          4,
+          1137,
+          1667
+        ]
+      ]
+    },
+    "p05/scene-2": {
+      "text": "I have breakfast with my family.",
+      "path": "assets/group-two-audio/p05/scene-2.mp3",
+      "audio_sha256": "cb69be552a356d6b98b0bc155bba8e1a5170a2c5c14a4ce46c66d09af3711802",
+      "duration_ms": 2952,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          267
+        ],
+        [
+          1,
+          281,
+          471
+        ],
+        [
+          2,
+          485,
+          1015
+        ],
+        [
+          3,
+          1028,
+          1151
+        ],
+        [
+          4,
+          1164,
+          1314
+        ],
+        [
+          5,
+          1327,
+          2006
+        ]
+      ]
+    },
+    "p05/scene-3": {
+      "text": "I have breakfast before school.",
+      "path": "assets/group-two-audio/p05/scene-3.mp3",
+      "audio_sha256": "dd101382084e84639eb2369c6ffed4d2052002672babc3c9f7631778edb07689",
+      "duration_ms": 2904,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          444
+        ],
+        [
+          2,
+          458,
+          988
+        ],
+        [
+          3,
+          1001,
+          1381
+        ],
+        [
+          4,
+          1395,
+          1952
+        ]
+      ]
+    },
+    "p05/scene-4": {
+      "text": "I have breakfast at home.",
+      "path": "assets/group-two-audio/p05/scene-4.mp3",
+      "audio_sha256": "591f03d2985528a58efb42506afa06774e122a1ef9cd3257962b45a2ea7daaeb",
+      "duration_ms": 2544,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          458
+        ],
+        [
+          2,
+          471,
+          987
+        ],
+        [
+          3,
+          1001,
+          1096
+        ],
+        [
+          4,
+          1110,
+          1599
+        ]
+      ]
+    },
+    "p05/story-1": {
+      "text": "The family sits at the table.",
+      "path": "assets/group-two-audio/p05/story-1.mp3",
+      "audio_sha256": "cecdc95ef7f29b6758fe96944058d1faad767c7a54f133c5438d3cf1b9dec232",
+      "duration_ms": 2760,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          689
+        ],
+        [
+          2,
+          702,
+          1001
+        ],
+        [
+          3,
+          1015,
+          1123
+        ],
+        [
+          4,
+          1137,
+          1218
+        ],
+        [
+          5,
+          1232,
+          1803
+        ]
+      ]
+    },
+    "p05/story-2": {
+      "text": "They have breakfast together.",
+      "path": "assets/group-two-audio/p05/story-2.mp3",
+      "audio_sha256": "51832c5e764c48a718f8c176257935763a10ac14977b091a89308d437d280d4d",
+      "duration_ms": 2568,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          267
+        ],
+        [
+          1,
+          281,
+          471
+        ],
+        [
+          2,
+          485,
+          987
+        ],
+        [
+          3,
+          1001,
+          1626
+        ]
+      ]
+    },
+    "p05/story-3": {
+      "text": "Nour says, 'I have breakfast at home.'",
+      "path": "assets/group-two-audio/p05/story-3.mp3",
+      "audio_sha256": "939a9f5a18a055aec111b8af8021898a3ac0e4dc709ef9b9c5690586605cabf4",
+      "duration_ms": 3504,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          417
+        ],
+        [
+          1,
+          430,
+          960
+        ],
+        [
+          2,
+          1137,
+          1218
+        ],
+        [
+          3,
+          1232,
+          1409
+        ],
+        [
+          4,
+          1422,
+          1952
+        ],
+        [
+          5,
+          1966,
+          2061
+        ],
+        [
+          6,
+          2074,
+          2564
+        ]
+      ]
+    },
+    "p05/dialogue-1": {
+      "text": "Where do you have breakfast?",
+      "path": "assets/group-two-audio/p05/dialogue-1.mp3",
+      "audio_sha256": "cc88676160c183410f805623cae097b512fa4ba13a0cc47322ebcc8a651e4e91",
+      "duration_ms": 2472,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          335
+        ],
+        [
+          1,
+          349,
+          417
+        ],
+        [
+          2,
+          430,
+          553
+        ],
+        [
+          3,
+          566,
+          729
+        ],
+        [
+          4,
+          743,
+          1531
+        ]
+      ]
+    },
+    "p05/dialogue-2": {
+      "text": "I have breakfast at home.",
+      "path": "assets/group-two-audio/p05/dialogue-2.mp3",
+      "audio_sha256": "10ba2953aa77f6cd235df09ccac4c37dc708794fe39d1667599daa939e43ca28",
+      "duration_ms": 2544,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          458
+        ],
+        [
+          2,
+          471,
+          987
+        ],
+        [
+          3,
+          1001,
+          1096
+        ],
+        [
+          4,
+          1110,
+          1599
+        ]
+      ]
+    },
+    "p06/intro": {
+      "text": "Use go to for regular destinations, but say go home without to.",
+      "path": "assets/group-two-audio/p06/intro.mp3",
+      "audio_sha256": "a3d4cc27cf3230f0435fed5ea852740034ab86756ce4d803aa4cc64b5741b663",
+      "duration_ms": 5064,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          403
+        ],
+        [
+          1,
+          417,
+          566
+        ],
+        [
+          2,
+          580,
+          702
+        ],
+        [
+          3,
+          716,
+          906
+        ],
+        [
+          4,
+          920,
+          1382
+        ],
+        [
+          5,
+          1395,
+          2401
+        ],
+        [
+          6,
+          2564,
+          2754
+        ],
+        [
+          7,
+          2767,
+          2958
+        ],
+        [
+          8,
+          2971,
+          3134
+        ],
+        [
+          9,
+          3148,
+          3420
+        ],
+        [
+          10,
+          3433,
+          3814
+        ],
+        [
+          11,
+          3827,
+          4112
+        ]
+      ]
+    },
+    "p06/scene-2": {
+      "text": "I go to work by bus.",
+      "path": "assets/group-two-audio/p06/scene-2.mp3",
+      "audio_sha256": "2f8bdc9bd61074248802c0f1c8ce8f3080ee857d27e02a73467a0cf9bb5159b7",
+      "duration_ms": 2544,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          417
+        ],
+        [
+          2,
+          430,
+          526
+        ],
+        [
+          3,
+          539,
+          824
+        ],
+        [
+          4,
+          838,
+          987
+        ],
+        [
+          5,
+          1001,
+          1585
+        ]
+      ]
+    },
+    "p06/scene-3": {
+      "text": "I go to the park after school.",
+      "path": "assets/group-two-audio/p06/scene-3.mp3",
+      "audio_sha256": "b987614f8055d923cf02813b733c047135d593697380602f7745370e95e07fc0",
+      "duration_ms": 2904,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          267
+        ],
+        [
+          1,
+          281,
+          444
+        ],
+        [
+          2,
+          458,
+          566
+        ],
+        [
+          3,
+          580,
+          689
+        ],
+        [
+          4,
+          702,
+          1055
+        ],
+        [
+          5,
+          1069,
+          1368
+        ],
+        [
+          6,
+          1382,
+          1966
+        ]
+      ]
+    },
+    "p06/scene-4": {
+      "text": "I go to the library on Thursday.",
+      "path": "assets/group-two-audio/p06/scene-4.mp3",
+      "audio_sha256": "28cd4a1c67a7de8e85c81f4249b95c0165e9d8184e57bf57c201ddf5992cc6a1",
+      "duration_ms": 3048,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          267
+        ],
+        [
+          1,
+          281,
+          444
+        ],
+        [
+          2,
+          458,
+          566
+        ],
+        [
+          3,
+          580,
+          702
+        ],
+        [
+          4,
+          716,
+          1259
+        ],
+        [
+          5,
+          1273,
+          1436
+        ],
+        [
+          6,
+          1449,
+          2102
+        ]
+      ]
+    },
+    "p06/story-1": {
+      "text": "Maya puts on her backpack.",
+      "path": "assets/group-two-audio/p06/story-1.mp3",
+      "audio_sha256": "1ebc26752f7a9fb3298f3d4caacd31dc0abbf35c01234fbecf1ce724f3240c1e",
+      "duration_ms": 2784,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          471
+        ],
+        [
+          1,
+          485,
+          757
+        ],
+        [
+          2,
+          770,
+          879
+        ],
+        [
+          3,
+          892,
+          1028
+        ],
+        [
+          4,
+          1042,
+          1843
+        ]
+      ]
+    },
+    "p06/story-2": {
+      "text": "She goes to school with her friend.",
+      "path": "assets/group-two-audio/p06/story-2.mp3",
+      "audio_sha256": "b3ceae7977b3956410ddd9b2538b22c03b7110aa88410230430789680dbdd643",
+      "duration_ms": 2856,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          308
+        ],
+        [
+          1,
+          322,
+          553
+        ],
+        [
+          2,
+          566,
+          675
+        ],
+        [
+          3,
+          689,
+          1028
+        ],
+        [
+          4,
+          1042,
+          1178
+        ],
+        [
+          5,
+          1191,
+          1327
+        ],
+        [
+          6,
+          1341,
+          1911
+        ]
+      ]
+    },
+    "p06/story-3": {
+      "text": "She says, 'I go to school every weekday.'",
+      "path": "assets/group-two-audio/p06/story-3.mp3",
+      "audio_sha256": "4f8733c05628cee07d3f1ac3a97b5a7d17f573495270db05eb569889e2a786f7",
+      "duration_ms": 3720,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          335
+        ],
+        [
+          1,
+          349,
+          865
+        ],
+        [
+          2,
+          1028,
+          1123
+        ],
+        [
+          3,
+          1137,
+          1273
+        ],
+        [
+          4,
+          1286,
+          1395
+        ],
+        [
+          5,
+          1409,
+          1857
+        ],
+        [
+          6,
+          1871,
+          2115
+        ],
+        [
+          7,
+          2129,
+          2781
+        ]
+      ]
+    },
+    "p06/dialogue-1": {
+      "text": "How do you go to school?",
+      "path": "assets/group-two-audio/p06/dialogue-1.mp3",
+      "audio_sha256": "56bff2b89765e69e924305765bc843b03678faad14d084256fd0435a93e4bde1",
+      "duration_ms": 2352,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          295
+        ],
+        [
+          1,
+          308,
+          403
+        ],
+        [
+          2,
+          417,
+          526
+        ],
+        [
+          3,
+          539,
+          675
+        ],
+        [
+          4,
+          689,
+          797
+        ],
+        [
+          5,
+          811,
+          1395
+        ]
+      ]
+    },
+    "p06/dialogue-2": {
+      "text": "I go to school by bus.",
+      "path": "assets/group-two-audio/p06/dialogue-2.mp3",
+      "audio_sha256": "7560be5bccab8c2824c998fd5db8c6166037f1618427fab56e3e5019d5912006",
+      "duration_ms": 2520,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          403
+        ],
+        [
+          2,
+          417,
+          512
+        ],
+        [
+          3,
+          526,
+          838
+        ],
+        [
+          4,
+          852,
+          1001
+        ],
+        [
+          5,
+          1015,
+          1572
+        ]
+      ]
+    },
+    "p07/intro": {
+      "text": "Usually describes something that happens most of the time, but not always.",
+      "path": "assets/group-two-audio/p07/intro.mp3",
+      "audio_sha256": "ea4c0d0977b837eb92b06edd4bbc5357085968578bce185a29ab6cf391a2f8bf",
+      "duration_ms": 5448,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          621
+        ],
+        [
+          1,
+          634,
+          1164
+        ],
+        [
+          2,
+          1178,
+          1545
+        ],
+        [
+          3,
+          1558,
+          1708
+        ],
+        [
+          4,
+          1721,
+          2197
+        ],
+        [
+          5,
+          2210,
+          2550
+        ],
+        [
+          6,
+          2564,
+          2618
+        ],
+        [
+          7,
+          2632,
+          2727
+        ],
+        [
+          8,
+          2740,
+          3229
+        ],
+        [
+          9,
+          3406,
+          3569
+        ],
+        [
+          10,
+          3583,
+          3800
+        ],
+        [
+          11,
+          3814,
+          4493
+        ]
+      ]
+    },
+    "p07/scene-2": {
+      "text": "I usually walk to school.",
+      "path": "assets/group-two-audio/p07/scene-2.mp3",
+      "audio_sha256": "f73cb0210d2bff40e3a26f28092bd1a7ecb6e69405d65e0b7bc9bdfbbbcb209c",
+      "duration_ms": 2688,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          213
+        ],
+        [
+          1,
+          227,
+          743
+        ],
+        [
+          2,
+          757,
+          1028
+        ],
+        [
+          3,
+          1042,
+          1137
+        ],
+        [
+          4,
+          1151,
+          1748
+        ]
+      ]
+    },
+    "p07/scene-3": {
+      "text": "I usually eat rice for lunch.",
+      "path": "assets/group-two-audio/p07/scene-3.mp3",
+      "audio_sha256": "ea5865e24ac5fbcc855d25144026e77922cc3b225c0cd6f60348e2219ae921d9",
+      "duration_ms": 2952,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          213
+        ],
+        [
+          1,
+          227,
+          756
+        ],
+        [
+          2,
+          770,
+          960
+        ],
+        [
+          3,
+          974,
+          1246
+        ],
+        [
+          4,
+          1259,
+          1422
+        ],
+        [
+          5,
+          1436,
+          2007
+        ]
+      ]
+    },
+    "p07/scene-4": {
+      "text": "I usually read before bed.",
+      "path": "assets/group-two-audio/p07/scene-4.mp3",
+      "audio_sha256": "d8c4f26e7ebbf15cb8c08014cebc09eb729c26e57d908dfb39081ba3f389c870",
+      "duration_ms": 2784,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          213
+        ],
+        [
+          1,
+          227,
+          729
+        ],
+        [
+          2,
+          743,
+          987
+        ],
+        [
+          3,
+          1001,
+          1381
+        ],
+        [
+          4,
+          1395,
+          1830
+        ]
+      ]
+    },
+    "p07/story-1": {
+      "text": "Omar has a simple routine.",
+      "path": "assets/group-two-audio/p07/story-1.mp3",
+      "audio_sha256": "c1e19ce77002e72eeb22d232936f24a5adfcb25fea0f786c3bc64f8ea36de23e",
+      "duration_ms": 2760,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          485
+        ],
+        [
+          1,
+          498,
+          675
+        ],
+        [
+          2,
+          689,
+          756
+        ],
+        [
+          3,
+          770,
+          1137
+        ],
+        [
+          4,
+          1151,
+          1816
+        ]
+      ]
+    },
+    "p07/story-2": {
+      "text": "He usually walks to school.",
+      "path": "assets/group-two-audio/p07/story-2.mp3",
+      "audio_sha256": "056b147a14e98cc6bba4daf9d37fbf5e2b04af15ba67f41b0eec13a50bc47b7c",
+      "duration_ms": 2808,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          281
+        ],
+        [
+          1,
+          295,
+          770
+        ],
+        [
+          2,
+          784,
+          1123
+        ],
+        [
+          3,
+          1137,
+          1246
+        ],
+        [
+          4,
+          1259,
+          1871
+        ]
+      ]
+    },
+    "p07/story-3": {
+      "text": "On rainy days, he takes the bus.",
+      "path": "assets/group-two-audio/p07/story-3.mp3",
+      "audio_sha256": "c50889351b87e598848613be45000bf45d23bea67dcbd85df62d44cda7c856cb",
+      "duration_ms": 3384,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          295
+        ],
+        [
+          1,
+          308,
+          607
+        ],
+        [
+          2,
+          621,
+          1123
+        ],
+        [
+          3,
+          1286,
+          1395
+        ],
+        [
+          4,
+          1409,
+          1735
+        ],
+        [
+          5,
+          1748,
+          1844
+        ],
+        [
+          6,
+          1857,
+          2428
+        ]
+      ]
+    },
+    "p07/dialogue-1": {
+      "text": "Do you usually walk to school?",
+      "path": "assets/group-two-audio/p07/dialogue-1.mp3",
+      "audio_sha256": "6e63b4786d7c142d72d43d6134bfc0d477e2d72c8475de759549d29d4658fbd5",
+      "duration_ms": 2688,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          227
+        ],
+        [
+          1,
+          240,
+          349
+        ],
+        [
+          2,
+          362,
+          811
+        ],
+        [
+          3,
+          824,
+          1083
+        ],
+        [
+          4,
+          1096,
+          1191
+        ],
+        [
+          5,
+          1205,
+          1748
+        ]
+      ]
+    },
+    "p07/dialogue-2": {
+      "text": "Yes, I usually walk.",
+      "path": "assets/group-two-audio/p07/dialogue-2.mp3",
+      "audio_sha256": "256411f74cc4513952c5c63225cc31e74d16129942d8e8ff27ac98f8d342aab0",
+      "duration_ms": 2880,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          621
+        ],
+        [
+          1,
+          784,
+          852
+        ],
+        [
+          2,
+          865,
+          1381
+        ],
+        [
+          3,
+          1395,
+          1925
+        ]
+      ]
+    },
+    "p08/intro": {
+      "text": "Always means every time. Put it before most main verbs.",
+      "path": "assets/group-two-audio/p08/intro.mp3",
+      "audio_sha256": "55a9c310fa5e5fd707891f563da314c92ffc19c4e8aacaba0fab0d03a088529b",
+      "duration_ms": 5448,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          526
+        ],
+        [
+          1,
+          539,
+          865
+        ],
+        [
+          2,
+          879,
+          1137
+        ],
+        [
+          3,
+          1151,
+          1735
+        ],
+        [
+          4,
+          2677,
+          2867
+        ],
+        [
+          5,
+          2880,
+          2976
+        ],
+        [
+          6,
+          2989,
+          3356
+        ],
+        [
+          7,
+          3370,
+          3696
+        ],
+        [
+          8,
+          3709,
+          3927
+        ],
+        [
+          9,
+          3940,
+          4511
+        ]
+      ]
+    },
+    "p08/scene-1": {
+      "text": "I always wash my hands before eating.",
+      "path": "assets/group-two-audio/p08/scene-1.mp3",
+      "audio_sha256": "2cb22d2af030bc10306be5cdaafa0e74d3d82818410285c3898fb38a3130f66e",
+      "duration_ms": 3312,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          295
+        ],
+        [
+          1,
+          308,
+          661
+        ],
+        [
+          2,
+          675,
+          947
+        ],
+        [
+          3,
+          960,
+          1096
+        ],
+        [
+          4,
+          1110,
+          1449
+        ],
+        [
+          5,
+          1463,
+          1830
+        ],
+        [
+          6,
+          1843,
+          2360
+        ]
+      ]
+    },
+    "p08/scene-2": {
+      "text": "I always brush my teeth at night.",
+      "path": "assets/group-two-audio/p08/scene-2.mp3",
+      "audio_sha256": "e9242dbe6a6ecc42e204fe14dc7827905aa21be766fd9b0b80dd91c7a1a5f52b",
+      "duration_ms": 3024,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          295
+        ],
+        [
+          1,
+          308,
+          648
+        ],
+        [
+          2,
+          661,
+          974
+        ],
+        [
+          3,
+          988,
+          1110
+        ],
+        [
+          4,
+          1123,
+          1449
+        ],
+        [
+          5,
+          1463,
+          1585
+        ],
+        [
+          6,
+          1599,
+          2074
+        ]
+      ]
+    },
+    "p08/scene-3": {
+      "text": "I always carry my keys.",
+      "path": "assets/group-two-audio/p08/scene-3.mp3",
+      "audio_sha256": "34379426e77e7dd835a2a9c503cff0fe82752bde91545fecb909cddd221e9750",
+      "duration_ms": 2808,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          281
+        ],
+        [
+          1,
+          295,
+          675
+        ],
+        [
+          2,
+          689,
+          987
+        ],
+        [
+          3,
+          1001,
+          1191
+        ],
+        [
+          4,
+          1205,
+          1871
+        ]
+      ]
+    },
+    "p08/scene-4": {
+      "text": "I always say good morning.",
+      "path": "assets/group-two-audio/p08/scene-4.mp3",
+      "audio_sha256": "ca7a23761084db4974a89dbeef6f3bf62fa64bcf47c722846d5de836f9660852",
+      "duration_ms": 2544,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          295
+        ],
+        [
+          1,
+          308,
+          648
+        ],
+        [
+          2,
+          661,
+          824
+        ],
+        [
+          3,
+          838,
+          1028
+        ],
+        [
+          4,
+          1042,
+          1585
+        ]
+      ]
+    },
+    "p08/story-1": {
+      "text": "Lina always checks her bag.",
+      "path": "assets/group-two-audio/p08/story-1.mp3",
+      "audio_sha256": "296169e186043003c8c69c641e105472d7895df5199a7ce35cfed3f4b6fe3e61",
+      "duration_ms": 2808,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          512
+        ],
+        [
+          1,
+          526,
+          920
+        ],
+        [
+          2,
+          933,
+          1232
+        ],
+        [
+          3,
+          1246,
+          1368
+        ],
+        [
+          4,
+          1382,
+          1857
+        ]
+      ]
+    },
+    "p08/story-2": {
+      "text": "She always carries her notebook.",
+      "path": "assets/group-two-audio/p08/story-2.mp3",
+      "audio_sha256": "b7aea28ec4358dc48cb62cebd24c779a103aaa71049e65d56306d8737ac71016",
+      "duration_ms": 2880,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          349
+        ],
+        [
+          1,
+          362,
+          729
+        ],
+        [
+          2,
+          743,
+          1137
+        ],
+        [
+          3,
+          1151,
+          1273
+        ],
+        [
+          4,
+          1286,
+          1939
+        ]
+      ]
+    },
+    "p08/story-3": {
+      "text": "Then she leaves for school.",
+      "path": "assets/group-two-audio/p08/story-3.mp3",
+      "audio_sha256": "3283cf4eea9c89add9ff5a10c3d70e997316276be1ef51e3c0626b26f09d27d9",
+      "duration_ms": 2544,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          349
+        ],
+        [
+          1,
+          362,
+          526
+        ],
+        [
+          2,
+          539,
+          824
+        ],
+        [
+          3,
+          838,
+          1001
+        ],
+        [
+          4,
+          1015,
+          1599
+        ]
+      ]
+    },
+    "p08/dialogue-1": {
+      "text": "Do you always bring your notebook?",
+      "path": "assets/group-two-audio/p08/dialogue-1.mp3",
+      "audio_sha256": "2eb779ac84986e8257f347698d2df10f528ffe845d5644df2bb785ffc47181e5",
+      "duration_ms": 2664,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          227
+        ],
+        [
+          1,
+          240,
+          376
+        ],
+        [
+          2,
+          390,
+          756
+        ],
+        [
+          3,
+          770,
+          960
+        ],
+        [
+          4,
+          974,
+          1096
+        ],
+        [
+          5,
+          1110,
+          1721
+        ]
+      ]
+    },
+    "p08/dialogue-2": {
+      "text": "Yes, I always bring it.",
+      "path": "assets/group-two-audio/p08/dialogue-2.mp3",
+      "audio_sha256": "8c39d512af6cceee79adeab9e6d18448b07227800b90ecc7f6f789c925dfb999",
+      "duration_ms": 2856,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          621
+        ],
+        [
+          1,
+          784,
+          906
+        ],
+        [
+          2,
+          920,
+          1286
+        ],
+        [
+          3,
+          1300,
+          1572
+        ],
+        [
+          4,
+          1585,
+          1898
+        ]
+      ]
+    },
+    "p09/intro": {
+      "text": "Often means many times, though not every time.",
+      "path": "assets/group-two-audio/p09/intro.mp3",
+      "audio_sha256": "f0d308d60c8e1833f05ab8751eec0134a569380156dd0150487e946184b0cf5b",
+      "duration_ms": 3984,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          485
+        ],
+        [
+          1,
+          498,
+          770
+        ],
+        [
+          2,
+          784,
+          1069
+        ],
+        [
+          3,
+          1083,
+          1694
+        ],
+        [
+          4,
+          1830,
+          1925
+        ],
+        [
+          5,
+          1939,
+          2197
+        ],
+        [
+          6,
+          2210,
+          2441
+        ],
+        [
+          7,
+          2455,
+          3026
+        ]
+      ]
+    },
+    "p09/scene-1": {
+      "text": "I often visit my grandparents.",
+      "path": "assets/group-two-audio/p09/scene-1.mp3",
+      "audio_sha256": "69585d34c58a1b3cf2e01c61cdf048d1928bde128748c130efe463b68ea8354a",
+      "duration_ms": 3000,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          308
+        ],
+        [
+          1,
+          322,
+          661
+        ],
+        [
+          2,
+          675,
+          960
+        ],
+        [
+          3,
+          974,
+          1110
+        ],
+        [
+          4,
+          1123,
+          2047
+        ]
+      ]
+    },
+    "p09/scene-2": {
+      "text": "I often play football after school.",
+      "path": "assets/group-two-audio/p09/scene-2.mp3",
+      "audio_sha256": "ee87ac3d957de592493ad6ee42cd9efd4614c32423e2a09878a0309d04beb43a",
+      "duration_ms": 3192,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          295
+        ],
+        [
+          1,
+          308,
+          621
+        ],
+        [
+          2,
+          634,
+          852
+        ],
+        [
+          3,
+          865,
+          1341
+        ],
+        [
+          4,
+          1354,
+          1653
+        ],
+        [
+          5,
+          1667,
+          2237
+        ]
+      ]
+    },
+    "p09/scene-3": {
+      "text": "I often go to the library.",
+      "path": "assets/group-two-audio/p09/scene-3.mp3",
+      "audio_sha256": "b30cc8652ca2332993eadf8eb181a8da5bf5669d979743b429eba482e13652eb",
+      "duration_ms": 2712,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          295
+        ],
+        [
+          1,
+          308,
+          634
+        ],
+        [
+          2,
+          648,
+          797
+        ],
+        [
+          3,
+          811,
+          920
+        ],
+        [
+          4,
+          933,
+          1042
+        ],
+        [
+          5,
+          1055,
+          1762
+        ]
+      ]
+    },
+    "p09/scene-4": {
+      "text": "I often help my mother.",
+      "path": "assets/group-two-audio/p09/scene-4.mp3",
+      "audio_sha256": "b11e632f53fa248f86275e7f0512c920ef7c6f1c15ca66b5ea0a7d3899744c32",
+      "duration_ms": 2496,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          308
+        ],
+        [
+          1,
+          322,
+          648
+        ],
+        [
+          2,
+          661,
+          865
+        ],
+        [
+          3,
+          879,
+          1015
+        ],
+        [
+          4,
+          1028,
+          1558
+        ]
+      ]
+    },
+    "p09/story-1": {
+      "text": "Nour likes spending time outside.",
+      "path": "assets/group-two-audio/p09/story-1.mp3",
+      "audio_sha256": "f0c37b8db6c603ae424d13a6aa08655742e971b94198a99b1f289b67458b443e",
+      "duration_ms": 2976,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          403
+        ],
+        [
+          1,
+          417,
+          689
+        ],
+        [
+          2,
+          702,
+          1096
+        ],
+        [
+          3,
+          1110,
+          1354
+        ],
+        [
+          4,
+          1368,
+          2034
+        ]
+      ]
+    },
+    "p09/story-2": {
+      "text": "She often plays with her friends.",
+      "path": "assets/group-two-audio/p09/story-2.mp3",
+      "audio_sha256": "b441674083f35e56c279c5a366db63b355222502e4387f5f11ed4aa7945cdc47",
+      "duration_ms": 3024,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          349
+        ],
+        [
+          1,
+          362,
+          702
+        ],
+        [
+          2,
+          716,
+          1096
+        ],
+        [
+          3,
+          1110,
+          1232
+        ],
+        [
+          4,
+          1246,
+          1382
+        ],
+        [
+          5,
+          1395,
+          2074
+        ]
+      ]
+    },
+    "p09/story-3": {
+      "text": "After playing, she helps at home.",
+      "path": "assets/group-two-audio/p09/story-3.mp3",
+      "audio_sha256": "11e6c75b83299f1d6c017696fc9b05af8e836b8b90c3584c50cc11d039e73227",
+      "duration_ms": 3192,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          458
+        ],
+        [
+          1,
+          471,
+          1001
+        ],
+        [
+          2,
+          1151,
+          1327
+        ],
+        [
+          3,
+          1341,
+          1612
+        ],
+        [
+          4,
+          1626,
+          1735
+        ],
+        [
+          5,
+          1748,
+          2251
+        ]
+      ]
+    },
+    "p09/dialogue-1": {
+      "text": "Do you often visit the library?",
+      "path": "assets/group-two-audio/p09/dialogue-1.mp3",
+      "audio_sha256": "4b0a0c7cf31f2f39a7b0fc8f515cc802c2460fd8ce57979af61854bed25d029c",
+      "duration_ms": 2712,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          227
+        ],
+        [
+          1,
+          240,
+          390
+        ],
+        [
+          2,
+          403,
+          716
+        ],
+        [
+          3,
+          729,
+          1001
+        ],
+        [
+          4,
+          1015,
+          1110
+        ],
+        [
+          5,
+          1123,
+          1776
+        ]
+      ]
+    },
+    "p09/dialogue-2": {
+      "text": "Yes, I often visit it on Thursdays.",
+      "path": "assets/group-two-audio/p09/dialogue-2.mp3",
+      "audio_sha256": "48ad3053e7becde16ec9e4071c50197b719fb36b83787b2b296a9e25e70962f1",
+      "duration_ms": 3672,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          621
+        ],
+        [
+          1,
+          811,
+          947
+        ],
+        [
+          2,
+          960,
+          1314
+        ],
+        [
+          3,
+          1327,
+          1626
+        ],
+        [
+          4,
+          1640,
+          1735
+        ],
+        [
+          5,
+          1748,
+          1898
+        ],
+        [
+          6,
+          1911,
+          2727
+        ]
+      ]
+    },
+    "p10/intro": {
+      "text": "Sometimes describes an action that happens now and then.",
+      "path": "assets/group-two-audio/p10/intro.mp3",
+      "audio_sha256": "0973d1d811affd468bbb9d0c99b4a8081974dc477e411aaf5dfed9a141089a08",
+      "duration_ms": 4176,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          716
+        ],
+        [
+          1,
+          729,
+          1205
+        ],
+        [
+          2,
+          1218,
+          1327
+        ],
+        [
+          3,
+          1341,
+          1762
+        ],
+        [
+          4,
+          1776,
+          1911
+        ],
+        [
+          5,
+          1925,
+          2360
+        ],
+        [
+          6,
+          2373,
+          2672
+        ],
+        [
+          7,
+          2686,
+          2795
+        ],
+        [
+          8,
+          2808,
+          3216
+        ]
+      ]
+    },
+    "p10/scene-1": {
+      "text": "I sometimes watch TV after dinner.",
+      "path": "assets/group-two-audio/p10/scene-1.mp3",
+      "audio_sha256": "d89710fb889d0a16efe26264dc3000a581a9caf19e76116b697aed52c489d26e",
+      "duration_ms": 3264,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          240
+        ],
+        [
+          1,
+          254,
+          770
+        ],
+        [
+          2,
+          784,
+          1137
+        ],
+        [
+          3,
+          1151,
+          1517
+        ],
+        [
+          4,
+          1531,
+          1843
+        ],
+        [
+          5,
+          1857,
+          2305
+        ]
+      ]
+    },
+    "p10/scene-2": {
+      "text": "I sometimes walk to work.",
+      "path": "assets/group-two-audio/p10/scene-2.mp3",
+      "audio_sha256": "aa981253d652b35aba61dc00e7311e5fceb72201c1debfc3bf7fa5eebd4fb941",
+      "duration_ms": 2592,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          240
+        ],
+        [
+          1,
+          254,
+          756
+        ],
+        [
+          2,
+          770,
+          1015
+        ],
+        [
+          3,
+          1028,
+          1137
+        ],
+        [
+          4,
+          1151,
+          1640
+        ]
+      ]
+    },
+    "p10/scene-3": {
+      "text": "I sometimes eat fruit for breakfast.",
+      "path": "assets/group-two-audio/p10/scene-3.mp3",
+      "audio_sha256": "f84b40e82b809c949af582ccac7738281ca136d2b8135fa426fc25ad1fde3dda",
+      "duration_ms": 3192,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          240
+        ],
+        [
+          1,
+          254,
+          770
+        ],
+        [
+          2,
+          784,
+          947
+        ],
+        [
+          3,
+          960,
+          1246
+        ],
+        [
+          4,
+          1259,
+          1422
+        ],
+        [
+          5,
+          1436,
+          2238
+        ]
+      ]
+    },
+    "p10/scene-4": {
+      "text": "I sometimes study with my friends.",
+      "path": "assets/group-two-audio/p10/scene-4.mp3",
+      "audio_sha256": "ff818aa5b715033b1b37b52f1907640e36f5b0f3201edd3759768377e3a67150",
+      "duration_ms": 3048,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          240
+        ],
+        [
+          1,
+          254,
+          743
+        ],
+        [
+          2,
+          757,
+          1083
+        ],
+        [
+          3,
+          1096,
+          1259
+        ],
+        [
+          4,
+          1273,
+          1422
+        ],
+        [
+          5,
+          1436,
+          2088
+        ]
+      ]
+    },
+    "p10/story-1": {
+      "text": "Ali usually studies alone.",
+      "path": "assets/group-two-audio/p10/story-1.mp3",
+      "audio_sha256": "1f00d3ab46691d27b55a1ef12c135f9fa3a3464946f19e40fcd7c3fb6f92c111",
+      "duration_ms": 2856,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          430
+        ],
+        [
+          1,
+          444,
+          906
+        ],
+        [
+          2,
+          920,
+          1341
+        ],
+        [
+          3,
+          1354,
+          1911
+        ]
+      ]
+    },
+    "p10/story-2": {
+      "text": "Sometimes, his friends join him.",
+      "path": "assets/group-two-audio/p10/story-2.mp3",
+      "audio_sha256": "536c820c74e279ca086e837cd3b0ca678cac98b90b82fb1077519a41622a74c6",
+      "duration_ms": 3192,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          906
+        ],
+        [
+          1,
+          1069,
+          1259
+        ],
+        [
+          2,
+          1273,
+          1612
+        ],
+        [
+          3,
+          1626,
+          1898
+        ],
+        [
+          4,
+          1911,
+          2251
+        ]
+      ]
+    },
+    "p10/story-3": {
+      "text": "They learn new words together.",
+      "path": "assets/group-two-audio/p10/story-3.mp3",
+      "audio_sha256": "4b40dfd0035583b73947589ba3301cebd1475945f4c65fb881e95408068b992e",
+      "duration_ms": 2688,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          281
+        ],
+        [
+          1,
+          295,
+          566
+        ],
+        [
+          2,
+          580,
+          743
+        ],
+        [
+          3,
+          757,
+          1096
+        ],
+        [
+          4,
+          1110,
+          1748
+        ]
+      ]
+    },
+    "p10/dialogue-1": {
+      "text": "Do you always study alone?",
+      "path": "assets/group-two-audio/p10/dialogue-1.mp3",
+      "audio_sha256": "1776d46142c79f974725c4123443db8521fbd312e53c92e215feeb53af6ac659",
+      "duration_ms": 2520,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          227
+        ],
+        [
+          1,
+          240,
+          376
+        ],
+        [
+          2,
+          390,
+          756
+        ],
+        [
+          3,
+          770,
+          1069
+        ],
+        [
+          4,
+          1083,
+          1572
+        ]
+      ]
+    },
+    "p10/dialogue-2": {
+      "text": "No, I sometimes study with friends.",
+      "path": "assets/group-two-audio/p10/dialogue-2.mp3",
+      "audio_sha256": "e60b5cf16b50eeb76b9573813da314c9e31ddcc5d96d5b34db178f83e9a6bd79",
+      "duration_ms": 3432,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          580
+        ],
+        [
+          1,
+          702,
+          811
+        ],
+        [
+          2,
+          824,
+          1314
+        ],
+        [
+          3,
+          1327,
+          1653
+        ],
+        [
+          4,
+          1667,
+          1816
+        ],
+        [
+          5,
+          1830,
+          2496
+        ]
+      ]
+    },
+    "p11/intro": {
+      "text": "Never already makes the sentence negative. Do not add don't before never.",
+      "path": "assets/group-two-audio/p11/intro.mp3",
+      "audio_sha256": "dd6b2a27368b75cdb14296178e11ae0400282b4893641d84697d88da2f8845f5",
+      "duration_ms": 6024,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          485
+        ],
+        [
+          1,
+          498,
+          879
+        ],
+        [
+          2,
+          892,
+          1178
+        ],
+        [
+          3,
+          1191,
+          1286
+        ],
+        [
+          4,
+          1300,
+          1776
+        ],
+        [
+          5,
+          1789,
+          2428
+        ],
+        [
+          6,
+          3370,
+          3519
+        ],
+        [
+          7,
+          3533,
+          3777
+        ],
+        [
+          8,
+          3791,
+          3981
+        ],
+        [
+          9,
+          3995,
+          4226
+        ],
+        [
+          10,
+          4239,
+          4565
+        ],
+        [
+          11,
+          4579,
+          5081
+        ]
+      ]
+    },
+    "p11/scene-1": {
+      "text": "I never skip breakfast.",
+      "path": "assets/group-two-audio/p11/scene-1.mp3",
+      "audio_sha256": "80f5ebe9167a55388ab7a264db912aa15f9fe12696647daad625f04e540d82fa",
+      "duration_ms": 2568,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          213
+        ],
+        [
+          1,
+          227,
+          553
+        ],
+        [
+          2,
+          566,
+          824
+        ],
+        [
+          3,
+          838,
+          1626
+        ]
+      ]
+    },
+    "p11/scene-2": {
+      "text": "I never forget my school bag.",
+      "path": "assets/group-two-audio/p11/scene-2.mp3",
+      "audio_sha256": "457f59d9b1d4a3eb904bb8ec9d25ffe0a1131fa15f51e37ab82a89fb11dc813a",
+      "duration_ms": 2784,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          213
+        ],
+        [
+          1,
+          227,
+          553
+        ],
+        [
+          2,
+          566,
+          906
+        ],
+        [
+          3,
+          920,
+          1055
+        ],
+        [
+          4,
+          1069,
+          1382
+        ],
+        [
+          5,
+          1395,
+          1844
+        ]
+      ]
+    },
+    "p11/scene-3": {
+      "text": "I never drink coffee at night.",
+      "path": "assets/group-two-audio/p11/scene-3.mp3",
+      "audio_sha256": "c36ca7fa7a260fa764f9b15280788b8db1e92d9a0e592b810acc69d3572c63ae",
+      "duration_ms": 2832,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          213
+        ],
+        [
+          1,
+          227,
+          553
+        ],
+        [
+          2,
+          566,
+          824
+        ],
+        [
+          3,
+          838,
+          1259
+        ],
+        [
+          4,
+          1273,
+          1395
+        ],
+        [
+          5,
+          1409,
+          1884
+        ]
+      ]
+    },
+    "p11/scene-4": {
+      "text": "I never go to bed very late.",
+      "path": "assets/group-two-audio/p11/scene-4.mp3",
+      "audio_sha256": "91bcb42f8304e0653b75d6df11cd89b0de73b0197799dbee7ef3c7487e4f95c9",
+      "duration_ms": 2880,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          213
+        ],
+        [
+          1,
+          227,
+          553
+        ],
+        [
+          2,
+          566,
+          729
+        ],
+        [
+          3,
+          743,
+          865
+        ],
+        [
+          4,
+          879,
+          1110
+        ],
+        [
+          5,
+          1123,
+          1409
+        ],
+        [
+          6,
+          1422,
+          1925
+        ]
+      ]
+    },
+    "p11/story-1": {
+      "text": "Sara plans her school day.",
+      "path": "assets/group-two-audio/p11/story-1.mp3",
+      "audio_sha256": "7596dc5d0135d87a0860eeaa4deafe99597c39c3bf7eca832252719f1baf2ef5",
+      "duration_ms": 2760,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          512
+        ],
+        [
+          1,
+          526,
+          892
+        ],
+        [
+          2,
+          906,
+          1042
+        ],
+        [
+          3,
+          1055,
+          1368
+        ],
+        [
+          4,
+          1382,
+          1816
+        ]
+      ]
+    },
+    "p11/story-2": {
+      "text": "She never forgets her lunch box.",
+      "path": "assets/group-two-audio/p11/story-2.mp3",
+      "audio_sha256": "153a68459bc5daec31906661bb30357c68ceff250ba2c3843eaacb4bdad407ff",
+      "duration_ms": 3024,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          308
+        ],
+        [
+          1,
+          322,
+          621
+        ],
+        [
+          2,
+          634,
+          1015
+        ],
+        [
+          3,
+          1028,
+          1164
+        ],
+        [
+          4,
+          1178,
+          1463
+        ],
+        [
+          5,
+          1477,
+          2074
+        ]
+      ]
+    },
+    "p11/story-3": {
+      "text": "She checks her bag before leaving.",
+      "path": "assets/group-two-audio/p11/story-3.mp3",
+      "audio_sha256": "a9ea7a821a459de3d75f3bf24a72ea201e576e514b6e31769c3aaf1e0a8a9c11",
+      "duration_ms": 3000,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          322
+        ],
+        [
+          1,
+          335,
+          648
+        ],
+        [
+          2,
+          661,
+          784
+        ],
+        [
+          3,
+          797,
+          1137
+        ],
+        [
+          4,
+          1151,
+          1504
+        ],
+        [
+          5,
+          1517,
+          2061
+        ]
+      ]
+    },
+    "p11/dialogue-1": {
+      "text": "Do you ever skip breakfast?",
+      "path": "assets/group-two-audio/p11/dialogue-1.mp3",
+      "audio_sha256": "a8cd96f34e5a82340569d05067fb22721c830be2eaa3ce8b82f8f611e72f79a0",
+      "duration_ms": 2568,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          227
+        ],
+        [
+          1,
+          240,
+          349
+        ],
+        [
+          2,
+          362,
+          607
+        ],
+        [
+          3,
+          621,
+          879
+        ],
+        [
+          4,
+          892,
+          1626
+        ]
+      ]
+    },
+    "p11/dialogue-2": {
+      "text": "No, I never skip breakfast.",
+      "path": "assets/group-two-audio/p11/dialogue-2.mp3",
+      "audio_sha256": "b24ecd519ae81c2cc768e6ef062a10d351c61b9ad8903b808df8d596151fd187",
+      "duration_ms": 3144,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          566
+        ],
+        [
+          1,
+          702,
+          784
+        ],
+        [
+          2,
+          797,
+          1123
+        ],
+        [
+          3,
+          1137,
+          1395
+        ],
+        [
+          4,
+          1409,
+          2197
+        ]
+      ]
+    },
+    "p12/intro": {
+      "text": "Use eat with food, and drink with water, milk, or other beverages.",
+      "path": "assets/group-two-audio/p12/intro.mp3",
+      "audio_sha256": "2082f336121bc0b8ed2206997503a12c661100633a18267202fda5c597c7e10f",
+      "duration_ms": 5520,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          417
+        ],
+        [
+          1,
+          430,
+          566
+        ],
+        [
+          2,
+          580,
+          729
+        ],
+        [
+          3,
+          743,
+          1218
+        ],
+        [
+          4,
+          1422,
+          1558
+        ],
+        [
+          5,
+          1572,
+          1844
+        ],
+        [
+          6,
+          1857,
+          2007
+        ],
+        [
+          7,
+          2020,
+          2509
+        ],
+        [
+          8,
+          2754,
+          3161
+        ],
+        [
+          9,
+          3338,
+          3487
+        ],
+        [
+          10,
+          3501,
+          3718
+        ],
+        [
+          11,
+          3732,
+          4561
+        ]
+      ]
+    },
+    "p12/scene-1": {
+      "text": "I eat lunch at one.",
+      "path": "assets/group-two-audio/p12/scene-1.mp3",
+      "audio_sha256": "848a5fa55d875247506ea0e5ecaea26e7c54038a873019e928c3025b688d57a3",
+      "duration_ms": 2328,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          281
+        ],
+        [
+          1,
+          295,
+          498
+        ],
+        [
+          2,
+          512,
+          811
+        ],
+        [
+          3,
+          824,
+          947
+        ],
+        [
+          4,
+          960,
+          1382
+        ]
+      ]
+    },
+    "p12/scene-2": {
+      "text": "I eat an apple after school.",
+      "path": "assets/group-two-audio/p12/scene-2.mp3",
+      "audio_sha256": "33b2d46bb5d43692de6f8f29af7602000f7745bc09430c83b98dff9c96fd780d",
+      "duration_ms": 2808,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          281
+        ],
+        [
+          1,
+          295,
+          458
+        ],
+        [
+          2,
+          471,
+          607
+        ],
+        [
+          3,
+          621,
+          974
+        ],
+        [
+          4,
+          988,
+          1300
+        ],
+        [
+          5,
+          1314,
+          1871
+        ]
+      ]
+    },
+    "p12/scene-3": {
+      "text": "I eat vegetables every day.",
+      "path": "assets/group-two-audio/p12/scene-3.mp3",
+      "audio_sha256": "85a7344fd96c23e18fbdd2893f7e5ef91ff744ef85edc5be6e4e8c17652e6ed2",
+      "duration_ms": 2880,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          295
+        ],
+        [
+          1,
+          308,
+          512
+        ],
+        [
+          2,
+          526,
+          1178
+        ],
+        [
+          3,
+          1191,
+          1449
+        ],
+        [
+          4,
+          1463,
+          1925
+        ]
+      ]
+    },
+    "p12/scene-4": {
+      "text": "I eat dinner with my family.",
+      "path": "assets/group-two-audio/p12/scene-4.mp3",
+      "audio_sha256": "24bcdb78accc9cf95d8a9d606f441bfbe6116d2271c3a0286d0b9b0d6edde67f",
+      "duration_ms": 2760,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          281
+        ],
+        [
+          1,
+          295,
+          498
+        ],
+        [
+          2,
+          512,
+          811
+        ],
+        [
+          3,
+          824,
+          974
+        ],
+        [
+          4,
+          988,
+          1137
+        ],
+        [
+          5,
+          1151,
+          1816
+        ]
+      ]
+    },
+    "p12/story-1": {
+      "text": "Omar comes home after school.",
+      "path": "assets/group-two-audio/p12/story-1.mp3",
+      "audio_sha256": "976b91595da17fde546b53a5435db75e4f43089ce4ff2c13707a31d6489829f4",
+      "duration_ms": 2784,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          498
+        ],
+        [
+          1,
+          512,
+          784
+        ],
+        [
+          2,
+          797,
+          974
+        ],
+        [
+          3,
+          988,
+          1273
+        ],
+        [
+          4,
+          1286,
+          1843
+        ]
+      ]
+    },
+    "p12/story-2": {
+      "text": "He eats lunch with his family.",
+      "path": "assets/group-two-audio/p12/story-2.mp3",
+      "audio_sha256": "0f7cb8b0e89f1808a55148e46881f001b2eb4aa39a5d995dde2d4f0584477d24",
+      "duration_ms": 2808,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          322
+        ],
+        [
+          1,
+          335,
+          607
+        ],
+        [
+          2,
+          621,
+          892
+        ],
+        [
+          3,
+          906,
+          1042
+        ],
+        [
+          4,
+          1055,
+          1218
+        ],
+        [
+          5,
+          1232,
+          1857
+        ]
+      ]
+    },
+    "p12/story-3": {
+      "text": "Then he rests for a short time.",
+      "path": "assets/group-two-audio/p12/story-3.mp3",
+      "audio_sha256": "68a15d24d96549b0d43e9e685ae6ff82ea4953302e204f4f241bdcc6055abadf",
+      "duration_ms": 2904,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          322
+        ],
+        [
+          1,
+          335,
+          458
+        ],
+        [
+          2,
+          471,
+          906
+        ],
+        [
+          3,
+          920,
+          1069
+        ],
+        [
+          4,
+          1083,
+          1123
+        ],
+        [
+          5,
+          1137,
+          1449
+        ],
+        [
+          6,
+          1463,
+          1966
+        ]
+      ]
+    },
+    "p12/dialogue-1": {
+      "text": "What do you eat for lunch?",
+      "path": "assets/group-two-audio/p12/dialogue-1.mp3",
+      "audio_sha256": "f7804392727340e6a08a460738d4d95659d2e3a7bd222640bb74bd51d1c32aca",
+      "duration_ms": 2496,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          335
+        ],
+        [
+          1,
+          349,
+          430
+        ],
+        [
+          2,
+          444,
+          593
+        ],
+        [
+          3,
+          607,
+          784
+        ],
+        [
+          4,
+          797,
+          974
+        ],
+        [
+          5,
+          988,
+          1545
+        ]
+      ]
+    },
+    "p12/dialogue-2": {
+      "text": "I eat rice and vegetables.",
+      "path": "assets/group-two-audio/p12/dialogue-2.mp3",
+      "audio_sha256": "860e696cf3afa693e7552c438860c8fe43c8d36df27feb6a709717b2c1e998dd",
+      "duration_ms": 2784,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          295
+        ],
+        [
+          1,
+          308,
+          539
+        ],
+        [
+          2,
+          553,
+          865
+        ],
+        [
+          3,
+          879,
+          987
+        ],
+        [
+          4,
+          1001,
+          1843
+        ]
+      ]
+    },
+    "p13/intro": {
+      "text": "Before I links two actions and tells what happens first.",
+      "path": "assets/group-two-audio/p13/intro.mp3",
+      "audio_sha256": "bb578491f36d792a916ebed901b9672aa08e6a41fd78374e61c5b62e211cfefb",
+      "duration_ms": 4416,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          539
+        ],
+        [
+          1,
+          553,
+          634
+        ],
+        [
+          2,
+          648,
+          974
+        ],
+        [
+          3,
+          988,
+          1205
+        ],
+        [
+          4,
+          1218,
+          1762
+        ],
+        [
+          5,
+          1776,
+          1911
+        ],
+        [
+          6,
+          1925,
+          2251
+        ],
+        [
+          7,
+          2265,
+          2401
+        ],
+        [
+          8,
+          2414,
+          2862
+        ],
+        [
+          9,
+          2876,
+          3460
+        ]
+      ]
+    },
+    "p13/scene-1": {
+      "text": "Before I leave, I check my bag.",
+      "path": "assets/group-two-audio/p13/scene-1.mp3",
+      "audio_sha256": "ef36de87310157a7a0cb23a076dfa932e81cc1fbc147272a4017e5e4e02af707",
+      "duration_ms": 3216,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          539
+        ],
+        [
+          1,
+          553,
+          634
+        ],
+        [
+          2,
+          648,
+          1083
+        ],
+        [
+          3,
+          1205,
+          1300
+        ],
+        [
+          4,
+          1314,
+          1599
+        ],
+        [
+          5,
+          1612,
+          1735
+        ],
+        [
+          6,
+          1748,
+          2265
+        ]
+      ]
+    },
+    "p13/scene-2": {
+      "text": "Before I eat, I wash my hands.",
+      "path": "assets/group-two-audio/p13/scene-2.mp3",
+      "audio_sha256": "5d7286a8dfa95c4e5139bfc4c4c82439714444be96e2d3da9acb2003ecfdf5d4",
+      "duration_ms": 3312,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          526
+        ],
+        [
+          1,
+          539,
+          648
+        ],
+        [
+          2,
+          661,
+          1028
+        ],
+        [
+          3,
+          1232,
+          1286
+        ],
+        [
+          4,
+          1300,
+          1585
+        ],
+        [
+          5,
+          1599,
+          1735
+        ],
+        [
+          6,
+          1748,
+          2373
+        ]
+      ]
+    },
+    "p13/scene-3": {
+      "text": "Before I sleep, I read a book.",
+      "path": "assets/group-two-audio/p13/scene-3.mp3",
+      "audio_sha256": "0c089e6f6b4a9e249fb8f5d5267aafcb288ac8dee07e813fc6e30067f3913793",
+      "duration_ms": 3048,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          512
+        ],
+        [
+          1,
+          526,
+          621
+        ],
+        [
+          2,
+          634,
+          1096
+        ],
+        [
+          3,
+          1246,
+          1314
+        ],
+        [
+          4,
+          1327,
+          1531
+        ],
+        [
+          5,
+          1545,
+          1612
+        ],
+        [
+          6,
+          1626,
+          2088
+        ]
+      ]
+    },
+    "p13/scene-4": {
+      "text": "Before I study, I clean my desk.",
+      "path": "assets/group-two-audio/p13/scene-4.mp3",
+      "audio_sha256": "a2f04f310888ae04558de28c5d884080a9f4982621cc5c3d3b2d1ef8d831aebe",
+      "duration_ms": 3480,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          526
+        ],
+        [
+          1,
+          539,
+          634
+        ],
+        [
+          2,
+          648,
+          1151
+        ],
+        [
+          3,
+          1314,
+          1422
+        ],
+        [
+          4,
+          1436,
+          1721
+        ],
+        [
+          5,
+          1735,
+          1884
+        ],
+        [
+          6,
+          1898,
+          2523
+        ]
+      ]
+    },
+    "p13/story-1": {
+      "text": "Maya gets ready for school.",
+      "path": "assets/group-two-audio/p13/story-1.mp3",
+      "audio_sha256": "94f1203d7a9d88eb09dca1be52b7cc425f1d3fbf3c33eae413c2f5b131202a76",
+      "duration_ms": 2712,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          458
+        ],
+        [
+          1,
+          471,
+          729
+        ],
+        [
+          2,
+          743,
+          1001
+        ],
+        [
+          3,
+          1015,
+          1191
+        ],
+        [
+          4,
+          1205,
+          1776
+        ]
+      ]
+    },
+    "p13/story-2": {
+      "text": "Before she leaves, she checks her bag.",
+      "path": "assets/group-two-audio/p13/story-2.mp3",
+      "audio_sha256": "bc028ca69dc2059f023b51b40a1692b9195b65fa70c6b01d65a7c0fde5d05729",
+      "duration_ms": 3480,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          539
+        ],
+        [
+          1,
+          553,
+          729
+        ],
+        [
+          2,
+          743,
+          1286
+        ],
+        [
+          3,
+          1395,
+          1558
+        ],
+        [
+          4,
+          1572,
+          1884
+        ],
+        [
+          5,
+          1898,
+          2020
+        ],
+        [
+          6,
+          2034,
+          2523
+        ]
+      ]
+    },
+    "p13/story-3": {
+      "text": "Then she walks to the bus stop.",
+      "path": "assets/group-two-audio/p13/story-3.mp3",
+      "audio_sha256": "c063ab6b09e1499062f553d962cf3b83120c1afff8eb63cdc62f4a3af258a715",
+      "duration_ms": 2832,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          349
+        ],
+        [
+          1,
+          362,
+          512
+        ],
+        [
+          2,
+          526,
+          865
+        ],
+        [
+          3,
+          879,
+          974
+        ],
+        [
+          4,
+          988,
+          1096
+        ],
+        [
+          5,
+          1110,
+          1354
+        ],
+        [
+          6,
+          1368,
+          1884
+        ]
+      ]
+    },
+    "p13/dialogue-1": {
+      "text": "What do you do before you eat?",
+      "path": "assets/group-two-audio/p13/dialogue-1.mp3",
+      "audio_sha256": "7bc01ae92dc1f6b954ca59bf99545cad1a373b1db7e7087cf544dfc9de42269e",
+      "duration_ms": 2760,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          335
+        ],
+        [
+          1,
+          349,
+          430
+        ],
+        [
+          2,
+          444,
+          566
+        ],
+        [
+          3,
+          580,
+          784
+        ],
+        [
+          4,
+          797,
+          1178
+        ],
+        [
+          5,
+          1191,
+          1341
+        ],
+        [
+          6,
+          1354,
+          1803
+        ]
+      ]
+    },
+    "p13/dialogue-2": {
+      "text": "Before I eat, I wash my hands.",
+      "path": "assets/group-two-audio/p13/dialogue-2.mp3",
+      "audio_sha256": "8bbf58f8b2438676f9d1aabc8463db8f36f18d4d6264b031395363a358fcf8da",
+      "duration_ms": 3312,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          526
+        ],
+        [
+          1,
+          539,
+          648
+        ],
+        [
+          2,
+          661,
+          1028
+        ],
+        [
+          3,
+          1232,
+          1286
+        ],
+        [
+          4,
+          1300,
+          1585
+        ],
+        [
+          5,
+          1599,
+          1735
+        ],
+        [
+          6,
+          1748,
+          2373
+        ]
+      ]
+    },
+    "p14/intro": {
+      "text": "After I introduces an action that happens before the main action.",
+      "path": "assets/group-two-audio/p14/intro.mp3",
+      "audio_sha256": "3654be3682bddbfe91e92817f5624ea73cb2311f0361485e760a584483df7d0c",
+      "duration_ms": 4824,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          444
+        ],
+        [
+          1,
+          458,
+          553
+        ],
+        [
+          2,
+          566,
+          1205
+        ],
+        [
+          3,
+          1218,
+          1341
+        ],
+        [
+          4,
+          1354,
+          1776
+        ],
+        [
+          5,
+          1789,
+          1952
+        ],
+        [
+          6,
+          1966,
+          2509
+        ],
+        [
+          7,
+          2523,
+          2876
+        ],
+        [
+          8,
+          2890,
+          2985
+        ],
+        [
+          9,
+          2998,
+          3243
+        ],
+        [
+          10,
+          3257,
+          3882
+        ]
+      ]
+    },
+    "p14/scene-1": {
+      "text": "After I wake up, I drink water.",
+      "path": "assets/group-two-audio/p14/scene-1.mp3",
+      "audio_sha256": "eb6909d31f136e1cf4c96b1877f96b961bc36158ad1373ac76c826927b5cffb8",
+      "duration_ms": 3192,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          444
+        ],
+        [
+          1,
+          458,
+          539
+        ],
+        [
+          2,
+          553,
+          824
+        ],
+        [
+          3,
+          838,
+          1123
+        ],
+        [
+          4,
+          1327,
+          1409
+        ],
+        [
+          5,
+          1422,
+          1721
+        ],
+        [
+          6,
+          1735,
+          2251
+        ]
+      ]
+    },
+    "p14/scene-2": {
+      "text": "After I study, I take a break.",
+      "path": "assets/group-two-audio/p14/scene-2.mp3",
+      "audio_sha256": "2035e027caf0ef17c2b2b3023918d6f8e5b1c0eced33bbff00169bfe074be611",
+      "duration_ms": 3192,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          444
+        ],
+        [
+          1,
+          458,
+          553
+        ],
+        [
+          2,
+          566,
+          1069
+        ],
+        [
+          3,
+          1259,
+          1354
+        ],
+        [
+          4,
+          1368,
+          1626
+        ],
+        [
+          5,
+          1640,
+          1708
+        ],
+        [
+          6,
+          1721,
+          2237
+        ]
+      ]
+    },
+    "p14/scene-3": {
+      "text": "After I eat lunch, I rest.",
+      "path": "assets/group-two-audio/p14/scene-3.mp3",
+      "audio_sha256": "5983b530ab3bbd0ad1e7141e6a082b22c8f82aece572cebf113942fee0296f64",
+      "duration_ms": 3048,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          471
+        ],
+        [
+          1,
+          485,
+          580
+        ],
+        [
+          2,
+          593,
+          811
+        ],
+        [
+          3,
+          824,
+          1273
+        ],
+        [
+          4,
+          1382,
+          1463
+        ],
+        [
+          5,
+          1477,
+          2102
+        ]
+      ]
+    },
+    "p14/scene-4": {
+      "text": "After I brush my teeth, I go to bed.",
+      "path": "assets/group-two-audio/p14/scene-4.mp3",
+      "audio_sha256": "97abfec4763609c7a564f980d3f6b77c4c34b0e0e5558f6711a9f3b253dc6535",
+      "duration_ms": 3504,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          444
+        ],
+        [
+          1,
+          458,
+          539
+        ],
+        [
+          2,
+          553,
+          879
+        ],
+        [
+          3,
+          892,
+          1028
+        ],
+        [
+          4,
+          1042,
+          1545
+        ],
+        [
+          5,
+          1721,
+          1816
+        ],
+        [
+          6,
+          1830,
+          1979
+        ],
+        [
+          7,
+          1993,
+          2102
+        ],
+        [
+          8,
+          2115,
+          2564
+        ]
+      ]
+    },
+    "p14/story-1": {
+      "text": "Ali finishes his homework.",
+      "path": "assets/group-two-audio/p14/story-1.mp3",
+      "audio_sha256": "54158f24b5f89ce476c79069b9668449a9c57a02772233e50e86f5bed399615e",
+      "duration_ms": 2808,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          430
+        ],
+        [
+          1,
+          444,
+          1001
+        ],
+        [
+          2,
+          1015,
+          1164
+        ],
+        [
+          3,
+          1178,
+          1857
+        ]
+      ]
+    },
+    "p14/story-2": {
+      "text": "After he studies, he takes a short break.",
+      "path": "assets/group-two-audio/p14/story-2.mp3",
+      "audio_sha256": "74b41b9056f190d37273ba3a10d8ec3979d4dbad53cec6a0b6f8c1d1d87c8dfe",
+      "duration_ms": 3696,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          430
+        ],
+        [
+          1,
+          444,
+          566
+        ],
+        [
+          2,
+          580,
+          1218
+        ],
+        [
+          3,
+          1395,
+          1504
+        ],
+        [
+          4,
+          1517,
+          1816
+        ],
+        [
+          5,
+          1830,
+          1884
+        ],
+        [
+          6,
+          1898,
+          2210
+        ],
+        [
+          7,
+          2224,
+          2740
+        ]
+      ]
+    },
+    "p14/story-3": {
+      "text": "Then he plays with his brother.",
+      "path": "assets/group-two-audio/p14/story-3.mp3",
+      "audio_sha256": "e7af14868d8d897933fc83d8a00a06b75d0688f27a398711e7304755610dc5d9",
+      "duration_ms": 2664,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          335
+        ],
+        [
+          1,
+          349,
+          458
+        ],
+        [
+          2,
+          471,
+          852
+        ],
+        [
+          3,
+          865,
+          987
+        ],
+        [
+          4,
+          1001,
+          1178
+        ],
+        [
+          5,
+          1191,
+          1721
+        ]
+      ]
+    },
+    "p14/dialogue-1": {
+      "text": "What do you do after school?",
+      "path": "assets/group-two-audio/p14/dialogue-1.mp3",
+      "audio_sha256": "2d5c29c9694ab20ec03402d26f9c5e6c8bcc698bb9c8aa0716df81b827e744be",
+      "duration_ms": 2592,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          322
+        ],
+        [
+          1,
+          335,
+          417
+        ],
+        [
+          2,
+          430,
+          539
+        ],
+        [
+          3,
+          553,
+          729
+        ],
+        [
+          4,
+          743,
+          1055
+        ],
+        [
+          5,
+          1069,
+          1653
+        ]
+      ]
+    },
+    "p14/dialogue-2": {
+      "text": "After I get home, I eat lunch.",
+      "path": "assets/group-two-audio/p14/dialogue-2.mp3",
+      "audio_sha256": "ff6bcce9932888cfd4049fe376b58a015e114986a5aff0b938f174bb5552e29a",
+      "duration_ms": 3192,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          444
+        ],
+        [
+          1,
+          458,
+          526
+        ],
+        [
+          2,
+          539,
+          702
+        ],
+        [
+          3,
+          716,
+          1123
+        ],
+        [
+          4,
+          1314,
+          1409
+        ],
+        [
+          5,
+          1422,
+          1653
+        ],
+        [
+          6,
+          1667,
+          2237
+        ]
+      ]
+    },
+    "p15/intro": {
+      "text": "Every day means each day. Everyday is an adjective, as in everyday routine.",
+      "path": "assets/group-two-audio/p15/intro.mp3",
+      "audio_sha256": "6282fb24c7fb5854466f5aa76fc3a5a2e0b5f280b065e40ba0a53c5fa10008c2",
+      "duration_ms": 6720,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          403
+        ],
+        [
+          1,
+          417,
+          648
+        ],
+        [
+          2,
+          661,
+          960
+        ],
+        [
+          3,
+          974,
+          1259
+        ],
+        [
+          4,
+          1273,
+          1708
+        ],
+        [
+          5,
+          2649,
+          3166
+        ],
+        [
+          6,
+          3179,
+          3302
+        ],
+        [
+          7,
+          3315,
+          3451
+        ],
+        [
+          8,
+          3465,
+          4171
+        ],
+        [
+          9,
+          4361,
+          4511
+        ],
+        [
+          10,
+          4524,
+          4660
+        ],
+        [
+          11,
+          4674,
+          5109
+        ],
+        [
+          12,
+          5122,
+          5774
+        ]
+      ]
+    },
+    "p15/scene-1": {
+      "text": "I practice English every day.",
+      "path": "assets/group-two-audio/p15/scene-1.mp3",
+      "audio_sha256": "c35447ac73ca57281340a49221e8e7e0352d9737260c33947022c588c8adccf3",
+      "duration_ms": 2856,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          240
+        ],
+        [
+          1,
+          254,
+          743
+        ],
+        [
+          2,
+          757,
+          1164
+        ],
+        [
+          3,
+          1178,
+          1422
+        ],
+        [
+          4,
+          1436,
+          1898
+        ]
+      ]
+    },
+    "p15/scene-2": {
+      "text": "I drink water every day.",
+      "path": "assets/group-two-audio/p15/scene-2.mp3",
+      "audio_sha256": "e17a6fe58ced012d61014d2dc6525a5895c0c285725ed3b5906ef0cfc183058d",
+      "duration_ms": 2640,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          267
+        ],
+        [
+          1,
+          281,
+          580
+        ],
+        [
+          2,
+          593,
+          987
+        ],
+        [
+          3,
+          1001,
+          1232
+        ],
+        [
+          4,
+          1246,
+          1694
+        ]
+      ]
+    },
+    "p15/scene-3": {
+      "text": "I walk for twenty minutes every day.",
+      "path": "assets/group-two-audio/p15/scene-3.mp3",
+      "audio_sha256": "3edba7e8543c7d5d8304b1de27e9d82883b9d17d5634167c3ecc07e7db2d18a2",
+      "duration_ms": 3096,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          553
+        ],
+        [
+          2,
+          566,
+          716
+        ],
+        [
+          3,
+          729,
+          1042
+        ],
+        [
+          4,
+          1055,
+          1422
+        ],
+        [
+          5,
+          1436,
+          1680
+        ],
+        [
+          6,
+          1694,
+          2142
+        ]
+      ]
+    },
+    "p15/scene-4": {
+      "text": "I write three sentences every day.",
+      "path": "assets/group-two-audio/p15/scene-4.mp3",
+      "audio_sha256": "839dd7ce9139d9f610054936a234f65662253fb1b5366f7febf08e5c5f098a76",
+      "duration_ms": 3192,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          267
+        ],
+        [
+          1,
+          281,
+          553
+        ],
+        [
+          2,
+          566,
+          784
+        ],
+        [
+          3,
+          797,
+          1517
+        ],
+        [
+          4,
+          1531,
+          1789
+        ],
+        [
+          5,
+          1803,
+          2251
+        ]
+      ]
+    },
+    "p15/story-1": {
+      "text": "Nour wants to improve her English.",
+      "path": "assets/group-two-audio/p15/story-1.mp3",
+      "audio_sha256": "073c84a39d551fef5ee9a5e79103cb108addbfc6fa045c13f058162f62d6e4fe",
+      "duration_ms": 2952,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          403
+        ],
+        [
+          1,
+          417,
+          689
+        ],
+        [
+          2,
+          702,
+          811
+        ],
+        [
+          3,
+          824,
+          1178
+        ],
+        [
+          4,
+          1191,
+          1341
+        ],
+        [
+          5,
+          1354,
+          1993
+        ]
+      ]
+    },
+    "p15/story-2": {
+      "text": "She learns a few words every day.",
+      "path": "assets/group-two-audio/p15/story-2.mp3",
+      "audio_sha256": "e4baa71c156c5c44e78d26f281b37460185e461327eac9f4b232d81724679bef",
+      "duration_ms": 3000,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          335
+        ],
+        [
+          1,
+          349,
+          634
+        ],
+        [
+          2,
+          648,
+          716
+        ],
+        [
+          3,
+          729,
+          960
+        ],
+        [
+          4,
+          974,
+          1341
+        ],
+        [
+          5,
+          1354,
+          1599
+        ],
+        [
+          6,
+          1612,
+          2061
+        ]
+      ]
+    },
+    "p15/story-3": {
+      "text": "After a week, she sees progress.",
+      "path": "assets/group-two-audio/p15/story-3.mp3",
+      "audio_sha256": "32e32b7fb5547a40b7d1b014307bfdcf3cf5405a0726f6fa0477a87095434d65",
+      "duration_ms": 3408,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          458
+        ],
+        [
+          1,
+          471,
+          539
+        ],
+        [
+          2,
+          553,
+          987
+        ],
+        [
+          3,
+          1151,
+          1354
+        ],
+        [
+          4,
+          1368,
+          1640
+        ],
+        [
+          5,
+          1653,
+          2468
+        ]
+      ]
+    },
+    "p15/dialogue-1": {
+      "text": "How often do you practice English?",
+      "path": "assets/group-two-audio/p15/dialogue-1.mp3",
+      "audio_sha256": "8fcd4af04673cb246cf6d174516d4c66d668f0bd6e51288b413863a4e05e5636",
+      "duration_ms": 2952,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          362
+        ],
+        [
+          1,
+          376,
+          689
+        ],
+        [
+          2,
+          702,
+          784
+        ],
+        [
+          3,
+          797,
+          906
+        ],
+        [
+          4,
+          920,
+          1395
+        ],
+        [
+          5,
+          1409,
+          2007
+        ]
+      ]
+    },
+    "p15/dialogue-2": {
+      "text": "I practice English every day.",
+      "path": "assets/group-two-audio/p15/dialogue-2.mp3",
+      "audio_sha256": "81b0554d9a3516401ed48f01e9967b08cad1ebdee2d3223e379ac6b99687b2df",
+      "duration_ms": 2856,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          240
+        ],
+        [
+          1,
+          254,
+          743
+        ],
+        [
+          2,
+          757,
+          1164
+        ],
+        [
+          3,
+          1178,
+          1422
+        ],
+        [
+          4,
+          1436,
+          1898
+        ]
+      ]
+    },
+    "p16/intro": {
+      "text": "Use at night for regular nighttime activities.",
+      "path": "assets/group-two-audio/p16/intro.mp3",
+      "audio_sha256": "3ca91dc9efd9dc91e055ffa1b88e413daf23cd8e0e4375b99dec119d04f41403",
+      "duration_ms": 3864,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          417
+        ],
+        [
+          1,
+          430,
+          539
+        ],
+        [
+          2,
+          553,
+          879
+        ],
+        [
+          3,
+          892,
+          1083
+        ],
+        [
+          4,
+          1096,
+          1531
+        ],
+        [
+          5,
+          1545,
+          2020
+        ],
+        [
+          6,
+          2034,
+          2917
+        ]
+      ]
+    },
+    "p16/scene-1": {
+      "text": "At night, I read a short story.",
+      "path": "assets/group-two-audio/p16/scene-1.mp3",
+      "audio_sha256": "9e7b10a1b91a6264e3a374e58c545f6e58f2294d440fe101df0ffd298c1e0ae5",
+      "duration_ms": 3144,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          308
+        ],
+        [
+          1,
+          322,
+          757
+        ],
+        [
+          2,
+          960,
+          1015
+        ],
+        [
+          3,
+          1028,
+          1218
+        ],
+        [
+          4,
+          1232,
+          1273
+        ],
+        [
+          5,
+          1286,
+          1612
+        ],
+        [
+          6,
+          1626,
+          2197
+        ]
+      ]
+    },
+    "p16/scene-2": {
+      "text": "I brush my teeth at night.",
+      "path": "assets/group-two-audio/p16/scene-2.mp3",
+      "audio_sha256": "eef0e6612f46eeafa78aad7d38960d76fdaf6870cdb0f061eb84ed3687177553",
+      "duration_ms": 2664,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          593
+        ],
+        [
+          2,
+          607,
+          729
+        ],
+        [
+          3,
+          743,
+          1083
+        ],
+        [
+          4,
+          1096,
+          1218
+        ],
+        [
+          5,
+          1232,
+          1708
+        ]
+      ]
+    },
+    "p16/scene-3": {
+      "text": "At night, the street is quiet.",
+      "path": "assets/group-two-audio/p16/scene-3.mp3",
+      "audio_sha256": "aca25ae4a5688acc79b479402d68c61eabffb8b4f3feb3ebfc3c51b5f291185e",
+      "duration_ms": 3096,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          322
+        ],
+        [
+          1,
+          335,
+          729
+        ],
+        [
+          2,
+          892,
+          1001
+        ],
+        [
+          3,
+          1015,
+          1327
+        ],
+        [
+          4,
+          1341,
+          1490
+        ],
+        [
+          5,
+          1504,
+          2156
+        ]
+      ]
+    },
+    "p16/scene-4": {
+      "text": "I turn off my phone at night.",
+      "path": "assets/group-two-audio/p16/scene-4.mp3",
+      "audio_sha256": "a6ad84fc3445c62d1ec6ffcf89f9d8cc19d436f46f6cfc2c95585ab42b1bb31a",
+      "duration_ms": 2664,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          240
+        ],
+        [
+          1,
+          254,
+          498
+        ],
+        [
+          2,
+          512,
+          661
+        ],
+        [
+          3,
+          675,
+          824
+        ],
+        [
+          4,
+          838,
+          1110
+        ],
+        [
+          5,
+          1123,
+          1232
+        ],
+        [
+          6,
+          1246,
+          1721
+        ]
+      ]
+    },
+    "p16/story-1": {
+      "text": "The day is almost over.",
+      "path": "assets/group-two-audio/p16/story-1.mp3",
+      "audio_sha256": "ebf14db256fc1765f3e6d33f87e1596569973fccb213b8b26332afea960e16ab",
+      "duration_ms": 2472,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          267
+        ],
+        [
+          1,
+          281,
+          485
+        ],
+        [
+          2,
+          498,
+          634
+        ],
+        [
+          3,
+          648,
+          1055
+        ],
+        [
+          4,
+          1069,
+          1517
+        ]
+      ]
+    },
+    "p16/story-2": {
+      "text": "At night, Omar reads a short story.",
+      "path": "assets/group-two-audio/p16/story-2.mp3",
+      "audio_sha256": "6c575865f798f1fa1169f25d67febeb3f214698c72745226d73af22454261408",
+      "duration_ms": 3336,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          308
+        ],
+        [
+          1,
+          322,
+          729
+        ],
+        [
+          2,
+          892,
+          1191
+        ],
+        [
+          3,
+          1205,
+          1436
+        ],
+        [
+          4,
+          1449,
+          1490
+        ],
+        [
+          5,
+          1504,
+          1816
+        ],
+        [
+          6,
+          1830,
+          2387
+        ]
+      ]
+    },
+    "p16/story-3": {
+      "text": "Then he turns off the light.",
+      "path": "assets/group-two-audio/p16/story-3.mp3",
+      "audio_sha256": "371da269f8f16b1e634ed078ba38dceb8f7200db82cd5c0d0550642ea0ca6b1c",
+      "duration_ms": 2592,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          308
+        ],
+        [
+          1,
+          322,
+          430
+        ],
+        [
+          2,
+          444,
+          770
+        ],
+        [
+          3,
+          784,
+          960
+        ],
+        [
+          4,
+          974,
+          1096
+        ],
+        [
+          5,
+          1110,
+          1653
+        ]
+      ]
+    },
+    "p16/dialogue-1": {
+      "text": "What do you do at night?",
+      "path": "assets/group-two-audio/p16/dialogue-1.mp3",
+      "audio_sha256": "f3e634cb46beffbb1ac925724b1eb0a06689563022dee3501979a8ffaa0d8de8",
+      "duration_ms": 2352,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          322
+        ],
+        [
+          1,
+          335,
+          417
+        ],
+        [
+          2,
+          430,
+          539
+        ],
+        [
+          3,
+          553,
+          743
+        ],
+        [
+          4,
+          757,
+          879
+        ],
+        [
+          5,
+          892,
+          1395
+        ]
+      ]
+    },
+    "p16/dialogue-2": {
+      "text": "At night, I read and rest.",
+      "path": "assets/group-two-audio/p16/dialogue-2.mp3",
+      "audio_sha256": "6c902cfcfccdc69ecfe2320c4dc1a74a3ca28941dc1c947a206f116c5e43fc32",
+      "duration_ms": 2976,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          322
+        ],
+        [
+          1,
+          335,
+          757
+        ],
+        [
+          2,
+          947,
+          1042
+        ],
+        [
+          3,
+          1055,
+          1300
+        ],
+        [
+          4,
+          1314,
+          1436
+        ],
+        [
+          5,
+          1449,
+          2020
+        ]
+      ]
+    },
+    "p17/intro": {
+      "text": "Go to bed means prepare to sleep; fall asleep means begin sleeping.",
+      "path": "assets/group-two-audio/p17/intro.mp3",
+      "audio_sha256": "f07c2b1bae66b541c4def2713ab41f001894dcfce49d15a68e13345bb9bc61e9",
+      "duration_ms": 5160,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          308
+        ],
+        [
+          1,
+          322,
+          430
+        ],
+        [
+          2,
+          444,
+          702
+        ],
+        [
+          3,
+          716,
+          988
+        ],
+        [
+          4,
+          1001,
+          1395
+        ],
+        [
+          5,
+          1409,
+          1504
+        ],
+        [
+          6,
+          1517,
+          1993
+        ],
+        [
+          7,
+          2183,
+          2428
+        ],
+        [
+          8,
+          2441,
+          2917
+        ],
+        [
+          9,
+          2930,
+          3202
+        ],
+        [
+          10,
+          3216,
+          3569
+        ],
+        [
+          11,
+          3583,
+          4208
+        ]
+      ]
+    },
+    "p17/scene-1": {
+      "text": "I go to bed at nine.",
+      "path": "assets/group-two-audio/p17/scene-1.mp3",
+      "audio_sha256": "a153f2cbab9c4a9839296883d11e08b24621f4c87b6d95034203944586b7d38f",
+      "duration_ms": 2376,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          417
+        ],
+        [
+          2,
+          430,
+          539
+        ],
+        [
+          3,
+          553,
+          770
+        ],
+        [
+          4,
+          784,
+          892
+        ],
+        [
+          5,
+          906,
+          1422
+        ]
+      ]
+    },
+    "p17/scene-2": {
+      "text": "I go to bed after reading.",
+      "path": "assets/group-two-audio/p17/scene-2.mp3",
+      "audio_sha256": "d36cc5aeb931a848416a317861f8debab183347649ad08ee1a08bcefc65140a7",
+      "duration_ms": 2640,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          267
+        ],
+        [
+          1,
+          281,
+          430
+        ],
+        [
+          2,
+          444,
+          553
+        ],
+        [
+          3,
+          566,
+          838
+        ],
+        [
+          4,
+          852,
+          1164
+        ],
+        [
+          5,
+          1178,
+          1694
+        ]
+      ]
+    },
+    "p17/scene-3": {
+      "text": "I go to bed early on school nights.",
+      "path": "assets/group-two-audio/p17/scene-3.mp3",
+      "audio_sha256": "9928f4bc2065401e3c673d66f577713759940e98715087a29055910406403aae",
+      "duration_ms": 3168,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          267
+        ],
+        [
+          1,
+          281,
+          417
+        ],
+        [
+          2,
+          430,
+          539
+        ],
+        [
+          3,
+          553,
+          784
+        ],
+        [
+          4,
+          797,
+          1137
+        ],
+        [
+          5,
+          1151,
+          1314
+        ],
+        [
+          6,
+          1327,
+          1626
+        ],
+        [
+          7,
+          1640,
+          2224
+        ]
+      ]
+    },
+    "p17/scene-4": {
+      "text": "I go to bed when I feel sleepy.",
+      "path": "assets/group-two-audio/p17/scene-4.mp3",
+      "audio_sha256": "46920be04c60d3c350b9aad1f69aa4bcc4ae07d1522d17a17194abcef0714dad",
+      "duration_ms": 2928,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          267
+        ],
+        [
+          1,
+          281,
+          417
+        ],
+        [
+          2,
+          430,
+          553
+        ],
+        [
+          3,
+          566,
+          879
+        ],
+        [
+          4,
+          892,
+          1015
+        ],
+        [
+          5,
+          1028,
+          1110
+        ],
+        [
+          6,
+          1123,
+          1368
+        ],
+        [
+          7,
+          1382,
+          1979
+        ]
+      ]
+    },
+    "p17/story-1": {
+      "text": "Sara finishes her evening routine.",
+      "path": "assets/group-two-audio/p17/story-1.mp3",
+      "audio_sha256": "222329dc95368e72425c665d73799fdd201c1f001abba779a83e7d567780fe7b",
+      "duration_ms": 3120,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          498
+        ],
+        [
+          1,
+          512,
+          1028
+        ],
+        [
+          2,
+          1042,
+          1191
+        ],
+        [
+          3,
+          1205,
+          1558
+        ],
+        [
+          4,
+          1572,
+          2183
+        ]
+      ]
+    },
+    "p17/story-2": {
+      "text": "She says good night to her family.",
+      "path": "assets/group-two-audio/p17/story-2.mp3",
+      "audio_sha256": "07e28750d9b51c8bb7d0a745b7f2e8d83c2eb14712883334b401574750ddcdd8",
+      "duration_ms": 2976,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          335
+        ],
+        [
+          1,
+          349,
+          607
+        ],
+        [
+          2,
+          621,
+          811
+        ],
+        [
+          3,
+          824,
+          1083
+        ],
+        [
+          4,
+          1096,
+          1205
+        ],
+        [
+          5,
+          1218,
+          1354
+        ],
+        [
+          6,
+          1368,
+          2020
+        ]
+      ]
+    },
+    "p17/story-3": {
+      "text": "She goes to bed at nine.",
+      "path": "assets/group-two-audio/p17/story-3.mp3",
+      "audio_sha256": "53b8010a3196019d93d62e857944e747ff0650dde8459cff4723452e630fd290",
+      "duration_ms": 2496,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          308
+        ],
+        [
+          1,
+          322,
+          566
+        ],
+        [
+          2,
+          580,
+          689
+        ],
+        [
+          3,
+          702,
+          906
+        ],
+        [
+          4,
+          920,
+          1028
+        ],
+        [
+          5,
+          1042,
+          1545
+        ]
+      ]
+    },
+    "p17/dialogue-1": {
+      "text": "What time do you go to bed?",
+      "path": "assets/group-two-audio/p17/dialogue-1.mp3",
+      "audio_sha256": "337b42f9506a06f8f796c3bc35460f72c97f746f0244595e19c7f1f6f416d454",
+      "duration_ms": 2472,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          335
+        ],
+        [
+          1,
+          349,
+          566
+        ],
+        [
+          2,
+          580,
+          661
+        ],
+        [
+          3,
+          675,
+          784
+        ],
+        [
+          4,
+          797,
+          933
+        ],
+        [
+          5,
+          947,
+          1055
+        ],
+        [
+          6,
+          1069,
+          1517
+        ]
+      ]
+    },
+    "p17/dialogue-2": {
+      "text": "I go to bed at nine.",
+      "path": "assets/group-two-audio/p17/dialogue-2.mp3",
+      "audio_sha256": "24ec915ee7010149b3450e6d7a80df2e6b671803bede5991425c9673af5cfe5e",
+      "duration_ms": 2376,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          417
+        ],
+        [
+          2,
+          430,
+          539
+        ],
+        [
+          3,
+          553,
+          770
+        ],
+        [
+          4,
+          784,
+          892
+        ],
+        [
+          5,
+          906,
+          1422
+        ]
+      ]
+    },
+    "p18/intro": {
+      "text": "On weekends describes regular weekend habits in American English.",
+      "path": "assets/group-two-audio/p18/intro.mp3",
+      "audio_sha256": "d6f88a0c0cba940bc1d88262509e6ac9fa52c9b8ccfce9e659e00c5e9f7730a3",
+      "duration_ms": 4968,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          295
+        ],
+        [
+          1,
+          308,
+          770
+        ],
+        [
+          2,
+          784,
+          1327
+        ],
+        [
+          3,
+          1341,
+          1830
+        ],
+        [
+          4,
+          1843,
+          2224
+        ],
+        [
+          5,
+          2238,
+          2740
+        ],
+        [
+          6,
+          2754,
+          2917
+        ],
+        [
+          7,
+          2930,
+          3406
+        ],
+        [
+          8,
+          3420,
+          4017
+        ]
+      ]
+    },
+    "p18/scene-1": {
+      "text": "On weekends, I visit my grandparents.",
+      "path": "assets/group-two-audio/p18/scene-1.mp3",
+      "audio_sha256": "b62010118f77a17a9ca7296b395875f8c1a45a5b4592c312f3ddaf5064b4d5e1",
+      "duration_ms": 3480,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          295
+        ],
+        [
+          1,
+          308,
+          906
+        ],
+        [
+          2,
+          1055,
+          1137
+        ],
+        [
+          3,
+          1151,
+          1449
+        ],
+        [
+          4,
+          1463,
+          1599
+        ],
+        [
+          5,
+          1612,
+          2536
+        ]
+      ]
+    },
+    "p18/scene-2": {
+      "text": "I play football on weekends.",
+      "path": "assets/group-two-audio/p18/scene-2.mp3",
+      "audio_sha256": "3c6b39e5087d533a11a0a079a3942b933932f693517ef4003d298b840a4450a4",
+      "duration_ms": 2832,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          512
+        ],
+        [
+          2,
+          526,
+          1015
+        ],
+        [
+          3,
+          1028,
+          1164
+        ],
+        [
+          4,
+          1178,
+          1884
+        ]
+      ]
+    },
+    "p18/scene-3": {
+      "text": "On weekends, I wake up later.",
+      "path": "assets/group-two-audio/p18/scene-3.mp3",
+      "audio_sha256": "ead8ba23538989eb1df01938946b0e9c7c81823305cc63d602dfd15a7a17b6c9",
+      "duration_ms": 3000,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          295
+        ],
+        [
+          1,
+          308,
+          920
+        ],
+        [
+          2,
+          1042,
+          1096
+        ],
+        [
+          3,
+          1110,
+          1354
+        ],
+        [
+          4,
+          1368,
+          1531
+        ],
+        [
+          5,
+          1545,
+          2047
+        ]
+      ]
+    },
+    "p18/scene-4": {
+      "text": "I spend time with my family on weekends.",
+      "path": "assets/group-two-audio/p18/scene-4.mp3",
+      "audio_sha256": "7dc6cf9734dbb1afffba7eb30f777e5af2ca01fddde15a4999c02b425efd56fa",
+      "duration_ms": 3504,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          566
+        ],
+        [
+          2,
+          580,
+          838
+        ],
+        [
+          3,
+          852,
+          988
+        ],
+        [
+          4,
+          1001,
+          1151
+        ],
+        [
+          5,
+          1164,
+          1653
+        ],
+        [
+          6,
+          1667,
+          1803
+        ],
+        [
+          7,
+          1816,
+          2550
+        ]
+      ]
+    },
+    "p18/story-1": {
+      "text": "The school week is over.",
+      "path": "assets/group-two-audio/p18/story-1.mp3",
+      "audio_sha256": "c094d04fedc26edb00da422c6b5203acdb9f44bdb651a316b794828c18e19bb0",
+      "duration_ms": 2448,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          580
+        ],
+        [
+          2,
+          593,
+          838
+        ],
+        [
+          3,
+          852,
+          1001
+        ],
+        [
+          4,
+          1015,
+          1490
+        ]
+      ]
+    },
+    "p18/story-2": {
+      "text": "On weekends, Maya visits her grandparents.",
+      "path": "assets/group-two-audio/p18/story-2.mp3",
+      "audio_sha256": "d6ff5ca3a46650d614153c77b950045807958a7a1f6eef25144fda69e29898b7",
+      "duration_ms": 3744,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          308
+        ],
+        [
+          1,
+          322,
+          933
+        ],
+        [
+          2,
+          1042,
+          1354
+        ],
+        [
+          3,
+          1368,
+          1735
+        ],
+        [
+          4,
+          1748,
+          1884
+        ],
+        [
+          5,
+          1898,
+          2795
+        ]
+      ]
+    },
+    "p18/story-3": {
+      "text": "She feels happy with her family.",
+      "path": "assets/group-two-audio/p18/story-3.mp3",
+      "audio_sha256": "81853ba9b9554a4d4b68033baf73098d5dfffd66aa339729818b74372b129195",
+      "duration_ms": 2952,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          349
+        ],
+        [
+          1,
+          362,
+          661
+        ],
+        [
+          2,
+          675,
+          1001
+        ],
+        [
+          3,
+          1015,
+          1164
+        ],
+        [
+          4,
+          1178,
+          1314
+        ],
+        [
+          5,
+          1327,
+          1993
+        ]
+      ]
+    },
+    "p18/dialogue-1": {
+      "text": "What do you do on weekends?",
+      "path": "assets/group-two-audio/p18/dialogue-1.mp3",
+      "audio_sha256": "46a65d8f248364f897e39d7c7c80b4ed0249ce9bfac7333bbe6bacf98b11b0f4",
+      "duration_ms": 2544,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          322
+        ],
+        [
+          1,
+          335,
+          417
+        ],
+        [
+          2,
+          430,
+          539
+        ],
+        [
+          3,
+          553,
+          729
+        ],
+        [
+          4,
+          743,
+          879
+        ],
+        [
+          5,
+          892,
+          1599
+        ]
+      ]
+    },
+    "p18/dialogue-2": {
+      "text": "I visit my grandparents on weekends.",
+      "path": "assets/group-two-audio/p18/dialogue-2.mp3",
+      "audio_sha256": "7cb6bc643c7c13b5216e57c79dedfb2560a87d3342ed812122b44986a6b334e7",
+      "duration_ms": 3240,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          580
+        ],
+        [
+          2,
+          593,
+          743
+        ],
+        [
+          3,
+          757,
+          1422
+        ],
+        [
+          4,
+          1436,
+          1572
+        ],
+        [
+          5,
+          1585,
+          2292
+        ]
+      ]
+    },
+    "chapters/c01/line-2": {
+      "text": "I get up and open the window.",
+      "path": "assets/group-two-audio/chapters/c01/line-2.mp3",
+      "audio_sha256": "d3dfcd53304de0e8c5470bd766551b97d8007cd9b1fe895fdaf3f6ed212ee975",
+      "duration_ms": 2664,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          444
+        ],
+        [
+          2,
+          458,
+          607
+        ],
+        [
+          3,
+          621,
+          743
+        ],
+        [
+          4,
+          757,
+          1015
+        ],
+        [
+          5,
+          1028,
+          1110
+        ],
+        [
+          6,
+          1123,
+          1708
+        ]
+      ]
+    },
+    "chapters/c01/line-3": {
+      "text": "In the morning, I drink water.",
+      "path": "assets/group-two-audio/chapters/c01/line-3.mp3",
+      "audio_sha256": "0f595fe9d14d96994e7c041304bb306110dc7b52f22fbd18f78223ec77da836f",
+      "duration_ms": 2952,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          267
+        ],
+        [
+          1,
+          281,
+          349
+        ],
+        [
+          2,
+          362,
+          920
+        ],
+        [
+          3,
+          1083,
+          1151
+        ],
+        [
+          4,
+          1164,
+          1463
+        ],
+        [
+          5,
+          1477,
+          1993
+        ]
+      ]
+    },
+    "chapters/c01/line-4": {
+      "text": "I always brush my teeth.",
+      "path": "assets/group-two-audio/chapters/c01/line-4.mp3",
+      "audio_sha256": "890a77bf5232cec78fc80607d1cff483cbefccd366eb3e723eb2d69e3b80d445",
+      "duration_ms": 2664,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          295
+        ],
+        [
+          1,
+          308,
+          689
+        ],
+        [
+          2,
+          702,
+          1001
+        ],
+        [
+          3,
+          1015,
+          1151
+        ],
+        [
+          4,
+          1164,
+          1708
+        ]
+      ]
+    },
+    "chapters/c01/line-5": {
+      "text": "I have breakfast with my family.",
+      "path": "assets/group-two-audio/chapters/c01/line-5.mp3",
+      "audio_sha256": "0659fb2162dedaa9fb8a3b38754738dc356fc2801ad07172315707fb1bd6a81e",
+      "duration_ms": 2952,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          267
+        ],
+        [
+          1,
+          281,
+          471
+        ],
+        [
+          2,
+          485,
+          1015
+        ],
+        [
+          3,
+          1028,
+          1151
+        ],
+        [
+          4,
+          1164,
+          1314
+        ],
+        [
+          5,
+          1327,
+          2006
+        ]
+      ]
+    },
+    "chapters/c01/line-6": {
+      "text": "Before I leave, I check my bag.",
+      "path": "assets/group-two-audio/chapters/c01/line-6.mp3",
+      "audio_sha256": "1bd206a288e54c4e7e74cb8a971c02c0259c295b0259664649d244c9a26f8338",
+      "duration_ms": 3216,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          539
+        ],
+        [
+          1,
+          553,
+          634
+        ],
+        [
+          2,
+          648,
+          1083
+        ],
+        [
+          3,
+          1205,
+          1300
+        ],
+        [
+          4,
+          1314,
+          1599
+        ],
+        [
+          5,
+          1612,
+          1735
+        ],
+        [
+          6,
+          1748,
+          2265
+        ]
+      ]
+    },
+    "chapters/c02/line-2": {
+      "text": "I usually walk to school.",
+      "path": "assets/group-two-audio/chapters/c02/line-2.mp3",
+      "audio_sha256": "f2eed5f0add7bc9f45a897cc8e40c4379669ceaa4eda3b82600fb668de3637ed",
+      "duration_ms": 2688,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          213
+        ],
+        [
+          1,
+          227,
+          743
+        ],
+        [
+          2,
+          757,
+          1028
+        ],
+        [
+          3,
+          1042,
+          1137
+        ],
+        [
+          4,
+          1151,
+          1748
+        ]
+      ]
+    },
+    "chapters/c02/line-3": {
+      "text": "I often study with my friends.",
+      "path": "assets/group-two-audio/chapters/c02/line-3.mp3",
+      "audio_sha256": "e01cd52eb9ebc1e3cdd94dfe07e9bf58ead5ec7e0b4ad84ed6d1192e6dbb75ae",
+      "duration_ms": 3024,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          308
+        ],
+        [
+          1,
+          322,
+          675
+        ],
+        [
+          2,
+          689,
+          1028
+        ],
+        [
+          3,
+          1042,
+          1205
+        ],
+        [
+          4,
+          1218,
+          1368
+        ],
+        [
+          5,
+          1382,
+          2074
+        ]
+      ]
+    },
+    "chapters/c02/line-4": {
+      "text": "I sometimes eat fruit for lunch.",
+      "path": "assets/group-two-audio/chapters/c02/line-4.mp3",
+      "audio_sha256": "689a2a155f73b0ad1d5b4ff3a2ea7f34a81399182d7460bf3a56a33aea986e40",
+      "duration_ms": 2904,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          240
+        ],
+        [
+          1,
+          254,
+          743
+        ],
+        [
+          2,
+          757,
+          906
+        ],
+        [
+          3,
+          920,
+          1178
+        ],
+        [
+          4,
+          1191,
+          1368
+        ],
+        [
+          5,
+          1382,
+          1952
+        ]
+      ]
+    },
+    "chapters/c02/line-5": {
+      "text": "After I get home, I eat lunch.",
+      "path": "assets/group-two-audio/chapters/c02/line-5.mp3",
+      "audio_sha256": "f89fe0e246eb269fd0ac88d0b9bcadab85c778f34ec52e1ab0fcb981e3891ee8",
+      "duration_ms": 3192,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          444
+        ],
+        [
+          1,
+          458,
+          526
+        ],
+        [
+          2,
+          539,
+          702
+        ],
+        [
+          3,
+          716,
+          1123
+        ],
+        [
+          4,
+          1314,
+          1409
+        ],
+        [
+          5,
+          1422,
+          1653
+        ],
+        [
+          6,
+          1667,
+          2237
+        ]
+      ]
+    },
+    "chapters/c02/line-6": {
+      "text": "I practice English every day.",
+      "path": "assets/group-two-audio/chapters/c02/line-6.mp3",
+      "audio_sha256": "a4167e3185af8641fb29ad489d2acd20ea97df8d1ddc8216f04730d5c55b7d7a",
+      "duration_ms": 2856,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          240
+        ],
+        [
+          1,
+          254,
+          743
+        ],
+        [
+          2,
+          757,
+          1164
+        ],
+        [
+          3,
+          1178,
+          1422
+        ],
+        [
+          4,
+          1436,
+          1898
+        ]
+      ]
+    },
+    "chapters/c03/line-1": {
+      "text": "On weekends, I wake up later.",
+      "path": "assets/group-two-audio/chapters/c03/line-1.mp3",
+      "audio_sha256": "2819612d43a9dd3e9cf2924eeecaeaaebef61af422b23a36f5081454efa1351c",
+      "duration_ms": 3000,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          295
+        ],
+        [
+          1,
+          308,
+          920
+        ],
+        [
+          2,
+          1042,
+          1096
+        ],
+        [
+          3,
+          1110,
+          1354
+        ],
+        [
+          4,
+          1368,
+          1531
+        ],
+        [
+          5,
+          1545,
+          2047
+        ]
+      ]
+    },
+    "chapters/c03/line-2": {
+      "text": "I have breakfast at home.",
+      "path": "assets/group-two-audio/chapters/c03/line-2.mp3",
+      "audio_sha256": "aa1ef79027a15ea00fb7294d50e2dc4ce57bf90a5a5cbda343b3620768c05f66",
+      "duration_ms": 2544,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          458
+        ],
+        [
+          2,
+          471,
+          987
+        ],
+        [
+          3,
+          1001,
+          1096
+        ],
+        [
+          4,
+          1110,
+          1599
+        ]
+      ]
+    },
+    "chapters/c03/line-3": {
+      "text": "I often visit my grandparents.",
+      "path": "assets/group-two-audio/chapters/c03/line-3.mp3",
+      "audio_sha256": "76de3693060f1b78d1d96e688efe0e79d5fa6c0532965904de10ebb2d430c6a9",
+      "duration_ms": 3000,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          308
+        ],
+        [
+          1,
+          322,
+          661
+        ],
+        [
+          2,
+          675,
+          960
+        ],
+        [
+          3,
+          974,
+          1110
+        ],
+        [
+          4,
+          1123,
+          2047
+        ]
+      ]
+    },
+    "chapters/c03/line-4": {
+      "text": "Sometimes, I play football with friends.",
+      "path": "assets/group-two-audio/chapters/c03/line-4.mp3",
+      "audio_sha256": "135111e6ffaba2443ac0161455d87b0da681d3ce759406de1260052aa7955128",
+      "duration_ms": 3552,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          906
+        ],
+        [
+          1,
+          1015,
+          1096
+        ],
+        [
+          2,
+          1110,
+          1354
+        ],
+        [
+          3,
+          1368,
+          1803
+        ],
+        [
+          4,
+          1816,
+          1952
+        ],
+        [
+          5,
+          1966,
+          2604
+        ]
+      ]
+    },
+    "chapters/c03/line-5": {
+      "text": "At night, I read a short story.",
+      "path": "assets/group-two-audio/chapters/c03/line-5.mp3",
+      "audio_sha256": "3abf3c797d6d036cda976784743986612af0bc7eb069139e63ffdffbf84a7394",
+      "duration_ms": 3144,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          308
+        ],
+        [
+          1,
+          322,
+          757
+        ],
+        [
+          2,
+          960,
+          1015
+        ],
+        [
+          3,
+          1028,
+          1218
+        ],
+        [
+          4,
+          1232,
+          1273
+        ],
+        [
+          5,
+          1286,
+          1612
+        ],
+        [
+          6,
+          1626,
+          2197
+        ]
+      ]
+    },
+    "chapters/c03/line-6": {
+      "text": "I go to bed early.",
+      "path": "assets/group-two-audio/chapters/c03/line-6.mp3",
+      "audio_sha256": "8c09703f71bbf6cf358fd4d0a9ff104635b89e1802acc3c99275d9be870a420e",
+      "duration_ms": 2280,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          267
+        ],
+        [
+          1,
+          281,
+          430
+        ],
+        [
+          2,
+          444,
+          553
+        ],
+        [
+          3,
+          566,
+          797
+        ],
+        [
+          4,
+          811,
+          1341
+        ]
+      ]
+    }
+  },
+  "verified_count": 194
 }
