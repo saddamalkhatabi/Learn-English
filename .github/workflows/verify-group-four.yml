@@ -22,6 +22,7 @@ jobs:
           python-version: '3.11'
       - name: JavaScript syntax and source validation
         run: |
+          set -o pipefail
           npm run check
           node --check group-four.js
           python scripts/test_group_four.py 2>&1 | tee /tmp/g4-verify.log

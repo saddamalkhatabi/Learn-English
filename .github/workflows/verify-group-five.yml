@@ -1,4 +1,4 @@
-name: Verify fourth English communications group
+name: Verify fifth English past-tense group
 on:
   push:
     branches: [main]
@@ -22,9 +22,10 @@ jobs:
           python-version: '3.11'
       - name: JavaScript syntax and source validation
         run: |
+          set -o pipefail
           npm run check
           node --check group-five.js
-          python scripts/test_group_five.py 2>&1 | tee /tmp/g5-verify.log
+          python scripts/test_group_five.py --require-audio 2>&1 | tee /tmp/g5-verify.log
       - name: Confirm group navigator is integrated and no shared API was replaced
         run: |
           node --input-type=module <<'JS'

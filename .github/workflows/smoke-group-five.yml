@@ -27,6 +27,7 @@ jobs:
           npx playwright install --with-deps chromium
       - name: Run real mobile interaction smoke
         run: |
+          set -o pipefail
           PORT=3178 node server.mjs >/tmp/learn-english-smoke.log 2>&1 &
           for i in $(seq 1 30); do curl -fsS http://127.0.0.1:3178/health && break || sleep 1; done
           node scripts/smoke_group_five.mjs 2>&1 | tee /tmp/g5-private-browser.log

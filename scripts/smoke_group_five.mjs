@@ -8,6 +8,8 @@ page.on("pageerror",e=>errors.push(e.message));
 page.on("response",r=>{if(r.status()>=400&&/\.(js|json|mp3)/.test(r.url()))bad.push(r.status()+" "+r.url())});
 try{
  await page.goto(root,{waitUntil:"networkidle",timeout:30000});
+ const scriptResponse=await page.request.get(new URL("group-five.js",root).toString());
+ assert.equal(scriptResponse.status(),200,"Group Five JavaScript must be served by the local server");
  await page.locator('[data-view="group-five"]').click();
  await page.locator("#g5PatternList .g5PatternChip").first().waitFor({timeout:15000});
  assert.equal(await page.locator("#g5PatternList .g5PatternChip").count(),18);
