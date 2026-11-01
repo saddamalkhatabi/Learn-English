@@ -13,7 +13,7 @@ An Arabic-first, offline-friendly learning prototype that teaches English **thro
 
 ## المجموعة الثالثة — القدرة والإذن والمساعدة والنصيحة
 - [المجموعة الثالثة: 18 نمطًا و72 موقفًا وثلاث قصص مترابطة](docs/GROUP-THREE-AR.md). افتح «🤝 المجموعة الثالثة».
-- اختبارات فهم وبناء جملة، والتقدم محفوظ بصورة مستقلة، ومزامنة الكلمات للتسجيلات الموثقة؛ صور واقعية ستُضاف لاحقًا.
+- اختبارات فهم وبناء جملة، والتقدم محفوظ بصورة مستقلة، و195 تسجيلًا جديدًا مع 3 مواد سابقة موثقة وتوقيت كلمات حقيقي؛ صور واقعية ستُضاف لاحقًا.
 
 ## Learning experience
 - Three fully scripted seed lessons from the supplied source: **This is my house**, **I have a good job**, and **I've got a job**.
