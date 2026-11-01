@@ -1,0 +1,24 @@
+name: Protect original English audio before visual changes
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  original-audio-integrity:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Confirm ALL original MP3 files, hashes and word timings remain intact
+        run: python scripts/audit_original_audio.py
+      - name: Confirm ten existing lesson JavaScript modules have valid syntax
+        run: |
+          for group in one two three four five six seven eight nine ten; do
+            node --check "group-$group.js"
+          done
