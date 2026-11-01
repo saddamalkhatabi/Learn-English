@@ -1,0 +1,38 @@
+name: Prepare on-demand public preview voice packs
+on:
+  push:
+    branches: [main]
+    paths:
+      - data/pattern-audio-index.json
+      - scripts/build_public_voice_packs.py
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: pattern-voice-pack-builder
+  cancel-in-progress: true
+jobs:
+  pack:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify hashes and build lazy compressed sharing bundles
+        run: |
+          python scripts/build_public_voice_packs.py
+          python - <<'PY'
+          import json,pathlib
+          m=json.loads(pathlib.Path('assets/pattern-audio-bundles/manifest.json').read_text())
+          assert m['recorded_unique_count']>=12 and len(m['packs'])>=1
+          print('Prepared',len(m['packs']),'bundles and',m['recorded_unique_count'],'voices')
+          PY
+      - name: Commit bundle files without changing content source
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/pattern-audio-bundles/
+          if ! git diff --cached --quiet; then
+            git commit -m 'Package verified pattern voices for lazy preview delivery [skip ci]'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
