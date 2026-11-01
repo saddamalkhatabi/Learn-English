@@ -25,7 +25,7 @@ jobs:
           set -o pipefail
           npm run check
           node --check group-nine.js
-          python scripts/test_group_nine.py 2>&1 | tee /tmp/g9-verify.log
+          python scripts/test_group_nine.py --require-audio 2>&1 | tee /tmp/g9-verify.log
       - name: Confirm group navigator is integrated and no shared API was replaced
         run: |
           node --input-type=module <<'JS'
@@ -46,4 +46,4 @@ jobs:
       - name: Summarize Group Nine verification
         run: |
           echo "✅ Group Nine curriculum, source links and JavaScript checks passed" >> "$GITHUB_STEP_SUMMARY"
-          echo "Curriculum and source links passed; full audio coverage is separately checked by the recording workflow." >> "$GITHUB_STEP_SUMMARY"
+          echo "All 198 Group Nine narration, scene, story and dialogue recordings passed mandatory source and word-cue validation." >> "$GITHUB_STEP_SUMMARY"

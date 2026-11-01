@@ -82,16 +82,18 @@ jobs:
           python scripts/test_group_six.py --require-audio
           python scripts/test_group_seven.py --require-audio
           python scripts/test_group_eight.py --require-audio
+          python scripts/test_group_nine.py --require-audio
           cp index.html *.js styles.css manifest.webmanifest _site/
           cp -r data assets _site/
           echo "## Pattern Universe preview" >> "$GITHUB_STEP_SUMMARY"
-          echo "3 original deep lessons, Groups One through Eight: 144 interactive patterns, 576 scenes and three deep original journeys. Group Eight social etiquette: 198 verified spoken clips with measured word cues." >> "$GITHUB_STEP_SUMMARY"
+          echo "3 original deep lessons, Groups One through Nine: 162 interactive patterns, 648 scenes and three deep original journeys. Group Nine idea connectors: 198 verified spoken clips with measured word cues." >> "$GITHUB_STEP_SUMMARY"
           echo "Kokoro setup: ${{ steps.setup_tts.outcome }}" >> "$GITHUB_STEP_SUMMARY"
           echo "Kokoro rendering: ${{ steps.tts.outcome }}" >> "$GITHUB_STEP_SUMMARY"
           echo "Recorded seed MP3 count: $(find assets/audio -name '*.mp3' 2>/dev/null | wc -l)" >> "$GITHUB_STEP_SUMMARY"
           echo "Group Six verified MP3 count: $(find assets/group-six-audio -name '*.mp3' 2>/dev/null | wc -l)" >> "$GITHUB_STEP_SUMMARY"
           echo "Group Seven verified MP3 count: $(find assets/group-seven-audio -name '*.mp3' 2>/dev/null | wc -l)" >> "$GITHUB_STEP_SUMMARY"
           echo "Group Eight dedicated MP3 count: $(find assets/group-eight-audio -name '*.mp3' 2>/dev/null | wc -l) + one verified source recording" >> "$GITHUB_STEP_SUMMARY"
+          echo "Group Nine dedicated MP3 count: $(find assets/group-nine-audio -name '*.mp3' 2>/dev/null | wc -l) (plus any verified source reuse)" >> "$GITHUB_STEP_SUMMARY"
       - name: Always upload a testable preview ZIP
         uses: actions/upload-artifact@v4
         with:

@@ -43,7 +43,7 @@ An Arabic-first, offline-friendly learning prototype that teaches English **thro
 ## المجموعة التاسعة — ربط الأفكار وتوسيع التعبير
 - [المجموعة التاسعة: 18 نمطًا و72 موقفًا وثلاث قصص مترابطة](docs/GROUP-NINE-AR.md). افتح «🔗 المجموعة التاسعة».
 - تدريب عملي على **because / because of / so / That's why / so that / to / although / even though / but / however / while / instead of / in addition to / not only ... but also / for example / such as / unless / even if** مع مقارنات بين الصيغ المتشابهة وأسباب استخدامها.
-- **198 مقطعًا صوتيًا مستهدفًا** عبر توليد MP3 وتوقيتات الكلمات من نفس التسجيل؛ لا يُعد الصوت متحققًا منه إلا بعد نجاح Workflow المخصص. الصور مؤجلة إلى مرحلة التصاميم.
+- **198/198 تسجيل MP3 جديد مكتمل ومتحقق منه**، بلا إعادة استخدام، مع WordBoundary مقاس من كل ملف وبصمة SHA256 وتغطية صوتية كاملة. الصور مؤجلة إلى مرحلة التصاميم.
 
 ## Learning experience
 - Three fully scripted seed lessons from the supplied source: **This is my house**, **I have a good job**, and **I've got a job**.
