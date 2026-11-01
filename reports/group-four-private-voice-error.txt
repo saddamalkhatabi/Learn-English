@@ -1,0 +1,19 @@
+REUSE verified existing recording: p16/scene-1 <- assets/audio/have/scene-2-4.mp3
+RENDERED 12 / 197 new recordings
+RENDERED 24 / 197 new recordings
+RENDERED 36 / 197 new recordings
+RENDERED 48 / 197 new recordings
+RENDERED 60 / 197 new recordings
+RENDERED 72 / 197 new recordings
+RENDERED 84 / 197 new recordings
+RENDERED 96 / 197 new recordings
+RENDERED 108 / 197 new recordings
+RENDERED 120 / 197 new recordings
+RENDERED 132 / 197 new recordings
+RENDERED 144 / 197 new recordings
+RENDERED 156 / 197 new recordings
+RENDERED 168 / 197 new recordings
+RENDERED 180 / 197 new recordings
+RENDERED 192 / 197 new recordings
+RENDERED 197 / 197 new recordings
+COMPLETE 198 requested, 197 synthesized, 1 reused
