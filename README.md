@@ -15,6 +15,11 @@ An Arabic-first, offline-friendly learning prototype that teaches English **thro
 - [المجموعة الثالثة: 18 نمطًا و72 موقفًا وثلاث قصص مترابطة](docs/GROUP-THREE-AR.md). افتح «🤝 المجموعة الثالثة».
 - اختبارات فهم وبناء جملة، والتقدم محفوظ بصورة مستقلة، و195 تسجيلًا جديدًا مع 3 مواد سابقة موثقة وتوقيت كلمات حقيقي؛ صور واقعية ستُضاف لاحقًا.
 
+## المجموعة الرابعة — الأسئلة والاستفسارات
+- [المجموعة الرابعة: 18 نمطًا و72 موقفًا وثلاث قصص مترابطة](docs/GROUP-FOUR-AR.md). افتح «❓ المجموعة الرابعة».
+- قارن بين **What / Where / When / Why / How** وبين **Do / Does** و**Is there / Are there** و**How many / How much**، مع التدريب والتسجيلات المزامنة بالكلمات.
+- الصور الواقعية مؤجلة؛ تظهر بدائل توضيحية حتى تصميم أطالس WebP الفعلية.
+
 ## Learning experience
 - Three fully scripted seed lessons from the supplied source: **This is my house**, **I have a good job**, and **I've got a job**.
 - Each seed lesson includes three levels, 12 contextual scene examples, a recorded Kokoro explanation, clickable story chapters (5 lines per level), a 4-turn dialogue, active vocabulary highlighting and quiz/reconstruction.
