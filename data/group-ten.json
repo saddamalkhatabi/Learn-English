@@ -661,32 +661,32 @@
       "scenes": [
         {
           "id": 1,
-          "en": "The place where we met is now a library.",
-          "ar": "المكان الذي التقينا فيه أصبح مكتبة.",
+          "en": "We revisited the place where we first met. It is now a library.",
+          "ar": "عدنا إلى المكان الذي التقينا فيه أول مرة. وقد أصبح مكتبة الآن.",
           "context": "ذكرى مكان",
           "icon": "🏛️",
           "photo": null
         },
         {
           "id": 2,
-          "en": "The café where she works is near the park.",
-          "ar": "المقهى الذي تعمل فيه قرب الحديقة.",
+          "en": "She works at the café where we met last summer.",
+          "ar": "تعمل في المقهى الذي التقينا فيه الصيف الماضي.",
           "context": "مقهى الحي",
           "icon": "☕",
           "photo": null
         },
         {
           "id": 3,
-          "en": "The village where I grew up is quiet.",
-          "ar": "القرية التي نشأت فيها هادئة.",
+          "en": "I often think about the village where I grew up.",
+          "ar": "كثيرًا ما أفكر في القرية التي نشأت فيها.",
           "context": "ذكريات الطفولة",
           "icon": "🏡",
           "photo": null
         },
         {
           "id": 4,
-          "en": "The room where we study has large windows.",
-          "ar": "الغرفة التي ندرس فيها ذات نوافذ كبيرة.",
+          "en": "We like the room where we study because it has large windows.",
+          "ar": "نحب الغرفة التي ندرس فيها لأنها ذات نوافذ كبيرة.",
           "context": "غرفة الدراسة",
           "icon": "🪟",
           "photo": null
@@ -741,32 +741,32 @@
       "scenes": [
         {
           "id": 1,
-          "en": "The day when we graduated was unforgettable.",
-          "ar": "اليوم الذي تخرجنا فيه كان لا ينسى.",
+          "en": "I will always remember the day when we graduated.",
+          "ar": "سأتذكر دائمًا اليوم الذي تخرجنا فيه.",
           "context": "يوم التخرج",
           "icon": "🎓",
           "photo": null
         },
         {
           "id": 2,
-          "en": "The day when she arrived was rainy.",
-          "ar": "اليوم الذي وصلت فيه كان ممطرًا.",
+          "en": "We recall the day when she arrived in the rain.",
+          "ar": "نتذكر اليوم الذي وصلت فيه تحت المطر.",
           "context": "استقبال ضيف",
           "icon": "☔",
           "photo": null
         },
         {
           "id": 3,
-          "en": "The year when I started school was special.",
-          "ar": "العام الذي بدأت فيه المدرسة كان مميزًا.",
+          "en": "I still think about the year when I started school.",
+          "ar": "ما زلت أفكر في السنة التي بدأت فيها المدرسة.",
           "context": "بداية الدراسة",
           "icon": "🏫",
           "photo": null
         },
         {
           "id": 4,
-          "en": "The moment when he smiled made us happy.",
-          "ar": "اللحظة التي ابتسم فيها أسعدتنا.",
+          "en": "We all remember the moment when he smiled.",
+          "ar": "نتذكر جميعًا اللحظة التي ابتسم فيها.",
           "context": "لحظة جميلة",
           "icon": "😊",
           "photo": null
@@ -1379,32 +1379,32 @@
       "scenes": [
         {
           "id": 1,
-          "en": "The more I read, the more words I learn.",
-          "ar": "كلما قرأت أكثر، تعلمت كلمات أكثر.",
+          "en": "I notice that the more I read, the more words I learn.",
+          "ar": "ألاحظ أنه كلما قرأت أكثر، تعلمت كلمات أكثر.",
           "context": "توسيع المفردات",
           "icon": "📚",
           "photo": null
         },
         {
           "id": 2,
-          "en": "The more we practice, the more confident we become.",
-          "ar": "كلما تدربنا أكثر، أصبحنا أكثر ثقة.",
+          "en": "We find that the more we practice, the more confident we become.",
+          "ar": "نجد أنه كلما تدربنا أكثر، أصبحنا أكثر ثقة.",
           "context": "تدريب لغوي",
           "icon": "🗣️",
           "photo": null
         },
         {
           "id": 3,
-          "en": "The more she listens, the better she understands.",
-          "ar": "كلما استمعت أكثر، فهمت بصورة أفضل.",
+          "en": "She discovers that the more she listens, the better she understands.",
+          "ar": "تكتشف أنه كلما استمعت أكثر، فهمت بصورة أفضل.",
           "context": "فهم الاستماع",
           "icon": "🎧",
           "photo": null
         },
         {
           "id": 4,
-          "en": "The more we share ideas, the more creative we become.",
-          "ar": "كلما تبادلنا الأفكار أكثر، أصبحنا أكثر إبداعًا.",
+          "en": "I believe that the more we share ideas, the more creative we become.",
+          "ar": "أعتقد أنه كلما تبادلنا الأفكار أكثر، أصبحنا أكثر إبداعًا.",
           "context": "عصف ذهني",
           "icon": "💡",
           "photo": null
@@ -1423,8 +1423,8 @@
         },
         {
           "id": 3,
-          "en": "The more she practiced, the more confident she became.",
-          "ar": "كلما تدربت أكثر، ازدادت ثقتها بنفسها."
+          "en": "She noticed that the more she practiced, the more confident she became.",
+          "ar": "لاحظت أنه كلما تدربت أكثر، ازدادت ثقتها بنفسها."
         }
       ],
       "dialogue": [
@@ -1437,8 +1437,8 @@
         {
           "id": 2,
           "speaker": "B",
-          "en": "The more I read, the faster I learn.",
-          "ar": "كلما قرأت أكثر، تعلمت أسرع."
+          "en": "I find that the more I read, the faster I learn.",
+          "ar": "أجد أنه كلما قرأت أكثر، تعلمت أسرع."
         }
       ]
     }
@@ -1473,13 +1473,13 @@
         },
         {
           "id": 5,
-          "en": "The person who organized the activity gave clear instructions.",
-          "ar": "قدّم الشخص الذي نظم النشاط تعليمات واضحة."
+          "en": "Everyone thanked the person who organized the activity.",
+          "ar": "شكر الجميع الشخص الذي نظم النشاط."
         },
         {
           "id": 6,
-          "en": "The more the class practiced, the more confident everyone became.",
-          "ar": "كلما تدرب الصف أكثر، ازدادت ثقة الجميع."
+          "en": "They found that the more the class practiced, the more confident everyone became.",
+          "ar": "وجدوا أنه كلما تدرب الصف أكثر، ازدادت ثقة الجميع."
         }
       ]
     },
@@ -1541,8 +1541,8 @@
         },
         {
           "id": 3,
-          "en": "The place where they tested the robot was a quiet garden.",
-          "ar": "كان المكان الذي اختبرتا فيه الروبوت حديقة هادئة."
+          "en": "They tested the robot in a quiet garden, the place where they could work best.",
+          "ar": "اختبرتا الروبوت في حديقة هادئة، المكان الذي كان بإمكانهما العمل فيه بأفضل صورة."
         },
         {
           "id": 4,

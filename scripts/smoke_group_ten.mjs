@@ -24,7 +24,7 @@ assert.equal((await page.locator("#g10Title").innerText()).trim(),"What I mean i
  assert.equal(await page.locator("#g10ChapterLines button").count(),6);
  assert.match(await page.locator("#g10Visual").innerText(),/مشهد توضيحي مؤقت/);
  assert.equal(await page.locator("#g10Visual img").count(),0);
- const sentence="I stayed inside because it was raining.";
+ const sentence="What I mean is we need more practice.";
  await page.locator("#g10QuizOptions button").filter({hasText:sentence}).click();
  assert.match(await page.locator("#g10QuizFeedback").innerText(),/أحسنت/);
  const words=sentence.split(/\s+/);
