@@ -1,0 +1,43 @@
+import { chromium } from "playwright";
+import assert from "node:assert/strict";
+
+const browser=await chromium.launch({headless:true,args:["--no-sandbox"]});
+const page=await browser.newPage({viewport:{width:390,height:844},deviceScaleFactor:1});
+const errors=[],missing=[];
+page.on("pageerror",e=>errors.push(e.message));
+page.on("response",r=>{if(r.status()>=400&&/\.(js|json|mp3)/.test(r.url()))missing.push(r.status()+" "+r.url())});
+try{
+ await page.goto("http://127.0.0.1:3178/#marathon",{waitUntil:"networkidle",timeout:30000});
+ await page.waitForFunction(()=>window.PATTERN_MARATHON?.getStatus().total===1962,{timeout:18000});
+ assert.equal(await page.locator("#view-marathon").isVisible(),true);
+ assert.match(await page.locator("#mlSentence").innerText(),/This is introduces/);
+ assert.match(await page.locator("#mlCounter").innerText(),/1 \/ 1962/);
+ await page.locator("#mlNext").click();
+ assert.match(await page.locator("#mlSentence").innerText(),/This is my house/);
+ let saved=await page.evaluate(()=>JSON.parse(localStorage.getItem("pattern-universe-continuous-v1")));
+ assert.equal(saved.index,1);
+ await page.reload({waitUntil:"networkidle"});
+ await page.waitForFunction(()=>window.PATTERN_MARATHON?.getStatus().total===1962,{timeout:18000});
+ assert.equal((await page.evaluate(()=>window.PATTERN_MARATHON.getStatus())).index,1);
+ await page.locator("#mlPlay").click();
+ await page.waitForFunction(()=>window.PATTERN_MARATHON.getStatus().playing,{timeout:6000});
+ await page.waitForTimeout(500);
+ await page.locator("#mlPause").click();
+ let paused=await page.evaluate(()=>window.PATTERN_MARATHON.getStatus());
+ assert.equal(paused.playing,false);
+ assert.ok(paused.index>=1);
+ await page.locator("#mlGroupJump").selectOption("9");
+ await page.locator("#mlPatternJump").selectOption("1");
+ await page.locator("#mlJump").click();
+ assert.match(await page.locator("#mlSentence").innerText(),/clarify a previous statement/);
+ assert.match(await page.locator("#mlGroup").innerText(),/العاشرة/);
+ await page.locator('[data-view="group-one"]').click();
+ assert.equal(await page.locator("#view-marathon").isVisible(),false);
+ await page.locator('[data-view="marathon"]').click();
+ assert.equal(await page.locator("#view-marathon").isVisible(),true);
+ const dims=await page.evaluate(()=>({w:document.documentElement.scrollWidth,screen:window.innerWidth}));
+ assert.ok(dims.w<=dims.screen+3,JSON.stringify(dims));
+ assert.deepEqual(errors,[]);
+ assert.deepEqual(missing,[]);
+ console.log("PASS: 1962 units, ten groups, independent recorded playback, mobile viewport, pause, saved resume, jumps, views, no broken JSON/MP3");
+}finally{await browser.close()}
