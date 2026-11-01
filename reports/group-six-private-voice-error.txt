@@ -1,0 +1,37 @@
+RENDERED 12 / 198 new recordings
+RENDERED 24 / 198 new recordings
+RENDERED 36 / 198 new recordings
+RENDERED 48 / 198 new recordings
+RENDERED 60 / 198 new recordings
+RENDERED 72 / 198 new recordings
+RENDERED 84 / 198 new recordings
+RENDERED 96 / 198 new recordings
+RENDERED 108 / 198 new recordings
+Traceback (most recent call last):
+  File "/home/runner/work/Learn-English/Learn-English/scripts/render_group_six_audio.py", line 69, in one
+    cues, repairs = cue_words(text, words, ms)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/Learn-English/Learn-English/scripts/render_pattern_audio.py", line 32, in cue_words
+    raise ValueError("Unalignable transcript: " + text)
+ValueError: Unalignable transcript: Use might + base verb for an uncertain future possibility.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/work/Learn-English/Learn-English/scripts/render_group_six_audio.py", line 126, in <module>
+    asyncio.run(main())
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/asyncio/base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/runner/work/Learn-English/Learn-English/scripts/render_group_six_audio.py", line 117, in main
+    records = await asyncio.gather(*(one(key, text, semaphore, args.retries) for key, text in batch))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/Learn-English/Learn-English/scripts/render_group_six_audio.py", line 83, in one
+    raise RuntimeError(f"{key}: failed to synthesize and verify {text}: {exc}") from exc
+RuntimeError: p12/intro: failed to synthesize and verify Use might + base verb for an uncertain future possibility.: Unalignable transcript: Use might + base verb for an uncertain future possibility.
