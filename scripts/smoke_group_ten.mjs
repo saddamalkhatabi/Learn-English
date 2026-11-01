@@ -60,8 +60,8 @@ assert.equal((await page.locator("#g10Title").innerText()).trim(),"What I mean i
  for(let i=0;i<groupNames.length;i++){
    const name=groupNames[i],short=groupIds[i];
    assert.equal(await page.locator('[data-view="group-'+name+'"]').count(),1);
-   assert.equal((await page.request.get(new URL("group-"+name+".js",root))).status(),200,"JS module missing for "+name);
-   assert.equal((await page.request.get(new URL("data/group-"+name+".json",root))).status(),200,"curriculum JSON missing for "+name);
+   assert.equal((await page.request.get(new URL("group-"+name+".js",root).toString())).status(),200,"JS module missing for "+name);
+   assert.equal((await page.request.get(new URL("data/group-"+name+".json",root).toString())).status(),200,"curriculum JSON missing for "+name);
    await page.locator('[data-view="group-'+name+'"]').click();
    await page.locator("#"+short+"PatternList ."+short+"PatternChip").first().waitFor({timeout:15000});
    assert.equal(await page.locator("#"+short+"PatternList ."+short+"PatternChip").count(),18,"Wrong count for "+name);
