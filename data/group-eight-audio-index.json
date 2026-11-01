@@ -1,6 +1,9811 @@
 {
   "schema": 1,
   "source": "Only verified group-eight MP3s and measured same-synthesis word boundaries",
-  "items": {},
-  "verified_count": 0
+  "items": {
+    "p01/intro": {
+      "text": "Use excuse me to get attention, pass someone, or interrupt politely. Use sorry when apologizing for a mistake.",
+      "path": "assets/group-eight-audio/p01/intro.mp3",
+      "audio_sha256": "2569146d0f4acfab688d140b6b73830819691b119ed738385819763b3b14bd4c",
+      "duration_ms": 8880,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          390
+        ],
+        [
+          1,
+          403,
+          852
+        ],
+        [
+          2,
+          865,
+          974
+        ],
+        [
+          3,
+          988,
+          1096
+        ],
+        [
+          4,
+          1110,
+          1286
+        ],
+        [
+          5,
+          1300,
+          1979
+        ],
+        [
+          6,
+          2115,
+          2414
+        ],
+        [
+          7,
+          2428,
+          2917
+        ],
+        [
+          8,
+          3134,
+          3243
+        ],
+        [
+          9,
+          3257,
+          3773
+        ],
+        [
+          10,
+          3786,
+          4507
+        ],
+        [
+          11,
+          5448,
+          5734
+        ],
+        [
+          12,
+          5747,
+          6060
+        ],
+        [
+          13,
+          6073,
+          6223
+        ],
+        [
+          14,
+          6236,
+          7024
+        ],
+        [
+          15,
+          7038,
+          7187
+        ],
+        [
+          16,
+          7201,
+          7242
+        ],
+        [
+          17,
+          7255,
+          7935
+        ]
+      ]
+    },
+    "p01/scene-1": {
+      "text": "Excuse me, is this seat free?",
+      "path": "assets/group-eight-audio/p01/scene-1.mp3",
+      "audio_sha256": "78d39550f8d8c96ef35db81f5bda1d9752cf2918d92bf8a8820184df9e5423a8",
+      "duration_ms": 3072,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          648
+        ],
+        [
+          1,
+          661,
+          920
+        ],
+        [
+          2,
+          1151,
+          1246
+        ],
+        [
+          3,
+          1259,
+          1449
+        ],
+        [
+          4,
+          1463,
+          1694
+        ],
+        [
+          5,
+          1708,
+          2129
+        ]
+      ]
+    },
+    "p01/scene-2": {
+      "text": "Excuse me, where is the library?",
+      "path": "assets/group-eight-audio/p01/scene-2.mp3",
+      "audio_sha256": "d0212956ede57dce9354781ba0fcb1f70f131d06ac5957c852a0cc8e71c4bdf5",
+      "duration_ms": 3168,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          648
+        ],
+        [
+          1,
+          661,
+          879
+        ],
+        [
+          2,
+          1123,
+          1286
+        ],
+        [
+          3,
+          1300,
+          1409
+        ],
+        [
+          4,
+          1422,
+          1531
+        ],
+        [
+          5,
+          1545,
+          2224
+        ]
+      ]
+    },
+    "p01/scene-3": {
+      "text": "Excuse me, can I pass through?",
+      "path": "assets/group-eight-audio/p01/scene-3.mp3",
+      "audio_sha256": "c95fb4d9da93709e7c6da8490c330fb04d425c7a12c5c6d11968940ad403e9a5",
+      "duration_ms": 3072,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          661
+        ],
+        [
+          1,
+          675,
+          947
+        ],
+        [
+          2,
+          1137,
+          1300
+        ],
+        [
+          3,
+          1314,
+          1381
+        ],
+        [
+          4,
+          1395,
+          1735
+        ],
+        [
+          5,
+          1748,
+          2129
+        ]
+      ]
+    },
+    "p01/scene-4": {
+      "text": "Excuse me, may I ask a question?",
+      "path": "assets/group-eight-audio/p01/scene-4.mp3",
+      "audio_sha256": "079158cb78e824e6f6bc54e2ee3ff5781ec9813680dab4a0d0525ae745121b51",
+      "duration_ms": 3264,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          648
+        ],
+        [
+          1,
+          661,
+          892
+        ],
+        [
+          2,
+          1110,
+          1232
+        ],
+        [
+          3,
+          1246,
+          1327
+        ],
+        [
+          4,
+          1341,
+          1599
+        ],
+        [
+          5,
+          1612,
+          1667
+        ],
+        [
+          6,
+          1680,
+          2319
+        ]
+      ]
+    },
+    "p01/story-1": {
+      "text": "Nora needed to find the right classroom.",
+      "path": "assets/group-eight-audio/p01/story-1.mp3",
+      "audio_sha256": "0bcfc2f5ab06bfb309ab2547670eeb61d1985eb94faf2ffcfa958d1c766d0121",
+      "duration_ms": 3216,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          458
+        ],
+        [
+          1,
+          471,
+          784
+        ],
+        [
+          2,
+          797,
+          892
+        ],
+        [
+          3,
+          906,
+          1164
+        ],
+        [
+          4,
+          1178,
+          1259
+        ],
+        [
+          5,
+          1273,
+          1545
+        ],
+        [
+          6,
+          1558,
+          2265
+        ]
+      ]
+    },
+    "p01/story-2": {
+      "text": "She saw a teacher near the stairs.",
+      "path": "assets/group-eight-audio/p01/story-2.mp3",
+      "audio_sha256": "94b69b40343795f4c004d23b442cc922c7dd397b608a610b6b6f602bfef27bb3",
+      "duration_ms": 3024,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          335
+        ],
+        [
+          1,
+          349,
+          553
+        ],
+        [
+          2,
+          566,
+          634
+        ],
+        [
+          3,
+          648,
+          1055
+        ],
+        [
+          4,
+          1069,
+          1232
+        ],
+        [
+          5,
+          1246,
+          1354
+        ],
+        [
+          6,
+          1368,
+          2074
+        ]
+      ]
+    },
+    "p01/story-3": {
+      "text": "She said, 'Excuse me, where is room five?'",
+      "path": "assets/group-eight-audio/p01/story-3.mp3",
+      "audio_sha256": "aa77cd4b7777bb0f0d1181453583820e033632bb2035f3439a4fb0053aa7cbdd",
+      "duration_ms": 3984,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          335
+        ],
+        [
+          1,
+          349,
+          743
+        ],
+        [
+          2,
+          920,
+          1395
+        ],
+        [
+          3,
+          1409,
+          1640
+        ],
+        [
+          4,
+          1871,
+          2047
+        ],
+        [
+          5,
+          2061,
+          2210
+        ],
+        [
+          6,
+          2224,
+          2414
+        ],
+        [
+          7,
+          2428,
+          3039
+        ]
+      ]
+    },
+    "p01/dialogue-1": {
+      "text": "Excuse me, is this the science room?",
+      "path": "assets/group-eight-audio/p01/dialogue-1.mp3",
+      "audio_sha256": "0b4869b1b816ae9e5584d1760024e5a34c7d19831d9173e30186b462790496ee",
+      "duration_ms": 3312,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          648
+        ],
+        [
+          1,
+          661,
+          920
+        ],
+        [
+          2,
+          1151,
+          1246
+        ],
+        [
+          3,
+          1259,
+          1436
+        ],
+        [
+          4,
+          1449,
+          1558
+        ],
+        [
+          5,
+          1572,
+          2007
+        ],
+        [
+          6,
+          2020,
+          2360
+        ]
+      ]
+    },
+    "p01/dialogue-2": {
+      "text": "Yes, it's the room on your left.",
+      "path": "assets/group-eight-audio/p01/dialogue-2.mp3",
+      "audio_sha256": "b016b704aa313d1258fe73f062e41a0267789087c20ae7c0daeaeae3791d5dd5",
+      "duration_ms": 3192,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          634
+        ],
+        [
+          1,
+          797,
+          974
+        ],
+        [
+          2,
+          988,
+          1110
+        ],
+        [
+          3,
+          1123,
+          1368
+        ],
+        [
+          4,
+          1382,
+          1517
+        ],
+        [
+          5,
+          1531,
+          1694
+        ],
+        [
+          6,
+          1708,
+          2251
+        ]
+      ]
+    },
+    "p02/intro": {
+      "text": "Use could you please with a base verb to ask someone to do something politely.",
+      "path": "assets/group-eight-audio/p02/intro.mp3",
+      "audio_sha256": "6a5b704b88bd92fe31a3c817d4a437530bd527a5cd75e49b7494cf193cd85111",
+      "duration_ms": 5040,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          403
+        ],
+        [
+          1,
+          417,
+          580
+        ],
+        [
+          2,
+          593,
+          702
+        ],
+        [
+          3,
+          716,
+          1042
+        ],
+        [
+          4,
+          1055,
+          1178
+        ],
+        [
+          5,
+          1191,
+          1259
+        ],
+        [
+          6,
+          1273,
+          1599
+        ],
+        [
+          7,
+          1612,
+          1911
+        ],
+        [
+          8,
+          1925,
+          2034
+        ],
+        [
+          9,
+          2047,
+          2360
+        ],
+        [
+          10,
+          2373,
+          2686
+        ],
+        [
+          11,
+          2699,
+          2781
+        ],
+        [
+          12,
+          2795,
+          2971
+        ],
+        [
+          13,
+          2985,
+          3379
+        ],
+        [
+          14,
+          3392,
+          4085
+        ]
+      ]
+    },
+    "p02/scene-1": {
+      "text": "Could you please speak a little slower?",
+      "path": "assets/group-eight-audio/p02/scene-1.mp3",
+      "audio_sha256": "bd793f353ae752dda8f8c733f5cd5a95e25aca5c7013c032995fa7f7a0859162",
+      "duration_ms": 2808,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          295
+        ],
+        [
+          1,
+          308,
+          403
+        ],
+        [
+          2,
+          417,
+          702
+        ],
+        [
+          3,
+          716,
+          974
+        ],
+        [
+          4,
+          988,
+          1042
+        ],
+        [
+          5,
+          1055,
+          1314
+        ],
+        [
+          6,
+          1327,
+          1871
+        ]
+      ]
+    },
+    "p02/scene-2": {
+      "text": "Could you please close the window?",
+      "path": "assets/group-eight-audio/p02/scene-2.mp3",
+      "audio_sha256": "18bf2345be75cebc2fb9e2aa06fd44ef904d84a9b546b3a9cbb5f2151a062734",
+      "duration_ms": 2616,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          295
+        ],
+        [
+          1,
+          308,
+          390
+        ],
+        [
+          2,
+          403,
+          716
+        ],
+        [
+          3,
+          729,
+          1028
+        ],
+        [
+          4,
+          1042,
+          1151
+        ],
+        [
+          5,
+          1164,
+          1680
+        ]
+      ]
+    },
+    "p02/scene-3": {
+      "text": "Could you please send me the address?",
+      "path": "assets/group-eight-audio/p02/scene-3.mp3",
+      "audio_sha256": "618bc9b19d9694a51b38a0907673aeed594ea71baddfe626fb23eacfa446b93c",
+      "duration_ms": 2856,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          295
+        ],
+        [
+          1,
+          308,
+          403
+        ],
+        [
+          2,
+          417,
+          716
+        ],
+        [
+          3,
+          729,
+          947
+        ],
+        [
+          4,
+          960,
+          1069
+        ],
+        [
+          5,
+          1083,
+          1205
+        ],
+        [
+          6,
+          1218,
+          1898
+        ]
+      ]
+    },
+    "p02/scene-4": {
+      "text": "Could you please repeat the last sentence?",
+      "path": "assets/group-eight-audio/p02/scene-4.mp3",
+      "audio_sha256": "6441d6d4e25ed920c94716798b4bcc2da7ec9170bac719ce4985caf6946607a5",
+      "duration_ms": 3216,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          295
+        ],
+        [
+          1,
+          308,
+          403
+        ],
+        [
+          2,
+          417,
+          756
+        ],
+        [
+          3,
+          770,
+          1096
+        ],
+        [
+          4,
+          1110,
+          1205
+        ],
+        [
+          5,
+          1218,
+          1558
+        ],
+        [
+          6,
+          1572,
+          2278
+        ]
+      ]
+    },
+    "p02/story-1": {
+      "text": "Yasser could not hear the speaker clearly.",
+      "path": "assets/group-eight-audio/p02/story-1.mp3",
+      "audio_sha256": "d871c177929fd90e9600f2ffa2ae23b89867e01bcc4da1a7deade494f3162ce4",
+      "duration_ms": 3432,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          593
+        ],
+        [
+          1,
+          607,
+          770
+        ],
+        [
+          2,
+          784,
+          1015
+        ],
+        [
+          3,
+          1028,
+          1218
+        ],
+        [
+          4,
+          1232,
+          1341
+        ],
+        [
+          5,
+          1354,
+          1776
+        ],
+        [
+          6,
+          1789,
+          2482
+        ]
+      ]
+    },
+    "p02/story-2": {
+      "text": "He waited for a pause.",
+      "path": "assets/group-eight-audio/p02/story-2.mp3",
+      "audio_sha256": "48890a3f2dfeb1f20e24dc52632caed083e01f4b0890d72a6c837d6dc0a11880",
+      "duration_ms": 2496,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          281
+        ],
+        [
+          1,
+          295,
+          648
+        ],
+        [
+          2,
+          661,
+          824
+        ],
+        [
+          3,
+          838,
+          892
+        ],
+        [
+          4,
+          906,
+          1545
+        ]
+      ]
+    },
+    "p02/story-3": {
+      "text": "He asked, 'Could you please repeat that?'",
+      "path": "assets/group-eight-audio/p02/story-3.mp3",
+      "audio_sha256": "4871d2f4f82671d13f663f13d121f0f171d9403459c18e9dc61d23113dcc40c4",
+      "duration_ms": 3384,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          322
+        ],
+        [
+          1,
+          335,
+          892
+        ],
+        [
+          2,
+          1015,
+          1178
+        ],
+        [
+          3,
+          1191,
+          1286
+        ],
+        [
+          4,
+          1300,
+          1612
+        ],
+        [
+          5,
+          1626,
+          1979
+        ],
+        [
+          6,
+          1993,
+          2441
+        ]
+      ]
+    },
+    "p02/dialogue-1": {
+      "text": "Could you please help me carry this box?",
+      "path": "assets/group-eight-audio/p02/dialogue-1.mp3",
+      "audio_sha256": "f2f549e179a401a2931de9ca717c12e9cad48f6d64b5fdd49a32c2ebf4902cc4",
+      "duration_ms": 3120,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          281
+        ],
+        [
+          1,
+          295,
+          390
+        ],
+        [
+          2,
+          403,
+          702
+        ],
+        [
+          3,
+          716,
+          879
+        ],
+        [
+          4,
+          892,
+          1015
+        ],
+        [
+          5,
+          1028,
+          1327
+        ],
+        [
+          6,
+          1341,
+          1545
+        ],
+        [
+          7,
+          1558,
+          2170
+        ]
+      ]
+    },
+    "p02/dialogue-2": {
+      "text": "Of course, I'd be happy to help.",
+      "path": "assets/group-eight-audio/p02/dialogue-2.mp3",
+      "audio_sha256": "d9973a7ddb2275937651c7f155949328501985c639f8df457e1f69c5ceb19963",
+      "duration_ms": 3024,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          267
+        ],
+        [
+          1,
+          281,
+          784
+        ],
+        [
+          2,
+          947,
+          1069
+        ],
+        [
+          3,
+          1083,
+          1205
+        ],
+        [
+          4,
+          1218,
+          1531
+        ],
+        [
+          5,
+          1545,
+          1626
+        ],
+        [
+          6,
+          1640,
+          2088
+        ]
+      ]
+    },
+    "p03/intro": {
+      "text": "Use would you mind before an activity ending in ing to make a gentle request.",
+      "path": "assets/group-eight-audio/p03/intro.mp3",
+      "audio_sha256": "39dce1cf64274c6d1e17012aa25e567c7c37a09f2c734f85637804b53be514cc",
+      "duration_ms": 5904,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          403
+        ],
+        [
+          1,
+          417,
+          566
+        ],
+        [
+          2,
+          580,
+          675
+        ],
+        [
+          3,
+          689,
+          1042
+        ],
+        [
+          4,
+          1055,
+          1395
+        ],
+        [
+          5,
+          1409,
+          1490
+        ],
+        [
+          6,
+          1504,
+          2156
+        ],
+        [
+          7,
+          2170,
+          2509
+        ],
+        [
+          8,
+          2523,
+          2645
+        ],
+        [
+          9,
+          2659,
+          3379
+        ],
+        [
+          10,
+          3392,
+          3542
+        ],
+        [
+          11,
+          3555,
+          3759
+        ],
+        [
+          12,
+          3773,
+          3841
+        ],
+        [
+          13,
+          3854,
+          4208
+        ],
+        [
+          14,
+          4221,
+          4955
+        ]
+      ]
+    },
+    "p03/scene-1": {
+      "text": "Would you mind moving your bag?",
+      "path": "assets/group-eight-audio/p03/scene-1.mp3",
+      "audio_sha256": "f2c084aaa6a29bab964819045ddc97b818e5a4dcb233a34e6ea522fcb81d4490",
+      "duration_ms": 2592,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          281
+        ],
+        [
+          1,
+          295,
+          390
+        ],
+        [
+          2,
+          403,
+          716
+        ],
+        [
+          3,
+          729,
+          1028
+        ],
+        [
+          4,
+          1042,
+          1178
+        ],
+        [
+          5,
+          1191,
+          1653
+        ]
+      ]
+    },
+    "p03/scene-2": {
+      "text": "Would you mind lowering the music?",
+      "path": "assets/group-eight-audio/p03/scene-2.mp3",
+      "audio_sha256": "c49cc9f7953944f28342458274461af1cf21582042e9738184486838e0cb35b2",
+      "duration_ms": 2736,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          281
+        ],
+        [
+          1,
+          295,
+          390
+        ],
+        [
+          2,
+          403,
+          702
+        ],
+        [
+          3,
+          716,
+          1055
+        ],
+        [
+          4,
+          1069,
+          1164
+        ],
+        [
+          5,
+          1178,
+          1789
+        ]
+      ]
+    },
+    "p03/scene-3": {
+      "text": "Would you mind waiting a moment?",
+      "path": "assets/group-eight-audio/p03/scene-3.mp3",
+      "audio_sha256": "4123ac18111572494aa2623ecd9f0d908301ca3083e82fcd46749230b039073e",
+      "duration_ms": 2664,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          281
+        ],
+        [
+          1,
+          295,
+          390
+        ],
+        [
+          2,
+          403,
+          702
+        ],
+        [
+          3,
+          716,
+          1042
+        ],
+        [
+          4,
+          1055,
+          1110
+        ],
+        [
+          5,
+          1123,
+          1721
+        ]
+      ]
+    },
+    "p03/scene-4": {
+      "text": "Would you mind checking this sentence?",
+      "path": "assets/group-eight-audio/p03/scene-4.mp3",
+      "audio_sha256": "7a9cc38c93a4c8b63f8db4403709596f3dd0810ff7a1f258d7f636f50177539f",
+      "duration_ms": 2904,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          281
+        ],
+        [
+          1,
+          295,
+          390
+        ],
+        [
+          2,
+          403,
+          675
+        ],
+        [
+          3,
+          689,
+          1055
+        ],
+        [
+          4,
+          1069,
+          1232
+        ],
+        [
+          5,
+          1246,
+          1966
+        ]
+      ]
+    },
+    "p03/story-1": {
+      "text": "Amal was reading in a quiet room.",
+      "path": "assets/group-eight-audio/p03/story-1.mp3",
+      "audio_sha256": "2ec4df9d90e00229cebb953323dca58d90b94eeb8859d857c82ab836255e20de",
+      "duration_ms": 2976,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          498
+        ],
+        [
+          1,
+          512,
+          716
+        ],
+        [
+          2,
+          729,
+          1042
+        ],
+        [
+          3,
+          1055,
+          1137
+        ],
+        [
+          4,
+          1151,
+          1205
+        ],
+        [
+          5,
+          1218,
+          1599
+        ],
+        [
+          6,
+          1612,
+          2034
+        ]
+      ]
+    },
+    "p03/story-2": {
+      "text": "The music nearby was too loud.",
+      "path": "assets/group-eight-audio/p03/story-2.mp3",
+      "audio_sha256": "52649709dc02b88ae1ca1a04978fc3dc672c2f7505944257e3024d566284bb13",
+      "duration_ms": 3000,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          240
+        ],
+        [
+          1,
+          254,
+          675
+        ],
+        [
+          2,
+          689,
+          1096
+        ],
+        [
+          3,
+          1110,
+          1300
+        ],
+        [
+          4,
+          1314,
+          1531
+        ],
+        [
+          5,
+          1545,
+          2047
+        ]
+      ]
+    },
+    "p03/story-3": {
+      "text": "She asked politely if it could be quieter.",
+      "path": "assets/group-eight-audio/p03/story-3.mp3",
+      "audio_sha256": "702b0a411404694af28cb608f5331a0b572b80e53772f807a4fdf843efb16195",
+      "duration_ms": 3384,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          349
+        ],
+        [
+          1,
+          362,
+          661
+        ],
+        [
+          2,
+          675,
+          1218
+        ],
+        [
+          3,
+          1232,
+          1341
+        ],
+        [
+          4,
+          1354,
+          1463
+        ],
+        [
+          5,
+          1477,
+          1626
+        ],
+        [
+          6,
+          1640,
+          1762
+        ],
+        [
+          7,
+          1776,
+          2441
+        ]
+      ]
+    },
+    "p03/dialogue-1": {
+      "text": "Would you mind closing the door?",
+      "path": "assets/group-eight-audio/p03/dialogue-1.mp3",
+      "audio_sha256": "59fe8383d07fc188bbe7a5b6718dc6d896d9de2ada0d77953970db26685aae2d",
+      "duration_ms": 2592,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          281
+        ],
+        [
+          1,
+          295,
+          390
+        ],
+        [
+          2,
+          403,
+          689
+        ],
+        [
+          3,
+          702,
+          1096
+        ],
+        [
+          4,
+          1110,
+          1218
+        ],
+        [
+          5,
+          1232,
+          1653
+        ]
+      ]
+    },
+    "p03/dialogue-2": {
+      "text": "No, not at all. I'll close it.",
+      "path": "assets/group-eight-audio/p03/dialogue-2.mp3",
+      "audio_sha256": "2c12b1a8c85682c19506dd0eddb7f420028fef56d9f5fcc37ec267b1f2f591be",
+      "duration_ms": 4320,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          553
+        ],
+        [
+          1,
+          716,
+          947
+        ],
+        [
+          2,
+          960,
+          1069
+        ],
+        [
+          3,
+          1083,
+          1490
+        ],
+        [
+          4,
+          2432,
+          2636
+        ],
+        [
+          5,
+          2649,
+          3003
+        ],
+        [
+          6,
+          3016,
+          3383
+        ]
+      ]
+    },
+    "p04/intro": {
+      "text": "Use do you mind if I before an action you want permission to do. No means permission is given.",
+      "path": "assets/group-eight-audio/p04/intro.mp3",
+      "audio_sha256": "41d705940c780cb548c70133c9c2a1f6596f77a6ce238bab1c4dfceca897c179",
+      "duration_ms": 7008,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          403
+        ],
+        [
+          1,
+          417,
+          512
+        ],
+        [
+          2,
+          526,
+          634
+        ],
+        [
+          3,
+          648,
+          960
+        ],
+        [
+          4,
+          974,
+          1083
+        ],
+        [
+          5,
+          1096,
+          1191
+        ],
+        [
+          6,
+          1205,
+          1585
+        ],
+        [
+          7,
+          1599,
+          1708
+        ],
+        [
+          8,
+          1721,
+          2115
+        ],
+        [
+          9,
+          2129,
+          2224
+        ],
+        [
+          10,
+          2238,
+          2414
+        ],
+        [
+          11,
+          2428,
+          2903
+        ],
+        [
+          12,
+          2917,
+          3012
+        ],
+        [
+          13,
+          3026,
+          3433
+        ],
+        [
+          14,
+          4375,
+          4620
+        ],
+        [
+          15,
+          4633,
+          4905
+        ],
+        [
+          16,
+          4918,
+          5421
+        ],
+        [
+          17,
+          5435,
+          5571
+        ],
+        [
+          18,
+          5584,
+          6060
+        ]
+      ]
+    },
+    "p04/scene-1": {
+      "text": "Do you mind if I sit here?",
+      "path": "assets/group-eight-audio/p04/scene-1.mp3",
+      "audio_sha256": "a1d96d761e08bd44d0d1aa544ba2d3ecbdf2562fa72adc46e8cb2bc21d9973dc",
+      "duration_ms": 2472,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          227
+        ],
+        [
+          1,
+          240,
+          335
+        ],
+        [
+          2,
+          349,
+          634
+        ],
+        [
+          3,
+          648,
+          743
+        ],
+        [
+          4,
+          757,
+          852
+        ],
+        [
+          5,
+          865,
+          1110
+        ],
+        [
+          6,
+          1123,
+          1517
+        ]
+      ]
+    },
+    "p04/scene-3": {
+      "text": "Do you mind if I use your pen?",
+      "path": "assets/group-eight-audio/p04/scene-3.mp3",
+      "audio_sha256": "e1bcdad4ffc1df0cbccd0341bb72c62429973c876eb824e65c4049a4eac2784a",
+      "duration_ms": 2616,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          227
+        ],
+        [
+          1,
+          240,
+          335
+        ],
+        [
+          2,
+          349,
+          634
+        ],
+        [
+          3,
+          648,
+          743
+        ],
+        [
+          4,
+          757,
+          811
+        ],
+        [
+          5,
+          824,
+          1055
+        ],
+        [
+          6,
+          1069,
+          1191
+        ],
+        [
+          7,
+          1205,
+          1667
+        ]
+      ]
+    },
+    "p04/scene-4": {
+      "text": "Do you mind if I join the discussion?",
+      "path": "assets/group-eight-audio/p04/scene-4.mp3",
+      "audio_sha256": "60b7715f49b8dc603f2914e9d7330039f281049b7c45985711a5697e9a3b82be",
+      "duration_ms": 2928,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          227
+        ],
+        [
+          1,
+          240,
+          335
+        ],
+        [
+          2,
+          349,
+          634
+        ],
+        [
+          3,
+          648,
+          743
+        ],
+        [
+          4,
+          757,
+          865
+        ],
+        [
+          5,
+          879,
+          1123
+        ],
+        [
+          6,
+          1137,
+          1232
+        ],
+        [
+          7,
+          1246,
+          1979
+        ]
+      ]
+    },
+    "p04/story-1": {
+      "text": "Kareem found a seat beside the window.",
+      "path": "assets/group-eight-audio/p04/story-1.mp3",
+      "audio_sha256": "a0d7231e57790c48f8c515f4ace0a28f1056ccc162f897cf25825a94b7635dec",
+      "duration_ms": 3192,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          471
+        ],
+        [
+          1,
+          485,
+          716
+        ],
+        [
+          2,
+          729,
+          784
+        ],
+        [
+          3,
+          797,
+          1151
+        ],
+        [
+          4,
+          1164,
+          1558
+        ],
+        [
+          5,
+          1572,
+          1653
+        ],
+        [
+          6,
+          1667,
+          2237
+        ]
+      ]
+    },
+    "p04/story-2": {
+      "text": "He wanted to sit next to a classmate.",
+      "path": "assets/group-eight-audio/p04/story-2.mp3",
+      "audio_sha256": "2501235c76dc4827a6f889af02012c4737da107da7317285024faf51cee7fe92",
+      "duration_ms": 3264,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          281
+        ],
+        [
+          1,
+          295,
+          621
+        ],
+        [
+          2,
+          634,
+          716
+        ],
+        [
+          3,
+          729,
+          987
+        ],
+        [
+          4,
+          1001,
+          1327
+        ],
+        [
+          5,
+          1341,
+          1436
+        ],
+        [
+          6,
+          1449,
+          1517
+        ],
+        [
+          7,
+          1531,
+          2305
+        ]
+      ]
+    },
+    "p04/story-3": {
+      "text": "He asked, 'Do you mind if I sit here?'",
+      "path": "assets/group-eight-audio/p04/story-3.mp3",
+      "audio_sha256": "05ffbf80e94f3d05e88f8dddf7b313dd0b0eb3cddd5b0fce244de5db661b9f83",
+      "duration_ms": 3360,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          335
+        ],
+        [
+          1,
+          349,
+          906
+        ],
+        [
+          2,
+          1042,
+          1137
+        ],
+        [
+          3,
+          1151,
+          1246
+        ],
+        [
+          4,
+          1259,
+          1545
+        ],
+        [
+          5,
+          1558,
+          1653
+        ],
+        [
+          6,
+          1667,
+          1762
+        ],
+        [
+          7,
+          1776,
+          2020
+        ],
+        [
+          8,
+          2034,
+          2414
+        ]
+      ]
+    },
+    "p04/dialogue-1": {
+      "text": "Do you mind if I borrow your ruler?",
+      "path": "assets/group-eight-audio/p04/dialogue-1.mp3",
+      "audio_sha256": "05139fa0481b7188b654a41cc0015edf824e0de75e8c644228d1d0b2920b7e05",
+      "duration_ms": 2808,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          227
+        ],
+        [
+          1,
+          240,
+          335
+        ],
+        [
+          2,
+          349,
+          634
+        ],
+        [
+          3,
+          648,
+          743
+        ],
+        [
+          4,
+          757,
+          838
+        ],
+        [
+          5,
+          852,
+          1178
+        ],
+        [
+          6,
+          1191,
+          1381
+        ],
+        [
+          7,
+          1395,
+          1871
+        ]
+      ]
+    },
+    "p04/dialogue-2": {
+      "text": "No, go ahead. Here it is.",
+      "path": "assets/group-eight-audio/p04/dialogue-2.mp3",
+      "audio_sha256": "49100ec24fe048de3436e48c78d41d4ed5c9ff90aaf0d0bc64a7e8133d691978",
+      "duration_ms": 4200,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          607
+        ],
+        [
+          1,
+          743,
+          933
+        ],
+        [
+          2,
+          947,
+          1449
+        ],
+        [
+          3,
+          2391,
+          2663
+        ],
+        [
+          4,
+          2677,
+          2785
+        ],
+        [
+          5,
+          2799,
+          3261
+        ]
+      ]
+    },
+    "p05/intro": {
+      "text": "Use may I with a base verb to ask for permission, often in a formal or respectful setting.",
+      "path": "assets/group-eight-audio/p05/intro.mp3",
+      "audio_sha256": "90c0fc78f7fc2a3c755f18903973db0d2196f0085902b76cfa08b0b8199f6265",
+      "duration_ms": 6336,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          417
+        ],
+        [
+          1,
+          430,
+          580
+        ],
+        [
+          2,
+          593,
+          661
+        ],
+        [
+          3,
+          675,
+          838
+        ],
+        [
+          4,
+          852,
+          920
+        ],
+        [
+          5,
+          933,
+          1273
+        ],
+        [
+          6,
+          1286,
+          1572
+        ],
+        [
+          7,
+          1585,
+          1680
+        ],
+        [
+          8,
+          1694,
+          1993
+        ],
+        [
+          9,
+          2007,
+          2129
+        ],
+        [
+          10,
+          2142,
+          2808
+        ],
+        [
+          11,
+          3053,
+          3420
+        ],
+        [
+          12,
+          3433,
+          3528
+        ],
+        [
+          13,
+          3542,
+          3596
+        ],
+        [
+          14,
+          3610,
+          4072
+        ],
+        [
+          15,
+          4085,
+          4221
+        ],
+        [
+          16,
+          4235,
+          4833
+        ],
+        [
+          17,
+          4846,
+          5390
+        ]
+      ]
+    },
+    "p05/scene-1": {
+      "text": "May I come in, please?",
+      "path": "assets/group-eight-audio/p05/scene-1.mp3",
+      "audio_sha256": "ac74b34ba0fb36d198474e6dc68f1228344cfda27f7f0b42ae4010e36d634321",
+      "duration_ms": 2688,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          295
+        ],
+        [
+          1,
+          308,
+          403
+        ],
+        [
+          2,
+          417,
+          648
+        ],
+        [
+          3,
+          661,
+          933
+        ],
+        [
+          4,
+          1137,
+          1735
+        ]
+      ]
+    },
+    "p05/scene-2": {
+      "text": "May I use this computer?",
+      "path": "assets/group-eight-audio/p05/scene-2.mp3",
+      "audio_sha256": "e76a3f4da6a3cfabc8ef0f41b0ce71f2f08fd6280df97202c924df14a625f656",
+      "duration_ms": 2424,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          308
+        ],
+        [
+          1,
+          322,
+          390
+        ],
+        [
+          2,
+          403,
+          621
+        ],
+        [
+          3,
+          634,
+          824
+        ],
+        [
+          4,
+          838,
+          1477
+        ]
+      ]
+    },
+    "p05/scene-3": {
+      "text": "May I take a photo here?",
+      "path": "assets/group-eight-audio/p05/scene-3.mp3",
+      "audio_sha256": "9ebd6e28b0adcfca87865e8fd18cb259373f5b5d539070a1dfebf046a43eeefd",
+      "duration_ms": 2400,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          295
+        ],
+        [
+          1,
+          308,
+          390
+        ],
+        [
+          2,
+          403,
+          661
+        ],
+        [
+          3,
+          675,
+          729
+        ],
+        [
+          4,
+          743,
+          1055
+        ],
+        [
+          5,
+          1069,
+          1463
+        ]
+      ]
+    },
+    "p05/scene-4": {
+      "text": "May I leave a little early today?",
+      "path": "assets/group-eight-audio/p05/scene-4.mp3",
+      "audio_sha256": "361b4fe36d587961d7c4cf69e0505f25318627405cab2bd3a4802ef49c620739",
+      "duration_ms": 2712,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          308
+        ],
+        [
+          1,
+          322,
+          403
+        ],
+        [
+          2,
+          417,
+          607
+        ],
+        [
+          3,
+          621,
+          675
+        ],
+        [
+          4,
+          689,
+          974
+        ],
+        [
+          5,
+          988,
+          1273
+        ],
+        [
+          6,
+          1286,
+          1762
+        ]
+      ]
+    },
+    "p05/story-1": {
+      "text": "Huda arrived after the lesson began.",
+      "path": "assets/group-eight-audio/p05/story-1.mp3",
+      "audio_sha256": "3dcf352900bfef8acc1a75fb86b3d890c798628bb7e3fbe1cf949113864cd158",
+      "duration_ms": 3192,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          444
+        ],
+        [
+          1,
+          458,
+          879
+        ],
+        [
+          2,
+          892,
+          1151
+        ],
+        [
+          3,
+          1164,
+          1259
+        ],
+        [
+          4,
+          1273,
+          1640
+        ],
+        [
+          5,
+          1653,
+          2238
+        ]
+      ]
+    },
+    "p05/story-2": {
+      "text": "She waited by the classroom door.",
+      "path": "assets/group-eight-audio/p05/story-2.mp3",
+      "audio_sha256": "7ddc0fccfaa49eeb050cc57dcee56c01154af28da73bd457c488d62f3debadb1",
+      "duration_ms": 2856,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          322
+        ],
+        [
+          1,
+          335,
+          675
+        ],
+        [
+          2,
+          689,
+          797
+        ],
+        [
+          3,
+          811,
+          933
+        ],
+        [
+          4,
+          947,
+          1463
+        ],
+        [
+          5,
+          1477,
+          1911
+        ]
+      ]
+    },
+    "p05/story-3": {
+      "text": "She asked her teacher, 'May I come in?'",
+      "path": "assets/group-eight-audio/p05/story-3.mp3",
+      "audio_sha256": "13f88c97305b64243749364f34d9293e19866a54489cb377ade127585eef11a4",
+      "duration_ms": 3264,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          349
+        ],
+        [
+          1,
+          362,
+          634
+        ],
+        [
+          2,
+          648,
+          770
+        ],
+        [
+          3,
+          784,
+          1327
+        ],
+        [
+          4,
+          1531,
+          1653
+        ],
+        [
+          5,
+          1667,
+          1748
+        ],
+        [
+          6,
+          1762,
+          1979
+        ],
+        [
+          7,
+          1993,
+          2305
+        ]
+      ]
+    },
+    "p05/dialogue-1": {
+      "text": "May I borrow this book for a week?",
+      "path": "assets/group-eight-audio/p05/dialogue-1.mp3",
+      "audio_sha256": "ab186e6219198fa6ffd992b05a71bbd042a96153e04dffd69040203a16cb4b94",
+      "duration_ms": 2808,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          295
+        ],
+        [
+          1,
+          308,
+          390
+        ],
+        [
+          2,
+          403,
+          729
+        ],
+        [
+          3,
+          743,
+          947
+        ],
+        [
+          4,
+          960,
+          1151
+        ],
+        [
+          5,
+          1164,
+          1314
+        ],
+        [
+          6,
+          1327,
+          1395
+        ],
+        [
+          7,
+          1409,
+          1871
+        ]
+      ]
+    },
+    "p05/dialogue-2": {
+      "text": "Yes, you may. Please return it on time.",
+      "path": "assets/group-eight-audio/p05/dialogue-2.mp3",
+      "audio_sha256": "cf0bc586354b21e1391fb72f034422883890aa8c2564b751e9e4b54968fed8e3",
+      "duration_ms": 4728,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          648
+        ],
+        [
+          1,
+          770,
+          933
+        ],
+        [
+          2,
+          947,
+          1368
+        ],
+        [
+          3,
+          2310,
+          2622
+        ],
+        [
+          4,
+          2636,
+          2962
+        ],
+        [
+          5,
+          2976,
+          3071
+        ],
+        [
+          6,
+          3084,
+          3247
+        ],
+        [
+          7,
+          3261,
+          3791
+        ]
+      ]
+    },
+    "p06/intro": {
+      "text": "Use would you like to before a base verb to offer an invitation politely.",
+      "path": "assets/group-eight-audio/p06/intro.mp3",
+      "audio_sha256": "a06817833cf91700235638d28012b30e262ee452c010d8ca75d03949d9fc4e7f",
+      "duration_ms": 4944,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          403
+        ],
+        [
+          1,
+          417,
+          566
+        ],
+        [
+          2,
+          580,
+          716
+        ],
+        [
+          3,
+          729,
+          960
+        ],
+        [
+          4,
+          974,
+          1069
+        ],
+        [
+          5,
+          1083,
+          1422
+        ],
+        [
+          6,
+          1436,
+          1504
+        ],
+        [
+          7,
+          1517,
+          1830
+        ],
+        [
+          8,
+          1843,
+          2129
+        ],
+        [
+          9,
+          2142,
+          2265
+        ],
+        [
+          10,
+          2278,
+          2564
+        ],
+        [
+          11,
+          2577,
+          2672
+        ],
+        [
+          12,
+          2686,
+          3284
+        ],
+        [
+          13,
+          3297,
+          3990
+        ]
+      ]
+    },
+    "p06/scene-1": {
+      "text": "Would you like to join us for lunch?",
+      "path": "assets/group-eight-audio/p06/scene-1.mp3",
+      "audio_sha256": "5d02fed7262fb76951e000b74011cae27f17f9b44a4264300eb5ea0a96351a02",
+      "duration_ms": 2808,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          281
+        ],
+        [
+          1,
+          295,
+          403
+        ],
+        [
+          2,
+          417,
+          621
+        ],
+        [
+          3,
+          634,
+          729
+        ],
+        [
+          4,
+          743,
+          1001
+        ],
+        [
+          5,
+          1015,
+          1164
+        ],
+        [
+          6,
+          1178,
+          1327
+        ],
+        [
+          7,
+          1341,
+          1871
+        ]
+      ]
+    },
+    "p06/scene-2": {
+      "text": "Would you like to visit the museum?",
+      "path": "assets/group-eight-audio/p06/scene-2.mp3",
+      "audio_sha256": "d9ed96e62e58035c43160040488c29c9b7c907a771be9813209cada985ac047f",
+      "duration_ms": 2712,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          281
+        ],
+        [
+          1,
+          295,
+          403
+        ],
+        [
+          2,
+          417,
+          607
+        ],
+        [
+          3,
+          621,
+          716
+        ],
+        [
+          4,
+          729,
+          1042
+        ],
+        [
+          5,
+          1055,
+          1123
+        ],
+        [
+          6,
+          1137,
+          1776
+        ]
+      ]
+    },
+    "p06/scene-3": {
+      "text": "Would you like to practice English together?",
+      "path": "assets/group-eight-audio/p06/scene-3.mp3",
+      "audio_sha256": "d18731b63dc6034a0bbfb6fc0470e25ab05e002a7dd40f70eff89a53ed33e9d6",
+      "duration_ms": 3144,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          281
+        ],
+        [
+          1,
+          295,
+          417
+        ],
+        [
+          2,
+          430,
+          634
+        ],
+        [
+          3,
+          648,
+          743
+        ],
+        [
+          4,
+          757,
+          1232
+        ],
+        [
+          5,
+          1246,
+          1599
+        ],
+        [
+          6,
+          1612,
+          2197
+        ]
+      ]
+    },
+    "p06/scene-4": {
+      "text": "Would you like to take a short break?",
+      "path": "assets/group-eight-audio/p06/scene-4.mp3",
+      "audio_sha256": "9f17d655eb64b12ec21101b9eb3ece51dd14d238ecfbe1474e6da70e58979bac",
+      "duration_ms": 2832,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          281
+        ],
+        [
+          1,
+          295,
+          417
+        ],
+        [
+          2,
+          430,
+          634
+        ],
+        [
+          3,
+          648,
+          729
+        ],
+        [
+          4,
+          743,
+          987
+        ],
+        [
+          5,
+          1001,
+          1055
+        ],
+        [
+          6,
+          1069,
+          1382
+        ],
+        [
+          7,
+          1395,
+          1884
+        ]
+      ]
+    },
+    "p06/story-1": {
+      "text": "Lina had an extra ticket to the exhibition.",
+      "path": "assets/group-eight-audio/p06/story-1.mp3",
+      "audio_sha256": "127835df608ba773cb665096135213b6c7a9845f8bd2a51f92e6d79018893d3c",
+      "duration_ms": 3672,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          471
+        ],
+        [
+          1,
+          485,
+          661
+        ],
+        [
+          2,
+          675,
+          811
+        ],
+        [
+          3,
+          824,
+          1178
+        ],
+        [
+          4,
+          1191,
+          1585
+        ],
+        [
+          5,
+          1599,
+          1694
+        ],
+        [
+          6,
+          1708,
+          1803
+        ],
+        [
+          7,
+          1816,
+          2727
+        ]
+      ]
+    },
+    "p06/story-2": {
+      "text": "She called her cousin to invite her.",
+      "path": "assets/group-eight-audio/p06/story-2.mp3",
+      "audio_sha256": "45031584b03d67b6f9096cfe8ce3ef76199833dba4526d8cf4e5e0388b695ab8",
+      "duration_ms": 3000,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          322
+        ],
+        [
+          1,
+          335,
+          607
+        ],
+        [
+          2,
+          621,
+          757
+        ],
+        [
+          3,
+          770,
+          1151
+        ],
+        [
+          4,
+          1164,
+          1300
+        ],
+        [
+          5,
+          1314,
+          1680
+        ],
+        [
+          6,
+          1694,
+          2061
+        ]
+      ]
+    },
+    "p06/story-3": {
+      "text": "She asked, 'Would you like to come with me?'",
+      "path": "assets/group-eight-audio/p06/story-3.mp3",
+      "audio_sha256": "a8c802b61c9712231d9cc55ab9f5a816c44cd601b44df2d21fa6e598cb26378d",
+      "duration_ms": 3312,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          376
+        ],
+        [
+          1,
+          390,
+          933
+        ],
+        [
+          2,
+          1055,
+          1218
+        ],
+        [
+          3,
+          1232,
+          1341
+        ],
+        [
+          4,
+          1354,
+          1558
+        ],
+        [
+          5,
+          1572,
+          1667
+        ],
+        [
+          6,
+          1680,
+          1898
+        ],
+        [
+          7,
+          1911,
+          2074
+        ],
+        [
+          8,
+          2088,
+          2373
+        ]
+      ]
+    },
+    "p06/dialogue-1": {
+      "text": "Would you like to come to our book club?",
+      "path": "assets/group-eight-audio/p06/dialogue-1.mp3",
+      "audio_sha256": "578c72b981b10ed40f19214934037e92d07fd1984a7934f4cc97666ce9f47821",
+      "duration_ms": 2832,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          281
+        ],
+        [
+          1,
+          295,
+          403
+        ],
+        [
+          2,
+          417,
+          621
+        ],
+        [
+          3,
+          634,
+          729
+        ],
+        [
+          4,
+          743,
+          947
+        ],
+        [
+          5,
+          960,
+          1083
+        ],
+        [
+          6,
+          1096,
+          1232
+        ],
+        [
+          7,
+          1246,
+          1463
+        ],
+        [
+          8,
+          1477,
+          1884
+        ]
+      ]
+    },
+    "p06/dialogue-2": {
+      "text": "Yes, that sounds wonderful.",
+      "path": "assets/group-eight-audio/p06/dialogue-2.mp3",
+      "audio_sha256": "82d61dbeb6d6c171e5e8738f66407265b557f3d63901c08d87856feb13ade82f",
+      "duration_ms": 3024,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          661
+        ],
+        [
+          1,
+          797,
+          1055
+        ],
+        [
+          2,
+          1069,
+          1368
+        ],
+        [
+          3,
+          1382,
+          2088
+        ]
+      ]
+    },
+    "p07/intro": {
+      "text": "Use I'd love to when you gladly accept an invitation, with or without repeating the verb.",
+      "path": "assets/group-eight-audio/p07/intro.mp3",
+      "audio_sha256": "bdb5a66a5fbb685f12876f61e9a4373a6d697cdf16d5a24e543de6280d492ca1",
+      "duration_ms": 6072,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          403
+        ],
+        [
+          1,
+          417,
+          593
+        ],
+        [
+          2,
+          607,
+          838
+        ],
+        [
+          3,
+          852,
+          974
+        ],
+        [
+          4,
+          988,
+          1137
+        ],
+        [
+          5,
+          1151,
+          1259
+        ],
+        [
+          6,
+          1273,
+          1789
+        ],
+        [
+          7,
+          1803,
+          2197
+        ],
+        [
+          8,
+          2210,
+          2319
+        ],
+        [
+          9,
+          2333,
+          3094
+        ],
+        [
+          10,
+          3338,
+          3555
+        ],
+        [
+          11,
+          3569,
+          3746
+        ],
+        [
+          12,
+          3759,
+          4099
+        ],
+        [
+          13,
+          4112,
+          4561
+        ],
+        [
+          14,
+          4574,
+          4670
+        ],
+        [
+          15,
+          4683,
+          5118
+        ]
+      ]
+    },
+    "p07/scene-1": {
+      "text": "I'd love to join the trip.",
+      "path": "assets/group-eight-audio/p07/scene-1.mp3",
+      "audio_sha256": "755ec79269f84be5071086f62c8358fb4f5b34ba7260c9c8e669e7fc11fb33dc",
+      "duration_ms": 2544,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          349
+        ],
+        [
+          1,
+          362,
+          566
+        ],
+        [
+          2,
+          580,
+          689
+        ],
+        [
+          3,
+          702,
+          987
+        ],
+        [
+          4,
+          1001,
+          1096
+        ],
+        [
+          5,
+          1110,
+          1585
+        ]
+      ]
+    },
+    "p07/scene-2": {
+      "text": "I'd love to meet your family.",
+      "path": "assets/group-eight-audio/p07/scene-2.mp3",
+      "audio_sha256": "5647309159f45a82f6c2d70b9ef6277578fcce639819bf9fe3156aabe9d678b5",
+      "duration_ms": 2664,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          349
+        ],
+        [
+          1,
+          362,
+          566
+        ],
+        [
+          2,
+          580,
+          689
+        ],
+        [
+          3,
+          702,
+          892
+        ],
+        [
+          4,
+          906,
+          1042
+        ],
+        [
+          5,
+          1055,
+          1721
+        ]
+      ]
+    },
+    "p07/scene-3": {
+      "text": "I'd love to learn that recipe.",
+      "path": "assets/group-eight-audio/p07/scene-3.mp3",
+      "audio_sha256": "6920cea84187965549f388a9e9fc2535ea132edd470e992703f2c10fed4598c8",
+      "duration_ms": 2808,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          362
+        ],
+        [
+          1,
+          376,
+          566
+        ],
+        [
+          2,
+          580,
+          702
+        ],
+        [
+          3,
+          716,
+          988
+        ],
+        [
+          4,
+          1001,
+          1191
+        ],
+        [
+          5,
+          1205,
+          1857
+        ]
+      ]
+    },
+    "p07/scene-4": {
+      "text": "I'd love to help with the project.",
+      "path": "assets/group-eight-audio/p07/scene-4.mp3",
+      "audio_sha256": "19f5b1a2f27568f43a690c39fb9399b93577eb07a1a5c63e0bcce588eb56c998",
+      "duration_ms": 2808,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          362
+        ],
+        [
+          1,
+          376,
+          566
+        ],
+        [
+          2,
+          580,
+          661
+        ],
+        [
+          3,
+          675,
+          906
+        ],
+        [
+          4,
+          920,
+          1028
+        ],
+        [
+          5,
+          1042,
+          1123
+        ],
+        [
+          6,
+          1137,
+          1871
+        ]
+      ]
+    },
+    "p07/story-1": {
+      "text": "Sami was invited to a weekend walk.",
+      "path": "assets/group-eight-audio/p07/story-1.mp3",
+      "audio_sha256": "4a9685a693277fa29a0feae9ee951c3bb1fe1d929e971d0d2ab78ed1dedd4d3f",
+      "duration_ms": 3288,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          526
+        ],
+        [
+          1,
+          539,
+          716
+        ],
+        [
+          2,
+          729,
+          1178
+        ],
+        [
+          3,
+          1191,
+          1314
+        ],
+        [
+          4,
+          1327,
+          1395
+        ],
+        [
+          5,
+          1409,
+          1857
+        ],
+        [
+          6,
+          1871,
+          2333
+        ]
+      ]
+    },
+    "p07/story-2": {
+      "text": "He was excited about the invitation.",
+      "path": "assets/group-eight-audio/p07/story-2.mp3",
+      "audio_sha256": "7ae31ac637e7f9c94fc8d602bc881023af7b02b6687ea4bf608bf3cc524ccd05",
+      "duration_ms": 3192,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          281
+        ],
+        [
+          1,
+          295,
+          458
+        ],
+        [
+          2,
+          471,
+          987
+        ],
+        [
+          3,
+          1001,
+          1246
+        ],
+        [
+          4,
+          1259,
+          1341
+        ],
+        [
+          5,
+          1354,
+          2237
+        ]
+      ]
+    },
+    "p07/story-3": {
+      "text": "He smiled and said, 'I'd love to join you.'",
+      "path": "assets/group-eight-audio/p07/story-3.mp3",
+      "audio_sha256": "5cd1009ecd6b2a2eac64f88dc0193e0f1300dd4ffe15599faf201ec36d18dc23",
+      "duration_ms": 3600,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          295
+        ],
+        [
+          1,
+          308,
+          743
+        ],
+        [
+          2,
+          757,
+          879
+        ],
+        [
+          3,
+          892,
+          1300
+        ],
+        [
+          4,
+          1504,
+          1667
+        ],
+        [
+          5,
+          1680,
+          1871
+        ],
+        [
+          6,
+          1884,
+          1993
+        ],
+        [
+          7,
+          2007,
+          2305
+        ],
+        [
+          8,
+          2319,
+          2645
+        ]
+      ]
+    },
+    "p07/dialogue-1": {
+      "text": "Would you like to study with us tonight?",
+      "path": "assets/group-eight-audio/p07/dialogue-1.mp3",
+      "audio_sha256": "6dcc74b2217903a2d5ad680d1da8c464d70caa695925a561f431d7094544f6dc",
+      "duration_ms": 3000,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          281
+        ],
+        [
+          1,
+          295,
+          403
+        ],
+        [
+          2,
+          417,
+          621
+        ],
+        [
+          3,
+          634,
+          729
+        ],
+        [
+          4,
+          743,
+          1110
+        ],
+        [
+          5,
+          1123,
+          1286
+        ],
+        [
+          6,
+          1300,
+          1449
+        ],
+        [
+          7,
+          1463,
+          2047
+        ]
+      ]
+    },
+    "p07/dialogue-2": {
+      "text": "I'd love to. Thanks for inviting me.",
+      "path": "assets/group-eight-audio/p07/dialogue-2.mp3",
+      "audio_sha256": "0e5287165de967445fbb1e946287581c2ec968133b35cab4c78111fcf32bffdb",
+      "duration_ms": 4152,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          362
+        ],
+        [
+          1,
+          376,
+          607
+        ],
+        [
+          2,
+          621,
+          920
+        ],
+        [
+          3,
+          1889,
+          2228
+        ],
+        [
+          4,
+          2242,
+          2378
+        ],
+        [
+          5,
+          2391,
+          2880
+        ],
+        [
+          6,
+          2894,
+          3207
+        ]
+      ]
+    },
+    "p08/intro": {
+      "text": "Use I'm afraid I can't to refuse a request gently or express a limitation, without meaning that you are scared.",
+      "path": "assets/group-eight-audio/p08/intro.mp3",
+      "audio_sha256": "6c3533e6d6d26511e3fd0a5cc30e88270ef71537142b9ebff7559a7b61a3d51a",
+      "duration_ms": 7440,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          403
+        ],
+        [
+          1,
+          417,
+          539
+        ],
+        [
+          2,
+          553,
+          906
+        ],
+        [
+          3,
+          920,
+          1001
+        ],
+        [
+          4,
+          1015,
+          1314
+        ],
+        [
+          5,
+          1327,
+          1422
+        ],
+        [
+          6,
+          1436,
+          1884
+        ],
+        [
+          7,
+          1898,
+          1952
+        ],
+        [
+          8,
+          1966,
+          2496
+        ],
+        [
+          9,
+          2509,
+          2971
+        ],
+        [
+          10,
+          2985,
+          3175
+        ],
+        [
+          11,
+          3189,
+          3610
+        ],
+        [
+          12,
+          3623,
+          3678
+        ],
+        [
+          13,
+          3691,
+          4506
+        ],
+        [
+          14,
+          4792,
+          5131
+        ],
+        [
+          15,
+          5145,
+          5471
+        ],
+        [
+          16,
+          5485,
+          5661
+        ],
+        [
+          17,
+          5675,
+          5797
+        ],
+        [
+          18,
+          5811,
+          5933
+        ],
+        [
+          19,
+          5947,
+          6504
+        ]
+      ]
+    },
+    "p08/scene-1": {
+      "text": "I'm afraid I can't come on Friday.",
+      "path": "assets/group-eight-audio/p08/scene-1.mp3",
+      "audio_sha256": "af2379514e0656e6640f8640fb9bf24cbd52ffd4543b1898f4fe4b21e59a8ddf",
+      "duration_ms": 2928,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          281
+        ],
+        [
+          1,
+          295,
+          634
+        ],
+        [
+          2,
+          648,
+          729
+        ],
+        [
+          3,
+          743,
+          1028
+        ],
+        [
+          4,
+          1042,
+          1218
+        ],
+        [
+          5,
+          1232,
+          1354
+        ],
+        [
+          6,
+          1368,
+          1979
+        ]
+      ]
+    },
+    "p08/scene-2": {
+      "text": "I'm afraid I can't stay very long.",
+      "path": "assets/group-eight-audio/p08/scene-2.mp3",
+      "audio_sha256": "7447916730a7428370915bc3e43cc8cdbfa753d40a924cb97ff7c69348f1b042",
+      "duration_ms": 3096,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          281
+        ],
+        [
+          1,
+          295,
+          648
+        ],
+        [
+          2,
+          661,
+          743
+        ],
+        [
+          3,
+          757,
+          1069
+        ],
+        [
+          4,
+          1083,
+          1300
+        ],
+        [
+          5,
+          1314,
+          1626
+        ],
+        [
+          6,
+          1640,
+          2142
+        ]
+      ]
+    },
+    "p08/scene-3": {
+      "text": "I'm afraid I can't answer that question yet.",
+      "path": "assets/group-eight-audio/p08/scene-3.mp3",
+      "audio_sha256": "020f3ec54742cc57d36922a92195c9e1d751fd563289de4ffc6c776d656fa8c7",
+      "duration_ms": 3408,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          281
+        ],
+        [
+          1,
+          295,
+          648
+        ],
+        [
+          2,
+          661,
+          743
+        ],
+        [
+          3,
+          757,
+          1069
+        ],
+        [
+          4,
+          1083,
+          1382
+        ],
+        [
+          5,
+          1395,
+          1599
+        ],
+        [
+          6,
+          1612,
+          2061
+        ],
+        [
+          7,
+          2074,
+          2468
+        ]
+      ]
+    },
+    "p08/scene-4": {
+      "text": "I'm afraid I can't help this afternoon.",
+      "path": "assets/group-eight-audio/p08/scene-4.mp3",
+      "audio_sha256": "3f08280c1aec75499bf146f3c319f07346fa30da174e7065941db89bf331194a",
+      "duration_ms": 3144,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          281
+        ],
+        [
+          1,
+          295,
+          648
+        ],
+        [
+          2,
+          661,
+          743
+        ],
+        [
+          3,
+          757,
+          1042
+        ],
+        [
+          4,
+          1055,
+          1273
+        ],
+        [
+          5,
+          1286,
+          1477
+        ],
+        [
+          6,
+          1490,
+          2197
+        ]
+      ]
+    },
+    "p08/story-1": {
+      "text": "Mona received an invitation to a picnic.",
+      "path": "assets/group-eight-audio/p08/story-1.mp3",
+      "audio_sha256": "453ff50d0e75d9f808ae4dc37080e54376164ca642e8159f566d746a457f0d04",
+      "duration_ms": 3480,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          471
+        ],
+        [
+          1,
+          485,
+          892
+        ],
+        [
+          2,
+          906,
+          987
+        ],
+        [
+          3,
+          1001,
+          1667
+        ],
+        [
+          4,
+          1680,
+          1789
+        ],
+        [
+          5,
+          1803,
+          1857
+        ],
+        [
+          6,
+          1871,
+          2523
+        ]
+      ]
+    },
+    "p08/story-2": {
+      "text": "She already had an appointment that day.",
+      "path": "assets/group-eight-audio/p08/story-2.mp3",
+      "audio_sha256": "bbf0ca0fa2d5953e4fbf60b280b0a86a3e2bc37569ebea7669778ebd287c78af",
+      "duration_ms": 3264,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          349
+        ],
+        [
+          1,
+          362,
+          757
+        ],
+        [
+          2,
+          770,
+          960
+        ],
+        [
+          3,
+          974,
+          1069
+        ],
+        [
+          4,
+          1083,
+          1612
+        ],
+        [
+          5,
+          1626,
+          1843
+        ],
+        [
+          6,
+          1857,
+          2305
+        ]
+      ]
+    },
+    "p08/story-3": {
+      "text": "She said, 'I'm afraid I can't join you.'",
+      "path": "assets/group-eight-audio/p08/story-3.mp3",
+      "audio_sha256": "4a7b376f7264618ffeb6613d78ec7435b545b659bd8510f5f9861e6a4c2b931a",
+      "duration_ms": 3408,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          335
+        ],
+        [
+          1,
+          349,
+          757
+        ],
+        [
+          2,
+          933,
+          1042
+        ],
+        [
+          3,
+          1055,
+          1409
+        ],
+        [
+          4,
+          1422,
+          1504
+        ],
+        [
+          5,
+          1517,
+          1843
+        ],
+        [
+          6,
+          1857,
+          2129
+        ],
+        [
+          7,
+          2142,
+          2468
+        ]
+      ]
+    },
+    "p08/dialogue-1": {
+      "text": "Can you come to the meeting tomorrow?",
+      "path": "assets/group-eight-audio/p08/dialogue-1.mp3",
+      "audio_sha256": "101a1c88b0f2f5b98dbd53fe6c5540f0f64d7f582d7837114ca47c047e4cf8c0",
+      "duration_ms": 2688,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          281
+        ],
+        [
+          1,
+          295,
+          403
+        ],
+        [
+          2,
+          417,
+          607
+        ],
+        [
+          3,
+          621,
+          702
+        ],
+        [
+          4,
+          716,
+          811
+        ],
+        [
+          5,
+          824,
+          1151
+        ],
+        [
+          6,
+          1164,
+          1735
+        ]
+      ]
+    },
+    "p08/dialogue-2": {
+      "text": "I'm afraid I can't. I have an appointment.",
+      "path": "assets/group-eight-audio/p08/dialogue-2.mp3",
+      "audio_sha256": "c96abe4ab3e388a3c5b35f3e84cf571a718ee3c25b69884f44b696c79cf10d92",
+      "duration_ms": 4440,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          281
+        ],
+        [
+          1,
+          295,
+          634
+        ],
+        [
+          2,
+          648,
+          729
+        ],
+        [
+          3,
+          743,
+          1327
+        ],
+        [
+          4,
+          2269,
+          2418
+        ],
+        [
+          5,
+          2432,
+          2609
+        ],
+        [
+          6,
+          2622,
+          2717
+        ],
+        [
+          7,
+          2731,
+          3492
+        ]
+      ]
+    },
+    "p09/intro": {
+      "text": "Use how about with a noun or an activity ending in ing to suggest an option.",
+      "path": "assets/group-eight-audio/p09/intro.mp3",
+      "audio_sha256": "352a5c5ccaf62431a12d0e16e4dd531df5077c3b4af63335df50ce9bd754dfca",
+      "duration_ms": 5904,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          390
+        ],
+        [
+          1,
+          403,
+          553
+        ],
+        [
+          2,
+          566,
+          797
+        ],
+        [
+          3,
+          811,
+          960
+        ],
+        [
+          4,
+          974,
+          1028
+        ],
+        [
+          5,
+          1042,
+          1504
+        ],
+        [
+          6,
+          1517,
+          1653
+        ],
+        [
+          7,
+          1667,
+          1748
+        ],
+        [
+          8,
+          1762,
+          2414
+        ],
+        [
+          9,
+          2428,
+          2754
+        ],
+        [
+          10,
+          2767,
+          2890
+        ],
+        [
+          11,
+          2903,
+          3569
+        ],
+        [
+          12,
+          3583,
+          3732
+        ],
+        [
+          13,
+          3746,
+          4248
+        ],
+        [
+          14,
+          4262,
+          4357
+        ],
+        [
+          15,
+          4371,
+          4955
+        ]
+      ]
+    },
+    "p09/scene-1": {
+      "text": "How about having tea after class?",
+      "path": "assets/group-eight-audio/p09/scene-1.mp3",
+      "audio_sha256": "d3d637ef4682172e3b64d8d108201b6053de32ce993dc95accef9ebed05a3df4",
+      "duration_ms": 3096,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          322
+        ],
+        [
+          1,
+          335,
+          580
+        ],
+        [
+          2,
+          593,
+          906
+        ],
+        [
+          3,
+          920,
+          1137
+        ],
+        [
+          4,
+          1151,
+          1449
+        ],
+        [
+          5,
+          1463,
+          2142
+        ]
+      ]
+    },
+    "p09/scene-2": {
+      "text": "How about meeting at the library?",
+      "path": "assets/group-eight-audio/p09/scene-2.mp3",
+      "audio_sha256": "fdba91c37539d99ba1ab6a178be5bba87a088e928cdfc43075fb5cbb8ac0a8d0",
+      "duration_ms": 2760,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          322
+        ],
+        [
+          1,
+          335,
+          580
+        ],
+        [
+          2,
+          593,
+          920
+        ],
+        [
+          3,
+          933,
+          1015
+        ],
+        [
+          4,
+          1028,
+          1123
+        ],
+        [
+          5,
+          1137,
+          1816
+        ]
+      ]
+    },
+    "p09/scene-3": {
+      "text": "How about a different color?",
+      "path": "assets/group-eight-audio/p09/scene-3.mp3",
+      "audio_sha256": "042029ab68bf2a56723158a51d27c88f2b884d312f43de4e59cdfa076a0d53f0",
+      "duration_ms": 2544,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          322
+        ],
+        [
+          1,
+          335,
+          580
+        ],
+        [
+          2,
+          593,
+          661
+        ],
+        [
+          3,
+          675,
+          1042
+        ],
+        [
+          4,
+          1055,
+          1585
+        ]
+      ]
+    },
+    "p09/scene-4": {
+      "text": "How about taking the earlier bus?",
+      "path": "assets/group-eight-audio/p09/scene-4.mp3",
+      "audio_sha256": "63e09b815c8149279ad245cd088a1e17a3d0573122e517177a193d8057391f00",
+      "duration_ms": 3000,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          322
+        ],
+        [
+          1,
+          335,
+          607
+        ],
+        [
+          2,
+          621,
+          947
+        ],
+        [
+          3,
+          960,
+          1055
+        ],
+        [
+          4,
+          1069,
+          1490
+        ],
+        [
+          5,
+          1504,
+          2061
+        ]
+      ]
+    },
+    "p09/story-1": {
+      "text": "The team needed a quiet place to meet.",
+      "path": "assets/group-eight-audio/p09/story-1.mp3",
+      "audio_sha256": "4cff9908d44fefcce82331fcc28a198ad96688d042c53b7187a624097cd725d8",
+      "duration_ms": 3192,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          566
+        ],
+        [
+          2,
+          580,
+          838
+        ],
+        [
+          3,
+          852,
+          920
+        ],
+        [
+          4,
+          933,
+          1314
+        ],
+        [
+          5,
+          1327,
+          1640
+        ],
+        [
+          6,
+          1653,
+          1762
+        ],
+        [
+          7,
+          1776,
+          2237
+        ]
+      ]
+    },
+    "p09/story-2": {
+      "text": "Everyone suggested a different location.",
+      "path": "assets/group-eight-audio/p09/story-2.mp3",
+      "audio_sha256": "7daac64083f02e66b42318845cc87e441a02efdfafd37b6f017afc5ccf22584d",
+      "duration_ms": 3480,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          621
+        ],
+        [
+          1,
+          634,
+          1259
+        ],
+        [
+          2,
+          1273,
+          1354
+        ],
+        [
+          3,
+          1368,
+          1735
+        ],
+        [
+          4,
+          1748,
+          2523
+        ]
+      ]
+    },
+    "p09/story-3": {
+      "text": "Hassan asked, 'How about meeting at the library?'",
+      "path": "assets/group-eight-audio/p09/story-3.mp3",
+      "audio_sha256": "5e2f202fbe66fc030e9d205590c0bb5af5127ebade2d3c3ddb4fa2faabfa756b",
+      "duration_ms": 3792,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          553
+        ],
+        [
+          1,
+          566,
+          1069
+        ],
+        [
+          2,
+          1246,
+          1368
+        ],
+        [
+          3,
+          1382,
+          1626
+        ],
+        [
+          4,
+          1640,
+          1966
+        ],
+        [
+          5,
+          1979,
+          2061
+        ],
+        [
+          6,
+          2074,
+          2170
+        ],
+        [
+          7,
+          2183,
+          2849
+        ]
+      ]
+    },
+    "p09/dialogue-1": {
+      "text": "Where should we have our meeting?",
+      "path": "assets/group-eight-audio/p09/dialogue-1.mp3",
+      "audio_sha256": "ef65337b43dd032e19fb53cea6624a06c8972524846ad4e93404f68b5746be0d",
+      "duration_ms": 2448,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          349
+        ],
+        [
+          1,
+          362,
+          526
+        ],
+        [
+          2,
+          539,
+          661
+        ],
+        [
+          3,
+          675,
+          852
+        ],
+        [
+          4,
+          865,
+          987
+        ],
+        [
+          5,
+          1001,
+          1490
+        ]
+      ]
+    },
+    "p09/dialogue-2": {
+      "text": "How about the reading room?",
+      "path": "assets/group-eight-audio/p09/dialogue-2.mp3",
+      "audio_sha256": "63b4b1151f4232ec64d48c5bde528eb0c1a7c0162a30742609fd2c2534aac990",
+      "duration_ms": 2400,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          322
+        ],
+        [
+          1,
+          335,
+          593
+        ],
+        [
+          2,
+          607,
+          702
+        ],
+        [
+          3,
+          716,
+          1083
+        ],
+        [
+          4,
+          1096,
+          1463
+        ]
+      ]
+    },
+    "p10/intro": {
+      "text": "Use let's followed by a base verb to suggest doing something together.",
+      "path": "assets/group-eight-audio/p10/intro.mp3",
+      "audio_sha256": "96efc0ec77c152e06f7a994a7b35b7b03473c9f091ea597a2bb203836be4b8a3",
+      "duration_ms": 4824,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          417
+        ],
+        [
+          1,
+          430,
+          661
+        ],
+        [
+          2,
+          675,
+          1015
+        ],
+        [
+          3,
+          1028,
+          1191
+        ],
+        [
+          4,
+          1205,
+          1273
+        ],
+        [
+          5,
+          1286,
+          1599
+        ],
+        [
+          6,
+          1612,
+          1884
+        ],
+        [
+          7,
+          1898,
+          2007
+        ],
+        [
+          8,
+          2020,
+          2577
+        ],
+        [
+          9,
+          2591,
+          2849
+        ],
+        [
+          10,
+          2862,
+          3229
+        ],
+        [
+          11,
+          3243,
+          3868
+        ]
+      ]
+    },
+    "p10/scene-1": {
+      "text": "Let's start with the easy question.",
+      "path": "assets/group-eight-audio/p10/scene-1.mp3",
+      "audio_sha256": "1a99a8d764a8b1a19f4f4479650698100cad598365d6e4237de2f84d26c99b49",
+      "duration_ms": 2952,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          417
+        ],
+        [
+          1,
+          430,
+          702
+        ],
+        [
+          2,
+          716,
+          824
+        ],
+        [
+          3,
+          838,
+          933
+        ],
+        [
+          4,
+          947,
+          1259
+        ],
+        [
+          5,
+          1273,
+          1993
+        ]
+      ]
+    },
+    "p10/scene-2": {
+      "text": "Let's clean the room together.",
+      "path": "assets/group-eight-audio/p10/scene-2.mp3",
+      "audio_sha256": "14b2fd837066f0fcb794c4f9cba92f4e6e8ccd1241113287cc939e7732431a3b",
+      "duration_ms": 2616,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          417
+        ],
+        [
+          1,
+          430,
+          675
+        ],
+        [
+          2,
+          689,
+          784
+        ],
+        [
+          3,
+          797,
+          1001
+        ],
+        [
+          4,
+          1015,
+          1667
+        ]
+      ]
+    },
+    "p10/scene-3": {
+      "text": "Let's try a different solution.",
+      "path": "assets/group-eight-audio/p10/scene-3.mp3",
+      "audio_sha256": "de41853ffe9e165744d062a6d11684025e6604733d3cd9b39c1be36616ae81ce",
+      "duration_ms": 2808,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          417
+        ],
+        [
+          1,
+          430,
+          648
+        ],
+        [
+          2,
+          661,
+          729
+        ],
+        [
+          3,
+          743,
+          1110
+        ],
+        [
+          4,
+          1123,
+          1857
+        ]
+      ]
+    },
+    "p10/scene-4": {
+      "text": "Let's meet after the lesson.",
+      "path": "assets/group-eight-audio/p10/scene-4.mp3",
+      "audio_sha256": "02800f5592236061a2930e2cb7ed1b0ca477e2f04ba6e775c6e41af411ae7288",
+      "duration_ms": 2616,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          444
+        ],
+        [
+          1,
+          458,
+          661
+        ],
+        [
+          2,
+          675,
+          933
+        ],
+        [
+          3,
+          947,
+          1055
+        ],
+        [
+          4,
+          1069,
+          1667
+        ]
+      ]
+    },
+    "p10/story-1": {
+      "text": "The class had a difficult puzzle.",
+      "path": "assets/group-eight-audio/p10/story-1.mp3",
+      "audio_sha256": "21b77c08083a769c6c9b6f2c813759de4e6788d001b208c045b41aa82198f63a",
+      "duration_ms": 2904,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          661
+        ],
+        [
+          2,
+          675,
+          811
+        ],
+        [
+          3,
+          824,
+          892
+        ],
+        [
+          4,
+          906,
+          1354
+        ],
+        [
+          5,
+          1368,
+          1952
+        ]
+      ]
+    },
+    "p10/story-2": {
+      "text": "The students shared their ideas.",
+      "path": "assets/group-eight-audio/p10/story-2.mp3",
+      "audio_sha256": "74ce2e1934f44e6fb4b4be484aaffff24ca6763daf79f595dd22d25f1331e012",
+      "duration_ms": 2880,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          729
+        ],
+        [
+          2,
+          743,
+          1015
+        ],
+        [
+          3,
+          1028,
+          1178
+        ],
+        [
+          4,
+          1191,
+          1939
+        ]
+      ]
+    },
+    "p10/story-3": {
+      "text": "Their teacher said, 'Let's try again together.'",
+      "path": "assets/group-eight-audio/p10/story-3.mp3",
+      "audio_sha256": "131cdbbc6c3de52c45fed01b4c3ed78aa744c7dc67f7ceb9126e2c91ad6863b5",
+      "duration_ms": 3648,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          308
+        ],
+        [
+          1,
+          322,
+          702
+        ],
+        [
+          2,
+          716,
+          1137
+        ],
+        [
+          3,
+          1300,
+          1517
+        ],
+        [
+          4,
+          1531,
+          1762
+        ],
+        [
+          5,
+          1776,
+          2047
+        ],
+        [
+          6,
+          2061,
+          2699
+        ]
+      ]
+    },
+    "p10/dialogue-1": {
+      "text": "We can't solve this part yet.",
+      "path": "assets/group-eight-audio/p10/dialogue-1.mp3",
+      "audio_sha256": "99060da9da4535c901ac396d4ba2f1b474e2a6f600dfd30837fdd96f2be85e6d",
+      "duration_ms": 2760,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          267
+        ],
+        [
+          1,
+          281,
+          580
+        ],
+        [
+          2,
+          593,
+          879
+        ],
+        [
+          3,
+          892,
+          1083
+        ],
+        [
+          4,
+          1096,
+          1368
+        ],
+        [
+          5,
+          1382,
+          1816
+        ]
+      ]
+    },
+    "p10/dialogue-2": {
+      "text": "Let's work on it together.",
+      "path": "assets/group-eight-audio/p10/dialogue-2.mp3",
+      "audio_sha256": "894d65fae1f3faac61338421d0c08d03d810a359a68bb7590235ac25292085c1",
+      "duration_ms": 2544,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          417
+        ],
+        [
+          1,
+          430,
+          661
+        ],
+        [
+          2,
+          675,
+          811
+        ],
+        [
+          3,
+          824,
+          920
+        ],
+        [
+          4,
+          933,
+          1599
+        ]
+      ]
+    },
+    "p11/intro": {
+      "text": "Use let me with a base verb to offer help or ask to do something yourself.",
+      "path": "assets/group-eight-audio/p11/intro.mp3",
+      "audio_sha256": "faa8e856116e6d58a9190a86dc11a5675f3401d93bda81b40cd49ed167e5f6e2",
+      "duration_ms": 5184,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          403
+        ],
+        [
+          1,
+          417,
+          553
+        ],
+        [
+          2,
+          566,
+          675
+        ],
+        [
+          3,
+          689,
+          852
+        ],
+        [
+          4,
+          865,
+          933
+        ],
+        [
+          5,
+          947,
+          1273
+        ],
+        [
+          6,
+          1286,
+          1572
+        ],
+        [
+          7,
+          1585,
+          1694
+        ],
+        [
+          8,
+          1708,
+          2020
+        ],
+        [
+          9,
+          2034,
+          2292
+        ],
+        [
+          10,
+          2305,
+          2455
+        ],
+        [
+          11,
+          2468,
+          2795
+        ],
+        [
+          12,
+          2808,
+          2903
+        ],
+        [
+          13,
+          2917,
+          3093
+        ],
+        [
+          14,
+          3107,
+          3487
+        ],
+        [
+          15,
+          3501,
+          4248
+        ]
+      ]
+    },
+    "p11/scene-1": {
+      "text": "Let me carry that bag for you.",
+      "path": "assets/group-eight-audio/p11/scene-1.mp3",
+      "audio_sha256": "707f6f7d83917b22f75b92105f6059a37ea40308c08a3b11ba2ae77f944b1a38",
+      "duration_ms": 2808,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          295
+        ],
+        [
+          1,
+          308,
+          430
+        ],
+        [
+          2,
+          444,
+          784
+        ],
+        [
+          3,
+          797,
+          1028
+        ],
+        [
+          4,
+          1042,
+          1314
+        ],
+        [
+          5,
+          1327,
+          1504
+        ],
+        [
+          6,
+          1517,
+          1871
+        ]
+      ]
+    },
+    "p11/scene-2": {
+      "text": "Let me explain the first step.",
+      "path": "assets/group-eight-audio/p11/scene-2.mp3",
+      "audio_sha256": "a38b4ea677f8ba232995f82b38e0ba24ed4ccb4900df5804e3caa880fd83dace",
+      "duration_ms": 2880,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          295
+        ],
+        [
+          1,
+          308,
+          430
+        ],
+        [
+          2,
+          444,
+          920
+        ],
+        [
+          3,
+          933,
+          1015
+        ],
+        [
+          4,
+          1028,
+          1409
+        ],
+        [
+          5,
+          1422,
+          1925
+        ]
+      ]
+    },
+    "p11/scene-3": {
+      "text": "Let me check the timetable.",
+      "path": "assets/group-eight-audio/p11/scene-3.mp3",
+      "audio_sha256": "f6207b7d0f097f55a38c95c81e8ff8e31c19a1c2c21bca5a10c8860aa2d512a2",
+      "duration_ms": 2592,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          295
+        ],
+        [
+          1,
+          308,
+          430
+        ],
+        [
+          2,
+          444,
+          716
+        ],
+        [
+          3,
+          729,
+          824
+        ],
+        [
+          4,
+          838,
+          1653
+        ]
+      ]
+    },
+    "p11/scene-4": {
+      "text": "Let me introduce my friend.",
+      "path": "assets/group-eight-audio/p11/scene-4.mp3",
+      "audio_sha256": "53df2cdfe428263c4ac5ab6554d2dc13be778c1a99c73ae83ae15b725fc8fae8",
+      "duration_ms": 2664,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          295
+        ],
+        [
+          1,
+          308,
+          430
+        ],
+        [
+          2,
+          444,
+          947
+        ],
+        [
+          3,
+          960,
+          1110
+        ],
+        [
+          4,
+          1123,
+          1708
+        ]
+      ]
+    },
+    "p11/story-1": {
+      "text": "Yasmin noticed an older neighbor carrying boxes.",
+      "path": "assets/group-eight-audio/p11/story-1.mp3",
+      "audio_sha256": "130807c9b8a38ec5962a9a555e8191f762fb70cd7c2977370ac3b05f45b2f41a",
+      "duration_ms": 4008,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          607
+        ],
+        [
+          1,
+          621,
+          1028
+        ],
+        [
+          2,
+          1042,
+          1164
+        ],
+        [
+          3,
+          1178,
+          1449
+        ],
+        [
+          4,
+          1463,
+          1803
+        ],
+        [
+          5,
+          1816,
+          2265
+        ],
+        [
+          6,
+          2278,
+          3053
+        ]
+      ]
+    },
+    "p11/story-2": {
+      "text": "She walked over and offered her help.",
+      "path": "assets/group-eight-audio/p11/story-2.mp3",
+      "audio_sha256": "542d27fcb67e78d13d76fdd867a04ac217b97fafffc4a62c84ae9dca6148c3e4",
+      "duration_ms": 3072,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          322
+        ],
+        [
+          1,
+          335,
+          675
+        ],
+        [
+          2,
+          689,
+          1001
+        ],
+        [
+          3,
+          1015,
+          1151
+        ],
+        [
+          4,
+          1164,
+          1490
+        ],
+        [
+          5,
+          1504,
+          1653
+        ],
+        [
+          6,
+          1667,
+          2115
+        ]
+      ]
+    },
+    "p11/story-3": {
+      "text": "She said, 'Let me carry one for you.'",
+      "path": "assets/group-eight-audio/p11/story-3.mp3",
+      "audio_sha256": "462cf6acd38a7e7eb1cd78d044270fa7ab218ec965fd010dd53e02e57b35305b",
+      "duration_ms": 3384,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          349
+        ],
+        [
+          1,
+          362,
+          797
+        ],
+        [
+          2,
+          960,
+          1110
+        ],
+        [
+          3,
+          1123,
+          1246
+        ],
+        [
+          4,
+          1259,
+          1572
+        ],
+        [
+          5,
+          1585,
+          1857
+        ],
+        [
+          6,
+          1871,
+          2061
+        ],
+        [
+          7,
+          2074,
+          2428
+        ]
+      ]
+    },
+    "p11/dialogue-1": {
+      "text": "These books are too heavy for me.",
+      "path": "assets/group-eight-audio/p11/dialogue-1.mp3",
+      "audio_sha256": "34035217491822673d6846debaa279da9e688e94c582fbfeec65401194fc90a2",
+      "duration_ms": 2832,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          376
+        ],
+        [
+          1,
+          390,
+          689
+        ],
+        [
+          2,
+          702,
+          811
+        ],
+        [
+          3,
+          824,
+          1028
+        ],
+        [
+          4,
+          1042,
+          1341
+        ],
+        [
+          5,
+          1354,
+          1531
+        ],
+        [
+          6,
+          1545,
+          1884
+        ]
+      ]
+    },
+    "p11/dialogue-2": {
+      "text": "Let me help you carry them.",
+      "path": "assets/group-eight-audio/p11/dialogue-2.mp3",
+      "audio_sha256": "d39da69814f5cda5150bbd273f81170298541ac8f7f72f655b3162a6a970a5b6",
+      "duration_ms": 2496,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          295
+        ],
+        [
+          1,
+          308,
+          417
+        ],
+        [
+          2,
+          430,
+          648
+        ],
+        [
+          3,
+          661,
+          797
+        ],
+        [
+          4,
+          811,
+          1151
+        ],
+        [
+          5,
+          1164,
+          1558
+        ]
+      ]
+    },
+    "p12/intro": {
+      "text": "Use thank you for before a noun or activity ending in ing to show specific gratitude.",
+      "path": "assets/group-eight-audio/p12/intro.mp3",
+      "audio_sha256": "8a6dce545a965f4eda4c1b0169413294f62f4d6407a93769ccbc652179faf46a",
+      "duration_ms": 6384,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          403
+        ],
+        [
+          1,
+          417,
+          648
+        ],
+        [
+          2,
+          661,
+          770
+        ],
+        [
+          3,
+          784,
+          933
+        ],
+        [
+          4,
+          947,
+          1300
+        ],
+        [
+          5,
+          1314,
+          1368
+        ],
+        [
+          6,
+          1382,
+          1776
+        ],
+        [
+          7,
+          1789,
+          1911
+        ],
+        [
+          8,
+          1925,
+          2577
+        ],
+        [
+          9,
+          2591,
+          2917
+        ],
+        [
+          10,
+          2930,
+          3053
+        ],
+        [
+          11,
+          3066,
+          3746
+        ],
+        [
+          12,
+          3759,
+          3882
+        ],
+        [
+          13,
+          3895,
+          4140
+        ],
+        [
+          14,
+          4153,
+          4670
+        ],
+        [
+          15,
+          4683,
+          5444
+        ]
+      ]
+    },
+    "p12/scene-1": {
+      "text": "Thank you for waiting for me.",
+      "path": "assets/group-eight-audio/p12/scene-1.mp3",
+      "audio_sha256": "18874a2054bb8a7a01c90dbfb2939cb51807599c09b86d095bde504a6aeb3966",
+      "duration_ms": 2496,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          390
+        ],
+        [
+          1,
+          403,
+          498
+        ],
+        [
+          2,
+          512,
+          675
+        ],
+        [
+          3,
+          689,
+          1028
+        ],
+        [
+          4,
+          1042,
+          1218
+        ],
+        [
+          5,
+          1232,
+          1545
+        ]
+      ]
+    },
+    "p12/scene-2": {
+      "text": "Thank you for your kind message.",
+      "path": "assets/group-eight-audio/p12/scene-2.mp3",
+      "audio_sha256": "afa675a6b3c9e117a6c133c160212c90ba230dc63f9a9ca8d4d0306acc555606",
+      "duration_ms": 2880,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          390
+        ],
+        [
+          1,
+          403,
+          526
+        ],
+        [
+          2,
+          539,
+          689
+        ],
+        [
+          3,
+          702,
+          852
+        ],
+        [
+          4,
+          865,
+          1205
+        ],
+        [
+          5,
+          1218,
+          1925
+        ]
+      ]
+    },
+    "p12/scene-3": {
+      "text": "Thank you for helping our team.",
+      "path": "assets/group-eight-audio/p12/scene-3.mp3",
+      "audio_sha256": "776e813fea85e707029fc762522dde69665086d5777c114a2f67c1c7f84c5679",
+      "duration_ms": 2688,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          390
+        ],
+        [
+          1,
+          403,
+          526
+        ],
+        [
+          2,
+          539,
+          689
+        ],
+        [
+          3,
+          702,
+          1069
+        ],
+        [
+          4,
+          1083,
+          1205
+        ],
+        [
+          5,
+          1218,
+          1735
+        ]
+      ]
+    },
+    "p12/scene-4": {
+      "text": "Thank you for explaining the answer.",
+      "path": "assets/group-eight-audio/p12/scene-4.mp3",
+      "audio_sha256": "2ac1493f908a6d5ad6a1ea75413332e1c6db36ddd1a90b58ceeb409dc7bedd7e",
+      "duration_ms": 2952,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          390
+        ],
+        [
+          1,
+          403,
+          512
+        ],
+        [
+          2,
+          526,
+          675
+        ],
+        [
+          3,
+          689,
+          1246
+        ],
+        [
+          4,
+          1259,
+          1368
+        ],
+        [
+          5,
+          1382,
+          2007
+        ]
+      ]
+    },
+    "p12/story-1": {
+      "text": "Fadi missed part of the lesson.",
+      "path": "assets/group-eight-audio/p12/story-1.mp3",
+      "audio_sha256": "933aa31fe75d185e20c08731facca43768e355d6c563cc490c3756695f334428",
+      "duration_ms": 2784,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          485
+        ],
+        [
+          1,
+          498,
+          797
+        ],
+        [
+          2,
+          811,
+          1028
+        ],
+        [
+          3,
+          1042,
+          1110
+        ],
+        [
+          4,
+          1123,
+          1218
+        ],
+        [
+          5,
+          1232,
+          1830
+        ]
+      ]
+    },
+    "p12/story-2": {
+      "text": "His classmate shared her notes.",
+      "path": "assets/group-eight-audio/p12/story-2.mp3",
+      "audio_sha256": "165c4ee4716db6dbbca88103e1fd96225602ae08bcb48624421db344bd720f83",
+      "duration_ms": 2952,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          335
+        ],
+        [
+          1,
+          349,
+          974
+        ],
+        [
+          2,
+          988,
+          1259
+        ],
+        [
+          3,
+          1273,
+          1409
+        ],
+        [
+          4,
+          1422,
+          1993
+        ]
+      ]
+    },
+    "p12/story-3": {
+      "text": "He said, 'Thank you for helping me.'",
+      "path": "assets/group-eight-audio/p12/story-3.mp3",
+      "audio_sha256": "75c5701417bc8dca20371e02d005132ec9af22018d5b3a5ff4e926debc0f736c",
+      "duration_ms": 3144,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          322
+        ],
+        [
+          1,
+          335,
+          784
+        ],
+        [
+          2,
+          933,
+          1178
+        ],
+        [
+          3,
+          1191,
+          1300
+        ],
+        [
+          4,
+          1314,
+          1463
+        ],
+        [
+          5,
+          1477,
+          1871
+        ],
+        [
+          6,
+          1884,
+          2197
+        ]
+      ]
+    },
+    "p12/dialogue-1": {
+      "text": "I saved you a seat.",
+      "path": "assets/group-eight-audio/p12/dialogue-1.mp3",
+      "audio_sha256": "3c94636b08d9553bbc6464fd9cf6a470f94396f5a018e83ee032b76ed0b3f184",
+      "duration_ms": 2328,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          607
+        ],
+        [
+          2,
+          621,
+          743
+        ],
+        [
+          3,
+          757,
+          824
+        ],
+        [
+          4,
+          838,
+          1381
+        ]
+      ]
+    },
+    "p12/dialogue-2": {
+      "text": "Thank you for thinking of me.",
+      "path": "assets/group-eight-audio/p12/dialogue-2.mp3",
+      "audio_sha256": "620661757e782ed7e0b01400caf934531e876c9cad1e4b45c94555eadfedcb1b",
+      "duration_ms": 2496,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          376
+        ],
+        [
+          1,
+          390,
+          512
+        ],
+        [
+          2,
+          526,
+          689
+        ],
+        [
+          3,
+          702,
+          1151
+        ],
+        [
+          4,
+          1164,
+          1232
+        ],
+        [
+          5,
+          1246,
+          1558
+        ]
+      ]
+    },
+    "p13/intro": {
+      "text": "Use I appreciate for gratitude that emphasizes effort, kindness, or support.",
+      "path": "assets/group-eight-audio/p13/intro.mp3",
+      "audio_sha256": "3ddb4e5c9ad086556e477cdad3a93167abdb7f44e7b2454af3be3779fece8f1c",
+      "duration_ms": 6096,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          376
+        ],
+        [
+          1,
+          390,
+          485
+        ],
+        [
+          2,
+          498,
+          1110
+        ],
+        [
+          3,
+          1123,
+          1273
+        ],
+        [
+          4,
+          1286,
+          1939
+        ],
+        [
+          5,
+          1952,
+          2115
+        ],
+        [
+          6,
+          2129,
+          2849
+        ],
+        [
+          7,
+          2862,
+          3311
+        ],
+        [
+          8,
+          3447,
+          4140
+        ],
+        [
+          9,
+          4289,
+          4452
+        ],
+        [
+          10,
+          4466,
+          5145
+        ]
+      ]
+    },
+    "p13/scene-1": {
+      "text": "I appreciate your honest feedback.",
+      "path": "assets/group-eight-audio/p13/scene-1.mp3",
+      "audio_sha256": "69f41eab63dbe3e257a685d3b1d0095d4f0e0c4b4efe124cf7a81d3438840b49",
+      "duration_ms": 3072,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          281
+        ],
+        [
+          1,
+          295,
+          879
+        ],
+        [
+          2,
+          892,
+          1083
+        ],
+        [
+          3,
+          1096,
+          1449
+        ],
+        [
+          4,
+          1463,
+          2129
+        ]
+      ]
+    },
+    "p13/scene-2": {
+      "text": "I appreciate your patience today.",
+      "path": "assets/group-eight-audio/p13/scene-2.mp3",
+      "audio_sha256": "d2a32957929d81cc48c0bdf6a4ddb25a49f9fbca98a77ec5349ee4402762345c",
+      "duration_ms": 2952,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          267
+        ],
+        [
+          1,
+          281,
+          865
+        ],
+        [
+          2,
+          879,
+          1015
+        ],
+        [
+          3,
+          1028,
+          1531
+        ],
+        [
+          4,
+          1545,
+          2007
+        ]
+      ]
+    },
+    "p13/scene-3": {
+      "text": "I appreciate you taking the time to explain.",
+      "path": "assets/group-eight-audio/p13/scene-3.mp3",
+      "audio_sha256": "47df1eb342032df9789c1d69a1c59b410f18f3ee66859125b994982ef3a04bb5",
+      "duration_ms": 3672,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          267
+        ],
+        [
+          1,
+          281,
+          879
+        ],
+        [
+          2,
+          892,
+          1015
+        ],
+        [
+          3,
+          1028,
+          1382
+        ],
+        [
+          4,
+          1395,
+          1504
+        ],
+        [
+          5,
+          1517,
+          1830
+        ],
+        [
+          6,
+          1843,
+          1966
+        ],
+        [
+          7,
+          1979,
+          2713
+        ]
+      ]
+    },
+    "p13/scene-4": {
+      "text": "I appreciate everything you did.",
+      "path": "assets/group-eight-audio/p13/scene-4.mp3",
+      "audio_sha256": "853f39531563541f155ad18bef3b0e5bd57a4e6c158e17341ee99da8159e5846",
+      "duration_ms": 2904,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          281
+        ],
+        [
+          1,
+          295,
+          906
+        ],
+        [
+          2,
+          920,
+          1395
+        ],
+        [
+          3,
+          1409,
+          1517
+        ],
+        [
+          4,
+          1531,
+          1966
+        ]
+      ]
+    },
+    "p13/story-1": {
+      "text": "A teacher stayed late to help a student.",
+      "path": "assets/group-eight-audio/p13/story-1.mp3",
+      "audio_sha256": "47df966f4b9d97e94ff224e3778d7ca940653bf1cae9c19f5d1c3df3e0e8fff8",
+      "duration_ms": 3192,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          240
+        ],
+        [
+          1,
+          254,
+          621
+        ],
+        [
+          2,
+          634,
+          974
+        ],
+        [
+          3,
+          988,
+          1246
+        ],
+        [
+          4,
+          1259,
+          1354
+        ],
+        [
+          5,
+          1368,
+          1585
+        ],
+        [
+          6,
+          1599,
+          1667
+        ],
+        [
+          7,
+          1680,
+          2251
+        ]
+      ]
+    },
+    "p13/story-2": {
+      "text": "The student finally understood the lesson.",
+      "path": "assets/group-eight-audio/p13/story-2.mp3",
+      "audio_sha256": "7fa71c424d1bb677308da3d708bd7e1aa2ac6ac88b3a3d4963e26aca39fb16bb",
+      "duration_ms": 3336,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          634
+        ],
+        [
+          2,
+          648,
+          1137
+        ],
+        [
+          3,
+          1151,
+          1653
+        ],
+        [
+          4,
+          1667,
+          1762
+        ],
+        [
+          5,
+          1776,
+          2387
+        ]
+      ]
+    },
+    "p13/story-3": {
+      "text": "He said, 'I appreciate your patience.'",
+      "path": "assets/group-eight-audio/p13/story-3.mp3",
+      "audio_sha256": "13d70414c6cfec470779cc2b3ca9ab5907d021b515ae9f64e57c2443eb226fb8",
+      "duration_ms": 3528,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          308
+        ],
+        [
+          1,
+          322,
+          729
+        ],
+        [
+          2,
+          920,
+          1015
+        ],
+        [
+          3,
+          1028,
+          1626
+        ],
+        [
+          4,
+          1640,
+          1776
+        ],
+        [
+          5,
+          1789,
+          2577
+        ]
+      ]
+    },
+    "p13/dialogue-1": {
+      "text": "Did the explanation help?",
+      "path": "assets/group-eight-audio/p13/dialogue-1.mp3",
+      "audio_sha256": "e0b8fdcba346bf859d9c411a3b5b849b177a749ed1dd65d70a5f5d704332e84b",
+      "duration_ms": 2520,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          281
+        ],
+        [
+          1,
+          295,
+          390
+        ],
+        [
+          2,
+          403,
+          1137
+        ],
+        [
+          3,
+          1151,
+          1572
+        ]
+      ]
+    },
+    "p13/dialogue-2": {
+      "text": "Yes, I appreciate your time and support.",
+      "path": "assets/group-eight-audio/p13/dialogue-2.mp3",
+      "audio_sha256": "1b3665358cdc117ef213212a25d65a52db5e6e02a200c7c8f45a0e1a9936f24d",
+      "duration_ms": 3672,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          621
+        ],
+        [
+          1,
+          784,
+          879
+        ],
+        [
+          2,
+          892,
+          1463
+        ],
+        [
+          3,
+          1477,
+          1612
+        ],
+        [
+          4,
+          1626,
+          1939
+        ],
+        [
+          5,
+          1952,
+          2074
+        ],
+        [
+          6,
+          2088,
+          2727
+        ]
+      ]
+    },
+    "p14/intro": {
+      "text": "Use you're welcome as a polite response to thanks. It can stand alone.",
+      "path": "assets/group-eight-audio/p14/intro.mp3",
+      "audio_sha256": "14917fbc940164f993a006267706651dccd42afbca945c8e690b51a49f712ea7",
+      "duration_ms": 5976,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          390
+        ],
+        [
+          1,
+          403,
+          539
+        ],
+        [
+          2,
+          553,
+          947
+        ],
+        [
+          3,
+          960,
+          1096
+        ],
+        [
+          4,
+          1110,
+          1164
+        ],
+        [
+          5,
+          1178,
+          1558
+        ],
+        [
+          6,
+          1572,
+          2061
+        ],
+        [
+          7,
+          2074,
+          2170
+        ],
+        [
+          8,
+          2183,
+          2808
+        ],
+        [
+          9,
+          3750,
+          3927
+        ],
+        [
+          10,
+          3940,
+          4117
+        ],
+        [
+          11,
+          4130,
+          4456
+        ],
+        [
+          12,
+          4470,
+          5041
+        ]
+      ]
+    },
+    "p14/scene-1": {
+      "text": "You're welcome. I'm happy to help.",
+      "path": "assets/group-eight-audio/p14/scene-1.mp3",
+      "audio_sha256": "3aec58b9907b500401dcd3e1ac031ff4b9dc2f924b8b2c35c78ad69a2a00d15d",
+      "duration_ms": 3936,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          362
+        ],
+        [
+          1,
+          376,
+          987
+        ],
+        [
+          2,
+          1929,
+          2120
+        ],
+        [
+          3,
+          2133,
+          2432
+        ],
+        [
+          4,
+          2446,
+          2527
+        ],
+        [
+          5,
+          2541,
+          2989
+        ]
+      ]
+    },
+    "p14/scene-2": {
+      "text": "You're welcome. It was no trouble.",
+      "path": "assets/group-eight-audio/p14/scene-2.mp3",
+      "audio_sha256": "6e835c191ba56e81226f5b2143d06260cda00ac24dd1a9101d4307b3a1c0351a",
+      "duration_ms": 4008,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          362
+        ],
+        [
+          1,
+          376,
+          987
+        ],
+        [
+          2,
+          1929,
+          2079
+        ],
+        [
+          3,
+          2092,
+          2269
+        ],
+        [
+          4,
+          2283,
+          2459
+        ],
+        [
+          5,
+          2473,
+          3057
+        ]
+      ]
+    },
+    "p14/scene-3": {
+      "text": "You're welcome. See you tomorrow.",
+      "path": "assets/group-eight-audio/p14/scene-3.mp3",
+      "audio_sha256": "40d7e2454ce3d51c7edab98498fd14c73a511852237891eade6e89549d79f751",
+      "duration_ms": 4008,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          362
+        ],
+        [
+          1,
+          376,
+          987
+        ],
+        [
+          2,
+          1929,
+          2174
+        ],
+        [
+          3,
+          2188,
+          2323
+        ],
+        [
+          4,
+          2337,
+          3057
+        ]
+      ]
+    },
+    "p14/scene-4": {
+      "text": "You're welcome. Let me know if you need more.",
+      "path": "assets/group-eight-audio/p14/scene-4.mp3",
+      "audio_sha256": "a7ac317d0eaca5c222a5bf1ccea8b54187351849a8fc2aa26a4cdf7af4876c71",
+      "duration_ms": 4392,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          362
+        ],
+        [
+          1,
+          376,
+          987
+        ],
+        [
+          2,
+          1929,
+          2120
+        ],
+        [
+          3,
+          2133,
+          2242
+        ],
+        [
+          4,
+          2255,
+          2459
+        ],
+        [
+          5,
+          2473,
+          2582
+        ],
+        [
+          6,
+          2595,
+          2704
+        ],
+        [
+          7,
+          2717,
+          2935
+        ],
+        [
+          8,
+          2948,
+          3451
+        ]
+      ]
+    },
+    "p14/story-1": {
+      "text": "Omar helped his neighbor carry groceries.",
+      "path": "assets/group-eight-audio/p14/story-1.mp3",
+      "audio_sha256": "6813bdd30765e4d9b9388657e98cf1da5d8446ea3acc502dcf4128bd8f164809",
+      "duration_ms": 3480,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          553
+        ],
+        [
+          1,
+          566,
+          824
+        ],
+        [
+          2,
+          838,
+          987
+        ],
+        [
+          3,
+          1001,
+          1341
+        ],
+        [
+          4,
+          1354,
+          1653
+        ],
+        [
+          5,
+          1667,
+          2536
+        ]
+      ]
+    },
+    "p14/story-2": {
+      "text": "His neighbor thanked him warmly.",
+      "path": "assets/group-eight-audio/p14/story-2.mp3",
+      "audio_sha256": "b7f6133ecca391f8390f0b21c3fdc57ec37ccec16ef3fc75d2316b86f601bff5",
+      "duration_ms": 2784,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          349
+        ],
+        [
+          1,
+          362,
+          743
+        ],
+        [
+          2,
+          757,
+          1055
+        ],
+        [
+          3,
+          1069,
+          1218
+        ],
+        [
+          4,
+          1232,
+          1830
+        ]
+      ]
+    },
+    "p14/story-3": {
+      "text": "Omar smiled and said, 'You're welcome.'",
+      "path": "assets/group-eight-audio/p14/story-3.mp3",
+      "audio_sha256": "572f8d9cb63b6e85316f41895c701dcb1eb76806379c9ee0cb532154540403a2",
+      "duration_ms": 3360,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          471
+        ],
+        [
+          1,
+          485,
+          933
+        ],
+        [
+          2,
+          947,
+          1069
+        ],
+        [
+          3,
+          1083,
+          1490
+        ],
+        [
+          4,
+          1640,
+          1803
+        ],
+        [
+          5,
+          1816,
+          2401
+        ]
+      ]
+    },
+    "p14/dialogue-1": {
+      "text": "Thank you for opening the door.",
+      "path": "assets/group-eight-audio/p14/dialogue-1.mp3",
+      "audio_sha256": "7be03a7594a4fe400bb9006c22821a551f438f62aba5a3e3bdb5dfd670fb3408",
+      "duration_ms": 2664,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          390
+        ],
+        [
+          1,
+          403,
+          512
+        ],
+        [
+          2,
+          526,
+          729
+        ],
+        [
+          3,
+          743,
+          1123
+        ],
+        [
+          4,
+          1137,
+          1246
+        ],
+        [
+          5,
+          1259,
+          1721
+        ]
+      ]
+    },
+    "p14/dialogue-2": {
+      "text": "You're welcome. Have a nice day.",
+      "path": "assets/group-eight-audio/p14/dialogue-2.mp3",
+      "audio_sha256": "d27a21a496e3d03b8337498dfbf064f31bb2f9d4ac09e77861080c36d3e3d553",
+      "duration_ms": 3912,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          362
+        ],
+        [
+          1,
+          376,
+          987
+        ],
+        [
+          2,
+          1929,
+          2120
+        ],
+        [
+          3,
+          2133,
+          2187
+        ],
+        [
+          4,
+          2201,
+          2514
+        ],
+        [
+          5,
+          2527,
+          2962
+        ]
+      ]
+    },
+    "p15/intro": {
+      "text": "Use I'm sorry for before a noun or activity ending in ing when apologizing for something.",
+      "path": "assets/group-eight-audio/p15/intro.mp3",
+      "audio_sha256": "8b9684fc41d30d72f03e10c12f4c042d847429f4feeb15acf194f0b8501b5010",
+      "duration_ms": 6456,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          362
+        ],
+        [
+          1,
+          376,
+          512
+        ],
+        [
+          2,
+          526,
+          879
+        ],
+        [
+          3,
+          892,
+          1055
+        ],
+        [
+          4,
+          1069,
+          1422
+        ],
+        [
+          5,
+          1436,
+          1490
+        ],
+        [
+          6,
+          1504,
+          1871
+        ],
+        [
+          7,
+          1884,
+          2007
+        ],
+        [
+          8,
+          2020,
+          2645
+        ],
+        [
+          9,
+          2659,
+          2985
+        ],
+        [
+          10,
+          2998,
+          3107
+        ],
+        [
+          11,
+          3121,
+          3759
+        ],
+        [
+          12,
+          3773,
+          3949
+        ],
+        [
+          13,
+          3963,
+          4724
+        ],
+        [
+          14,
+          4738,
+          4901
+        ],
+        [
+          15,
+          4914,
+          5498
+        ]
+      ]
+    },
+    "p15/scene-1": {
+      "text": "I'm sorry for being late today.",
+      "path": "assets/group-eight-audio/p15/scene-1.mp3",
+      "audio_sha256": "4fb8f9c3e0fb0ad4c3e8846fd305846e71d4729a3c52b64e6685d43b3022b50e",
+      "duration_ms": 2784,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          308
+        ],
+        [
+          1,
+          322,
+          661
+        ],
+        [
+          2,
+          675,
+          824
+        ],
+        [
+          3,
+          838,
+          1110
+        ],
+        [
+          4,
+          1123,
+          1368
+        ],
+        [
+          5,
+          1382,
+          1843
+        ]
+      ]
+    },
+    "p15/scene-2": {
+      "text": "I'm sorry for the confusion.",
+      "path": "assets/group-eight-audio/p15/scene-2.mp3",
+      "audio_sha256": "faf08fd2c07ca7a45e617d658993adf1bd8c129b2e3b0b117f838df066ecee65",
+      "duration_ms": 2664,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          308
+        ],
+        [
+          1,
+          322,
+          661
+        ],
+        [
+          2,
+          675,
+          811
+        ],
+        [
+          3,
+          824,
+          920
+        ],
+        [
+          4,
+          933,
+          1721
+        ]
+      ]
+    },
+    "p15/scene-3": {
+      "text": "I'm sorry for interrupting you.",
+      "path": "assets/group-eight-audio/p15/scene-3.mp3",
+      "audio_sha256": "d50f38e0973a5cb5af353de180cb6097b3b5104fed7411b0afbf5c50374fa9e9",
+      "duration_ms": 2736,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          295
+        ],
+        [
+          1,
+          308,
+          661
+        ],
+        [
+          2,
+          675,
+          838
+        ],
+        [
+          3,
+          852,
+          1449
+        ],
+        [
+          4,
+          1463,
+          1789
+        ]
+      ]
+    },
+    "p15/scene-4": {
+      "text": "I'm sorry for losing your pen.",
+      "path": "assets/group-eight-audio/p15/scene-4.mp3",
+      "audio_sha256": "0009a561e31354366b102fda305512661f75c9f0ae4abe5b04dbb4c23a43b7a2",
+      "duration_ms": 2808,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          308
+        ],
+        [
+          1,
+          322,
+          661
+        ],
+        [
+          2,
+          675,
+          852
+        ],
+        [
+          3,
+          865,
+          1205
+        ],
+        [
+          4,
+          1218,
+          1341
+        ],
+        [
+          5,
+          1354,
+          1857
+        ]
+      ]
+    },
+    "p15/story-1": {
+      "text": "Laila arrived late for a group meeting.",
+      "path": "assets/group-eight-audio/p15/story-1.mp3",
+      "audio_sha256": "4c5ace32d590da15a72518aea15ad20c775213ec4f484c83d71bc69c2c323868",
+      "duration_ms": 3168,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          512
+        ],
+        [
+          1,
+          526,
+          920
+        ],
+        [
+          2,
+          933,
+          1178
+        ],
+        [
+          3,
+          1191,
+          1354
+        ],
+        [
+          4,
+          1368,
+          1422
+        ],
+        [
+          5,
+          1436,
+          1694
+        ],
+        [
+          6,
+          1708,
+          2224
+        ]
+      ]
+    },
+    "p15/story-2": {
+      "text": "She explained that the bus had been delayed.",
+      "path": "assets/group-eight-audio/p15/story-2.mp3",
+      "audio_sha256": "e41a955c41d4886f3c091ac7294cf95fd72e77ac23846da6dca87a780dc092a4",
+      "duration_ms": 3288,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          335
+        ],
+        [
+          1,
+          349,
+          892
+        ],
+        [
+          2,
+          906,
+          1028
+        ],
+        [
+          3,
+          1042,
+          1137
+        ],
+        [
+          4,
+          1151,
+          1436
+        ],
+        [
+          5,
+          1449,
+          1585
+        ],
+        [
+          6,
+          1599,
+          1762
+        ],
+        [
+          7,
+          1776,
+          2333
+        ]
+      ]
+    },
+    "p15/story-3": {
+      "text": "She said, 'I'm sorry for keeping you waiting.'",
+      "path": "assets/group-eight-audio/p15/story-3.mp3",
+      "audio_sha256": "7e37e242f51a01303e49d6cac456c0e4f0f694474d8b7b67fb31c0e262f9c69f",
+      "duration_ms": 3624,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          349
+        ],
+        [
+          1,
+          362,
+          784
+        ],
+        [
+          2,
+          960,
+          1083
+        ],
+        [
+          3,
+          1096,
+          1449
+        ],
+        [
+          4,
+          1463,
+          1640
+        ],
+        [
+          5,
+          1653,
+          2020
+        ],
+        [
+          6,
+          2034,
+          2156
+        ],
+        [
+          7,
+          2170,
+          2686
+        ]
+      ]
+    },
+    "p15/dialogue-1": {
+      "text": "I'm sorry for interrupting your work.",
+      "path": "assets/group-eight-audio/p15/dialogue-1.mp3",
+      "audio_sha256": "764157f824e1601e4c8d07dbc7505cd32ca1cc92086d6f94ab844023c9897111",
+      "duration_ms": 3000,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          308
+        ],
+        [
+          1,
+          322,
+          675
+        ],
+        [
+          2,
+          689,
+          852
+        ],
+        [
+          3,
+          865,
+          1436
+        ],
+        [
+          4,
+          1449,
+          1585
+        ],
+        [
+          5,
+          1599,
+          2047
+        ]
+      ]
+    },
+    "p15/dialogue-2": {
+      "text": "That's all right. How can I help?",
+      "path": "assets/group-eight-audio/p15/dialogue-2.mp3",
+      "audio_sha256": "a84d8f9d7f786326bd772ba4a0c5126e64707e28e572e38354b32bb645d74ea4",
+      "duration_ms": 3888,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          430
+        ],
+        [
+          1,
+          444,
+          593
+        ],
+        [
+          2,
+          607,
+          1083
+        ],
+        [
+          3,
+          2024,
+          2242
+        ],
+        [
+          4,
+          2255,
+          2418
+        ],
+        [
+          5,
+          2432,
+          2500
+        ],
+        [
+          6,
+          2514,
+          2948
+        ]
+      ]
+    },
+    "p16/intro": {
+      "text": "Use that's all right to respond kindly to an apology or reassure someone.",
+      "path": "assets/group-eight-audio/p16/intro.mp3",
+      "audio_sha256": "5fe791dad5357307c6c539966d4124351d3ad65883ad4911967559de58e5dd07",
+      "duration_ms": 5376,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          362
+        ],
+        [
+          1,
+          376,
+          621
+        ],
+        [
+          2,
+          634,
+          811
+        ],
+        [
+          3,
+          824,
+          1083
+        ],
+        [
+          4,
+          1096,
+          1205
+        ],
+        [
+          5,
+          1218,
+          1748
+        ],
+        [
+          6,
+          1762,
+          2183
+        ],
+        [
+          7,
+          2197,
+          2319
+        ],
+        [
+          8,
+          2333,
+          2428
+        ],
+        [
+          9,
+          2441,
+          3161
+        ],
+        [
+          10,
+          3175,
+          3352
+        ],
+        [
+          11,
+          3365,
+          3841
+        ],
+        [
+          12,
+          3854,
+          4425
+        ]
+      ]
+    },
+    "p16/scene-1": {
+      "text": "That's all right. We can try again.",
+      "path": "assets/group-eight-audio/p16/scene-1.mp3",
+      "audio_sha256": "89ded0b41437af623b623dd01a1145841d9679897a5e0d9c638ab154bdd4d8d7",
+      "duration_ms": 4152,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          430
+        ],
+        [
+          1,
+          444,
+          593
+        ],
+        [
+          2,
+          607,
+          1083
+        ],
+        [
+          3,
+          2024,
+          2201
+        ],
+        [
+          4,
+          2215,
+          2364
+        ],
+        [
+          5,
+          2378,
+          2649
+        ],
+        [
+          6,
+          2663,
+          3206
+        ]
+      ]
+    },
+    "p16/scene-2": {
+      "text": "That's all right. Please take your time.",
+      "path": "assets/group-eight-audio/p16/scene-2.mp3",
+      "audio_sha256": "56e1ae395c149b211b3048eb3c120f7c0c6030d70d0b06010046a271c8e996ff",
+      "duration_ms": 4200,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          430
+        ],
+        [
+          1,
+          444,
+          593
+        ],
+        [
+          2,
+          607,
+          1083
+        ],
+        [
+          3,
+          2024,
+          2337
+        ],
+        [
+          4,
+          2351,
+          2568
+        ],
+        [
+          5,
+          2582,
+          2717
+        ],
+        [
+          6,
+          2731,
+          3261
+        ]
+      ]
+    },
+    "p16/scene-3": {
+      "text": "That's all right. I understand.",
+      "path": "assets/group-eight-audio/p16/scene-3.mp3",
+      "audio_sha256": "46f4a3879d3ed15d5920b9080e467522ad75c7dc838e9288e92a6bc82c2bc6cb",
+      "duration_ms": 3984,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          430
+        ],
+        [
+          1,
+          444,
+          593
+        ],
+        [
+          2,
+          607,
+          1083
+        ],
+        [
+          3,
+          2024,
+          2215
+        ],
+        [
+          4,
+          2228,
+          3030
+        ]
+      ]
+    },
+    "p16/scene-4": {
+      "text": "That's all right. Everyone makes mistakes.",
+      "path": "assets/group-eight-audio/p16/scene-4.mp3",
+      "audio_sha256": "c9f6086536e6f283f1dbd54cc5cab15b4afc75c356b4b8122e8ca74607e26b43",
+      "duration_ms": 4584,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          430
+        ],
+        [
+          1,
+          444,
+          593
+        ],
+        [
+          2,
+          607,
+          1083
+        ],
+        [
+          3,
+          2024,
+          2527
+        ],
+        [
+          4,
+          2541,
+          2840
+        ],
+        [
+          5,
+          2853,
+          3641
+        ]
+      ]
+    },
+    "p16/story-1": {
+      "text": "Sami spilled a little water on the table.",
+      "path": "assets/group-eight-audio/p16/story-1.mp3",
+      "audio_sha256": "d016bb2c3609242d4454ee91ea0ceac620c7dd0fca64f1d18ee61ace882f1624",
+      "duration_ms": 3312,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          539
+        ],
+        [
+          1,
+          553,
+          852
+        ],
+        [
+          2,
+          865,
+          920
+        ],
+        [
+          3,
+          933,
+          1205
+        ],
+        [
+          4,
+          1218,
+          1558
+        ],
+        [
+          5,
+          1572,
+          1680
+        ],
+        [
+          6,
+          1694,
+          1789
+        ],
+        [
+          7,
+          1803,
+          2360
+        ]
+      ]
+    },
+    "p16/story-2": {
+      "text": "He apologized and reached for a cloth.",
+      "path": "assets/group-eight-audio/p16/story-2.mp3",
+      "audio_sha256": "a33a9b08999dd9e13e055ddf7dcb04f14af19f9380e9a7c91f9713188ccb2336",
+      "duration_ms": 3432,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          295
+        ],
+        [
+          1,
+          308,
+          1123
+        ],
+        [
+          2,
+          1137,
+          1273
+        ],
+        [
+          3,
+          1286,
+          1612
+        ],
+        [
+          4,
+          1626,
+          1776
+        ],
+        [
+          5,
+          1789,
+          1857
+        ],
+        [
+          6,
+          1871,
+          2496
+        ]
+      ]
+    },
+    "p16/story-3": {
+      "text": "His friend said, 'That's all right. Let's clean it.'",
+      "path": "assets/group-eight-audio/p16/story-3.mp3",
+      "audio_sha256": "a07093ac1093374d869caa12fb8fd6c17de4812e2b5dbe18e33df44bb1fb426b",
+      "duration_ms": 5040,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          349
+        ],
+        [
+          1,
+          362,
+          661
+        ],
+        [
+          2,
+          675,
+          1083
+        ],
+        [
+          3,
+          1259,
+          1531
+        ],
+        [
+          4,
+          1545,
+          1708
+        ],
+        [
+          5,
+          1721,
+          2210
+        ],
+        [
+          6,
+          3152,
+          3492
+        ],
+        [
+          7,
+          3505,
+          3791
+        ],
+        [
+          8,
+          3804,
+          4103
+        ]
+      ]
+    },
+    "p16/dialogue-1": {
+      "text": "I'm sorry I forgot the book.",
+      "path": "assets/group-eight-audio/p16/dialogue-1.mp3",
+      "audio_sha256": "40900b2c2e9d80011d24de5d32da9b7adac8c1f1eb40c1e93cf8c502b4b68a28",
+      "duration_ms": 2808,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          308
+        ],
+        [
+          1,
+          322,
+          784
+        ],
+        [
+          2,
+          797,
+          892
+        ],
+        [
+          3,
+          906,
+          1314
+        ],
+        [
+          4,
+          1327,
+          1409
+        ],
+        [
+          5,
+          1422,
+          1857
+        ]
+      ]
+    },
+    "p16/dialogue-2": {
+      "text": "That's all right. Bring it tomorrow.",
+      "path": "assets/group-eight-audio/p16/dialogue-2.mp3",
+      "audio_sha256": "6c7e25949e3d90fc618c607c90f2cad8604f7a82f7d7ab909b045cafd42c6d61",
+      "duration_ms": 4080,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          430
+        ],
+        [
+          1,
+          444,
+          593
+        ],
+        [
+          2,
+          607,
+          1083
+        ],
+        [
+          3,
+          2024,
+          2283
+        ],
+        [
+          4,
+          2296,
+          2391
+        ],
+        [
+          5,
+          2405,
+          3125
+        ]
+      ]
+    },
+    "p17/intro": {
+      "text": "Use could you clarify to request a clearer explanation without sounding argumentative.",
+      "path": "assets/group-eight-audio/p17/intro.mp3",
+      "audio_sha256": "2ed6c57aae977910da1358c67cda460ac1cf3d9eb1cd9ab9766692482af55370",
+      "duration_ms": 6024,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          430
+        ],
+        [
+          1,
+          444,
+          607
+        ],
+        [
+          2,
+          621,
+          743
+        ],
+        [
+          3,
+          757,
+          1327
+        ],
+        [
+          4,
+          1341,
+          1490
+        ],
+        [
+          5,
+          1504,
+          1979
+        ],
+        [
+          6,
+          1993,
+          2047
+        ],
+        [
+          7,
+          2061,
+          2455
+        ],
+        [
+          8,
+          2468,
+          3284
+        ],
+        [
+          9,
+          3297,
+          3678
+        ],
+        [
+          10,
+          3691,
+          4112
+        ],
+        [
+          11,
+          4126,
+          5077
+        ]
+      ]
+    },
+    "p17/scene-1": {
+      "text": "Could you clarify the last point?",
+      "path": "assets/group-eight-audio/p17/scene-1.mp3",
+      "audio_sha256": "c8b71b384f9d94ccca6b5b870af0ee64e953ed9a59f4e4870af03eff6dbb24b6",
+      "duration_ms": 3000,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          295
+        ],
+        [
+          1,
+          308,
+          430
+        ],
+        [
+          2,
+          444,
+          947
+        ],
+        [
+          3,
+          960,
+          1083
+        ],
+        [
+          4,
+          1096,
+          1463
+        ],
+        [
+          5,
+          1477,
+          2047
+        ]
+      ]
+    },
+    "p17/scene-2": {
+      "text": "Could you clarify what you mean?",
+      "path": "assets/group-eight-audio/p17/scene-2.mp3",
+      "audio_sha256": "48e4e3819006e997af4007da76c9fa1aa99f5f0d555af5fcc7aacd932f428343",
+      "duration_ms": 2664,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          295
+        ],
+        [
+          1,
+          308,
+          417
+        ],
+        [
+          2,
+          430,
+          960
+        ],
+        [
+          3,
+          974,
+          1191
+        ],
+        [
+          4,
+          1205,
+          1314
+        ],
+        [
+          5,
+          1327,
+          1708
+        ]
+      ]
+    },
+    "p17/scene-3": {
+      "text": "Could you clarify the instructions, please?",
+      "path": "assets/group-eight-audio/p17/scene-3.mp3",
+      "audio_sha256": "3b124016ca70107c36fed598a9fed8e649cfe05c5e59915cf814084be7eca7ec",
+      "duration_ms": 3672,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          295
+        ],
+        [
+          1,
+          308,
+          417
+        ],
+        [
+          2,
+          430,
+          933
+        ],
+        [
+          3,
+          947,
+          1055
+        ],
+        [
+          4,
+          1069,
+          1993
+        ],
+        [
+          5,
+          2115,
+          2713
+        ]
+      ]
+    },
+    "p17/scene-4": {
+      "text": "Could you clarify which room we need?",
+      "path": "assets/group-eight-audio/p17/scene-4.mp3",
+      "audio_sha256": "feac5a75f796e142d1af3bedda26f9b580f4ab84df4dd538e2a55c668acf6301",
+      "duration_ms": 2952,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          295
+        ],
+        [
+          1,
+          308,
+          430
+        ],
+        [
+          2,
+          444,
+          987
+        ],
+        [
+          3,
+          1001,
+          1259
+        ],
+        [
+          4,
+          1273,
+          1436
+        ],
+        [
+          5,
+          1449,
+          1558
+        ],
+        [
+          6,
+          1572,
+          1993
+        ]
+      ]
+    },
+    "p17/story-1": {
+      "text": "During a lesson, Kareem heard a new word.",
+      "path": "assets/group-eight-audio/p17/story-1.mp3",
+      "audio_sha256": "72557984552be03bf610869ebcbd346bd3b38b6ceee8cd09b6894dcd1d4b41bc",
+      "duration_ms": 3432,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          417
+        ],
+        [
+          1,
+          430,
+          498
+        ],
+        [
+          2,
+          512,
+          1069
+        ],
+        [
+          3,
+          1232,
+          1585
+        ],
+        [
+          4,
+          1599,
+          1776
+        ],
+        [
+          5,
+          1789,
+          1830
+        ],
+        [
+          6,
+          1843,
+          2020
+        ],
+        [
+          7,
+          2034,
+          2482
+        ]
+      ]
+    },
+    "p17/story-2": {
+      "text": "He was unsure what the teacher meant.",
+      "path": "assets/group-eight-audio/p17/story-2.mp3",
+      "audio_sha256": "794402d844e3eae549c72948d62a277ac64b56110f122dc708fdf7b23af9eb05",
+      "duration_ms": 3048,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          281
+        ],
+        [
+          1,
+          295,
+          471
+        ],
+        [
+          2,
+          485,
+          933
+        ],
+        [
+          3,
+          947,
+          1123
+        ],
+        [
+          4,
+          1137,
+          1218
+        ],
+        [
+          5,
+          1232,
+          1599
+        ],
+        [
+          6,
+          1612,
+          2102
+        ]
+      ]
+    },
+    "p17/story-3": {
+      "text": "He asked her politely to clarify it.",
+      "path": "assets/group-eight-audio/p17/story-3.mp3",
+      "audio_sha256": "482cf4ce36107fe1285b1fa83e0c318bb53f9d8665134a4a5fb53e6559dee9da",
+      "duration_ms": 3384,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          322
+        ],
+        [
+          1,
+          335,
+          648
+        ],
+        [
+          2,
+          661,
+          770
+        ],
+        [
+          3,
+          784,
+          1314
+        ],
+        [
+          4,
+          1327,
+          1449
+        ],
+        [
+          5,
+          1463,
+          2088
+        ],
+        [
+          6,
+          2102,
+          2428
+        ]
+      ]
+    },
+    "p17/dialogue-1": {
+      "text": "Could you clarify what the next step is?",
+      "path": "assets/group-eight-audio/p17/dialogue-1.mp3",
+      "audio_sha256": "74eb1153561056a058ac2512e4b97e7efc01c8355cfb5a1d014bd3b6ecfd48e6",
+      "duration_ms": 3336,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          295
+        ],
+        [
+          1,
+          308,
+          417
+        ],
+        [
+          2,
+          430,
+          974
+        ],
+        [
+          3,
+          988,
+          1178
+        ],
+        [
+          4,
+          1191,
+          1259
+        ],
+        [
+          5,
+          1273,
+          1612
+        ],
+        [
+          6,
+          1626,
+          1884
+        ],
+        [
+          7,
+          1898,
+          2387
+        ]
+      ]
+    },
+    "p17/dialogue-2": {
+      "text": "Of course. First, open your notebook.",
+      "path": "assets/group-eight-audio/p17/dialogue-2.mp3",
+      "audio_sha256": "8bec37c246dd7ac98a65f6dcc14fae3b7af097a4a4d90e78b0905b4c10654201",
+      "duration_ms": 4560,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          281
+        ],
+        [
+          1,
+          295,
+          933
+        ],
+        [
+          2,
+          1875,
+          2432
+        ],
+        [
+          3,
+          2582,
+          2826
+        ],
+        [
+          4,
+          2840,
+          2962
+        ],
+        [
+          5,
+          2976,
+          3628
+        ]
+      ]
+    },
+    "p18/intro": {
+      "text": "Use let me know if before a full clause to offer support or ask for an update.",
+      "path": "assets/group-eight-audio/p18/intro.mp3",
+      "audio_sha256": "3c9552be39db4d6e65c4c45d7f61f800bd8c8b942dea604c7f997023bdcd6f84",
+      "duration_ms": 5448,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          376
+        ],
+        [
+          1,
+          390,
+          512
+        ],
+        [
+          2,
+          526,
+          634
+        ],
+        [
+          3,
+          648,
+          865
+        ],
+        [
+          4,
+          879,
+          974
+        ],
+        [
+          5,
+          988,
+          1341
+        ],
+        [
+          6,
+          1354,
+          1422
+        ],
+        [
+          7,
+          1436,
+          1708
+        ],
+        [
+          8,
+          1721,
+          2170
+        ],
+        [
+          9,
+          2183,
+          2278
+        ],
+        [
+          10,
+          2292,
+          2604
+        ],
+        [
+          11,
+          2618,
+          3121
+        ],
+        [
+          12,
+          3134,
+          3284
+        ],
+        [
+          13,
+          3297,
+          3610
+        ],
+        [
+          14,
+          3623,
+          3773
+        ],
+        [
+          15,
+          3786,
+          3882
+        ],
+        [
+          16,
+          3895,
+          4493
+        ]
+      ]
+    },
+    "p18/scene-1": {
+      "text": "Let me know if you need help.",
+      "path": "assets/group-eight-audio/p18/scene-1.mp3",
+      "audio_sha256": "c31a7acb5f960708f83d9bb7b15a956fd39f572d3aedd3d9c880c31af330ed63",
+      "duration_ms": 2520,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          308
+        ],
+        [
+          1,
+          322,
+          430
+        ],
+        [
+          2,
+          444,
+          648
+        ],
+        [
+          3,
+          661,
+          770
+        ],
+        [
+          4,
+          784,
+          892
+        ],
+        [
+          5,
+          906,
+          1096
+        ],
+        [
+          6,
+          1110,
+          1572
+        ]
+      ]
+    },
+    "p18/scene-2": {
+      "text": "Let me know if the time changes.",
+      "path": "assets/group-eight-audio/p18/scene-2.mp3",
+      "audio_sha256": "b4cbf5907eaf0a6608b6b34295a37dd10b4c7ec44284c940fa50e304c1024dff",
+      "duration_ms": 2880,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          295
+        ],
+        [
+          1,
+          308,
+          417
+        ],
+        [
+          2,
+          430,
+          621
+        ],
+        [
+          3,
+          634,
+          729
+        ],
+        [
+          4,
+          743,
+          852
+        ],
+        [
+          5,
+          865,
+          1164
+        ],
+        [
+          6,
+          1178,
+          1939
+        ]
+      ]
+    },
+    "p18/scene-3": {
+      "text": "Let me know if you have a question.",
+      "path": "assets/group-eight-audio/p18/scene-3.mp3",
+      "audio_sha256": "b758bec3b58a9c288b38125f608d843faaeab91f70774f9743f288e2dfac34c9",
+      "duration_ms": 2736,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          295
+        ],
+        [
+          1,
+          308,
+          417
+        ],
+        [
+          2,
+          430,
+          621
+        ],
+        [
+          3,
+          634,
+          743
+        ],
+        [
+          4,
+          757,
+          865
+        ],
+        [
+          5,
+          879,
+          1015
+        ],
+        [
+          6,
+          1028,
+          1096
+        ],
+        [
+          7,
+          1110,
+          1789
+        ]
+      ]
+    },
+    "p18/scene-4": {
+      "text": "Let me know if you arrive early.",
+      "path": "assets/group-eight-audio/p18/scene-4.mp3",
+      "audio_sha256": "f3eae53e36274ca0afdc23f4c82cc972bf3dbdae3d4a421056410239f5af6530",
+      "duration_ms": 2760,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          295
+        ],
+        [
+          1,
+          308,
+          417
+        ],
+        [
+          2,
+          430,
+          634
+        ],
+        [
+          3,
+          648,
+          757
+        ],
+        [
+          4,
+          770,
+          906
+        ],
+        [
+          5,
+          920,
+          1259
+        ],
+        [
+          6,
+          1273,
+          1816
+        ]
+      ]
+    },
+    "p18/story-1": {
+      "text": "Mariam was preparing for her first interview.",
+      "path": "assets/group-eight-audio/p18/story-1.mp3",
+      "audio_sha256": "03fb5cd404af042a741c73754ee72724e87f2d6e945e407fdb286ecc7c0ffce0",
+      "duration_ms": 3600,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          593
+        ],
+        [
+          1,
+          607,
+          770
+        ],
+        [
+          2,
+          784,
+          1300
+        ],
+        [
+          3,
+          1314,
+          1477
+        ],
+        [
+          4,
+          1490,
+          1626
+        ],
+        [
+          5,
+          1640,
+          2020
+        ],
+        [
+          6,
+          2034,
+          2645
+        ]
+      ]
+    },
+    "p18/story-2": {
+      "text": "Her sister offered to practice with her.",
+      "path": "assets/group-eight-audio/p18/story-2.mp3",
+      "audio_sha256": "6802bccf1c57c7095a8ecfd853c1b493e0f8d290ab5cdc83f6be6838ab29f00f",
+      "duration_ms": 3216,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          308
+        ],
+        [
+          1,
+          322,
+          784
+        ],
+        [
+          2,
+          797,
+          1110
+        ],
+        [
+          3,
+          1123,
+          1218
+        ],
+        [
+          4,
+          1232,
+          1735
+        ],
+        [
+          5,
+          1748,
+          1898
+        ],
+        [
+          6,
+          1911,
+          2278
+        ]
+      ]
+    },
+    "p18/story-3": {
+      "text": "She said, 'Let me know if you need help.'",
+      "path": "assets/group-eight-audio/p18/story-3.mp3",
+      "audio_sha256": "1a7a0a8c15d17e9385d70d3f553744a28925590e96f9588af019e3fa5f78bd0c",
+      "duration_ms": 3288,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          335
+        ],
+        [
+          1,
+          349,
+          770
+        ],
+        [
+          2,
+          933,
+          1083
+        ],
+        [
+          3,
+          1096,
+          1205
+        ],
+        [
+          4,
+          1218,
+          1422
+        ],
+        [
+          5,
+          1436,
+          1545
+        ],
+        [
+          6,
+          1558,
+          1667
+        ],
+        [
+          7,
+          1680,
+          1871
+        ],
+        [
+          8,
+          1884,
+          2346
+        ]
+      ]
+    },
+    "p18/dialogue-1": {
+      "text": "Thank you for explaining the form.",
+      "path": "assets/group-eight-audio/p18/dialogue-1.mp3",
+      "audio_sha256": "493f328eca4fb9444fcbe48f4d453975ee108ee5ca9c9289b3c464f7c03f5425",
+      "duration_ms": 2904,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          390
+        ],
+        [
+          1,
+          403,
+          512
+        ],
+        [
+          2,
+          526,
+          689
+        ],
+        [
+          3,
+          702,
+          1259
+        ],
+        [
+          4,
+          1273,
+          1382
+        ],
+        [
+          5,
+          1395,
+          1952
+        ]
+      ]
+    },
+    "p18/dialogue-2": {
+      "text": "You're welcome. Let me know if you have questions.",
+      "path": "assets/group-eight-audio/p18/dialogue-2.mp3",
+      "audio_sha256": "3431a67331dd75af7bfe5da28ffab9e29eacea93cbdeec2d35bf7e5aaf1dbc1b",
+      "duration_ms": 4680,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          362
+        ],
+        [
+          1,
+          376,
+          987
+        ],
+        [
+          2,
+          1929,
+          2120
+        ],
+        [
+          3,
+          2133,
+          2242
+        ],
+        [
+          4,
+          2255,
+          2446
+        ],
+        [
+          5,
+          2459,
+          2568
+        ],
+        [
+          6,
+          2582,
+          2677
+        ],
+        [
+          7,
+          2690,
+          2867
+        ],
+        [
+          8,
+          2880,
+          3736
+        ]
+      ]
+    },
+    "chapters/c01/line-1": {
+      "text": "On his first day, Hadi could not find the classroom.",
+      "path": "assets/group-eight-audio/chapters/c01/line-1.mp3",
+      "audio_sha256": "b44141591f52559c6fe75f86d334a4f2208727ec5e495b8b2b18b5408e048747",
+      "duration_ms": 4128,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          267
+        ],
+        [
+          1,
+          281,
+          444
+        ],
+        [
+          2,
+          458,
+          797
+        ],
+        [
+          3,
+          811,
+          1191
+        ],
+        [
+          4,
+          1368,
+          1653
+        ],
+        [
+          5,
+          1667,
+          1843
+        ],
+        [
+          6,
+          1857,
+          2074
+        ],
+        [
+          7,
+          2088,
+          2333
+        ],
+        [
+          8,
+          2346,
+          2441
+        ],
+        [
+          9,
+          2455,
+          3189
+        ]
+      ]
+    },
+    "chapters/c01/line-2": {
+      "text": "He asked a teacher, 'Excuse me, where is room four?'",
+      "path": "assets/group-eight-audio/chapters/c01/line-2.mp3",
+      "audio_sha256": "27607434918b941abeb2ada2e7b55bb2a1fee79e7a06ee02a6f59f366a52e479",
+      "duration_ms": 4536,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          322
+        ],
+        [
+          1,
+          335,
+          648
+        ],
+        [
+          2,
+          661,
+          729
+        ],
+        [
+          3,
+          743,
+          1314
+        ],
+        [
+          4,
+          1545,
+          2020
+        ],
+        [
+          5,
+          2034,
+          2265
+        ],
+        [
+          6,
+          2509,
+          2699
+        ],
+        [
+          7,
+          2713,
+          2862
+        ],
+        [
+          8,
+          2876,
+          3066
+        ],
+        [
+          9,
+          3080,
+          3596
+        ]
+      ]
+    },
+    "chapters/c01/line-3": {
+      "text": "The teacher showed him the correct corridor.",
+      "path": "assets/group-eight-audio/chapters/c01/line-3.mp3",
+      "audio_sha256": "3c31d9bd9192c6f72ee3c0b1cf48dba55c21f11ca4c1f2aad464872ba2f753a2",
+      "duration_ms": 3288,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          661
+        ],
+        [
+          2,
+          675,
+          933
+        ],
+        [
+          3,
+          947,
+          1083
+        ],
+        [
+          4,
+          1096,
+          1205
+        ],
+        [
+          5,
+          1218,
+          1640
+        ],
+        [
+          6,
+          1653,
+          2333
+        ]
+      ]
+    },
+    "chapters/c01/line-4": {
+      "text": "Hadi said, 'Thank you for your help.'",
+      "path": "assets/group-eight-audio/chapters/c01/line-4.mp3",
+      "audio_sha256": "8400115e183704e961d0e7b8d17e17ed4e8e365b6118f4c24625ac2c71c06a90",
+      "duration_ms": 3168,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          458
+        ],
+        [
+          1,
+          471,
+          892
+        ],
+        [
+          2,
+          1042,
+          1286
+        ],
+        [
+          3,
+          1300,
+          1422
+        ],
+        [
+          4,
+          1436,
+          1585
+        ],
+        [
+          5,
+          1599,
+          1748
+        ],
+        [
+          6,
+          1762,
+          2210
+        ]
+      ]
+    },
+    "chapters/c01/line-5": {
+      "text": "His classmate asked, 'Would you like to sit here?'",
+      "path": "assets/group-eight-audio/chapters/c01/line-5.mp3",
+      "audio_sha256": "5b6c8da0009ac3b9b4d9de092fa5bdf877c702f9ce3abe69c7d3b8d4786463c6",
+      "duration_ms": 3792,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          349
+        ],
+        [
+          1,
+          362,
+          933
+        ],
+        [
+          2,
+          947,
+          1477
+        ],
+        [
+          3,
+          1585,
+          1748
+        ],
+        [
+          4,
+          1762,
+          1871
+        ],
+        [
+          5,
+          1884,
+          2088
+        ],
+        [
+          6,
+          2102,
+          2197
+        ],
+        [
+          7,
+          2210,
+          2455
+        ],
+        [
+          8,
+          2468,
+          2849
+        ]
+      ]
+    },
+    "chapters/c01/line-6": {
+      "text": "Hadi smiled and replied, 'I'd love to.'",
+      "path": "assets/group-eight-audio/chapters/c01/line-6.mp3",
+      "audio_sha256": "6f160c18a898fa1bb4b87314b2af6e008935f592db980961b76663dae2f17996",
+      "duration_ms": 3480,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          444
+        ],
+        [
+          1,
+          458,
+          879
+        ],
+        [
+          2,
+          892,
+          1001
+        ],
+        [
+          3,
+          1015,
+          1599
+        ],
+        [
+          4,
+          1789,
+          1966
+        ],
+        [
+          5,
+          1979,
+          2197
+        ],
+        [
+          6,
+          2210,
+          2496
+        ]
+      ]
+    },
+    "chapters/c02/line-1": {
+      "text": "The team met to plan a neighborhood clean-up.",
+      "path": "assets/group-eight-audio/chapters/c02/line-1.mp3",
+      "audio_sha256": "9b4da9ef883b267373b8cf6b53ecd9357c0b079003546574353b4ec29a0b83f1",
+      "duration_ms": 3384,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          526
+        ],
+        [
+          2,
+          539,
+          770
+        ],
+        [
+          3,
+          784,
+          879
+        ],
+        [
+          4,
+          892,
+          1191
+        ],
+        [
+          5,
+          1205,
+          1246
+        ],
+        [
+          6,
+          1259,
+          1789
+        ],
+        [
+          7,
+          1803,
+          2428
+        ]
+      ]
+    },
+    "chapters/c02/line-2": {
+      "text": "Lina said, 'Let's start near the park.'",
+      "path": "assets/group-eight-audio/chapters/c02/line-2.mp3",
+      "audio_sha256": "2ad6c8ec6d9f7e4dcd908c9ea776ea4117b53a999047a18a037327566121593b",
+      "duration_ms": 3408,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          471
+        ],
+        [
+          1,
+          485,
+          920
+        ],
+        [
+          2,
+          1096,
+          1327
+        ],
+        [
+          3,
+          1341,
+          1612
+        ],
+        [
+          4,
+          1626,
+          1789
+        ],
+        [
+          5,
+          1803,
+          1884
+        ],
+        [
+          6,
+          1898,
+          2468
+        ]
+      ]
+    },
+    "chapters/c02/line-3": {
+      "text": "Omar asked, 'Could you clarify the meeting time?'",
+      "path": "assets/group-eight-audio/chapters/c02/line-3.mp3",
+      "audio_sha256": "245973cd0f36141380ab758b1dde96571a96af6b6232972bfab07d0051a10406",
+      "duration_ms": 3816,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          498
+        ],
+        [
+          1,
+          512,
+          1055
+        ],
+        [
+          2,
+          1178,
+          1341
+        ],
+        [
+          3,
+          1354,
+          1463
+        ],
+        [
+          4,
+          1477,
+          1966
+        ],
+        [
+          5,
+          1979,
+          2088
+        ],
+        [
+          6,
+          2102,
+          2428
+        ],
+        [
+          7,
+          2441,
+          2876
+        ]
+      ]
+    },
+    "chapters/c02/line-4": {
+      "text": "They agreed to begin early on Saturday.",
+      "path": "assets/group-eight-audio/chapters/c02/line-4.mp3",
+      "audio_sha256": "80dab63790ca19c408673570f2d008514a735ee0c47619cb42f84b0d94e3a709",
+      "duration_ms": 3264,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          281
+        ],
+        [
+          1,
+          295,
+          621
+        ],
+        [
+          2,
+          634,
+          716
+        ],
+        [
+          3,
+          729,
+          1083
+        ],
+        [
+          4,
+          1096,
+          1436
+        ],
+        [
+          5,
+          1449,
+          1612
+        ],
+        [
+          6,
+          1626,
+          2319
+        ]
+      ]
+    },
+    "chapters/c02/line-5": {
+      "text": "Sara offered, 'Let me bring some extra gloves.'",
+      "path": "assets/group-eight-audio/chapters/c02/line-5.mp3",
+      "audio_sha256": "96eb002a3ce31b8645bf9f9e0aa69ccd99b187eb4c8944bc5ed1032a0a7d3da0",
+      "duration_ms": 3888,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          512
+        ],
+        [
+          1,
+          526,
+          987
+        ],
+        [
+          2,
+          1151,
+          1300
+        ],
+        [
+          3,
+          1314,
+          1422
+        ],
+        [
+          4,
+          1436,
+          1680
+        ],
+        [
+          5,
+          1694,
+          1871
+        ],
+        [
+          6,
+          1884,
+          2251
+        ],
+        [
+          7,
+          2265,
+          2944
+        ]
+      ]
+    },
+    "chapters/c02/line-6": {
+      "text": "Everyone thanked her for helping the team.",
+      "path": "assets/group-eight-audio/chapters/c02/line-6.mp3",
+      "audio_sha256": "b1132dd0ba8cae3aab31ac9ddba4f8c78a5b1a725bf46c99275356b1a18b7c95",
+      "duration_ms": 3216,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          634
+        ],
+        [
+          1,
+          648,
+          920
+        ],
+        [
+          2,
+          933,
+          1110
+        ],
+        [
+          3,
+          1123,
+          1286
+        ],
+        [
+          4,
+          1300,
+          1626
+        ],
+        [
+          5,
+          1640,
+          1748
+        ],
+        [
+          6,
+          1762,
+          2278
+        ]
+      ]
+    },
+    "chapters/c03/line-1": {
+      "text": "Mona arranged to meet her friend at the café.",
+      "path": "assets/group-eight-audio/chapters/c03/line-1.mp3",
+      "audio_sha256": "9ed1627df2daad153c266193266cac712d8fe4bca259b5e7e47a365619aa8df3",
+      "duration_ms": 3624,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          458
+        ],
+        [
+          1,
+          471,
+          947
+        ],
+        [
+          2,
+          960,
+          1042
+        ],
+        [
+          3,
+          1055,
+          1246
+        ],
+        [
+          4,
+          1259,
+          1409
+        ],
+        [
+          5,
+          1422,
+          1789
+        ],
+        [
+          6,
+          1803,
+          1898
+        ],
+        [
+          7,
+          1911,
+          2007
+        ],
+        [
+          8,
+          2020,
+          2672
+        ]
+      ]
+    },
+    "chapters/c03/line-2": {
+      "text": "The bus was late, so Mona arrived after her friend.",
+      "path": "assets/group-eight-audio/chapters/c03/line-2.mp3",
+      "audio_sha256": "911335c1eeebe52c67d092d8647ff813a0c215ac5708ccb30a1ac164dd21579f",
+      "duration_ms": 4272,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          240
+        ],
+        [
+          1,
+          254,
+          526
+        ],
+        [
+          2,
+          539,
+          743
+        ],
+        [
+          3,
+          757,
+          1123
+        ],
+        [
+          4,
+          1327,
+          1517
+        ],
+        [
+          5,
+          1531,
+          1857
+        ],
+        [
+          6,
+          1871,
+          2305
+        ],
+        [
+          7,
+          2319,
+          2577
+        ],
+        [
+          8,
+          2591,
+          2727
+        ],
+        [
+          9,
+          2740,
+          3324
+        ]
+      ]
+    },
+    "chapters/c03/line-3": {
+      "text": "She said, 'I'm sorry for keeping you waiting.'",
+      "path": "assets/group-eight-audio/chapters/c03/line-3.mp3",
+      "audio_sha256": "0528f942d924a8603e393932145f69c5af1e2c245e534a7f949c634abe80a56e",
+      "duration_ms": 3624,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          349
+        ],
+        [
+          1,
+          362,
+          784
+        ],
+        [
+          2,
+          960,
+          1083
+        ],
+        [
+          3,
+          1096,
+          1449
+        ],
+        [
+          4,
+          1463,
+          1640
+        ],
+        [
+          5,
+          1653,
+          2020
+        ],
+        [
+          6,
+          2034,
+          2156
+        ],
+        [
+          7,
+          2170,
+          2686
+        ]
+      ]
+    },
+    "chapters/c03/line-4": {
+      "text": "Her friend replied, 'That's all right. Please sit down.'",
+      "path": "assets/group-eight-audio/chapters/c03/line-4.mp3",
+      "audio_sha256": "4751bbccd9a9f9b04e3a3d995b6e99cab0a83e61add72aaff5968739e0b862ef",
+      "duration_ms": 5232,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          295
+        ],
+        [
+          1,
+          308,
+          621
+        ],
+        [
+          2,
+          634,
+          1205
+        ],
+        [
+          3,
+          1354,
+          1612
+        ],
+        [
+          4,
+          1626,
+          1776
+        ],
+        [
+          5,
+          1789,
+          2278
+        ],
+        [
+          6,
+          3220,
+          3533
+        ],
+        [
+          7,
+          3546,
+          3764
+        ],
+        [
+          8,
+          3777,
+          4293
+        ]
+      ]
+    },
+    "chapters/c03/line-5": {
+      "text": "Mona said, 'I appreciate your patience.'",
+      "path": "assets/group-eight-audio/chapters/c03/line-5.mp3",
+      "audio_sha256": "4bcaf503381658992dfac2c4b2c21e1b277b44f28ebe56e794d600c243cdcb5c",
+      "duration_ms": 3672,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          458
+        ],
+        [
+          1,
+          471,
+          892
+        ],
+        [
+          2,
+          1083,
+          1178
+        ],
+        [
+          3,
+          1191,
+          1776
+        ],
+        [
+          4,
+          1789,
+          1925
+        ],
+        [
+          5,
+          1939,
+          2713
+        ]
+      ]
+    },
+    "chapters/c03/line-6": {
+      "text": "They smiled and enjoyed a warm conversation.",
+      "path": "assets/group-eight-audio/chapters/c03/line-6.mp3",
+      "audio_sha256": "0f83d88423ccd14c116640451feda9219dbc27e1df8e7cab08bf891729422b91",
+      "duration_ms": 3576,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          281
+        ],
+        [
+          1,
+          295,
+          770
+        ],
+        [
+          2,
+          784,
+          920
+        ],
+        [
+          3,
+          933,
+          1286
+        ],
+        [
+          4,
+          1300,
+          1354
+        ],
+        [
+          5,
+          1368,
+          1667
+        ],
+        [
+          6,
+          1680,
+          2631
+        ]
+      ]
+    }
+  },
+  "verified_count": 197
 }
