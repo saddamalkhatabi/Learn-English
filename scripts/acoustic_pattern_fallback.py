@@ -28,7 +28,7 @@ def spoken_token(token):
         if ":" in raw:
             return "".join(spoken_number(part) for part in raw.split(":"))
         return spoken_number(raw)
-    return re.sub(r"\\d{1,2}:\\d{2}|\\d+",replace,token.upper())
+    return re.sub(r"\d{1,2}:\d{2}|\d+",replace,token.upper())
 
 class ForcedAligner:
     def __init__(self):
