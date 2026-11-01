@@ -28,7 +28,7 @@ An Arabic-first, offline-friendly learning prototype that teaches English **thro
 ## المجموعة السادسة — المستقبل والخطط والاحتمال
 - [المجموعة السادسة: 18 نمطًا و72 موقفًا وثلاث قصص مترابطة](docs/GROUP-SIX-AR.md). افتح «🗓️ المجموعة السادسة».
 - **I'll / won't / Will you**، **going to** للنوايا، **I'm meeting** للترتيبات، **The class starts** للجداول، **hope / expect / might / may / probably** لدرجات التوقع، **about to** للفورية، **if / when / as soon as** للشرط والزمن المستقبلي.
-- 198 مقطعًا صوتيًا مستهدفًا من Edge Neural مع حدود الكلمات المقاسة؛ لا تُعد المقاطع جاهزة حتى نجاح التوليد والتحقق. الصور مؤجلة، وتظهر بدائل توضيحية خفيفة.
+- **198/198 تسجيل MP3 إنجليزي مكتمل ومتحقق منه** مع بيانات توقيت الكلمات المقاسة من الصوت نفسه وبصمات SHA256. الصور الواقعية مؤجلة عمدًا، وتظهر بدائل توضيحية خفيفة.
 
 ## Learning experience
 - Three fully scripted seed lessons from the supplied source: **This is my house**, **I have a good job**, and **I've got a job**.

@@ -44,6 +44,7 @@ jobs:
           assert len(st['lessons'])==3
           assert all(len(v['levels'])==3 and all(len(l['lines'])==5 for l in v['levels']) and len(v['dialogue'])==4 for v in st['lessons'].values())
           print('Validated 36 scenes, 45 story lines and 12 dialogue lines.')
+          
           PY
       - name: Check whether Kokoro audio must be regenerated
         id: needvoice
@@ -78,13 +79,15 @@ jobs:
       - name: Prepare preview and report real voice status
         run: |
           mkdir -p _site
+          python scripts/test_group_six.py --require-audio
           cp index.html *.js styles.css manifest.webmanifest _site/
           cp -r data assets _site/
           echo "## Pattern Universe preview" >> "$GITHUB_STEP_SUMMARY"
-          echo "3 original deep lessons, Group One (18 patterns, 72 scenes), Group Two (18 patterns, 72 scenes plus three chapters), Group Three (18 patterns, 72 scenes plus three chapters), and Group Four (18 patterns, 72 scenes plus three inquiry chapters)." >> "$GITHUB_STEP_SUMMARY"
+          echo "3 original deep lessons, Groups One through Six: 108 interactive patterns and 432 practice scenes plus three deep original journeys. Group Six future voice library: 198 verified MP3s with measured word cues." >> "$GITHUB_STEP_SUMMARY"
           echo "Kokoro setup: ${{ steps.setup_tts.outcome }}" >> "$GITHUB_STEP_SUMMARY"
           echo "Kokoro rendering: ${{ steps.tts.outcome }}" >> "$GITHUB_STEP_SUMMARY"
-          echo "Recorded MP3 count: $(find assets/audio -name '*.mp3' 2>/dev/null | wc -l)" >> "$GITHUB_STEP_SUMMARY"
+          echo "Recorded seed MP3 count: $(find assets/audio -name '*.mp3' 2>/dev/null | wc -l)" >> "$GITHUB_STEP_SUMMARY"
+          echo "Group Six verified MP3 count: $(find assets/group-six-audio -name '*.mp3' 2>/dev/null | wc -l)" >> "$GITHUB_STEP_SUMMARY"
       - name: Always upload a testable preview ZIP
         uses: actions/upload-artifact@v4
         with:
