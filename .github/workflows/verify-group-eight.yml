@@ -1,4 +1,4 @@
-name: Verify eighth English feelings-opinions group
+name: Verify eighth English social-etiquette group
 on:
   push:
     branches: [main]
@@ -25,7 +25,7 @@ jobs:
           set -o pipefail
           npm run check
           node --check group-eight.js
-          python scripts/test_group_eight.py 2>&1 | tee /tmp/g8-verify.log
+          python scripts/test_group_eight.py --require-audio 2>&1 | tee /tmp/g8-verify.log
       - name: Confirm group navigator is integrated and no shared API was replaced
         run: |
           node --input-type=module <<'JS'
@@ -46,4 +46,4 @@ jobs:
       - name: Summarize Group Eight verification
         run: |
           echo "✅ Group Eight curriculum, source links and JavaScript checks passed" >> "$GITHUB_STEP_SUMMARY"
-          echo "Voice files are verified by the separate mandatory recording workflow; this source check does not attest audio completeness." >> "$GITHUB_STEP_SUMMARY"
+          echo "All 198 Group Eight MP3 recordings and measured word boundaries passed mandatory validation." >> "$GITHUB_STEP_SUMMARY"

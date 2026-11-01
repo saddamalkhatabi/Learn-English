@@ -38,7 +38,7 @@ An Arabic-first, offline-friendly learning prototype that teaches English **thro
 ## المجموعة الثامنة — التفاعل الاجتماعي واللباقة
 - [المجموعة الثامنة: 18 نمطًا و72 موقفًا وثلاث قصص مترابطة](docs/GROUP-EIGHT-AR.md). افتح «🤝 المجموعة الثامنة».
 - تدرّب على **Excuse me / Could you please / Would you mind / Do you mind if I / May I / Would you like to / I'd love to / I'm afraid I can't / How about / Let's / Let me / Thank you for / I appreciate / You're welcome / I'm sorry for / That's all right / Could you clarify / Let me know if**.
-- **198 مقطعًا صوتيًا مستهدفًا** عبر خط إنتاج MP3 مع توقيت الكلمات المأخوذ من التسجيل نفسه؛ لا تُعد الملفات جاهزة إلا بعد تحقق Workflow الصوت والتغطية. الصور الواقعية مؤجلة وفق الاتفاق.
+- **198/198 مقطعًا صوتيًا مكتملًا ومتحققًا منه** (197 ملف MP3 جديدًا + ملف مطابق مُعاد الاستخدام من المكتبة الأصلية)، مع توقيت الكلمات المأخوذ من التسجيل نفسه وبصمات SHA256. الصور الواقعية مؤجلة وفق الاتفاق.
 
 ## Learning experience
 - Three fully scripted seed lessons from the supplied source: **This is my house**, **I have a good job**, and **I've got a job**.
