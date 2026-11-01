@@ -85,7 +85,7 @@ function wordAt(cues,t){
  while(lo<=hi){const mid=(lo+hi)>>1;if(cues[mid][1]<=t){found=mid;lo=mid+1}else hi=mid-1}
  return found>=0&&t<cues[found][2]?cues[found][0]:-1;
 }
-let activeRow=null;
+let activeRow=null,lastSaveAt=0;
 function stopPlayback(reset=false){
  seq++;playing=false;if(frame)cancelAnimationFrame(frame);frame=0;
  player.pause();player.removeAttribute("src");player.load();
@@ -100,7 +100,7 @@ function tick(token){
   seconds=player.currentTime;
   const word=wordAt(activeRow.cues,seconds*1000);
   if(word!==lastWord){lastWord=word;highlighted(word)}
-  save();
+  if(Date.now()-lastSaveAt>900){lastSaveAt=Date.now();save()}
  }
  frame=requestAnimationFrame(()=>tick(token));
 }
