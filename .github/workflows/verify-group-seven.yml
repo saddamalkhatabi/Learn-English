@@ -1,0 +1,75 @@
+name: Verify seventh English feelings-opinions group
+on:
+  push:
+    branches: [main]
+    paths: ["group-seven.js", "data/group-seven.json", "data/group-seven-audio-index.json", "scripts/test_group_seven.py", "index.html", "app.js", "styles.css"]
+  pull_request:
+    paths: ["group-seven.js", "data/group-seven.json", "data/group-seven-audio-index.json", "scripts/test_group_seven.py", "index.html", "app.js", "styles.css"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: JavaScript syntax and source validation
+        run: |
+          set -o pipefail
+          npm run check
+          node --check group-seven.js
+          python scripts/test_group_seven.py 2>&1 | tee /tmp/g7-verify.log
+      - name: Confirm group navigator is integrated and no shared API was replaced
+        run: |
+          node --input-type=module <<'JS'
+          import fs from 'node:fs';
+          import assert from 'node:assert/strict';
+          const app=fs.readFileSync('app.js','utf8'),html=fs.readFileSync('index.html','utf8');
+          assert.match(app,/GROUP_SEVEN\?\.open/);
+          assert.match(app,/GROUP_SEVEN\?\.stop/);
+          assert.match(html,/data-view="group-seven"/);
+          assert.match(html,/id="g7ChapterTabs"/);
+          assert.match(html,/data-view="group-one"/);
+          assert.match(html,/src="group-seven\.js"/);
+          assert.match(html,/data-view="paths"/);
+          assert.match(html,/data-view="learn"/);
+          console.log("Navigation integration OK");
+          JS
+
+      - name: Publish successful Group Seven source and media acceptance marker
+        run: |
+          mkdir -p reports
+          printf '{"status":"passed","run_id":"%s","source_sha":"%s","test":"group-seven-content-and-voice-validation"}' "$GITHUB_RUN_ID" "$GITHUB_SHA" > reports/group-seven-content-validation.json
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add reports/group-seven-content-validation.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Attest Group Seven source, word cues and assets tests [skip ci]'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+
+      - name: Capture failed Group Seven content verification for repair
+        if: failure()
+        run: |
+          mkdir -p reports
+          if [ -s /tmp/g7-verify.log ]; then
+            tail -n 120 /tmp/g7-verify.log > reports/group-seven-content-validation-error.txt
+          else
+            echo "Source or dependency check failed before Python verification; inspect preceding GitHub Actions steps." > reports/group-seven-content-validation-error.txt
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add reports/group-seven-content-validation-error.txt
+          if ! git diff --cached --quiet; then
+            git commit -m 'Capture Group Seven curriculum verification failure [skip ci]'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi

@@ -1,0 +1,64 @@
+name: Produce complete Group Seven voice library with real word boundaries
+on:
+  push:
+    branches: [main]
+    paths:
+      - data/group-seven.json
+      - scripts/render_group_seven_audio.py
+      - .github/workflows/group-seven-voices.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: english-group-seven-voice-main
+  cancel-in-progress: false
+jobs:
+  record:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install speech and duration tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+          python -m pip install --disable-pip-version-check 'edge-tts>=7,<8'
+      - name: Record each new narration, scene, story and dialogue
+        run: |
+          set -o pipefail
+          python scripts/render_group_seven_audio.py --concurrency 3 --retries 6 2>&1 | tee /tmp/g7-private-voices.log
+      - name: Validate clips, source references and same-recording word cues
+        run: python scripts/test_group_seven.py --require-audio
+      - name: Publish only verified group voice files
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/group-seven-audio-index.json assets/group-seven-audio/
+          if ! git diff --cached --quiet; then
+            git commit -m 'Publish verified group seven recordings and measured word cues [skip ci]'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+
+      - name: Preserve failure trace for Group Seven diagnostics
+        if: failure()
+        run: |
+          mkdir -p reports
+          if [ -s "/tmp/g7-private-voices.log" ]; then
+            tail -n 85 "/tmp/g7-private-voices.log" > reports/group-seven-private-voice-error.txt
+          else
+            echo "No recording or browser trace was produced; inspect earlier installation and validation steps." > reports/group-seven-private-voice-error.txt
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add reports/group-seven-private-voice-error.txt
+          if ! git diff --cached --quiet; then
+            git commit -m 'Capture Group Seven CI failure details [skip ci]'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi

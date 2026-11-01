@@ -30,6 +30,11 @@ An Arabic-first, offline-friendly learning prototype that teaches English **thro
 - **I'll / won't / Will you**، **going to** للنوايا، **I'm meeting** للترتيبات، **The class starts** للجداول، **hope / expect / might / may / probably** لدرجات التوقع، **about to** للفورية، **if / when / as soon as** للشرط والزمن المستقبلي.
 - **198/198 تسجيل MP3 إنجليزي مكتمل ومتحقق منه** مع بيانات توقيت الكلمات المقاسة من الصوت نفسه وبصمات SHA256. الصور الواقعية مؤجلة عمدًا، وتظهر بدائل توضيحية خفيفة.
 
+## المجموعة السابعة — المشاعر والآراء والانطباعات
+- [المجموعة السابعة: 18 نمطًا و72 موقفًا وثلاث قصص مترابطة](docs/GROUP-SEVEN-AR.md). افتح «💬 المجموعة السابعة».
+- يتدرّب المتعلم على **I feel / I'm happy with / I'm worried about / I'm proud of / I'm surprised that / I'm disappointed that / I'm grateful for / I'm interested in / I feel like / I don't feel like / I think / In my opinion / I believe / I prefer / I agree with / I don't agree with / It seems like / It sounds like**.
+- قصص وتدريبات مواقف مترجمة وتلوين الكلمات بحسب الصوت المسجل الحقيقي بعد التحقق؛ **198 تسجيلًا مستهدفًا**، مع تأجيل الصور الواقعية والأطالس حتى مرحلة التصاميم.
+
 ## Learning experience
 - Three fully scripted seed lessons from the supplied source: **This is my house**, **I have a good job**, and **I've got a job**.
 - Each seed lesson includes three levels, 12 contextual scene examples, a recorded Kokoro explanation, clickable story chapters (5 lines per level), a 4-turn dialogue, active vocabulary highlighting and quiz/reconstruction.
