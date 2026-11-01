@@ -1,0 +1,32 @@
+name: Group One real-browser mobile smoke
+on:
+  push:
+    branches: [main]
+    paths:
+      - group-one.js
+      - index.html
+      - styles.css
+      - server.mjs
+      - scripts/smoke_group_one.mjs
+      - .github/workflows/smoke-group-one.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Install browser runner
+        run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Run real mobile interaction smoke
+        run: |
+          PORT=3178 node server.mjs >/tmp/learn-english-smoke.log 2>&1 &
+          for i in $(seq 1 30); do curl -fsS http://127.0.0.1:3178/health && break || sleep 1; done
+          node scripts/smoke_group_one.mjs
