@@ -1,102 +1,154 @@
-"""Align ORIGINAL committed Kokoro MP3s to their exact scripted English text.
+"""Generate measured English word cues from each ORIGINAL committed Kokoro MP3.
 
-Ported from app360's my-little-routine MMS_FA acoustic forced aligner.
-No duration-weighted estimates and no re-synthesis; source audio SHA-256 is recorded.
-Run only after all voice files are committed; uncertain clips fail closed.
+Faster English-only Wav2Vec2 CTC forced alignment, following app360's rule:
+use timings measured from the SAME recording, never sentence-length heuristics.
+Run with --lesson this|have|got to create separate validated artifacts.
 """
-import hashlib, json, pathlib, re, unicodedata
+import argparse
+import hashlib
+import json
+import pathlib
+import re
+
 import numpy as np
 import soundfile as sf
-import torch, torchaudio
-from uroman import Uroman
+import torch
+import torchaudio
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
-LESSONS = json.loads((ROOT/"data/lessons.json").read_text(encoding="utf-8"))["lessons"]
-STORIES = json.loads((ROOT/"data/stories.json").read_text(encoding="utf-8"))["lessons"]
-DEST = ROOT/"data/audio-word-cues.json"
-bundle = torchaudio.pipelines.MMS_FA
-torch.set_num_threads(4)
-model = bundle.get_model().eval()
-tokenizer = bundle.get_tokenizer()
-aligner = bundle.get_aligner()
-roman = Uroman()
+LESSONS = json.loads((ROOT / "data/lessons.json").read_text(encoding="utf-8"))["lessons"]
+STORIES = json.loads((ROOT / "data/stories.json").read_text(encoding="utf-8"))["lessons"]
+torch.set_num_threads(2)
+BUNDLE = torchaudio.pipelines.WAV2VEC2_ASR_BASE_960H
+VOCAB = {letter: i for i, letter in enumerate(BUNDLE.get_labels())}
+MODEL = None
 
-def corpus():
+
+def corpus(lesson_filter=None):
     rows = {}
     for lesson in LESSONS:
         lid = lesson["id"]
-        base = "assets/audio/"+lid+"/"
-        rows[base+"intro.mp3"] = lesson["explanationEn"]
+        if lesson_filter and lid != lesson_filter:
+            continue
+        base = "assets/audio/" + lid + "/"
+        rows[base + "intro.mp3"] = lesson["explanationEn"]
         for level_idx, level in enumerate(lesson["levels"], 1):
             for scene_idx, scene in enumerate(level["scenes"], 1):
-                rows[base+f"scene-{level_idx}-{scene_idx}.mp3"] = scene["en"]
+                rows[base + f"scene-{level_idx}-{scene_idx}.mp3"] = scene["en"]
         story = STORIES[lid]
         for chapter_idx, chapter in enumerate(story["levels"], 1):
             for line_idx, line in enumerate(chapter["lines"], 1):
-                rows[base+f"story-{chapter_idx}-{line_idx}.mp3"] = line["en"]
+                rows[base + f"story-{chapter_idx}-{line_idx}.mp3"] = line["en"]
         for i, turn in enumerate(story["dialogue"], 1):
-            rows[base+f"dialogue-{i}.mp3"] = turn["en"]
-    if len(rows) != 96:
-        raise ValueError(f"Expected exactly 96 recorded clips, got {len(rows)}")
+            rows[base + f"dialogue-{i}.mp3"] = turn["en"]
+    expected = 32 if lesson_filter else 96
+    if len(rows) != expected:
+        raise ValueError(f"Expected {expected} recordings, found {len(rows)}")
     return rows
 
-def normalized(word):
-    basic = "".join(c for c in unicodedata.normalize("NFKD",word)
-                    if not unicodedata.combining(c))
-    return re.sub("[^a-z]","",roman.romanize_string(basic).lower())
 
-def align(path, text):
-    audio = ROOT/path
-    contents = audio.read_bytes()
-    digest = hashlib.sha256(contents).hexdigest()
-    words = text.split()
-    norms = [normalized(w) for w in words]
-    if not words or not all(norms):
-        raise ValueError(f"Unalignable tokens in {path}: {text}")
-    samples, sr = sf.read(audio, dtype="float32")
-    if len(samples.shape) == 2:
-        samples = np.mean(samples,axis=1)
-    wave = torchaudio.functional.resample(
-        torch.from_numpy(samples.copy()).unsqueeze(0),sr,bundle.sample_rate)
+def token_sequence(text):
+    tokens, owners = [], []
+    words = text.strip().split()
+    for i, word in enumerate(words):
+        # The English CTC model supports A-Z and apostrophes; ignore punctuation.
+        normalized = "".join(c for c in word.upper() if c in VOCAB and c != "|")
+        if not normalized:
+            raise ValueError(f"No CTC symbols for word {i} in {text!r}")
+        for letter in normalized:
+            tokens.append(VOCAB[letter])
+            owners.append(i)
+        if i < len(words) - 1:
+            tokens.append(VOCAB["|"])
+            owners.append(-1)
+    return words, tokens, owners
+
+
+def measure(mp3_path, text, model):
+    file = ROOT / mp3_path
+    digest = hashlib.sha256(file.read_bytes()).hexdigest()
+    words, token_ids, owners = token_sequence(text)
+    samples, source_sr = sf.read(file, dtype="float32")
+    if samples.ndim > 1:
+        samples = np.mean(samples, axis=1)
+    samples = np.ascontiguousarray(samples)
+    sample_count = len(samples)
+    if not sample_count:
+        raise ValueError("Empty audio: " + mp3_path)
+    wave = torch.from_numpy(samples).unsqueeze(0)
+    if source_sr != BUNDLE.sample_rate:
+        wave = torchaudio.functional.resample(wave, source_sr, BUNDLE.sample_rate)
     with torch.inference_mode():
-        emissions, _ = model(wave)
-        spans = aligner(emissions[0], tokenizer(norms))
-    if len(spans)!=len(norms) or any(not g for g in spans):
-        raise ValueError(f"Incomplete forced alignment: {path}")
-    ms_per_frame = wave.shape[1]/emissions.shape[1]/bundle.sample_rate*1000
-    cues = []
-    for i, group in enumerate(spans):
-        start=round(group[0].start*ms_per_frame)
-        end=round(group[-1].end*ms_per_frame)
-        cues.append([i,start,end])
-    duration=round(len(samples)/sr*1000)
-    if any(not (0<=c[1]<c[2]<=duration+30) for c in cues):
-        raise ValueError(f"Out-of-duration timestamps: {path}")
-    if any(cues[i-1][2]>cues[i][1] for i in range(1,len(cues))):
-        raise ValueError(f"Overlapping timestamps: {path}")
-    return {"text":text,"language":"en","audio_sha256":digest,
-            "duration_ms":duration,"cues":cues,
-            "timing_source":"MMS_FA acoustic forced alignment of exact original Kokoro MP3"}
+        emission, _ = model(wave)
+        emission = emission.log_softmax(dim=-1)
+        labels = torch.tensor([token_ids], dtype=torch.int32)
+        alignments, token_scores = torchaudio.functional.forced_align(
+            emission, labels, blank=VOCAB["-"])
+        spans = torchaudio.functional.merge_tokens(
+            alignments[0], token_scores[0], blank=VOCAB["-"])
+    if len(spans) != len(token_ids):
+        raise ValueError(f"Token span mismatch: {mp3_path} {len(spans)} != {len(token_ids)}")
+    milliseconds_per_frame = (wave.shape[-1] / emission.shape[1]) / BUNDLE.sample_rate * 1000
+    duration_ms = round(sample_count / source_sr * 1000)
+    bounds = [[None, None] for _ in words]
+    for span, owner in zip(spans, owners):
+        if owner < 0:
+            continue
+        start = round(span.start * milliseconds_per_frame)
+        end = round(span.end * milliseconds_per_frame)
+        if bounds[owner][0] is None:
+            bounds[owner][0] = start
+        bounds[owner][1] = end
+    cues = [[i, starts, ends] for i, (starts, ends) in enumerate(bounds)]
+    if any(
+        s is None or e is None or s < 0 or e <= s or e > duration_ms + 40
+        for _, s, e in cues
+    ):
+        raise ValueError("Incomplete or out-of-range word boundaries: " + mp3_path)
+    if any(cues[i-1][2] > cues[i][1] for i in range(1, len(cues))):
+        raise ValueError("Overlapping word boundaries: " + mp3_path)
+    return {
+        "text": text, "language": "en", "audio_sha256": digest,
+        "duration_ms": duration_ms, "cues": cues,
+        "timing_source": "English Wav2Vec2 CTC forced alignment of original committed Kokoro MP3",
+    }
+
 
 def main():
-    rows=corpus()
-    existing={}
-    if DEST.exists():
-        try: existing=json.loads(DEST.read_text(encoding="utf-8")).get("items",{})
-        except Exception: existing={}
-    results={}
-    for i,(path,text) in enumerate(rows.items(),1):
-        digest=hashlib.sha256((ROOT/path).read_bytes()).hexdigest()
-        old=existing.get(path)
-        if old and old.get("audio_sha256")==digest and old.get("text")==text:
-            results[path]=old
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--lesson", choices=["this", "have", "got"], default=None)
+    parser.add_argument("--output", type=pathlib.Path, default=ROOT / "data/audio-word-cues.json")
+    args = parser.parse_args()
+    rows = corpus(args.lesson)
+    output = args.output
+    output.parent.mkdir(parents=True, exist_ok=True)
+    old = {}
+    if output.exists():
+        try:
+            old = json.loads(output.read_text(encoding="utf-8")).get("items", {})
+        except (ValueError, OSError):
+            pass
+    global MODEL
+    result = {}
+    for idx, (path, text) in enumerate(rows.items(), 1):
+        digest = hashlib.sha256((ROOT / path).read_bytes()).hexdigest()
+        cached = old.get(path)
+        if cached and cached.get("audio_sha256") == digest and cached.get("text") == text:
+            result[path] = cached
         else:
-            results[path]=align(path,text)
-        if i%8==0:print(f"Acoustic word alignment: {i}/{len(rows)}", flush=True)
-    out={"schema":1,"generated_from":"original committed Kokoro MP3s",
-         "items":results,"total_recordings":len(results)}
-    DEST.write_text(json.dumps(out,ensure_ascii=False,separators=(",",":"))+"\n",encoding="utf-8")
-    print("VERIFIED:",len(results),"recordings,",sum(len(x["cues"]) for x in results.values()),"words")
+            if MODEL is None:
+                print("Loading English Wav2Vec2 acoustic model", flush=True)
+                MODEL = BUNDLE.get_model().eval()
+            result[path] = measure(path, text, MODEL)
+        if idx % 4 == 0 or idx == len(rows):
+            output.write_text(json.dumps({
+                "schema": 1, "items": result, "total_recordings": len(result)
+            }, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
+            print(f"Validated {idx}/{len(rows)} original recordings", flush=True)
+    assert len(result) == len(rows)
+    print("PASS:", len(result), "recordings and",
+          sum(len(v["cues"]) for v in result.values()), "word cues", flush=True)
 
-if __name__=="__main__":
+
+if __name__ == "__main__":
     main()
