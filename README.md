@@ -33,7 +33,7 @@ An Arabic-first, offline-friendly learning prototype that teaches English **thro
 ## المجموعة السابعة — المشاعر والآراء والانطباعات
 - [المجموعة السابعة: 18 نمطًا و72 موقفًا وثلاث قصص مترابطة](docs/GROUP-SEVEN-AR.md). افتح «💬 المجموعة السابعة».
 - يتدرّب المتعلم على **I feel / I'm happy with / I'm worried about / I'm proud of / I'm surprised that / I'm disappointed that / I'm grateful for / I'm interested in / I feel like / I don't feel like / I think / In my opinion / I believe / I prefer / I agree with / I don't agree with / It seems like / It sounds like**.
-- قصص وتدريبات مواقف مترجمة وتلوين الكلمات بحسب الصوت المسجل الحقيقي بعد التحقق؛ **198 تسجيلًا مستهدفًا**، مع تأجيل الصور الواقعية والأطالس حتى مرحلة التصاميم.
+- قصص وتدريبات مواقف مترجمة وتلوين الكلمات بحسب الصوت المسجل الحقيقي بعد التحقق؛ **198/198 تسجيل MP3 مُنجز ومتحقق منه**، مع تأجيل الصور الواقعية والأطالس حتى مرحلة التصاميم.
 
 ## Learning experience
 - Three fully scripted seed lessons from the supplied source: **This is my house**, **I have a good job**, and **I've got a job**.

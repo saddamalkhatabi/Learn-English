@@ -25,7 +25,7 @@ jobs:
           set -o pipefail
           npm run check
           node --check group-seven.js
-          python scripts/test_group_seven.py 2>&1 | tee /tmp/g7-verify.log
+          python scripts/test_group_seven.py --require-audio 2>&1 | tee /tmp/g7-verify.log
       - name: Confirm group navigator is integrated and no shared API was replaced
         run: |
           node --input-type=module <<'JS'
@@ -46,4 +46,4 @@ jobs:
       - name: Summarize Group Seven verification
         run: |
           echo "✅ Group Seven curriculum, source links and JavaScript checks passed" >> "$GITHUB_STEP_SUMMARY"
-          echo "Use the voice workflow's mandatory media verification for finished MP3 coverage." >> "$GITHUB_STEP_SUMMARY"
+          echo "All 198 recorded Group Seven MP3s and measured word cues passed mandatory verification." >> "$GITHUB_STEP_SUMMARY"

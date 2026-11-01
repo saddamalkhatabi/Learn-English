@@ -80,14 +80,16 @@ jobs:
         run: |
           mkdir -p _site
           python scripts/test_group_six.py --require-audio
+          python scripts/test_group_seven.py --require-audio
           cp index.html *.js styles.css manifest.webmanifest _site/
           cp -r data assets _site/
           echo "## Pattern Universe preview" >> "$GITHUB_STEP_SUMMARY"
-          echo "3 original deep lessons, Groups One through Six: 108 interactive patterns and 432 practice scenes plus three deep original journeys. Group Six future voice library: 198 verified MP3s with measured word cues." >> "$GITHUB_STEP_SUMMARY"
+          echo "3 original deep lessons, Groups One through Seven: 126 interactive patterns and 504 practice scenes plus three deep original journeys. Group Seven feelings and opinions: 198 verified MP3s with measured word cues." >> "$GITHUB_STEP_SUMMARY"
           echo "Kokoro setup: ${{ steps.setup_tts.outcome }}" >> "$GITHUB_STEP_SUMMARY"
           echo "Kokoro rendering: ${{ steps.tts.outcome }}" >> "$GITHUB_STEP_SUMMARY"
           echo "Recorded seed MP3 count: $(find assets/audio -name '*.mp3' 2>/dev/null | wc -l)" >> "$GITHUB_STEP_SUMMARY"
           echo "Group Six verified MP3 count: $(find assets/group-six-audio -name '*.mp3' 2>/dev/null | wc -l)" >> "$GITHUB_STEP_SUMMARY"
+          echo "Group Seven verified MP3 count: $(find assets/group-seven-audio -name '*.mp3' 2>/dev/null | wc -l)" >> "$GITHUB_STEP_SUMMARY"
       - name: Always upload a testable preview ZIP
         uses: actions/upload-artifact@v4
         with:
