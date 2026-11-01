@@ -5,6 +5,7 @@ on:
     paths:
       - .github/workflows/record-all-patterns.yml
       - scripts/render_pattern_audio.py
+      - scripts/acoustic_pattern_fallback.py
   workflow_dispatch:
 permissions:
   contents: write
@@ -37,6 +38,8 @@ jobs:
           sudo apt-get update -qq
           sudo apt-get install -y -qq ffmpeg
           python -m pip install --disable-pip-version-check 'edge-tts>=7,<8'
+          python -m pip install --disable-pip-version-check 'torch==2.6.0' 'torchaudio==2.6.0' --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install --disable-pip-version-check 'numpy<2' 'soundfile>=0.12'
       - name: Synthesize batch ${{ matrix.key }} with real same-recording WordBoundary cues
         run: |
           python scripts/render_pattern_audio.py \
