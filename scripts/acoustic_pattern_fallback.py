@@ -9,6 +9,27 @@ import soundfile as sf
 import torch
 import torchaudio
 
+
+NUMBER_ONES=["zero","one","two","three","four","five","six","seven","eight","nine",
+             "ten","eleven","twelve","thirteen","fourteen","fifteen","sixteen",
+             "seventeen","eighteen","nineteen"]
+NUMBER_TENS=["","","twenty","thirty","forty","fifty","sixty","seventy","eighty","ninety"]
+def spoken_number(n):
+    n=int(n)
+    if n<20:return NUMBER_ONES[n]
+    if n<100:return NUMBER_TENS[n//10]+("" if n%10==0 else NUMBER_ONES[n%10])
+    if n<1000:return NUMBER_ONES[n//100]+"hundred"+("" if n%100==0 else spoken_number(n%100))
+    return "".join(NUMBER_ONES[int(d)] for d in str(n))
+def spoken_token(token):
+    # A printed number may be read aloud in words. Preserve the original ONE-token index
+    # while aligning phonemes of its spoken English equivalent in the real recording.
+    def replace(m):
+        raw=m.group(0)
+        if ":" in raw:
+            return "".join(spoken_number(part) for part in raw.split(":"))
+        return spoken_number(raw)
+    return re.sub(r"\\d{1,2}:\\d{2}|\\d+",replace,token.upper())
+
 class ForcedAligner:
     def __init__(self):
         torch.set_num_threads(2)
@@ -20,7 +41,7 @@ class ForcedAligner:
         words=text.strip().split()
         tokens=[];owners=[]
         for i,word in enumerate(words):
-            word="".join(c for c in word.upper() if c in self.labels and c!="|")
+            word="".join(c for c in spoken_token(word) if c in self.labels and c!="|")
             if not word:raise ValueError("No acoustic symbols for a word")
             for c in word:
                 tokens.append(self.labels[c]);owners.append(i)
