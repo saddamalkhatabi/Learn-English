@@ -1,1 +1,32 @@
-OK mobile smoke: 18 group-five patterns, quiz, word builder, 3 chapter stories, progress, zero broken assets; groups one and two intact
+node:internal/modules/run_main:123
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
++ actual - expected
+
++ [
++   '404 http://127.0.0.1:3178/data/group-five-dual-audio-index.json',
++   '404 http://127.0.0.1:3178/data/group-five-dual-audio-index.json',
++   '404 http://127.0.0.1:3178/data/group-three-dual-audio-index.json',
++   '404 http://127.0.0.1:3178/data/group-two-dual-audio-index.json',
++   '404 http://127.0.0.1:3178/data/group-one-dual-audio-index.json'
++ ]
+- []
+
+    at file:///home/runner/work/Learn-English/Learn-English/scripts/smoke_group_five.mjs:58:9 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: [
+    '404 http://127.0.0.1:3178/data/group-five-dual-audio-index.json',
+    '404 http://127.0.0.1:3178/data/group-five-dual-audio-index.json',
+    '404 http://127.0.0.1:3178/data/group-three-dual-audio-index.json',
+    '404 http://127.0.0.1:3178/data/group-two-dual-audio-index.json',
+    '404 http://127.0.0.1:3178/data/group-one-dual-audio-index.json'
+  ],
+  expected: [],
+  operator: 'deepStrictEqual',
+  diff: 'simple'
+}
+
+Node.js v22.23.4
