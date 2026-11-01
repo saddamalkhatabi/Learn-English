@@ -21,7 +21,7 @@ const types = {
   ".woff2": "font/woff2",
   ".ico": "image/x-icon"
 };
-const topFiles = new Set(["/index.html", "/app.js", "/styles.css", "/manifest.webmanifest", "/favicon.ico", "/group-one.js", "/pattern-learning.js", "/readalong-assist.js"]);
+const topFiles = new Set(["/index.html", "/app.js", "/styles.css", "/manifest.webmanifest", "/favicon.ico", "/group-one.js", "/group-two.js", "/pattern-learning.js", "/readalong-assist.js"]);
 function safePath(requestUrl) {
   const pathname = decodeURIComponent(new URL(requestUrl, "http://local").pathname);
   if (pathname.includes("\0") || pathname.includes("\\")) return null;
