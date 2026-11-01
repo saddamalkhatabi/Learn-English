@@ -2,6 +2,11 @@
 
 An Arabic-first, offline-friendly learning prototype that teaches English **through scenes, patterns, contrasts, and active recall**.
 
+## المجموعة الأولى — المسار التفاعلي
+- [المجموعة الأولى: 18 نمطًا و72 موقفًا و54 سطر قصة و36 جملة حوارية](docs/GROUP-ONE-AR.md). افتح تبويب «🌱 المجموعة الأولى».
+- اختبار الفهم وبناء الجملة وحفظ التقدم، وأولوية للأصول الصوتية الموثقة.
+- يوضح [تقرير الحالة](docs/GROUP-ONE-AR.md) ما يحتاج استكمالًا من الصور والتسجيلات قبل اعتماد الوسائط.
+
 ## Learning experience
 - Three fully scripted seed lessons from the supplied source: **This is my house**, **I have a good job**, and **I've got a job**.
 - Each seed lesson includes three levels, 12 contextual scene examples, a recorded Kokoro explanation, clickable story chapters (5 lines per level), a 4-turn dialogue, active vocabulary highlighting and quiz/reconstruction.
