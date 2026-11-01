@@ -35,6 +35,11 @@ An Arabic-first, offline-friendly learning prototype that teaches English **thro
 - يتدرّب المتعلم على **I feel / I'm happy with / I'm worried about / I'm proud of / I'm surprised that / I'm disappointed that / I'm grateful for / I'm interested in / I feel like / I don't feel like / I think / In my opinion / I believe / I prefer / I agree with / I don't agree with / It seems like / It sounds like**.
 - قصص وتدريبات مواقف مترجمة وتلوين الكلمات بحسب الصوت المسجل الحقيقي بعد التحقق؛ **198/198 تسجيل MP3 مُنجز ومتحقق منه**، مع تأجيل الصور الواقعية والأطالس حتى مرحلة التصاميم.
 
+## المجموعة الثامنة — التفاعل الاجتماعي واللباقة
+- [المجموعة الثامنة: 18 نمطًا و72 موقفًا وثلاث قصص مترابطة](docs/GROUP-EIGHT-AR.md). افتح «🤝 المجموعة الثامنة».
+- تدرّب على **Excuse me / Could you please / Would you mind / Do you mind if I / May I / Would you like to / I'd love to / I'm afraid I can't / How about / Let's / Let me / Thank you for / I appreciate / You're welcome / I'm sorry for / That's all right / Could you clarify / Let me know if**.
+- **198 مقطعًا صوتيًا مستهدفًا** عبر خط إنتاج MP3 مع توقيت الكلمات المأخوذ من التسجيل نفسه؛ لا تُعد الملفات جاهزة إلا بعد تحقق Workflow الصوت والتغطية. الصور الواقعية مؤجلة وفق الاتفاق.
+
 ## Learning experience
 - Three fully scripted seed lessons from the supplied source: **This is my house**, **I have a good job**, and **I've got a job**.
 - Each seed lesson includes three levels, 12 contextual scene examples, a recorded Kokoro explanation, clickable story chapters (5 lines per level), a 4-turn dialogue, active vocabulary highlighting and quiz/reconstruction.
