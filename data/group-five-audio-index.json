@@ -1,6 +1,8611 @@
 {
   "schema": 1,
-  "source": "Dedicated verified group-five MP3s; exact matches reused from original indexes",
-  "items": {},
-  "verified_count": 0
+  "source": "Only verified group-five MP3s and measured same-synthesis word boundaries",
+  "items": {
+    "p01/intro": {
+      "text": "Use I was to talk about a finished past state or location.",
+      "path": "assets/group-five-audio/p01/intro.mp3",
+      "audio_sha256": "f3f3ae7491b918af2f97e66c59703ef46ce22bf4dafc479c795345bf748c93a5",
+      "duration_ms": 4416,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          376
+        ],
+        [
+          1,
+          390,
+          458
+        ],
+        [
+          2,
+          471,
+          634
+        ],
+        [
+          3,
+          648,
+          743
+        ],
+        [
+          4,
+          757,
+          1042
+        ],
+        [
+          5,
+          1055,
+          1273
+        ],
+        [
+          6,
+          1286,
+          1341
+        ],
+        [
+          7,
+          1354,
+          1776
+        ],
+        [
+          8,
+          1789,
+          2170
+        ],
+        [
+          9,
+          2183,
+          2536
+        ],
+        [
+          10,
+          2550,
+          2672
+        ],
+        [
+          11,
+          2686,
+          3474
+        ]
+      ]
+    },
+    "p01/scene-1": {
+      "text": "I was at home yesterday.",
+      "path": "assets/group-five-audio/p01/scene-1.mp3",
+      "audio_sha256": "d19aac7b79a1ac22d090496bd4642abfe6a198b3db12ad032f269e3b0d267dd2",
+      "duration_ms": 2496,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          444
+        ],
+        [
+          2,
+          458,
+          553
+        ],
+        [
+          3,
+          566,
+          824
+        ],
+        [
+          4,
+          838,
+          1545
+        ]
+      ]
+    },
+    "p01/scene-2": {
+      "text": "I was happy after the game.",
+      "path": "assets/group-five-audio/p01/scene-2.mp3",
+      "audio_sha256": "9aa9e9bd218844a85a21dba3219a108017ba487b32ecf286ebfbef54a81d3103",
+      "duration_ms": 2640,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          240
+        ],
+        [
+          1,
+          254,
+          417
+        ],
+        [
+          2,
+          430,
+          784
+        ],
+        [
+          3,
+          797,
+          1083
+        ],
+        [
+          4,
+          1096,
+          1191
+        ],
+        [
+          5,
+          1205,
+          1694
+        ]
+      ]
+    },
+    "p01/scene-3": {
+      "text": "I was a student five years ago.",
+      "path": "assets/group-five-audio/p01/scene-3.mp3",
+      "audio_sha256": "19c74eb46171c93acec5a39c548a1a173e5931ec5c5e094a3e545edb2d35ef2b",
+      "duration_ms": 2880,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          430
+        ],
+        [
+          2,
+          444,
+          512
+        ],
+        [
+          3,
+          526,
+          906
+        ],
+        [
+          4,
+          920,
+          1191
+        ],
+        [
+          5,
+          1205,
+          1477
+        ],
+        [
+          6,
+          1490,
+          1925
+        ]
+      ]
+    },
+    "p01/scene-4": {
+      "text": "I was late for class.",
+      "path": "assets/group-five-audio/p01/scene-4.mp3",
+      "audio_sha256": "da5eeb436a3f95ec452d080ad86f124855026e08b59dbcc8e44f5d003302820c",
+      "duration_ms": 2544,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          240
+        ],
+        [
+          1,
+          254,
+          458
+        ],
+        [
+          2,
+          471,
+          689
+        ],
+        [
+          3,
+          702,
+          879
+        ],
+        [
+          4,
+          892,
+          1585
+        ]
+      ]
+    },
+    "p01/story-1": {
+      "text": "Omar found an old photo.",
+      "path": "assets/group-five-audio/p01/story-1.mp3",
+      "audio_sha256": "10593cbc6b134c88c51f77acc913ec812c159125139a06c9a8195b77b4cafa1a",
+      "duration_ms": 2592,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          498
+        ],
+        [
+          1,
+          512,
+          784
+        ],
+        [
+          2,
+          797,
+          892
+        ],
+        [
+          3,
+          906,
+          1083
+        ],
+        [
+          4,
+          1096,
+          1640
+        ]
+      ]
+    },
+    "p01/story-2": {
+      "text": "He said, 'I was a student then.'",
+      "path": "assets/group-five-audio/p01/story-2.mp3",
+      "audio_sha256": "e2a1eae6feabe906aa77337c385e0e153631ce2b246ae2ea1c6b46031812508a",
+      "duration_ms": 3048,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          308
+        ],
+        [
+          1,
+          322,
+          757
+        ],
+        [
+          2,
+          960,
+          1028
+        ],
+        [
+          3,
+          1042,
+          1205
+        ],
+        [
+          4,
+          1218,
+          1286
+        ],
+        [
+          5,
+          1300,
+          1694
+        ],
+        [
+          6,
+          1708,
+          2102
+        ]
+      ]
+    },
+    "p01/story-3": {
+      "text": "His sister smiled at the memory.",
+      "path": "assets/group-five-audio/p01/story-3.mp3",
+      "audio_sha256": "81a8005e3efcdc2d3feaba4c55262e9595c87c09714b403dc81f489412a251bc",
+      "duration_ms": 2952,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          335
+        ],
+        [
+          1,
+          349,
+          716
+        ],
+        [
+          2,
+          729,
+          1178
+        ],
+        [
+          3,
+          1191,
+          1300
+        ],
+        [
+          4,
+          1314,
+          1395
+        ],
+        [
+          5,
+          1409,
+          1993
+        ]
+      ]
+    },
+    "p01/dialogue-1": {
+      "text": "Where were you yesterday?",
+      "path": "assets/group-five-audio/p01/dialogue-1.mp3",
+      "audio_sha256": "9a777cb4bdf64fb9700039c605dac1d76ee6a1d861e246e0c8c103300b63c34d",
+      "duration_ms": 2280,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          322
+        ],
+        [
+          1,
+          335,
+          471
+        ],
+        [
+          2,
+          485,
+          593
+        ],
+        [
+          3,
+          607,
+          1341
+        ]
+      ]
+    },
+    "p01/dialogue-2": {
+      "text": "I was at home.",
+      "path": "assets/group-five-audio/p01/dialogue-2.mp3",
+      "audio_sha256": "f733916f7bf5aaf19986044aa5aea6e9fed8ab89c83e553a381cb3489d3bbfc7",
+      "duration_ms": 2040,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          458
+        ],
+        [
+          2,
+          471,
+          580
+        ],
+        [
+          3,
+          593,
+          1096
+        ]
+      ]
+    },
+    "p02/intro": {
+      "text": "Use wasn't to say a past state was not true.",
+      "path": "assets/group-five-audio/p02/intro.mp3",
+      "audio_sha256": "b2e202a1cb1c7c15ac7fd283a9ef84dfdf8cdb495dc3d5e73afbaf8571c5b827",
+      "duration_ms": 3744,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          403
+        ],
+        [
+          1,
+          417,
+          729
+        ],
+        [
+          2,
+          743,
+          824
+        ],
+        [
+          3,
+          838,
+          1055
+        ],
+        [
+          4,
+          1069,
+          1123
+        ],
+        [
+          5,
+          1137,
+          1531
+        ],
+        [
+          6,
+          1545,
+          1884
+        ],
+        [
+          7,
+          1898,
+          2047
+        ],
+        [
+          8,
+          2061,
+          2292
+        ],
+        [
+          9,
+          2305,
+          2808
+        ]
+      ]
+    },
+    "p02/scene-1": {
+      "text": "I wasn't tired yesterday.",
+      "path": "assets/group-five-audio/p02/scene-1.mp3",
+      "audio_sha256": "a0be1980fd313f1484fe8b8b2692642788267aa7e39678b054d6b384286cbd34",
+      "duration_ms": 2664,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          240
+        ],
+        [
+          1,
+          254,
+          634
+        ],
+        [
+          2,
+          648,
+          1001
+        ],
+        [
+          3,
+          1015,
+          1708
+        ]
+      ]
+    },
+    "p02/scene-2": {
+      "text": "I wasn't at the office on Friday.",
+      "path": "assets/group-five-audio/p02/scene-2.mp3",
+      "audio_sha256": "b41da5402bbf1e4cb9a88418f754a894e4df34942af5f7d12af4389c252313b2",
+      "duration_ms": 2976,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          240
+        ],
+        [
+          1,
+          254,
+          634
+        ],
+        [
+          2,
+          648,
+          743
+        ],
+        [
+          3,
+          757,
+          879
+        ],
+        [
+          4,
+          892,
+          1246
+        ],
+        [
+          5,
+          1259,
+          1409
+        ],
+        [
+          6,
+          1422,
+          2020
+        ]
+      ]
+    },
+    "p02/scene-3": {
+      "text": "I wasn't ready for the test.",
+      "path": "assets/group-five-audio/p02/scene-3.mp3",
+      "audio_sha256": "6203f21769d9c2c96d450bf0238a5428eade48d1579289946399cf7dea0f402f",
+      "duration_ms": 2832,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          240
+        ],
+        [
+          1,
+          254,
+          634
+        ],
+        [
+          2,
+          648,
+          892
+        ],
+        [
+          3,
+          906,
+          1069
+        ],
+        [
+          4,
+          1083,
+          1191
+        ],
+        [
+          5,
+          1205,
+          1884
+        ]
+      ]
+    },
+    "p02/scene-4": {
+      "text": "I wasn't afraid of the dark.",
+      "path": "assets/group-five-audio/p02/scene-4.mp3",
+      "audio_sha256": "cac94a34420b84e5ef27ca664c53a3f11b6b3a89e1a106f9282c1aff8c8d640e",
+      "duration_ms": 2688,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          240
+        ],
+        [
+          1,
+          254,
+          648
+        ],
+        [
+          2,
+          661,
+          1001
+        ],
+        [
+          3,
+          1015,
+          1083
+        ],
+        [
+          4,
+          1096,
+          1205
+        ],
+        [
+          5,
+          1218,
+          1748
+        ]
+      ]
+    },
+    "p02/story-1": {
+      "text": "Lina remembers her first lesson.",
+      "path": "assets/group-five-audio/p02/story-1.mp3",
+      "audio_sha256": "003408827cb708d5780911652473a059b5b3eee276ead3ce588c9399488199ba",
+      "duration_ms": 3000,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          430
+        ],
+        [
+          1,
+          444,
+          974
+        ],
+        [
+          2,
+          988,
+          1123
+        ],
+        [
+          3,
+          1137,
+          1490
+        ],
+        [
+          4,
+          1504,
+          2047
+        ]
+      ]
+    },
+    "p02/story-2": {
+      "text": "She wasn't ready at first.",
+      "path": "assets/group-five-audio/p02/story-2.mp3",
+      "audio_sha256": "514baba2e94e747d1974cebeb04f678e3b15446d05e27aa195b17c21feea34aa",
+      "duration_ms": 2664,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          308
+        ],
+        [
+          1,
+          322,
+          661
+        ],
+        [
+          2,
+          675,
+          960
+        ],
+        [
+          3,
+          974,
+          1096
+        ],
+        [
+          4,
+          1110,
+          1721
+        ]
+      ]
+    },
+    "p02/story-3": {
+      "text": "Then her teacher helped her.",
+      "path": "assets/group-five-audio/p02/story-3.mp3",
+      "audio_sha256": "34aa8034a284e391293c38537d0971e87b049afb420c6a4b1abf5f1984c4f669",
+      "duration_ms": 2472,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          335
+        ],
+        [
+          1,
+          349,
+          485
+        ],
+        [
+          2,
+          498,
+          892
+        ],
+        [
+          3,
+          906,
+          1164
+        ],
+        [
+          4,
+          1178,
+          1531
+        ]
+      ]
+    },
+    "p02/dialogue-1": {
+      "text": "Were you nervous?",
+      "path": "assets/group-five-audio/p02/dialogue-1.mp3",
+      "audio_sha256": "fa758b6c78e3d7df32847ed85bf70bbb1c0d3a7866bb84839f274a4075219f0f",
+      "duration_ms": 1992,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          267
+        ],
+        [
+          1,
+          281,
+          390
+        ],
+        [
+          2,
+          403,
+          1055
+        ]
+      ]
+    },
+    "p02/dialogue-2": {
+      "text": "No, I wasn't nervous.",
+      "path": "assets/group-five-audio/p02/dialogue-2.mp3",
+      "audio_sha256": "86bb01b75868d73cd9b65e5564e9a94c4e19a7f980a6ed3bdd149f7bb5b176f2",
+      "duration_ms": 2880,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          580
+        ],
+        [
+          1,
+          770,
+          865
+        ],
+        [
+          2,
+          879,
+          1246
+        ],
+        [
+          3,
+          1259,
+          1925
+        ]
+      ]
+    },
+    "p03/intro": {
+      "text": "Use Were you to ask about someone's past state or location.",
+      "path": "assets/group-five-audio/p03/intro.mp3",
+      "audio_sha256": "6d19e9df11687c054c9081f2f627a5bee9f87c78261adf22505bd5621bac22f5",
+      "duration_ms": 4488,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          403
+        ],
+        [
+          1,
+          417,
+          539
+        ],
+        [
+          2,
+          553,
+          675
+        ],
+        [
+          3,
+          689,
+          784
+        ],
+        [
+          4,
+          797,
+          1137
+        ],
+        [
+          5,
+          1151,
+          1422
+        ],
+        [
+          6,
+          1436,
+          1857
+        ],
+        [
+          7,
+          1871,
+          2251
+        ],
+        [
+          8,
+          2265,
+          2618
+        ],
+        [
+          9,
+          2632,
+          2754
+        ],
+        [
+          10,
+          2767,
+          3542
+        ]
+      ]
+    },
+    "p03/scene-1": {
+      "text": "Were you at school yesterday?",
+      "path": "assets/group-five-audio/p03/scene-1.mp3",
+      "audio_sha256": "ea454b6a607eb51a4db997c71b3df4f5dbd3cd6375cbc2826a3d4dc92cb3df24",
+      "duration_ms": 2496,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          267
+        ],
+        [
+          1,
+          281,
+          417
+        ],
+        [
+          2,
+          430,
+          566
+        ],
+        [
+          3,
+          580,
+          879
+        ],
+        [
+          4,
+          892,
+          1558
+        ]
+      ]
+    },
+    "p03/scene-2": {
+      "text": "Were you tired after work?",
+      "path": "assets/group-five-audio/p03/scene-2.mp3",
+      "audio_sha256": "9dca0f40a36df010011fc2fc45f866f28791f25edd0c72b7bcbaa4523d2f5c93",
+      "duration_ms": 2592,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          267
+        ],
+        [
+          1,
+          281,
+          403
+        ],
+        [
+          2,
+          417,
+          838
+        ],
+        [
+          3,
+          852,
+          1137
+        ],
+        [
+          4,
+          1151,
+          1653
+        ]
+      ]
+    },
+    "p03/scene-3": {
+      "text": "Were you at the park on Sunday?",
+      "path": "assets/group-five-audio/p03/scene-3.mp3",
+      "audio_sha256": "6806b1e99c819f4e68e5ef3a185d6d44c7d0b93b7d92338a846be403562e3883",
+      "duration_ms": 2616,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          281
+        ],
+        [
+          1,
+          295,
+          417
+        ],
+        [
+          2,
+          430,
+          526
+        ],
+        [
+          3,
+          539,
+          621
+        ],
+        [
+          4,
+          634,
+          947
+        ],
+        [
+          5,
+          960,
+          1123
+        ],
+        [
+          6,
+          1137,
+          1667
+        ]
+      ]
+    },
+    "p03/scene-4": {
+      "text": "Were you ready when I called?",
+      "path": "assets/group-five-audio/p03/scene-4.mp3",
+      "audio_sha256": "7f9526cfe31f0368dfeac5346e17214603315cc16875b8793f515d3de6e3a9d1",
+      "duration_ms": 2472,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          267
+        ],
+        [
+          1,
+          281,
+          430
+        ],
+        [
+          2,
+          444,
+          702
+        ],
+        [
+          3,
+          716,
+          865
+        ],
+        [
+          4,
+          879,
+          974
+        ],
+        [
+          5,
+          988,
+          1517
+        ]
+      ]
+    },
+    "p03/story-1": {
+      "text": "A father asks about the day.",
+      "path": "assets/group-five-audio/p03/story-1.mp3",
+      "audio_sha256": "d979de747163584a162cd0165fc282b53c4eed16438c4eb96cac8fd9401cfeb3",
+      "duration_ms": 2808,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          240
+        ],
+        [
+          1,
+          254,
+          661
+        ],
+        [
+          2,
+          675,
+          1015
+        ],
+        [
+          3,
+          1028,
+          1314
+        ],
+        [
+          4,
+          1327,
+          1422
+        ],
+        [
+          5,
+          1436,
+          1871
+        ]
+      ]
+    },
+    "p03/story-2": {
+      "text": "'Were you at the library?' he asks.",
+      "path": "assets/group-five-audio/p03/story-2.mp3",
+      "audio_sha256": "3d2a8dd7e559ee06813ae9c791f8392cf6776bf1078a8132e9fa65cfd13b4395",
+      "duration_ms": 3288,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          281
+        ],
+        [
+          1,
+          295,
+          444
+        ],
+        [
+          2,
+          458,
+          566
+        ],
+        [
+          3,
+          580,
+          675
+        ],
+        [
+          4,
+          689,
+          1286
+        ],
+        [
+          5,
+          1504,
+          1667
+        ],
+        [
+          6,
+          1680,
+          2346
+        ]
+      ]
+    },
+    "p03/story-3": {
+      "text": "His son says he was there.",
+      "path": "assets/group-five-audio/p03/story-3.mp3",
+      "audio_sha256": "bd0d4c118cd7d7d04bae0dc7c1c38f6f5107658131e8abc359153590a663c4c4",
+      "duration_ms": 2688,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          335
+        ],
+        [
+          1,
+          349,
+          661
+        ],
+        [
+          2,
+          675,
+          988
+        ],
+        [
+          3,
+          1001,
+          1110
+        ],
+        [
+          4,
+          1123,
+          1300
+        ],
+        [
+          5,
+          1314,
+          1735
+        ]
+      ]
+    },
+    "p03/dialogue-1": {
+      "text": "Were you at the library?",
+      "path": "assets/group-five-audio/p03/dialogue-1.mp3",
+      "audio_sha256": "ddf876b952f8366eff4efca7659250d2f2e4b0596f9f79553f6e7ded7e290e90",
+      "duration_ms": 2304,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          281
+        ],
+        [
+          1,
+          295,
+          444
+        ],
+        [
+          2,
+          458,
+          566
+        ],
+        [
+          3,
+          580,
+          675
+        ],
+        [
+          4,
+          689,
+          1354
+        ]
+      ]
+    },
+    "p03/dialogue-2": {
+      "text": "Yes, I was there.",
+      "path": "assets/group-five-audio/p03/dialogue-2.mp3",
+      "audio_sha256": "59eab9e17a3e586cdc27a93ea6eaa522675b50927175c2f34688f3d317e7d595",
+      "duration_ms": 2520,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          634
+        ],
+        [
+          1,
+          824,
+          906
+        ],
+        [
+          2,
+          920,
+          1110
+        ],
+        [
+          3,
+          1123,
+          1572
+        ]
+      ]
+    },
+    "p04/intro": {
+      "text": "Use went, the past form of go, for a completed trip.",
+      "path": "assets/group-five-audio/p04/intro.mp3",
+      "audio_sha256": "a09f1c0f52aaefd0b4f3d4ca8553d1128708f53f6103312b28b13e26a0a39a72",
+      "duration_ms": 4776,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          430
+        ],
+        [
+          1,
+          444,
+          811
+        ],
+        [
+          2,
+          974,
+          1083
+        ],
+        [
+          3,
+          1096,
+          1477
+        ],
+        [
+          4,
+          1490,
+          1735
+        ],
+        [
+          5,
+          1748,
+          1857
+        ],
+        [
+          6,
+          1871,
+          2319
+        ],
+        [
+          7,
+          2550,
+          2727
+        ],
+        [
+          8,
+          2740,
+          2795
+        ],
+        [
+          9,
+          2808,
+          3338
+        ],
+        [
+          10,
+          3352,
+          3827
+        ]
+      ]
+    },
+    "p04/scene-1": {
+      "text": "I went to the market yesterday.",
+      "path": "assets/group-five-audio/p04/scene-1.mp3",
+      "audio_sha256": "18d920b8537582e32b2beac705e926dffa901ffea6f0f5012154bdb486b3aed8",
+      "duration_ms": 2712,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          227
+        ],
+        [
+          1,
+          240,
+          444
+        ],
+        [
+          2,
+          458,
+          539
+        ],
+        [
+          3,
+          553,
+          648
+        ],
+        [
+          4,
+          661,
+          1055
+        ],
+        [
+          5,
+          1069,
+          1762
+        ]
+      ]
+    },
+    "p04/scene-2": {
+      "text": "I went to school early.",
+      "path": "assets/group-five-audio/p04/scene-2.mp3",
+      "audio_sha256": "5125dcbad56447a3e17cb3dd8bfa3fe2617d1765de2b2d00189ac00dab2ba36c",
+      "duration_ms": 2376,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          227
+        ],
+        [
+          1,
+          240,
+          430
+        ],
+        [
+          2,
+          444,
+          539
+        ],
+        [
+          3,
+          553,
+          892
+        ],
+        [
+          4,
+          906,
+          1436
+        ]
+      ]
+    },
+    "p04/scene-3": {
+      "text": "I went home after lunch.",
+      "path": "assets/group-five-audio/p04/scene-3.mp3",
+      "audio_sha256": "7d03864fa028f9ab4c5010d0d68890aec12b60f793a2c24f0f39c3fcdfb4904c",
+      "duration_ms": 2568,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          240
+        ],
+        [
+          1,
+          254,
+          458
+        ],
+        [
+          2,
+          471,
+          716
+        ],
+        [
+          3,
+          729,
+          1042
+        ],
+        [
+          4,
+          1055,
+          1626
+        ]
+      ]
+    },
+    "p04/scene-4": {
+      "text": "I went to the park with my brother.",
+      "path": "assets/group-five-audio/p04/scene-4.mp3",
+      "audio_sha256": "66092d40a8330c178a3e86dccaf313cb1af2d2351b335545215acb31aa00de64",
+      "duration_ms": 2808,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          227
+        ],
+        [
+          1,
+          240,
+          430
+        ],
+        [
+          2,
+          444,
+          526
+        ],
+        [
+          3,
+          539,
+          648
+        ],
+        [
+          4,
+          661,
+          987
+        ],
+        [
+          5,
+          1001,
+          1123
+        ],
+        [
+          6,
+          1137,
+          1286
+        ],
+        [
+          7,
+          1300,
+          1857
+        ]
+      ]
+    },
+    "p04/story-1": {
+      "text": "Sara had a busy Saturday.",
+      "path": "assets/group-five-audio/p04/story-1.mp3",
+      "audio_sha256": "ed57fab929d19b11b906f70774dd79a60a960d58bfcd470b288eb60cb4f1418f",
+      "duration_ms": 2784,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          539
+        ],
+        [
+          1,
+          553,
+          729
+        ],
+        [
+          2,
+          743,
+          797
+        ],
+        [
+          3,
+          811,
+          1110
+        ],
+        [
+          4,
+          1123,
+          1844
+        ]
+      ]
+    },
+    "p04/story-2": {
+      "text": "She went to the market with her father.",
+      "path": "assets/group-five-audio/p04/story-2.mp3",
+      "audio_sha256": "96e08114ec16d34f4590f8b691cb8cff05d865e7e589bea9f41724d7d6a6ad11",
+      "duration_ms": 3048,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          322
+        ],
+        [
+          1,
+          335,
+          512
+        ],
+        [
+          2,
+          526,
+          607
+        ],
+        [
+          3,
+          621,
+          716
+        ],
+        [
+          4,
+          729,
+          1191
+        ],
+        [
+          5,
+          1205,
+          1341
+        ],
+        [
+          6,
+          1354,
+          1490
+        ],
+        [
+          7,
+          1504,
+          2102
+        ]
+      ]
+    },
+    "p04/story-3": {
+      "text": "They bought food for dinner.",
+      "path": "assets/group-five-audio/p04/story-3.mp3",
+      "audio_sha256": "88db716f103f3812b54fd328c2b2939e6f02afdee1be3c21fa0e18128afc79f3",
+      "duration_ms": 2472,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          281
+        ],
+        [
+          1,
+          295,
+          566
+        ],
+        [
+          2,
+          580,
+          852
+        ],
+        [
+          3,
+          865,
+          1042
+        ],
+        [
+          4,
+          1055,
+          1531
+        ]
+      ]
+    },
+    "p04/dialogue-1": {
+      "text": "Where did you go yesterday?",
+      "path": "assets/group-five-audio/p04/dialogue-1.mp3",
+      "audio_sha256": "7bd52af318e4d534e03e27225c58031870a6fd0c1d35c3305f22c40eaf26fbcf",
+      "duration_ms": 2448,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          322
+        ],
+        [
+          1,
+          335,
+          485
+        ],
+        [
+          2,
+          498,
+          594
+        ],
+        [
+          3,
+          607,
+          757
+        ],
+        [
+          4,
+          770,
+          1490
+        ]
+      ]
+    },
+    "p04/dialogue-2": {
+      "text": "I went to the market.",
+      "path": "assets/group-five-audio/p04/dialogue-2.mp3",
+      "audio_sha256": "f18d3426e20dfb6b6a372e97cfdb3329621788e2835607815176ff76d2fb7c69",
+      "duration_ms": 2280,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          227
+        ],
+        [
+          1,
+          240,
+          471
+        ],
+        [
+          2,
+          485,
+          566
+        ],
+        [
+          3,
+          580,
+          675
+        ],
+        [
+          4,
+          689,
+          1327
+        ]
+      ]
+    },
+    "p05/intro": {
+      "text": "Use didn't plus the base verb to negate a past action.",
+      "path": "assets/group-five-audio/p05/intro.mp3",
+      "audio_sha256": "171a1e2f504379df962edc0619f3059f5b2affebc6a0f46ef631cd52944d0ef9",
+      "duration_ms": 4128,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          376
+        ],
+        [
+          1,
+          390,
+          634
+        ],
+        [
+          2,
+          648,
+          920
+        ],
+        [
+          3,
+          933,
+          1028
+        ],
+        [
+          4,
+          1042,
+          1341
+        ],
+        [
+          5,
+          1354,
+          1626
+        ],
+        [
+          6,
+          1640,
+          1762
+        ],
+        [
+          7,
+          1776,
+          2102
+        ],
+        [
+          8,
+          2115,
+          2170
+        ],
+        [
+          9,
+          2183,
+          2577
+        ],
+        [
+          10,
+          2591,
+          3189
+        ]
+      ]
+    },
+    "p05/scene-1": {
+      "text": "I didn't go to work yesterday.",
+      "path": "assets/group-five-audio/p05/scene-1.mp3",
+      "audio_sha256": "9d674d71e018f8bfcf36de86586ea0c5f2f07ed71e9c3df359f05df73fdb9bed",
+      "duration_ms": 2688,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          240
+        ],
+        [
+          1,
+          254,
+          512
+        ],
+        [
+          2,
+          526,
+          661
+        ],
+        [
+          3,
+          675,
+          770
+        ],
+        [
+          4,
+          784,
+          1042
+        ],
+        [
+          5,
+          1055,
+          1748
+        ]
+      ]
+    },
+    "p05/scene-2": {
+      "text": "I didn't see your message.",
+      "path": "assets/group-five-audio/p05/scene-2.mp3",
+      "audio_sha256": "11313432ed70af739b4720b1c4e9ca1683330bbf2775204de865b4b6dec2c52a",
+      "duration_ms": 2520,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          240
+        ],
+        [
+          1,
+          254,
+          539
+        ],
+        [
+          2,
+          553,
+          702
+        ],
+        [
+          3,
+          716,
+          852
+        ],
+        [
+          4,
+          865,
+          1572
+        ]
+      ]
+    },
+    "p05/scene-3": {
+      "text": "I didn't finish my homework.",
+      "path": "assets/group-five-audio/p05/scene-3.mp3",
+      "audio_sha256": "c9e6a9fab3f04101c3be4c40d965b2963a32a568ea0ed269429ab2db3461850b",
+      "duration_ms": 2688,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          240
+        ],
+        [
+          1,
+          254,
+          539
+        ],
+        [
+          2,
+          553,
+          906
+        ],
+        [
+          3,
+          920,
+          1055
+        ],
+        [
+          4,
+          1069,
+          1748
+        ]
+      ]
+    },
+    "p05/scene-4": {
+      "text": "I didn't eat breakfast today.",
+      "path": "assets/group-five-audio/p05/scene-4.mp3",
+      "audio_sha256": "55e7c9382d1b154446c1983048cf5a49d6838407868f70eef182dc343d1d377d",
+      "duration_ms": 2616,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          240
+        ],
+        [
+          1,
+          254,
+          553
+        ],
+        [
+          2,
+          566,
+          689
+        ],
+        [
+          3,
+          702,
+          1178
+        ],
+        [
+          4,
+          1191,
+          1667
+        ]
+      ]
+    },
+    "p05/story-1": {
+      "text": "Omar looked for his notebook.",
+      "path": "assets/group-five-audio/p05/story-1.mp3",
+      "audio_sha256": "c9a5e2b85de51ffb0cf9828eed394ee60c46e27fc458bab62cd02530f43d8f0c",
+      "duration_ms": 2736,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          485
+        ],
+        [
+          1,
+          498,
+          784
+        ],
+        [
+          2,
+          797,
+          947
+        ],
+        [
+          3,
+          960,
+          1110
+        ],
+        [
+          4,
+          1123,
+          1776
+        ]
+      ]
+    },
+    "p05/story-2": {
+      "text": "He didn't find it in his bag.",
+      "path": "assets/group-five-audio/p05/story-2.mp3",
+      "audio_sha256": "8e76439a3e6e38e700b46ddd46543670e7a897e8196b20f225db68d44ecdf351",
+      "duration_ms": 2760,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          267
+        ],
+        [
+          1,
+          281,
+          553
+        ],
+        [
+          2,
+          566,
+          892
+        ],
+        [
+          3,
+          906,
+          1001
+        ],
+        [
+          4,
+          1015,
+          1123
+        ],
+        [
+          5,
+          1137,
+          1300
+        ],
+        [
+          6,
+          1314,
+          1816
+        ]
+      ]
+    },
+    "p05/story-3": {
+      "text": "He asked his friend for help.",
+      "path": "assets/group-five-audio/p05/story-3.mp3",
+      "audio_sha256": "0fefe66b4a366979d34dc13d235f6537d5d05466558930b6a418e70828707ce0",
+      "duration_ms": 2712,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          335
+        ],
+        [
+          1,
+          349,
+          675
+        ],
+        [
+          2,
+          689,
+          824
+        ],
+        [
+          3,
+          838,
+          1137
+        ],
+        [
+          4,
+          1151,
+          1300
+        ],
+        [
+          5,
+          1314,
+          1762
+        ]
+      ]
+    },
+    "p05/dialogue-1": {
+      "text": "Did you call me?",
+      "path": "assets/group-five-audio/p05/dialogue-1.mp3",
+      "audio_sha256": "b4a0d9533885458307488d762e19f8b8e2de343532c312aba84f00a30c41dc38",
+      "duration_ms": 1968,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          281
+        ],
+        [
+          1,
+          295,
+          417
+        ],
+        [
+          2,
+          430,
+          702
+        ],
+        [
+          3,
+          716,
+          1028
+        ]
+      ]
+    },
+    "p05/dialogue-2": {
+      "text": "No, I didn't call you.",
+      "path": "assets/group-five-audio/p05/dialogue-2.mp3",
+      "audio_sha256": "c21354fec2191c12773545b2844f4f2322ba807715522a2dd218d057594ff377",
+      "duration_ms": 2688,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          553
+        ],
+        [
+          1,
+          716,
+          811
+        ],
+        [
+          2,
+          824,
+          1110
+        ],
+        [
+          3,
+          1123,
+          1368
+        ],
+        [
+          4,
+          1382,
+          1735
+        ]
+      ]
+    },
+    "p06/intro": {
+      "text": "Use Did you and a base verb to ask about a completed past action.",
+      "path": "assets/group-five-audio/p06/intro.mp3",
+      "audio_sha256": "ec30042b99c4b37c98af668e99f515c0fad6fac52ce8f636f092898e36d705cf",
+      "duration_ms": 4800,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          403
+        ],
+        [
+          1,
+          417,
+          593
+        ],
+        [
+          2,
+          607,
+          743
+        ],
+        [
+          3,
+          757,
+          865
+        ],
+        [
+          4,
+          879,
+          933
+        ],
+        [
+          5,
+          947,
+          1259
+        ],
+        [
+          6,
+          1273,
+          1558
+        ],
+        [
+          7,
+          1572,
+          1680
+        ],
+        [
+          8,
+          1694,
+          2007
+        ],
+        [
+          9,
+          2020,
+          2238
+        ],
+        [
+          10,
+          2251,
+          2305
+        ],
+        [
+          11,
+          2319,
+          2862
+        ],
+        [
+          12,
+          2876,
+          3229
+        ],
+        [
+          13,
+          3243,
+          3841
+        ]
+      ]
+    },
+    "p06/scene-1": {
+      "text": "Did you finish your homework?",
+      "path": "assets/group-five-audio/p06/scene-1.mp3",
+      "audio_sha256": "554d2f11564fea648844f1be058b23db176ec5ed08241559a60b6d1f1bd58696",
+      "duration_ms": 2544,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          281
+        ],
+        [
+          1,
+          295,
+          417
+        ],
+        [
+          2,
+          430,
+          784
+        ],
+        [
+          3,
+          797,
+          933
+        ],
+        [
+          4,
+          947,
+          1599
+        ]
+      ]
+    },
+    "p06/scene-2": {
+      "text": "Did you see the film yesterday?",
+      "path": "assets/group-five-audio/p06/scene-2.mp3",
+      "audio_sha256": "9a3534d2356cc60da141a52e78fbae768d94a29398be19c2cba9e410bc5148de",
+      "duration_ms": 2616,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          281
+        ],
+        [
+          1,
+          295,
+          403
+        ],
+        [
+          2,
+          417,
+          593
+        ],
+        [
+          3,
+          607,
+          716
+        ],
+        [
+          4,
+          729,
+          1015
+        ],
+        [
+          5,
+          1028,
+          1680
+        ]
+      ]
+    },
+    "p06/scene-3": {
+      "text": "Did you call your mother?",
+      "path": "assets/group-five-audio/p06/scene-3.mp3",
+      "audio_sha256": "1e3baee650cda9f7694aceee32d25f3601df063ebe923fbe216d2477de26286a",
+      "duration_ms": 2232,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          281
+        ],
+        [
+          1,
+          295,
+          403
+        ],
+        [
+          2,
+          417,
+          661
+        ],
+        [
+          3,
+          675,
+          811
+        ],
+        [
+          4,
+          824,
+          1286
+        ]
+      ]
+    },
+    "p06/scene-4": {
+      "text": "Did you eat breakfast?",
+      "path": "assets/group-five-audio/p06/scene-4.mp3",
+      "audio_sha256": "ccfb1cc95d3f63476389c6f1b7e24d3a0aef4e7c4963c8e7a52a2361ce253eb6",
+      "duration_ms": 2304,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          281
+        ],
+        [
+          1,
+          295,
+          417
+        ],
+        [
+          2,
+          430,
+          593
+        ],
+        [
+          3,
+          607,
+          1368
+        ]
+      ]
+    },
+    "p06/story-1": {
+      "text": "The teacher checks the homework.",
+      "path": "assets/group-five-audio/p06/story-1.mp3",
+      "audio_sha256": "851d1143f2006264ecdd45035520ee0fc242278c490cef2f91817de322ee14f7",
+      "duration_ms": 2760,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          661
+        ],
+        [
+          2,
+          675,
+          1015
+        ],
+        [
+          3,
+          1028,
+          1110
+        ],
+        [
+          4,
+          1123,
+          1803
+        ]
+      ]
+    },
+    "p06/story-2": {
+      "text": "She asks, 'Did you finish it?'",
+      "path": "assets/group-five-audio/p06/story-2.mp3",
+      "audio_sha256": "4d46f72a384029dda05717ede969c9c14b38d3344d218d8d56ee10bbeadaeb43",
+      "duration_ms": 3048,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          376
+        ],
+        [
+          1,
+          390,
+          974
+        ],
+        [
+          2,
+          1096,
+          1246
+        ],
+        [
+          3,
+          1259,
+          1368
+        ],
+        [
+          4,
+          1382,
+          1748
+        ],
+        [
+          5,
+          1762,
+          2102
+        ]
+      ]
+    },
+    "p06/story-3": {
+      "text": "The children answer together.",
+      "path": "assets/group-five-audio/p06/story-3.mp3",
+      "audio_sha256": "616597019448206faaf9920bf10175133ca8203dfbf5f192fb4d2f21fae08d44",
+      "duration_ms": 2688,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          729
+        ],
+        [
+          2,
+          743,
+          1069
+        ],
+        [
+          3,
+          1083,
+          1748
+        ]
+      ]
+    },
+    "p06/dialogue-1": {
+      "text": "Did you finish the story?",
+      "path": "assets/group-five-audio/p06/dialogue-1.mp3",
+      "audio_sha256": "b7b3ef2ee47b1da626b84b3e945ddf5fd13c07cf19353340190fda26a02f5d90",
+      "duration_ms": 2400,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          281
+        ],
+        [
+          1,
+          295,
+          417
+        ],
+        [
+          2,
+          430,
+          770
+        ],
+        [
+          3,
+          784,
+          892
+        ],
+        [
+          4,
+          906,
+          1449
+        ]
+      ]
+    },
+    "p06/dialogue-2": {
+      "text": "Yes, I finished it.",
+      "path": "assets/group-five-audio/p06/dialogue-2.mp3",
+      "audio_sha256": "5576317b5b9c5e8fabef6768817463175ba0bca44635234864165664ff1a4cf5",
+      "duration_ms": 2688,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          634
+        ],
+        [
+          1,
+          797,
+          906
+        ],
+        [
+          2,
+          920,
+          1395
+        ],
+        [
+          3,
+          1409,
+          1735
+        ]
+      ]
+    },
+    "p07/intro": {
+      "text": "Use had to describe something you possessed or experienced in the past.",
+      "path": "assets/group-five-audio/p07/intro.mp3",
+      "audio_sha256": "9f83bfc05eaaaa4993be2c8f8327386924f289a68f233b7aabc2e924718e8e81",
+      "duration_ms": 5016,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          403
+        ],
+        [
+          1,
+          417,
+          580
+        ],
+        [
+          2,
+          593,
+          661
+        ],
+        [
+          3,
+          675,
+          1151
+        ],
+        [
+          4,
+          1164,
+          1558
+        ],
+        [
+          5,
+          1572,
+          1680
+        ],
+        [
+          6,
+          1694,
+          2305
+        ],
+        [
+          7,
+          2319,
+          2441
+        ],
+        [
+          8,
+          2455,
+          3161
+        ],
+        [
+          9,
+          3175,
+          3257
+        ],
+        [
+          10,
+          3270,
+          3352
+        ],
+        [
+          11,
+          3365,
+          4058
+        ]
+      ]
+    },
+    "p07/scene-1": {
+      "text": "I had a red bicycle as a child.",
+      "path": "assets/group-five-audio/p07/scene-1.mp3",
+      "audio_sha256": "54348388db5a9ef98ead1a5058c8843234523f234b3276ad36df32dfa352be70",
+      "duration_ms": 3192,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          444
+        ],
+        [
+          2,
+          458,
+          512
+        ],
+        [
+          3,
+          526,
+          811
+        ],
+        [
+          4,
+          824,
+          1409
+        ],
+        [
+          5,
+          1422,
+          1545
+        ],
+        [
+          6,
+          1558,
+          1612
+        ],
+        [
+          7,
+          1626,
+          2237
+        ]
+      ]
+    },
+    "p07/scene-2": {
+      "text": "I had a good day at school.",
+      "path": "assets/group-five-audio/p07/scene-2.mp3",
+      "audio_sha256": "17c4c9bcb72d14747de0cb74149d3a415f45ce58281b314814617132322aa3c8",
+      "duration_ms": 2592,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          240
+        ],
+        [
+          1,
+          254,
+          417
+        ],
+        [
+          2,
+          430,
+          498
+        ],
+        [
+          3,
+          512,
+          716
+        ],
+        [
+          4,
+          729,
+          906
+        ],
+        [
+          5,
+          920,
+          1055
+        ],
+        [
+          6,
+          1069,
+          1640
+        ]
+      ]
+    },
+    "p07/scene-3": {
+      "text": "I had two books last year.",
+      "path": "assets/group-five-audio/p07/scene-3.mp3",
+      "audio_sha256": "853b6b4d04517bbaa156488e4cb3e1f8079a73a5e4d923b5a4a7f096fd8a5bca",
+      "duration_ms": 2736,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          471
+        ],
+        [
+          2,
+          485,
+          675
+        ],
+        [
+          3,
+          689,
+          1015
+        ],
+        [
+          4,
+          1028,
+          1382
+        ],
+        [
+          5,
+          1395,
+          1789
+        ]
+      ]
+    },
+    "p07/scene-4": {
+      "text": "I had breakfast at seven.",
+      "path": "assets/group-five-audio/p07/scene-4.mp3",
+      "audio_sha256": "5cc26ee83e751f8ac278fa5eaf67fac89ed7796e229af18f60c478f76bc2aa2d",
+      "duration_ms": 2616,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          458
+        ],
+        [
+          2,
+          471,
+          1001
+        ],
+        [
+          3,
+          1015,
+          1137
+        ],
+        [
+          4,
+          1151,
+          1680
+        ]
+      ]
+    },
+    "p07/story-1": {
+      "text": "Maya opened her memory box.",
+      "path": "assets/group-five-audio/p07/story-1.mp3",
+      "audio_sha256": "8aedf8bc625fe054e07adfa82785f053eeeefbca21d3cd0c9b0385bbfb985d32",
+      "duration_ms": 2952,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          526
+        ],
+        [
+          1,
+          539,
+          838
+        ],
+        [
+          2,
+          852,
+          1001
+        ],
+        [
+          3,
+          1015,
+          1368
+        ],
+        [
+          4,
+          1382,
+          1993
+        ]
+      ]
+    },
+    "p07/story-2": {
+      "text": "She had a small toy car.",
+      "path": "assets/group-five-audio/p07/story-2.mp3",
+      "audio_sha256": "6c71ed0af81ffee56a1dec32e5c39f34312fd0519337df85c0fbc1dc495cbe6a",
+      "duration_ms": 2640,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          322
+        ],
+        [
+          1,
+          335,
+          498
+        ],
+        [
+          2,
+          512,
+          566
+        ],
+        [
+          3,
+          580,
+          920
+        ],
+        [
+          4,
+          933,
+          1151
+        ],
+        [
+          5,
+          1164,
+          1694
+        ]
+      ]
+    },
+    "p07/story-3": {
+      "text": "She showed it to her brother.",
+      "path": "assets/group-five-audio/p07/story-3.mp3",
+      "audio_sha256": "ced663a107c8e853d214a01a3f02e73412498aa20d3219d0dbff8e62dbe4deab",
+      "duration_ms": 2544,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          335
+        ],
+        [
+          1,
+          349,
+          634
+        ],
+        [
+          2,
+          648,
+          743
+        ],
+        [
+          3,
+          757,
+          879
+        ],
+        [
+          4,
+          892,
+          1042
+        ],
+        [
+          5,
+          1055,
+          1599
+        ]
+      ]
+    },
+    "p07/dialogue-1": {
+      "text": "Did you have a bike?",
+      "path": "assets/group-five-audio/p07/dialogue-1.mp3",
+      "audio_sha256": "dfde69b2d415a258cf424020dd4142ef13f4ebc749ec15924ff0c695133045d0",
+      "duration_ms": 2136,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          281
+        ],
+        [
+          1,
+          295,
+          390
+        ],
+        [
+          2,
+          403,
+          553
+        ],
+        [
+          3,
+          566,
+          648
+        ],
+        [
+          4,
+          661,
+          1178
+        ]
+      ]
+    },
+    "p07/dialogue-2": {
+      "text": "Yes, I had a blue bike.",
+      "path": "assets/group-five-audio/p07/dialogue-2.mp3",
+      "audio_sha256": "5e2d330c09b79d087bc88cd309c35a755be72c0d942d2636aa1f7941cbdc8203",
+      "duration_ms": 2928,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          648
+        ],
+        [
+          1,
+          852,
+          933
+        ],
+        [
+          2,
+          947,
+          1123
+        ],
+        [
+          3,
+          1137,
+          1191
+        ],
+        [
+          4,
+          1205,
+          1436
+        ],
+        [
+          5,
+          1449,
+          1979
+        ]
+      ]
+    },
+    "p08/intro": {
+      "text": "Saw is the past form of see for something noticed earlier.",
+      "path": "assets/group-five-audio/p08/intro.mp3",
+      "audio_sha256": "345ebd5c2540dbfd6fb6faf61c0a150f7f0ebf17acb1883f1488424554ba60a4",
+      "duration_ms": 4224,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          471
+        ],
+        [
+          1,
+          485,
+          648
+        ],
+        [
+          2,
+          661,
+          757
+        ],
+        [
+          3,
+          770,
+          1151
+        ],
+        [
+          4,
+          1164,
+          1382
+        ],
+        [
+          5,
+          1395,
+          1490
+        ],
+        [
+          6,
+          1504,
+          1721
+        ],
+        [
+          7,
+          1735,
+          1898
+        ],
+        [
+          8,
+          1911,
+          2278
+        ],
+        [
+          9,
+          2292,
+          2672
+        ],
+        [
+          10,
+          2686,
+          3270
+        ]
+      ]
+    },
+    "p08/scene-1": {
+      "text": "I saw a beautiful bird yesterday.",
+      "path": "assets/group-five-audio/p08/scene-1.mp3",
+      "audio_sha256": "52d04ed5d3a08c6816e1cc9d2145d44742f58acb69ad9387fc932fbb3ac28f2b",
+      "duration_ms": 2976,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          267
+        ],
+        [
+          1,
+          281,
+          512
+        ],
+        [
+          2,
+          526,
+          593
+        ],
+        [
+          3,
+          607,
+          1042
+        ],
+        [
+          4,
+          1055,
+          1314
+        ],
+        [
+          5,
+          1327,
+          2020
+        ]
+      ]
+    },
+    "p08/scene-2": {
+      "text": "I saw my friend at school.",
+      "path": "assets/group-five-audio/p08/scene-2.mp3",
+      "audio_sha256": "5d9f286c683fb93033327190edf26ef94eefc6dd6b9c9164263edac84c748011",
+      "duration_ms": 2568,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          458
+        ],
+        [
+          2,
+          471,
+          621
+        ],
+        [
+          3,
+          634,
+          920
+        ],
+        [
+          4,
+          933,
+          1042
+        ],
+        [
+          5,
+          1055,
+          1612
+        ]
+      ]
+    },
+    "p08/scene-3": {
+      "text": "I saw a rainbow after the rain.",
+      "path": "assets/group-five-audio/p08/scene-3.mp3",
+      "audio_sha256": "cb79bad980e228d16a6dbb77ef6925ce3ca04bac2fa3c41d1f57968432a407ac",
+      "duration_ms": 2856,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          267
+        ],
+        [
+          1,
+          281,
+          485
+        ],
+        [
+          2,
+          498,
+          566
+        ],
+        [
+          3,
+          580,
+          1028
+        ],
+        [
+          4,
+          1042,
+          1314
+        ],
+        [
+          5,
+          1327,
+          1422
+        ],
+        [
+          6,
+          1436,
+          1911
+        ]
+      ]
+    },
+    "p08/scene-4": {
+      "text": "I saw your photo this morning.",
+      "path": "assets/group-five-audio/p08/scene-4.mp3",
+      "audio_sha256": "1923141f1bee5db9d0e5a91bdc000d0281ebfe2ef0f2777d55523dd9d8b6d04d",
+      "duration_ms": 2736,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          267
+        ],
+        [
+          1,
+          281,
+          458
+        ],
+        [
+          2,
+          471,
+          648
+        ],
+        [
+          3,
+          661,
+          987
+        ],
+        [
+          4,
+          1001,
+          1232
+        ],
+        [
+          5,
+          1246,
+          1789
+        ]
+      ]
+    },
+    "p08/story-1": {
+      "text": "Rain fell during the afternoon.",
+      "path": "assets/group-five-audio/p08/story-1.mp3",
+      "audio_sha256": "c45b2f233e21029a9976e3da8e720e27a131a459325a32bfc3f81df2557712c5",
+      "duration_ms": 2808,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          430
+        ],
+        [
+          1,
+          444,
+          743
+        ],
+        [
+          2,
+          757,
+          987
+        ],
+        [
+          3,
+          1001,
+          1096
+        ],
+        [
+          4,
+          1110,
+          1857
+        ]
+      ]
+    },
+    "p08/story-2": {
+      "text": "Ali saw a rainbow in the sky.",
+      "path": "assets/group-five-audio/p08/story-2.mp3",
+      "audio_sha256": "524bbf76b966cc5ec75c425592ac8f7d21d57268f3c0f75bfde6c1fb7d9448dc",
+      "duration_ms": 2880,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          417
+        ],
+        [
+          1,
+          430,
+          634
+        ],
+        [
+          2,
+          648,
+          716
+        ],
+        [
+          3,
+          729,
+          1137
+        ],
+        [
+          4,
+          1151,
+          1246
+        ],
+        [
+          5,
+          1259,
+          1354
+        ],
+        [
+          6,
+          1368,
+          1925
+        ]
+      ]
+    },
+    "p08/story-3": {
+      "text": "He called his sister to look.",
+      "path": "assets/group-five-audio/p08/story-3.mp3",
+      "audio_sha256": "7f32eb854a32b6b9c48b012d7affd01882878ec2293df4bf49b16d79edd1b0e4",
+      "duration_ms": 2664,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          295
+        ],
+        [
+          1,
+          308,
+          580
+        ],
+        [
+          2,
+          593,
+          729
+        ],
+        [
+          3,
+          743,
+          1083
+        ],
+        [
+          4,
+          1096,
+          1218
+        ],
+        [
+          5,
+          1232,
+          1708
+        ]
+      ]
+    },
+    "p08/dialogue-1": {
+      "text": "What did you see?",
+      "path": "assets/group-five-audio/p08/dialogue-1.mp3",
+      "audio_sha256": "693cbacecbe60b3393ec4e9e799b5175094ed8433d46cbb4b20d673819575cca",
+      "duration_ms": 2040,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          322
+        ],
+        [
+          1,
+          335,
+          485
+        ],
+        [
+          2,
+          498,
+          607
+        ],
+        [
+          3,
+          621,
+          1096
+        ]
+      ]
+    },
+    "p08/dialogue-2": {
+      "text": "I saw a rainbow.",
+      "path": "assets/group-five-audio/p08/dialogue-2.mp3",
+      "audio_sha256": "1bed0767f7751e4b7829dced1af7588a935afeca1574a55f854bd8346c435872",
+      "duration_ms": 2208,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          267
+        ],
+        [
+          1,
+          281,
+          512
+        ],
+        [
+          2,
+          526,
+          593
+        ],
+        [
+          3,
+          607,
+          1259
+        ]
+      ]
+    },
+    "p09/intro": {
+      "text": "Use met to talk about meeting a person in the past.",
+      "path": "assets/group-five-audio/p09/intro.mp3",
+      "audio_sha256": "35bd75530edafd5e0e59d7df3d522732935ac49c083f6c75819d01c3026c60c0",
+      "duration_ms": 3936,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          390
+        ],
+        [
+          1,
+          403,
+          593
+        ],
+        [
+          2,
+          607,
+          689
+        ],
+        [
+          3,
+          702,
+          987
+        ],
+        [
+          4,
+          1001,
+          1259
+        ],
+        [
+          5,
+          1273,
+          1585
+        ],
+        [
+          6,
+          1599,
+          1653
+        ],
+        [
+          7,
+          1667,
+          2074
+        ],
+        [
+          8,
+          2088,
+          2170
+        ],
+        [
+          9,
+          2183,
+          2265
+        ],
+        [
+          10,
+          2278,
+          2985
+        ]
+      ]
+    },
+    "p09/scene-1": {
+      "text": "I met my new teacher yesterday.",
+      "path": "assets/group-five-audio/p09/scene-1.mp3",
+      "audio_sha256": "2ddec2ff3f4d35307311154abfe8a1f7f8f8abb3b8979fa027699f355b5f0133",
+      "duration_ms": 2832,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          240
+        ],
+        [
+          1,
+          254,
+          458
+        ],
+        [
+          2,
+          471,
+          593
+        ],
+        [
+          3,
+          607,
+          797
+        ],
+        [
+          4,
+          811,
+          1178
+        ],
+        [
+          5,
+          1191,
+          1884
+        ]
+      ]
+    },
+    "p09/scene-2": {
+      "text": "I met an old friend at the market.",
+      "path": "assets/group-five-audio/p09/scene-2.mp3",
+      "audio_sha256": "36b50ee428e1608e0f9c8786a2c62fe6075527b392e20c7342689fcd1620e672",
+      "duration_ms": 2904,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          227
+        ],
+        [
+          1,
+          240,
+          444
+        ],
+        [
+          2,
+          458,
+          580
+        ],
+        [
+          3,
+          593,
+          784
+        ],
+        [
+          4,
+          797,
+          1123
+        ],
+        [
+          5,
+          1137,
+          1218
+        ],
+        [
+          6,
+          1232,
+          1314
+        ],
+        [
+          7,
+          1327,
+          1966
+        ]
+      ]
+    },
+    "p09/scene-3": {
+      "text": "I met my cousin on Friday.",
+      "path": "assets/group-five-audio/p09/scene-3.mp3",
+      "audio_sha256": "c21556a7767c1cc255134b4a5a8933c872a0ea038356cf4231af8f96077a3ba8",
+      "duration_ms": 2688,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          227
+        ],
+        [
+          1,
+          240,
+          444
+        ],
+        [
+          2,
+          458,
+          594
+        ],
+        [
+          3,
+          607,
+          974
+        ],
+        [
+          4,
+          988,
+          1110
+        ],
+        [
+          5,
+          1123,
+          1735
+        ]
+      ]
+    },
+    "p09/scene-4": {
+      "text": "I met the manager after lunch.",
+      "path": "assets/group-five-audio/p09/scene-4.mp3",
+      "audio_sha256": "5895a7fbb825345d603008bd551facd8b050c4d0556e3afcc7037aae5f009eca",
+      "duration_ms": 2880,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          227
+        ],
+        [
+          1,
+          240,
+          458
+        ],
+        [
+          2,
+          471,
+          553
+        ],
+        [
+          3,
+          566,
+          1055
+        ],
+        [
+          4,
+          1069,
+          1368
+        ],
+        [
+          5,
+          1382,
+          1939
+        ]
+      ]
+    },
+    "p09/story-1": {
+      "text": "Omar walked into the library.",
+      "path": "assets/group-five-audio/p09/story-1.mp3",
+      "audio_sha256": "717a1d9fa75d07f2c9663d82c8d223af02c1fa51957b10e53cf387827b6b987e",
+      "duration_ms": 2856,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          539
+        ],
+        [
+          1,
+          553,
+          865
+        ],
+        [
+          2,
+          879,
+          1069
+        ],
+        [
+          3,
+          1083,
+          1191
+        ],
+        [
+          4,
+          1205,
+          1898
+        ]
+      ]
+    },
+    "p09/story-2": {
+      "text": "He met an old classmate there.",
+      "path": "assets/group-five-audio/p09/story-2.mp3",
+      "audio_sha256": "0096a20426be0c62a55d2e267904c5ab28dd077f0e607036cb2236262ec9c264",
+      "duration_ms": 2808,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          295
+        ],
+        [
+          1,
+          308,
+          498
+        ],
+        [
+          2,
+          512,
+          634
+        ],
+        [
+          3,
+          648,
+          865
+        ],
+        [
+          4,
+          879,
+          1449
+        ],
+        [
+          5,
+          1463,
+          1857
+        ]
+      ]
+    },
+    "p09/story-3": {
+      "text": "They shared stories about school.",
+      "path": "assets/group-five-audio/p09/story-3.mp3",
+      "audio_sha256": "882c170f66491588d5363db8a4bce861af8a975e240e44d1d72050c08993ce1a",
+      "duration_ms": 2928,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          281
+        ],
+        [
+          1,
+          295,
+          634
+        ],
+        [
+          2,
+          648,
+          1055
+        ],
+        [
+          3,
+          1069,
+          1368
+        ],
+        [
+          4,
+          1382,
+          1979
+        ]
+      ]
+    },
+    "p09/dialogue-1": {
+      "text": "Who did you meet?",
+      "path": "assets/group-five-audio/p09/dialogue-1.mp3",
+      "audio_sha256": "9bb63f99d49a23c046df3285d5937cc81323ee37bd5463ea02028db329fc1ae5",
+      "duration_ms": 2016,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          295
+        ],
+        [
+          1,
+          308,
+          471
+        ],
+        [
+          2,
+          485,
+          580
+        ],
+        [
+          3,
+          593,
+          1069
+        ]
+      ]
+    },
+    "p09/dialogue-2": {
+      "text": "I met my old friend.",
+      "path": "assets/group-five-audio/p09/dialogue-2.mp3",
+      "audio_sha256": "0d07c24991eb93a376b2cd8472926888d682c7aabd69e1c26943b35d83c4be1e",
+      "duration_ms": 2352,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          227
+        ],
+        [
+          1,
+          240,
+          444
+        ],
+        [
+          2,
+          458,
+          634
+        ],
+        [
+          3,
+          648,
+          824
+        ],
+        [
+          4,
+          838,
+          1395
+        ]
+      ]
+    },
+    "p10/intro": {
+      "text": "Use bought, not buyed, for purchases completed in the past.",
+      "path": "assets/group-five-audio/p10/intro.mp3",
+      "audio_sha256": "aa235466c5233bb38965541ba3d806e9d145c06cf6ae55f5fd04cb410eec885d",
+      "duration_ms": 5064,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          403
+        ],
+        [
+          1,
+          417,
+          852
+        ],
+        [
+          2,
+          988,
+          1286
+        ],
+        [
+          3,
+          1300,
+          1694
+        ],
+        [
+          4,
+          1871,
+          2047
+        ],
+        [
+          5,
+          2061,
+          2659
+        ],
+        [
+          6,
+          2672,
+          3216
+        ],
+        [
+          7,
+          3229,
+          3311
+        ],
+        [
+          8,
+          3324,
+          3406
+        ],
+        [
+          9,
+          3420,
+          4126
+        ]
+      ]
+    },
+    "p10/scene-1": {
+      "text": "I bought a new notebook yesterday.",
+      "path": "assets/group-five-audio/p10/scene-1.mp3",
+      "audio_sha256": "5e7e290a0f665fbd1efc62b6f6d60951890f1ffa80a1755abcc98735c4c03e69",
+      "duration_ms": 2784,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          471
+        ],
+        [
+          2,
+          485,
+          526
+        ],
+        [
+          3,
+          539,
+          729
+        ],
+        [
+          4,
+          743,
+          1151
+        ],
+        [
+          5,
+          1164,
+          1843
+        ]
+      ]
+    },
+    "p10/scene-2": {
+      "text": "I bought bread this morning.",
+      "path": "assets/group-five-audio/p10/scene-2.mp3",
+      "audio_sha256": "9c2bb7816fd79e36f6a2995a7bb238341bf8915a4d9f4d3dc8c779be87436df0",
+      "duration_ms": 2544,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          240
+        ],
+        [
+          1,
+          254,
+          526
+        ],
+        [
+          2,
+          539,
+          784
+        ],
+        [
+          3,
+          797,
+          1015
+        ],
+        [
+          4,
+          1028,
+          1585
+        ]
+      ]
+    },
+    "p10/scene-3": {
+      "text": "I bought a gift for my sister.",
+      "path": "assets/group-five-audio/p10/scene-3.mp3",
+      "audio_sha256": "1062d11d668481b3c18705e57b3f97b792b14e705d713f015589b77ba5f8e09f",
+      "duration_ms": 2808,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          485
+        ],
+        [
+          2,
+          498,
+          566
+        ],
+        [
+          3,
+          580,
+          879
+        ],
+        [
+          4,
+          892,
+          1028
+        ],
+        [
+          5,
+          1042,
+          1205
+        ],
+        [
+          6,
+          1218,
+          1871
+        ]
+      ]
+    },
+    "p10/scene-4": {
+      "text": "I bought apples at the market.",
+      "path": "assets/group-five-audio/p10/scene-4.mp3",
+      "audio_sha256": "f02e43fef25aea87258bd67da6176444f1e2c54becc6276366a926f753b054f3",
+      "duration_ms": 2760,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          539
+        ],
+        [
+          2,
+          553,
+          933
+        ],
+        [
+          3,
+          947,
+          1055
+        ],
+        [
+          4,
+          1069,
+          1151
+        ],
+        [
+          5,
+          1164,
+          1816
+        ]
+      ]
+    },
+    "p10/story-1": {
+      "text": "Sara went to the small shop.",
+      "path": "assets/group-five-audio/p10/story-1.mp3",
+      "audio_sha256": "b056d4186d2bb114f254e42dbea6d24bc95a2f5c30ee873b95ed9942c78161e3",
+      "duration_ms": 2760,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          539
+        ],
+        [
+          1,
+          553,
+          743
+        ],
+        [
+          2,
+          757,
+          838
+        ],
+        [
+          3,
+          852,
+          960
+        ],
+        [
+          4,
+          974,
+          1300
+        ],
+        [
+          5,
+          1314,
+          1816
+        ]
+      ]
+    },
+    "p10/story-2": {
+      "text": "She bought a gift for her mother.",
+      "path": "assets/group-five-audio/p10/story-2.mp3",
+      "audio_sha256": "0ebded7a2a75c8aae60d19bb87f1f36d76083c0252bcd7cf2f2ea771ff93dd18",
+      "duration_ms": 2736,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          322
+        ],
+        [
+          1,
+          335,
+          539
+        ],
+        [
+          2,
+          553,
+          621
+        ],
+        [
+          3,
+          634,
+          947
+        ],
+        [
+          4,
+          960,
+          1110
+        ],
+        [
+          5,
+          1123,
+          1259
+        ],
+        [
+          6,
+          1273,
+          1789
+        ]
+      ]
+    },
+    "p10/story-3": {
+      "text": "Her mother thanked her warmly.",
+      "path": "assets/group-five-audio/p10/story-3.mp3",
+      "audio_sha256": "c65814c7da36084069ac3223e3bd98678c74234c49d2afcb7e6d011cade30f07",
+      "duration_ms": 2760,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          295
+        ],
+        [
+          1,
+          308,
+          689
+        ],
+        [
+          2,
+          702,
+          1001
+        ],
+        [
+          3,
+          1015,
+          1164
+        ],
+        [
+          4,
+          1178,
+          1816
+        ]
+      ]
+    },
+    "p10/dialogue-1": {
+      "text": "What did you buy?",
+      "path": "assets/group-five-audio/p10/dialogue-1.mp3",
+      "audio_sha256": "b962318b97c2ac01b056412bd1a68ea7cb825435498efc238ad237a38ab49f34",
+      "duration_ms": 1968,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          322
+        ],
+        [
+          1,
+          335,
+          485
+        ],
+        [
+          2,
+          498,
+          607
+        ],
+        [
+          3,
+          621,
+          1015
+        ]
+      ]
+    },
+    "p10/dialogue-2": {
+      "text": "I bought a notebook.",
+      "path": "assets/group-five-audio/p10/dialogue-2.mp3",
+      "audio_sha256": "129558c710bb1a6de6653280d09f8b0c0fe716f27eb16927236d943244235df4",
+      "duration_ms": 2184,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          512
+        ],
+        [
+          2,
+          526,
+          566
+        ],
+        [
+          3,
+          580,
+          1246
+        ]
+      ]
+    },
+    "p11/intro": {
+      "text": "Use made for something you created or prepared in the past.",
+      "path": "assets/group-five-audio/p11/intro.mp3",
+      "audio_sha256": "0ee90d25e81847a85e16ce35cf10fa0f429ffd1cab8056799ae00d0d8326ee61",
+      "duration_ms": 4248,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          403
+        ],
+        [
+          1,
+          417,
+          607
+        ],
+        [
+          2,
+          621,
+          770
+        ],
+        [
+          3,
+          784,
+          1164
+        ],
+        [
+          4,
+          1178,
+          1300
+        ],
+        [
+          5,
+          1314,
+          1816
+        ],
+        [
+          6,
+          1830,
+          1939
+        ],
+        [
+          7,
+          1952,
+          2401
+        ],
+        [
+          8,
+          2414,
+          2496
+        ],
+        [
+          9,
+          2509,
+          2591
+        ],
+        [
+          10,
+          2604,
+          3311
+        ]
+      ]
+    },
+    "p11/scene-1": {
+      "text": "I made breakfast for my family.",
+      "path": "assets/group-five-audio/p11/scene-1.mp3",
+      "audio_sha256": "910d5f0751914631c14831d77d59ef033d28eb3d66eea3aaa4838894f92a376d",
+      "duration_ms": 2952,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          240
+        ],
+        [
+          1,
+          254,
+          512
+        ],
+        [
+          2,
+          526,
+          1028
+        ],
+        [
+          3,
+          1042,
+          1151
+        ],
+        [
+          4,
+          1164,
+          1314
+        ],
+        [
+          5,
+          1327,
+          2006
+        ]
+      ]
+    },
+    "p11/scene-2": {
+      "text": "I made a paper boat.",
+      "path": "assets/group-five-audio/p11/scene-2.mp3",
+      "audio_sha256": "6a6afa8c03d7eab8e0d4adc2d46a1ec43f19c835d39b8906a6e09df085555d67",
+      "duration_ms": 2304,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          227
+        ],
+        [
+          1,
+          240,
+          444
+        ],
+        [
+          2,
+          458,
+          512
+        ],
+        [
+          3,
+          526,
+          906
+        ],
+        [
+          4,
+          920,
+          1368
+        ]
+      ]
+    },
+    "p11/scene-3": {
+      "text": "I made a mistake yesterday.",
+      "path": "assets/group-five-audio/p11/scene-3.mp3",
+      "audio_sha256": "f1e2c4535aa40c1b696f447ed5f66feb4ea8f9e2eed15d4672b0e54b93f70b9f",
+      "duration_ms": 2616,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          240
+        ],
+        [
+          1,
+          254,
+          471
+        ],
+        [
+          2,
+          485,
+          526
+        ],
+        [
+          3,
+          539,
+          960
+        ],
+        [
+          4,
+          974,
+          1667
+        ]
+      ]
+    },
+    "p11/scene-4": {
+      "text": "I made a birthday card.",
+      "path": "assets/group-five-audio/p11/scene-4.mp3",
+      "audio_sha256": "5c92ab81b1e04763ca48a26d1e80d7407a459d5fd87e87d423f78b696103ea3f",
+      "duration_ms": 2376,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          240
+        ],
+        [
+          1,
+          254,
+          458
+        ],
+        [
+          2,
+          471,
+          526
+        ],
+        [
+          3,
+          539,
+          947
+        ],
+        [
+          4,
+          960,
+          1436
+        ]
+      ]
+    },
+    "p11/story-1": {
+      "text": "Lina wanted to surprise her father.",
+      "path": "assets/group-five-audio/p11/story-1.mp3",
+      "audio_sha256": "65ed9006b45a2f90a2224839d6841f7e2e59f53b9a254fa6389827bce3e2ea85",
+      "duration_ms": 3192,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          471
+        ],
+        [
+          1,
+          485,
+          852
+        ],
+        [
+          2,
+          865,
+          960
+        ],
+        [
+          3,
+          974,
+          1477
+        ],
+        [
+          4,
+          1490,
+          1626
+        ],
+        [
+          5,
+          1640,
+          2237
+        ]
+      ]
+    },
+    "p11/story-2": {
+      "text": "She made a beautiful card.",
+      "path": "assets/group-five-audio/p11/story-2.mp3",
+      "audio_sha256": "56c9c107c8af8595a46550a5277c0b1a843010f035b9970a99bc21451366f10d",
+      "duration_ms": 2520,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          308
+        ],
+        [
+          1,
+          322,
+          512
+        ],
+        [
+          2,
+          526,
+          580
+        ],
+        [
+          3,
+          593,
+          1055
+        ],
+        [
+          4,
+          1069,
+          1572
+        ]
+      ]
+    },
+    "p11/story-3": {
+      "text": "He smiled when he saw it.",
+      "path": "assets/group-five-audio/p11/story-3.mp3",
+      "audio_sha256": "f87621cc32e2681fa7d4dac4405195055b8a7a4d8698a5efa268dd11e3ced3df",
+      "duration_ms": 2640,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          295
+        ],
+        [
+          1,
+          308,
+          770
+        ],
+        [
+          2,
+          784,
+          906
+        ],
+        [
+          3,
+          920,
+          1028
+        ],
+        [
+          4,
+          1042,
+          1354
+        ],
+        [
+          5,
+          1368,
+          1694
+        ]
+      ]
+    },
+    "p11/dialogue-1": {
+      "text": "Who made this card?",
+      "path": "assets/group-five-audio/p11/dialogue-1.mp3",
+      "audio_sha256": "f63758e8b227006a0bbc566c2345930b406f77de2ebf2dbfcd154236a4e72c38",
+      "duration_ms": 2184,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          295
+        ],
+        [
+          1,
+          308,
+          539
+        ],
+        [
+          2,
+          553,
+          743
+        ],
+        [
+          3,
+          757,
+          1232
+        ]
+      ]
+    },
+    "p11/dialogue-2": {
+      "text": "I made it yesterday.",
+      "path": "assets/group-five-audio/p11/dialogue-2.mp3",
+      "audio_sha256": "562b4113f73b03dbc44cf6d0df989a9d8dd834df5df6ee9d1920ea80efa02505",
+      "duration_ms": 2304,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          240
+        ],
+        [
+          1,
+          254,
+          512
+        ],
+        [
+          2,
+          526,
+          634
+        ],
+        [
+          3,
+          648,
+          1354
+        ]
+      ]
+    },
+    "p12/intro": {
+      "text": "Use forgot to before an action that was not done.",
+      "path": "assets/group-five-audio/p12/intro.mp3",
+      "audio_sha256": "cc83cb13dc9b6de62d4316c572ec7f0a68c0923c4993367e02677bf2dbbe37ab",
+      "duration_ms": 3840,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          417
+        ],
+        [
+          1,
+          430,
+          838
+        ],
+        [
+          2,
+          852,
+          933
+        ],
+        [
+          3,
+          947,
+          1314
+        ],
+        [
+          4,
+          1327,
+          1436
+        ],
+        [
+          5,
+          1449,
+          1871
+        ],
+        [
+          6,
+          1884,
+          2034
+        ],
+        [
+          7,
+          2047,
+          2197
+        ],
+        [
+          8,
+          2210,
+          2441
+        ],
+        [
+          9,
+          2455,
+          2903
+        ]
+      ]
+    },
+    "p12/scene-1": {
+      "text": "I forgot to bring my book.",
+      "path": "assets/group-five-audio/p12/scene-1.mp3",
+      "audio_sha256": "c6566e77c502c823090a57a5855ee1b7f216f0cd4ea263fe58d5246e478d305b",
+      "duration_ms": 2616,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          689
+        ],
+        [
+          2,
+          702,
+          797
+        ],
+        [
+          3,
+          811,
+          1028
+        ],
+        [
+          4,
+          1042,
+          1178
+        ],
+        [
+          5,
+          1191,
+          1680
+        ]
+      ]
+    },
+    "p12/scene-3": {
+      "text": "I forgot to call my friend.",
+      "path": "assets/group-five-audio/p12/scene-3.mp3",
+      "audio_sha256": "3ddecb05e0d79e88b1068173623119dad7eacc3c8a12e682e9380c0062b8aca3",
+      "duration_ms": 2688,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          240
+        ],
+        [
+          1,
+          254,
+          661
+        ],
+        [
+          2,
+          675,
+          770
+        ],
+        [
+          3,
+          784,
+          1015
+        ],
+        [
+          4,
+          1028,
+          1178
+        ],
+        [
+          5,
+          1191,
+          1748
+        ]
+      ]
+    },
+    "p12/scene-4": {
+      "text": "I forgot to buy milk.",
+      "path": "assets/group-five-audio/p12/scene-4.mp3",
+      "audio_sha256": "a92a46290eddfe7d502e86f07cc775854641995de50a019751cf2fe1877066ce",
+      "duration_ms": 2424,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          702
+        ],
+        [
+          2,
+          716,
+          797
+        ],
+        [
+          3,
+          811,
+          960
+        ],
+        [
+          4,
+          974,
+          1477
+        ]
+      ]
+    },
+    "p12/story-1": {
+      "text": "Omar arrived at the classroom.",
+      "path": "assets/group-five-audio/p12/story-1.mp3",
+      "audio_sha256": "403cddc9b57a12ad96f975527feaf04af214b2d58626ad1df5b3af5223331a17",
+      "duration_ms": 2760,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          485
+        ],
+        [
+          1,
+          498,
+          865
+        ],
+        [
+          2,
+          879,
+          960
+        ],
+        [
+          3,
+          974,
+          1069
+        ],
+        [
+          4,
+          1083,
+          1803
+        ]
+      ]
+    },
+    "p12/story-2": {
+      "text": "He forgot to bring his notebook.",
+      "path": "assets/group-five-audio/p12/story-2.mp3",
+      "audio_sha256": "bfba2d118c869a0bcd1caf60ef72efbb8b2ff47ca20401e118ae9d1c1efd8e85",
+      "duration_ms": 2880,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          281
+        ],
+        [
+          1,
+          295,
+          743
+        ],
+        [
+          2,
+          757,
+          852
+        ],
+        [
+          3,
+          865,
+          1096
+        ],
+        [
+          4,
+          1110,
+          1286
+        ],
+        [
+          5,
+          1300,
+          1939
+        ]
+      ]
+    },
+    "p12/story-3": {
+      "text": "His friend shared some paper.",
+      "path": "assets/group-five-audio/p12/story-3.mp3",
+      "audio_sha256": "ed115beb14c0574403dd9f66a67f499b07bccc07ca1638370934197c399d5701",
+      "duration_ms": 2760,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          362
+        ],
+        [
+          1,
+          376,
+          675
+        ],
+        [
+          2,
+          689,
+          1015
+        ],
+        [
+          3,
+          1028,
+          1232
+        ],
+        [
+          4,
+          1246,
+          1816
+        ]
+      ]
+    },
+    "p12/dialogue-1": {
+      "text": "Why is the window open?",
+      "path": "assets/group-five-audio/p12/dialogue-1.mp3",
+      "audio_sha256": "03f028ccf5bc7988a05e4d2119021682d69a0fead35ff7c867e01fe832751fc5",
+      "duration_ms": 2376,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          362
+        ],
+        [
+          1,
+          376,
+          498
+        ],
+        [
+          2,
+          512,
+          607
+        ],
+        [
+          3,
+          621,
+          960
+        ],
+        [
+          4,
+          974,
+          1422
+        ]
+      ]
+    },
+    "p12/dialogue-2": {
+      "text": "I forgot to close it.",
+      "path": "assets/group-five-audio/p12/dialogue-2.mp3",
+      "audio_sha256": "1c7f345d5fb53e6d2ade78a5f3769f69d20ac3962cd2e62f79456fc23946388f",
+      "duration_ms": 2472,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          689
+        ],
+        [
+          2,
+          702,
+          811
+        ],
+        [
+          3,
+          824,
+          1164
+        ],
+        [
+          4,
+          1178,
+          1517
+        ]
+      ]
+    },
+    "p13/intro": {
+      "text": "Use decided to for a choice made in the past.",
+      "path": "assets/group-five-audio/p13/intro.mp3",
+      "audio_sha256": "1c7978de48a46582a05ceb5595420e24feeb2e1c0f89aaefdfb9197007a9bd87",
+      "duration_ms": 3792,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          390
+        ],
+        [
+          1,
+          403,
+          892
+        ],
+        [
+          2,
+          906,
+          1028
+        ],
+        [
+          3,
+          1042,
+          1205
+        ],
+        [
+          4,
+          1218,
+          1273
+        ],
+        [
+          5,
+          1286,
+          1708
+        ],
+        [
+          6,
+          1721,
+          1925
+        ],
+        [
+          7,
+          1939,
+          2020
+        ],
+        [
+          8,
+          2034,
+          2115
+        ],
+        [
+          9,
+          2129,
+          2835
+        ]
+      ]
+    },
+    "p13/scene-1": {
+      "text": "I decided to learn English.",
+      "path": "assets/group-five-audio/p13/scene-1.mp3",
+      "audio_sha256": "eb59877e6b2ae7cb9eaf5dd0710b1f13a16a8e7d33143e5cac3254c776665096",
+      "duration_ms": 2688,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          240
+        ],
+        [
+          1,
+          254,
+          756
+        ],
+        [
+          2,
+          770,
+          865
+        ],
+        [
+          3,
+          879,
+          1123
+        ],
+        [
+          4,
+          1137,
+          1748
+        ]
+      ]
+    },
+    "p13/scene-2": {
+      "text": "I decided to walk to school.",
+      "path": "assets/group-five-audio/p13/scene-2.mp3",
+      "audio_sha256": "2df6f05eaab4d81331d9792104a787c5a0e6d25bf935cdcfa75cac75af030230",
+      "duration_ms": 2784,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          240
+        ],
+        [
+          1,
+          254,
+          743
+        ],
+        [
+          2,
+          757,
+          852
+        ],
+        [
+          3,
+          865,
+          1123
+        ],
+        [
+          4,
+          1137,
+          1232
+        ],
+        [
+          5,
+          1246,
+          1830
+        ]
+      ]
+    },
+    "p13/scene-3": {
+      "text": "I decided to help my brother.",
+      "path": "assets/group-five-audio/p13/scene-3.mp3",
+      "audio_sha256": "91c5c50eb30c71bbe18929df3220a7dd7dbbc62b672d85770b4163196518a22a",
+      "duration_ms": 2760,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          227
+        ],
+        [
+          1,
+          240,
+          756
+        ],
+        [
+          2,
+          770,
+          838
+        ],
+        [
+          3,
+          852,
+          1069
+        ],
+        [
+          4,
+          1083,
+          1232
+        ],
+        [
+          5,
+          1246,
+          1803
+        ]
+      ]
+    },
+    "p13/scene-4": {
+      "text": "I decided to read a new book.",
+      "path": "assets/group-five-audio/p13/scene-4.mp3",
+      "audio_sha256": "a8c11f18fb82f76d603d6be5dd96a2cbfbac18534c43d2ef1f1adfecd5aedbbb",
+      "duration_ms": 2760,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          240
+        ],
+        [
+          1,
+          254,
+          756
+        ],
+        [
+          2,
+          770,
+          865
+        ],
+        [
+          3,
+          879,
+          1069
+        ],
+        [
+          4,
+          1083,
+          1123
+        ],
+        [
+          5,
+          1137,
+          1314
+        ],
+        [
+          6,
+          1327,
+          1803
+        ]
+      ]
+    },
+    "p13/story-1": {
+      "text": "Maya saw a difficult question.",
+      "path": "assets/group-five-audio/p13/story-1.mp3",
+      "audio_sha256": "ff93cb65d62fb4e528b2c7cd0126d4d003e74c5cd056538aa050a0c0dec467c0",
+      "duration_ms": 2976,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          485
+        ],
+        [
+          1,
+          498,
+          770
+        ],
+        [
+          2,
+          784,
+          852
+        ],
+        [
+          3,
+          865,
+          1341
+        ],
+        [
+          4,
+          1354,
+          2034
+        ]
+      ]
+    },
+    "p13/story-2": {
+      "text": "She decided to try again.",
+      "path": "assets/group-five-audio/p13/story-2.mp3",
+      "audio_sha256": "333512614d547ad1796d3f458a02b65ff6fdd16e3b043402a00ae2efb36a51b0",
+      "duration_ms": 2712,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          322
+        ],
+        [
+          1,
+          335,
+          838
+        ],
+        [
+          2,
+          852,
+          933
+        ],
+        [
+          3,
+          947,
+          1232
+        ],
+        [
+          4,
+          1246,
+          1776
+        ]
+      ]
+    },
+    "p13/story-3": {
+      "text": "Her second answer was correct.",
+      "path": "assets/group-five-audio/p13/story-3.mp3",
+      "audio_sha256": "e1faefb5da814894040a00f7aa037b3b673b720e32d9de0238af16d326de797e",
+      "duration_ms": 2808,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          295
+        ],
+        [
+          1,
+          308,
+          702
+        ],
+        [
+          2,
+          716,
+          1028
+        ],
+        [
+          3,
+          1042,
+          1232
+        ],
+        [
+          4,
+          1246,
+          1871
+        ]
+      ]
+    },
+    "p13/dialogue-1": {
+      "text": "What did you decide to do?",
+      "path": "assets/group-five-audio/p13/dialogue-1.mp3",
+      "audio_sha256": "f55c109f46d7a4a510e9cc61465004b7656b303ab932632babdb4b0f0b4956e6",
+      "duration_ms": 2472,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          322
+        ],
+        [
+          1,
+          335,
+          485
+        ],
+        [
+          2,
+          498,
+          594
+        ],
+        [
+          3,
+          607,
+          1001
+        ],
+        [
+          4,
+          1015,
+          1096
+        ],
+        [
+          5,
+          1110,
+          1517
+        ]
+      ]
+    },
+    "p13/dialogue-2": {
+      "text": "I decided to study English.",
+      "path": "assets/group-five-audio/p13/dialogue-2.mp3",
+      "audio_sha256": "bd2f2311ec0e5f7b7736abb16bb30ddec8e91b3b1f2fb53f0a40c53d7ab092d3",
+      "duration_ms": 2832,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          240
+        ],
+        [
+          1,
+          254,
+          729
+        ],
+        [
+          2,
+          743,
+          838
+        ],
+        [
+          3,
+          852,
+          1232
+        ],
+        [
+          4,
+          1246,
+          1884
+        ]
+      ]
+    },
+    "p14/intro": {
+      "text": "Use started to introduce an activity that began in the past.",
+      "path": "assets/group-five-audio/p14/intro.mp3",
+      "audio_sha256": "96ed3d8615e95a1b8a0dbe0148c65dc840234080499adca86e64be04bd108d09",
+      "duration_ms": 4488,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          376
+        ],
+        [
+          1,
+          390,
+          743
+        ],
+        [
+          2,
+          757,
+          852
+        ],
+        [
+          3,
+          865,
+          1395
+        ],
+        [
+          4,
+          1409,
+          1504
+        ],
+        [
+          5,
+          1517,
+          2074
+        ],
+        [
+          6,
+          2088,
+          2265
+        ],
+        [
+          7,
+          2278,
+          2645
+        ],
+        [
+          8,
+          2659,
+          2740
+        ],
+        [
+          9,
+          2754,
+          2835
+        ],
+        [
+          10,
+          2849,
+          3542
+        ]
+      ]
+    },
+    "p14/scene-1": {
+      "text": "I started learning English last year.",
+      "path": "assets/group-five-audio/p14/scene-1.mp3",
+      "audio_sha256": "8d12be9e97e076c0c681f48f39ef266e81a02fbc5d6041bc1c1b93bcc3156ad9",
+      "duration_ms": 3192,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          675
+        ],
+        [
+          2,
+          689,
+          1069
+        ],
+        [
+          3,
+          1083,
+          1463
+        ],
+        [
+          4,
+          1477,
+          1830
+        ],
+        [
+          5,
+          1843,
+          2237
+        ]
+      ]
+    },
+    "p14/scene-2": {
+      "text": "I started reading a story yesterday.",
+      "path": "assets/group-five-audio/p14/scene-2.mp3",
+      "audio_sha256": "500e20becb720e6cb34350830053771fb2ef29d311742b8b0b8e72836ac29935",
+      "duration_ms": 3096,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          675
+        ],
+        [
+          2,
+          689,
+          1001
+        ],
+        [
+          3,
+          1015,
+          1069
+        ],
+        [
+          4,
+          1083,
+          1422
+        ],
+        [
+          5,
+          1436,
+          2156
+        ]
+      ]
+    },
+    "p14/scene-3": {
+      "text": "I started cooking at six.",
+      "path": "assets/group-five-audio/p14/scene-3.mp3",
+      "audio_sha256": "858a590f6bd8db4cf55c8989339e6325cb96e1d56e1cdece43468f14c97a03ea",
+      "duration_ms": 2808,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          675
+        ],
+        [
+          2,
+          689,
+          1083
+        ],
+        [
+          3,
+          1096,
+          1218
+        ],
+        [
+          4,
+          1232,
+          1857
+        ]
+      ]
+    },
+    "p14/scene-4": {
+      "text": "I started a new job in May.",
+      "path": "assets/group-five-audio/p14/scene-4.mp3",
+      "audio_sha256": "03b69bc726fd0b960e7307798dec9352cd83d91f0699f49fd4e3a4c55edef7f2",
+      "duration_ms": 2664,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          240
+        ],
+        [
+          1,
+          254,
+          634
+        ],
+        [
+          2,
+          648,
+          689
+        ],
+        [
+          3,
+          702,
+          892
+        ],
+        [
+          4,
+          906,
+          1191
+        ],
+        [
+          5,
+          1205,
+          1314
+        ],
+        [
+          6,
+          1327,
+          1708
+        ]
+      ]
+    },
+    "p14/story-1": {
+      "text": "Ali joined a new class.",
+      "path": "assets/group-five-audio/p14/story-1.mp3",
+      "audio_sha256": "0c67843d6b7b5427549613e1d053550a5679971e157213aa613cb4666b0a3157",
+      "duration_ms": 2640,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          417
+        ],
+        [
+          1,
+          430,
+          743
+        ],
+        [
+          2,
+          757,
+          797
+        ],
+        [
+          3,
+          811,
+          1015
+        ],
+        [
+          4,
+          1028,
+          1694
+        ]
+      ]
+    },
+    "p14/story-2": {
+      "text": "He started learning new words.",
+      "path": "assets/group-five-audio/p14/story-2.mp3",
+      "audio_sha256": "7f62428607d23286e512964544c7e533556b3a2a8a15eed3fcb980880f6b9a78",
+      "duration_ms": 2808,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          295
+        ],
+        [
+          1,
+          308,
+          757
+        ],
+        [
+          2,
+          770,
+          1110
+        ],
+        [
+          3,
+          1123,
+          1273
+        ],
+        [
+          4,
+          1286,
+          1871
+        ]
+      ]
+    },
+    "p14/story-3": {
+      "text": "Soon he could speak in short sentences.",
+      "path": "assets/group-five-audio/p14/story-3.mp3",
+      "audio_sha256": "90d92d91eb2bf7ac81bb7d65a1d2eeb7680361900dbc8061f684d5972d0049f0",
+      "duration_ms": 3384,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          444
+        ],
+        [
+          1,
+          458,
+          566
+        ],
+        [
+          2,
+          580,
+          756
+        ],
+        [
+          3,
+          770,
+          1069
+        ],
+        [
+          4,
+          1083,
+          1191
+        ],
+        [
+          5,
+          1205,
+          1504
+        ],
+        [
+          6,
+          1517,
+          2441
+        ]
+      ]
+    },
+    "p14/dialogue-1": {
+      "text": "When did you start reading?",
+      "path": "assets/group-five-audio/p14/dialogue-1.mp3",
+      "audio_sha256": "ac4f747cf35dbd20ab93ac700e7d7a93842ad102906c9fdbac50771fdf14b6ef",
+      "duration_ms": 2376,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          322
+        ],
+        [
+          1,
+          335,
+          485
+        ],
+        [
+          2,
+          498,
+          607
+        ],
+        [
+          3,
+          621,
+          920
+        ],
+        [
+          4,
+          933,
+          1422
+        ]
+      ]
+    },
+    "p14/dialogue-2": {
+      "text": "I started reading yesterday.",
+      "path": "assets/group-five-audio/p14/dialogue-2.mp3",
+      "audio_sha256": "83c1d2c9dae00c6eeaf28498e04bc944115ae0ac2188400261147c5abad74999",
+      "duration_ms": 2664,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          661
+        ],
+        [
+          2,
+          675,
+          1001
+        ],
+        [
+          3,
+          1015,
+          1721
+        ]
+      ]
+    },
+    "p15/intro": {
+      "text": "Use used to for a past habit or state that is no longer true.",
+      "path": "assets/group-five-audio/p15/intro.mp3",
+      "audio_sha256": "af801fed6b236998b20c02878d820e6e3368f3dc14ac57e68e4e403b25d511c0",
+      "duration_ms": 4608,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          376
+        ],
+        [
+          1,
+          390,
+          648
+        ],
+        [
+          2,
+          661,
+          770
+        ],
+        [
+          3,
+          784,
+          947
+        ],
+        [
+          4,
+          960,
+          1015
+        ],
+        [
+          5,
+          1028,
+          1395
+        ],
+        [
+          6,
+          1409,
+          1748
+        ],
+        [
+          7,
+          1762,
+          1884
+        ],
+        [
+          8,
+          1898,
+          2278
+        ],
+        [
+          9,
+          2292,
+          2441
+        ],
+        [
+          10,
+          2455,
+          2577
+        ],
+        [
+          11,
+          2591,
+          2767
+        ],
+        [
+          12,
+          2781,
+          3148
+        ],
+        [
+          13,
+          3161,
+          3651
+        ]
+      ]
+    },
+    "p15/scene-1": {
+      "text": "I used to walk to school.",
+      "path": "assets/group-five-audio/p15/scene-1.mp3",
+      "audio_sha256": "cdf66b293f351df3ca0c98007165c72ccb0ad5c353e8aa40791966c8dd8b2473",
+      "duration_ms": 2496,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          213
+        ],
+        [
+          1,
+          227,
+          498
+        ],
+        [
+          2,
+          512,
+          593
+        ],
+        [
+          3,
+          607,
+          852
+        ],
+        [
+          4,
+          865,
+          960
+        ],
+        [
+          5,
+          974,
+          1558
+        ]
+      ]
+    },
+    "p15/scene-2": {
+      "text": "I used to play in this garden.",
+      "path": "assets/group-five-audio/p15/scene-2.mp3",
+      "audio_sha256": "e0b0d451fdd76681606a7fddcf7c217b40b83450297ba50ffb6f1e65a6ceb3c1",
+      "duration_ms": 2640,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          213
+        ],
+        [
+          1,
+          227,
+          498
+        ],
+        [
+          2,
+          512,
+          593
+        ],
+        [
+          3,
+          607,
+          852
+        ],
+        [
+          4,
+          865,
+          960
+        ],
+        [
+          5,
+          974,
+          1164
+        ],
+        [
+          6,
+          1178,
+          1694
+        ]
+      ]
+    },
+    "p15/scene-3": {
+      "text": "I used to live near the river.",
+      "path": "assets/group-five-audio/p15/scene-3.mp3",
+      "audio_sha256": "6bb466e7166468b3d3a1dec52541db1617a80e9dc8ec8c9fae605664f016c5d3",
+      "duration_ms": 2592,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          213
+        ],
+        [
+          1,
+          227,
+          498
+        ],
+        [
+          2,
+          512,
+          607
+        ],
+        [
+          3,
+          621,
+          824
+        ],
+        [
+          4,
+          838,
+          1028
+        ],
+        [
+          5,
+          1042,
+          1137
+        ],
+        [
+          6,
+          1151,
+          1640
+        ]
+      ]
+    },
+    "p15/scene-4": {
+      "text": "I used to read before bedtime.",
+      "path": "assets/group-five-audio/p15/scene-4.mp3",
+      "audio_sha256": "17e6322b39edbe510610de1764d8fc4cc28173ca467cf18c921e823a1b7f7f12",
+      "duration_ms": 2856,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          213
+        ],
+        [
+          1,
+          227,
+          485
+        ],
+        [
+          2,
+          498,
+          580
+        ],
+        [
+          3,
+          593,
+          824
+        ],
+        [
+          4,
+          838,
+          1205
+        ],
+        [
+          5,
+          1218,
+          1911
+        ]
+      ]
+    },
+    "p15/story-1": {
+      "text": "Grandmother showed Lina an old photo.",
+      "path": "assets/group-five-audio/p15/story-1.mp3",
+      "audio_sha256": "0cc772a5895fde4e67d256b9ced7c873e268ff45c199413e047b2ed04e391f3e",
+      "duration_ms": 3144,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          702
+        ],
+        [
+          1,
+          716,
+          1015
+        ],
+        [
+          2,
+          1028,
+          1300
+        ],
+        [
+          3,
+          1314,
+          1436
+        ],
+        [
+          4,
+          1449,
+          1626
+        ],
+        [
+          5,
+          1640,
+          2183
+        ]
+      ]
+    },
+    "p15/story-2": {
+      "text": "She used to live in that house.",
+      "path": "assets/group-five-audio/p15/story-2.mp3",
+      "audio_sha256": "eb12d4e7492b1b2245221451ed7bc108ed6396ebee76bb5a1acf3e10dc22a25b",
+      "duration_ms": 2808,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          308
+        ],
+        [
+          1,
+          322,
+          580
+        ],
+        [
+          2,
+          593,
+          702
+        ],
+        [
+          3,
+          716,
+          920
+        ],
+        [
+          4,
+          933,
+          1042
+        ],
+        [
+          5,
+          1055,
+          1273
+        ],
+        [
+          6,
+          1286,
+          1857
+        ]
+      ]
+    },
+    "p15/story-3": {
+      "text": "Now she lives close to her family.",
+      "path": "assets/group-five-audio/p15/story-3.mp3",
+      "audio_sha256": "87bed02a5dd0abdabacc5c6c3d6532c86854bd3b5f1a683a275c703e3f9e976d",
+      "duration_ms": 3072,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          349
+        ],
+        [
+          1,
+          362,
+          566
+        ],
+        [
+          2,
+          580,
+          852
+        ],
+        [
+          3,
+          865,
+          1178
+        ],
+        [
+          4,
+          1191,
+          1300
+        ],
+        [
+          5,
+          1314,
+          1449
+        ],
+        [
+          6,
+          1463,
+          2129
+        ]
+      ]
+    },
+    "p15/dialogue-1": {
+      "text": "Did you use to live here?",
+      "path": "assets/group-five-audio/p15/dialogue-1.mp3",
+      "audio_sha256": "7dea9cf68da95ccacf1b9d14ecf30c7afdcb55185ce497355ad4f189a6f5a57d",
+      "duration_ms": 2304,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          281
+        ],
+        [
+          1,
+          295,
+          403
+        ],
+        [
+          2,
+          417,
+          621
+        ],
+        [
+          3,
+          634,
+          757
+        ],
+        [
+          4,
+          770,
+          974
+        ],
+        [
+          5,
+          988,
+          1354
+        ]
+      ]
+    },
+    "p15/dialogue-2": {
+      "text": "Yes, I used to live here.",
+      "path": "assets/group-five-audio/p15/dialogue-2.mp3",
+      "audio_sha256": "82a227796fcbd45e1472b39d08c114d45825f8505e9ea579a864dbd8b110ffac",
+      "duration_ms": 2928,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          648
+        ],
+        [
+          1,
+          838,
+          892
+        ],
+        [
+          2,
+          906,
+          1191
+        ],
+        [
+          3,
+          1205,
+          1314
+        ],
+        [
+          4,
+          1327,
+          1531
+        ],
+        [
+          5,
+          1545,
+          1979
+        ]
+      ]
+    },
+    "p16/intro": {
+      "text": "Use was plus verb-ing for an action in progress at a past moment.",
+      "path": "assets/group-five-audio/p16/intro.mp3",
+      "audio_sha256": "d7b61707e74790e9e13e953bee92450920df05a3537863782d18308b725332fc",
+      "duration_ms": 5280,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          403
+        ],
+        [
+          1,
+          417,
+          566
+        ],
+        [
+          2,
+          580,
+          892
+        ],
+        [
+          3,
+          906,
+          1748
+        ],
+        [
+          4,
+          1762,
+          1925
+        ],
+        [
+          5,
+          1939,
+          2061
+        ],
+        [
+          6,
+          2074,
+          2496
+        ],
+        [
+          7,
+          2509,
+          2618
+        ],
+        [
+          8,
+          2632,
+          3189
+        ],
+        [
+          9,
+          3202,
+          3338
+        ],
+        [
+          10,
+          3352,
+          3406
+        ],
+        [
+          11,
+          3420,
+          3786
+        ],
+        [
+          12,
+          3800,
+          4330
+        ]
+      ]
+    },
+    "p16/scene-1": {
+      "text": "I was reading at eight o'clock.",
+      "path": "assets/group-five-audio/p16/scene-1.mp3",
+      "audio_sha256": "049b19462a7387f4fe248983fe84e5d50a57df362a04f11b78295d2850823ba4",
+      "duration_ms": 2712,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          240
+        ],
+        [
+          1,
+          254,
+          444
+        ],
+        [
+          2,
+          458,
+          797
+        ],
+        [
+          3,
+          811,
+          920
+        ],
+        [
+          4,
+          933,
+          1096
+        ],
+        [
+          5,
+          1110,
+          1762
+        ]
+      ]
+    },
+    "p16/scene-2": {
+      "text": "I was cooking when you called.",
+      "path": "assets/group-five-audio/p16/scene-2.mp3",
+      "audio_sha256": "99533e92130e068a2139e7b85ba0d9c39720d64958dd2b9bc1bb216c85a1856b",
+      "duration_ms": 2664,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          240
+        ],
+        [
+          1,
+          254,
+          430
+        ],
+        [
+          2,
+          444,
+          852
+        ],
+        [
+          3,
+          865,
+          1001
+        ],
+        [
+          4,
+          1015,
+          1151
+        ],
+        [
+          5,
+          1164,
+          1708
+        ]
+      ]
+    },
+    "p16/scene-3": {
+      "text": "I was studying at noon.",
+      "path": "assets/group-five-audio/p16/scene-3.mp3",
+      "audio_sha256": "e602fe86f173909999e90f742ce6fd89ffba47183e2dda0d7fec1ef01cd3ca85",
+      "duration_ms": 2448,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          240
+        ],
+        [
+          1,
+          254,
+          403
+        ],
+        [
+          2,
+          417,
+          892
+        ],
+        [
+          3,
+          906,
+          1015
+        ],
+        [
+          4,
+          1028,
+          1490
+        ]
+      ]
+    },
+    "p16/scene-4": {
+      "text": "I was sleeping when it rained.",
+      "path": "assets/group-five-audio/p16/scene-4.mp3",
+      "audio_sha256": "81d5d1d3701b8a51a6ac9675ca67c94ae489c5b19b38de84a8f1123056ea9949",
+      "duration_ms": 2568,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          240
+        ],
+        [
+          1,
+          254,
+          403
+        ],
+        [
+          2,
+          417,
+          852
+        ],
+        [
+          3,
+          865,
+          1001
+        ],
+        [
+          4,
+          1015,
+          1123
+        ],
+        [
+          5,
+          1137,
+          1612
+        ]
+      ]
+    },
+    "p16/story-1": {
+      "text": "The phone rang in the evening.",
+      "path": "assets/group-five-audio/p16/story-1.mp3",
+      "audio_sha256": "096c9c33934f51f28b1a86da2e65efc2050537164536c90c2d5a98b4ce66b10a",
+      "duration_ms": 2544,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          593
+        ],
+        [
+          2,
+          607,
+          811
+        ],
+        [
+          3,
+          824,
+          906
+        ],
+        [
+          4,
+          920,
+          1001
+        ],
+        [
+          5,
+          1015,
+          1585
+        ]
+      ]
+    },
+    "p16/story-2": {
+      "text": "Maya was reading a book.",
+      "path": "assets/group-five-audio/p16/story-2.mp3",
+      "audio_sha256": "954d88882eab325c0bccd0d83337f151b5ad20fc6241189243e3cc1efb35eab8",
+      "duration_ms": 2520,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          471
+        ],
+        [
+          1,
+          485,
+          702
+        ],
+        [
+          2,
+          716,
+          1028
+        ],
+        [
+          3,
+          1042,
+          1096
+        ],
+        [
+          4,
+          1110,
+          1572
+        ]
+      ]
+    },
+    "p16/story-3": {
+      "text": "She stopped to answer the call.",
+      "path": "assets/group-five-audio/p16/story-3.mp3",
+      "audio_sha256": "915696b3e4e77105e22ee01c19fdf043018c2b0608b81ed81182999642ab206f",
+      "duration_ms": 2712,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          322
+        ],
+        [
+          1,
+          335,
+          689
+        ],
+        [
+          2,
+          702,
+          784
+        ],
+        [
+          3,
+          797,
+          1123
+        ],
+        [
+          4,
+          1137,
+          1232
+        ],
+        [
+          5,
+          1246,
+          1762
+        ]
+      ]
+    },
+    "p16/dialogue-1": {
+      "text": "What were you doing at eight?",
+      "path": "assets/group-five-audio/p16/dialogue-1.mp3",
+      "audio_sha256": "aa0821d6ca63bc1a8096f3696a6b35e850eceecc147bace9f2ea104652bc2753",
+      "duration_ms": 2376,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          295
+        ],
+        [
+          1,
+          308,
+          430
+        ],
+        [
+          2,
+          444,
+          553
+        ],
+        [
+          3,
+          566,
+          865
+        ],
+        [
+          4,
+          879,
+          974
+        ],
+        [
+          5,
+          988,
+          1422
+        ]
+      ]
+    },
+    "p16/dialogue-2": {
+      "text": "I was reading a book.",
+      "path": "assets/group-five-audio/p16/dialogue-2.mp3",
+      "audio_sha256": "cf4ab06ed732d1e9fa968ebb1b7c653db55bbda70dce7953498e3730616cec40",
+      "duration_ms": 2304,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          240
+        ],
+        [
+          1,
+          254,
+          444
+        ],
+        [
+          2,
+          458,
+          797
+        ],
+        [
+          3,
+          811,
+          879
+        ],
+        [
+          4,
+          892,
+          1368
+        ]
+      ]
+    },
+    "p17/intro": {
+      "text": "Use while with an ongoing past action and another event.",
+      "path": "assets/group-five-audio/p17/intro.mp3",
+      "audio_sha256": "aca2dfe452c5a3c17a308f0701c69eebbc39046178c04391a5aae7c2fb13e7db",
+      "duration_ms": 4392,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          444
+        ],
+        [
+          1,
+          458,
+          594
+        ],
+        [
+          2,
+          607,
+          757
+        ],
+        [
+          3,
+          770,
+          906
+        ],
+        [
+          4,
+          920,
+          1368
+        ],
+        [
+          5,
+          1382,
+          1776
+        ],
+        [
+          6,
+          1789,
+          2373
+        ],
+        [
+          7,
+          2387,
+          2509
+        ],
+        [
+          8,
+          2523,
+          2876
+        ],
+        [
+          9,
+          2890,
+          3447
+        ]
+      ]
+    },
+    "p17/scene-1": {
+      "text": "While I was reading, the phone rang.",
+      "path": "assets/group-five-audio/p17/scene-1.mp3",
+      "audio_sha256": "3389c57d75d881e16d1bd5760a25b00e518c34b440e2b127096a82541a128e45",
+      "duration_ms": 3048,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          308
+        ],
+        [
+          1,
+          322,
+          403
+        ],
+        [
+          2,
+          417,
+          621
+        ],
+        [
+          3,
+          634,
+          1083
+        ],
+        [
+          4,
+          1259,
+          1354
+        ],
+        [
+          5,
+          1368,
+          1694
+        ],
+        [
+          6,
+          1708,
+          2102
+        ]
+      ]
+    },
+    "p17/scene-2": {
+      "text": "While I was walking, it started to rain.",
+      "path": "assets/group-five-audio/p17/scene-2.mp3",
+      "audio_sha256": "ec71cd00f5abc9f23cd56552737502f3903133eef2d93edf5dd57fa85c1020d3",
+      "duration_ms": 3432,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          322
+        ],
+        [
+          1,
+          335,
+          417
+        ],
+        [
+          2,
+          430,
+          621
+        ],
+        [
+          3,
+          634,
+          1218
+        ],
+        [
+          4,
+          1354,
+          1463
+        ],
+        [
+          5,
+          1477,
+          1857
+        ],
+        [
+          6,
+          1871,
+          1993
+        ],
+        [
+          7,
+          2007,
+          2482
+        ]
+      ]
+    },
+    "p17/scene-3": {
+      "text": "While I was cooking, my brother arrived.",
+      "path": "assets/group-five-audio/p17/scene-3.mp3",
+      "audio_sha256": "a3ef8a2cb4618654f31a5a8eeb8782a2157b50368e9784839291fca12e55fa19",
+      "duration_ms": 3384,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          322
+        ],
+        [
+          1,
+          335,
+          417
+        ],
+        [
+          2,
+          430,
+          621
+        ],
+        [
+          3,
+          634,
+          1123
+        ],
+        [
+          4,
+          1314,
+          1436
+        ],
+        [
+          5,
+          1449,
+          1803
+        ],
+        [
+          6,
+          1816,
+          2441
+        ]
+      ]
+    },
+    "p17/scene-4": {
+      "text": "While I was studying, the lights went out.",
+      "path": "assets/group-five-audio/p17/scene-4.mp3",
+      "audio_sha256": "1091265722d0d31ca78c058a5db5911e6894f796f6853705e2782149d9474775",
+      "duration_ms": 3408,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          308
+        ],
+        [
+          1,
+          322,
+          403
+        ],
+        [
+          2,
+          417,
+          580
+        ],
+        [
+          3,
+          593,
+          1151
+        ],
+        [
+          4,
+          1327,
+          1436
+        ],
+        [
+          5,
+          1449,
+          1789
+        ],
+        [
+          6,
+          1803,
+          2006
+        ],
+        [
+          7,
+          2020,
+          2455
+        ]
+      ]
+    },
+    "p17/story-1": {
+      "text": "Ali was walking to school.",
+      "path": "assets/group-five-audio/p17/story-1.mp3",
+      "audio_sha256": "3c5087d52d68f6cf4c5e44e76b361aaea2d4028735df840f8045f9e25aef7282",
+      "duration_ms": 2712,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          430
+        ],
+        [
+          1,
+          444,
+          634
+        ],
+        [
+          2,
+          648,
+          1028
+        ],
+        [
+          3,
+          1042,
+          1151
+        ],
+        [
+          4,
+          1164,
+          1762
+        ]
+      ]
+    },
+    "p17/story-2": {
+      "text": "While he was walking, it started raining.",
+      "path": "assets/group-five-audio/p17/story-2.mp3",
+      "audio_sha256": "63e98d2c6cc3479ccc94561f699973bf2fd354e7a80a5aa5475e42ec32385856",
+      "duration_ms": 3360,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          308
+        ],
+        [
+          1,
+          322,
+          417
+        ],
+        [
+          2,
+          430,
+          621
+        ],
+        [
+          3,
+          634,
+          1232
+        ],
+        [
+          4,
+          1368,
+          1477
+        ],
+        [
+          5,
+          1490,
+          1871
+        ],
+        [
+          6,
+          1884,
+          2414
+        ]
+      ]
+    },
+    "p17/story-3": {
+      "text": "He opened his umbrella.",
+      "path": "assets/group-five-audio/p17/story-3.mp3",
+      "audio_sha256": "e9cc26d69925d6f8fa38c5e2ca18062452436c78e98815eef569a829eaac10d3",
+      "duration_ms": 2448,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          335
+        ],
+        [
+          1,
+          349,
+          634
+        ],
+        [
+          2,
+          648,
+          824
+        ],
+        [
+          3,
+          838,
+          1490
+        ]
+      ]
+    },
+    "p17/dialogue-1": {
+      "text": "What happened while you were reading?",
+      "path": "assets/group-five-audio/p17/dialogue-1.mp3",
+      "audio_sha256": "db65e95459746328a8c07cb6bf229d7e3e340893a3195d32e62bcbbd8a6c0989",
+      "duration_ms": 2712,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          335
+        ],
+        [
+          1,
+          349,
+          770
+        ],
+        [
+          2,
+          784,
+          947
+        ],
+        [
+          3,
+          960,
+          1069
+        ],
+        [
+          4,
+          1083,
+          1246
+        ],
+        [
+          5,
+          1259,
+          1776
+        ]
+      ]
+    },
+    "p17/dialogue-2": {
+      "text": "The phone rang while I was reading.",
+      "path": "assets/group-five-audio/p17/dialogue-2.mp3",
+      "audio_sha256": "c0bd7935e14a692fff035b7b479aecf34eb5212173bdd9e0a45fce49f9c94868",
+      "duration_ms": 2808,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          566
+        ],
+        [
+          2,
+          580,
+          824
+        ],
+        [
+          3,
+          838,
+          1015
+        ],
+        [
+          4,
+          1028,
+          1110
+        ],
+        [
+          5,
+          1123,
+          1327
+        ],
+        [
+          6,
+          1341,
+          1857
+        ]
+      ]
+    },
+    "p18/intro": {
+      "text": "Use when to connect past events or an event with a past action in progress.",
+      "path": "assets/group-five-audio/p18/intro.mp3",
+      "audio_sha256": "39b7116a4e8840c2f2cb28c24063f2639bff82e2da4960fa7ed8819ef8c56a99",
+      "duration_ms": 5592,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          417
+        ],
+        [
+          1,
+          430,
+          566
+        ],
+        [
+          2,
+          580,
+          689
+        ],
+        [
+          3,
+          702,
+          1123
+        ],
+        [
+          4,
+          1137,
+          1517
+        ],
+        [
+          5,
+          1531,
+          1979
+        ],
+        [
+          6,
+          1993,
+          2210
+        ],
+        [
+          7,
+          2224,
+          2305
+        ],
+        [
+          8,
+          2319,
+          2727
+        ],
+        [
+          9,
+          2740,
+          2862
+        ],
+        [
+          10,
+          2876,
+          2930
+        ],
+        [
+          11,
+          2944,
+          3324
+        ],
+        [
+          12,
+          3338,
+          3718
+        ],
+        [
+          13,
+          3732,
+          3827
+        ],
+        [
+          14,
+          3841,
+          4642
+        ]
+      ]
+    },
+    "p18/scene-1": {
+      "text": "When I arrived, my family smiled.",
+      "path": "assets/group-five-audio/p18/scene-1.mp3",
+      "audio_sha256": "cd688625ea936ff5e5e125951487ae727a1f6b2f2af042f4dd7b533ca7848e74",
+      "duration_ms": 3312,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          295
+        ],
+        [
+          1,
+          308,
+          430
+        ],
+        [
+          2,
+          444,
+          1001
+        ],
+        [
+          3,
+          1137,
+          1286
+        ],
+        [
+          4,
+          1300,
+          1708
+        ],
+        [
+          5,
+          1721,
+          2360
+        ]
+      ]
+    },
+    "p18/scene-2": {
+      "text": "When I opened the door, I saw a cat.",
+      "path": "assets/group-five-audio/p18/scene-2.mp3",
+      "audio_sha256": "0d1e38f8e7a6bbef12ee6fe1aa1d9d17fa685a69bf0e45696986c01c4aa1e711",
+      "duration_ms": 3384,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          295
+        ],
+        [
+          1,
+          308,
+          430
+        ],
+        [
+          2,
+          444,
+          729
+        ],
+        [
+          3,
+          743,
+          838
+        ],
+        [
+          4,
+          852,
+          1273
+        ],
+        [
+          5,
+          1395,
+          1477
+        ],
+        [
+          6,
+          1490,
+          1735
+        ],
+        [
+          7,
+          1748,
+          1830
+        ],
+        [
+          8,
+          1843,
+          2428
+        ]
+      ]
+    },
+    "p18/scene-3": {
+      "text": "When I finished, I went outside.",
+      "path": "assets/group-five-audio/p18/scene-3.mp3",
+      "audio_sha256": "f8ba9eba1a698e4a9f44c502912d2c22e8d6f1fed94240380b58fd51b2d9b0e7",
+      "duration_ms": 3024,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          295
+        ],
+        [
+          1,
+          308,
+          390
+        ],
+        [
+          2,
+          403,
+          974
+        ],
+        [
+          3,
+          1110,
+          1164
+        ],
+        [
+          4,
+          1178,
+          1409
+        ],
+        [
+          5,
+          1422,
+          2074
+        ]
+      ]
+    },
+    "p18/scene-4": {
+      "text": "When I heard the news, I called my friend.",
+      "path": "assets/group-five-audio/p18/scene-4.mp3",
+      "audio_sha256": "3ec08759762cc493c81d9fce9bf3844b1dc74b7668c2f4437fd2273a6fdf33ca",
+      "duration_ms": 3480,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          295
+        ],
+        [
+          1,
+          308,
+          390
+        ],
+        [
+          2,
+          403,
+          621
+        ],
+        [
+          3,
+          634,
+          729
+        ],
+        [
+          4,
+          743,
+          1218
+        ],
+        [
+          5,
+          1395,
+          1490
+        ],
+        [
+          6,
+          1504,
+          1776
+        ],
+        [
+          7,
+          1789,
+          1925
+        ],
+        [
+          8,
+          1939,
+          2523
+        ]
+      ]
+    },
+    "p18/story-1": {
+      "text": "Lina finished her homework.",
+      "path": "assets/group-five-audio/p18/story-1.mp3",
+      "audio_sha256": "6c19ad5a283bd89a634d7872f190e4d55ab76518b07f63839222f5a3ed3e582c",
+      "duration_ms": 2688,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          498
+        ],
+        [
+          1,
+          512,
+          920
+        ],
+        [
+          2,
+          933,
+          1055
+        ],
+        [
+          3,
+          1069,
+          1735
+        ]
+      ]
+    },
+    "p18/story-2": {
+      "text": "When she finished, she went outside.",
+      "path": "assets/group-five-audio/p18/story-2.mp3",
+      "audio_sha256": "edc32309068fc54b07503c2e0628e3ba1a749c95961c7575aa6a8f88be6e1a46",
+      "duration_ms": 3264,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          295
+        ],
+        [
+          1,
+          308,
+          458
+        ],
+        [
+          2,
+          471,
+          1055
+        ],
+        [
+          3,
+          1164,
+          1341
+        ],
+        [
+          4,
+          1354,
+          1599
+        ],
+        [
+          5,
+          1612,
+          2305
+        ]
+      ]
+    },
+    "p18/story-3": {
+      "text": "She played with her brother.",
+      "path": "assets/group-five-audio/p18/story-3.mp3",
+      "audio_sha256": "f821ff3d065a9f06cd95d6df7dee3ad3d5b24854288c4ac305ddef66e511f402",
+      "duration_ms": 2448,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          335
+        ],
+        [
+          1,
+          349,
+          648
+        ],
+        [
+          2,
+          661,
+          797
+        ],
+        [
+          3,
+          811,
+          947
+        ],
+        [
+          4,
+          960,
+          1504
+        ]
+      ]
+    },
+    "p18/dialogue-1": {
+      "text": "What did you do when you arrived?",
+      "path": "assets/group-five-audio/p18/dialogue-1.mp3",
+      "audio_sha256": "5ca5993cf57f79b0f11bb75b0e4fa27f54d98afb809e426792947497ea55761c",
+      "duration_ms": 2664,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          335
+        ],
+        [
+          1,
+          349,
+          498
+        ],
+        [
+          2,
+          512,
+          621
+        ],
+        [
+          3,
+          634,
+          811
+        ],
+        [
+          4,
+          824,
+          974
+        ],
+        [
+          5,
+          988,
+          1110
+        ],
+        [
+          6,
+          1123,
+          1721
+        ]
+      ]
+    },
+    "p18/dialogue-2": {
+      "text": "I called my family.",
+      "path": "assets/group-five-audio/p18/dialogue-2.mp3",
+      "audio_sha256": "b2e99fd2e6bf7e2d1b0a2f5640ecccc48a582ee63c01247676d0ef4dad042d4d",
+      "duration_ms": 2352,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          267
+        ],
+        [
+          1,
+          281,
+          566
+        ],
+        [
+          2,
+          580,
+          716
+        ],
+        [
+          3,
+          729,
+          1409
+        ]
+      ]
+    },
+    "chapters/c01/line-1": {
+      "text": "Yesterday, I went to school early.",
+      "path": "assets/group-five-audio/chapters/c01/line-1.mp3",
+      "audio_sha256": "39668720bfdb5f35abbf21bbf8f9e0dfbb099bf42bfa33b565612b83b59fc8f1",
+      "duration_ms": 3168,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          824
+        ],
+        [
+          1,
+          960,
+          1042
+        ],
+        [
+          2,
+          1055,
+          1246
+        ],
+        [
+          3,
+          1259,
+          1341
+        ],
+        [
+          4,
+          1354,
+          1680
+        ],
+        [
+          5,
+          1694,
+          2210
+        ]
+      ]
+    },
+    "chapters/c01/line-2": {
+      "text": "I met my new teacher at the door.",
+      "path": "assets/group-five-audio/chapters/c01/line-2.mp3",
+      "audio_sha256": "4404d2c80612894189b0dd18f6c58ca6e397703577c7df7275ef054be110c3ce",
+      "duration_ms": 2856,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          227
+        ],
+        [
+          1,
+          240,
+          444
+        ],
+        [
+          2,
+          458,
+          580
+        ],
+        [
+          3,
+          593,
+          797
+        ],
+        [
+          4,
+          811,
+          1191
+        ],
+        [
+          5,
+          1205,
+          1314
+        ],
+        [
+          6,
+          1327,
+          1422
+        ],
+        [
+          7,
+          1436,
+          1898
+        ]
+      ]
+    },
+    "chapters/c01/line-3": {
+      "text": "We started reading a short story.",
+      "path": "assets/group-five-audio/chapters/c01/line-3.mp3",
+      "audio_sha256": "a87c2b95202a8345711a01f1cf0f8c21063445134b03a1bcd859dffe832a9d1f",
+      "duration_ms": 2904,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          281
+        ],
+        [
+          1,
+          295,
+          675
+        ],
+        [
+          2,
+          689,
+          1001
+        ],
+        [
+          3,
+          1015,
+          1055
+        ],
+        [
+          4,
+          1069,
+          1395
+        ],
+        [
+          5,
+          1409,
+          1966
+        ]
+      ]
+    },
+    "chapters/c01/line-4": {
+      "text": "I didn't understand one word.",
+      "path": "assets/group-five-audio/chapters/c01/line-4.mp3",
+      "audio_sha256": "e6d7140f18e7bd62d9ce4ae06e2cf9d37f8dc9a65324d504b613ac94ca6157d6",
+      "duration_ms": 2760,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          240
+        ],
+        [
+          1,
+          254,
+          526
+        ],
+        [
+          2,
+          539,
+          1123
+        ],
+        [
+          3,
+          1137,
+          1368
+        ],
+        [
+          4,
+          1382,
+          1803
+        ]
+      ]
+    },
+    "chapters/c01/line-5": {
+      "text": "The teacher explained it, and I smiled.",
+      "path": "assets/group-five-audio/chapters/c01/line-5.mp3",
+      "audio_sha256": "945d2bc1e35a487c29c991780b5cb5da89bad78af16043c9cb8add70fe351720",
+      "duration_ms": 3408,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          254
+        ],
+        [
+          1,
+          267,
+          607
+        ],
+        [
+          2,
+          621,
+          1137
+        ],
+        [
+          3,
+          1151,
+          1354
+        ],
+        [
+          4,
+          1558,
+          1680
+        ],
+        [
+          5,
+          1694,
+          1789
+        ],
+        [
+          6,
+          1803,
+          2468
+        ]
+      ]
+    },
+    "chapters/c01/line-6": {
+      "text": "When I got home, I told my family.",
+      "path": "assets/group-five-audio/chapters/c01/line-6.mp3",
+      "audio_sha256": "48ce6f9fb8a8a7a8bd0141d53d2671eb08faffb45aa36cd1e83a88efb024646b",
+      "duration_ms": 3336,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          295
+        ],
+        [
+          1,
+          308,
+          390
+        ],
+        [
+          2,
+          403,
+          607
+        ],
+        [
+          3,
+          621,
+          1042
+        ],
+        [
+          4,
+          1218,
+          1273
+        ],
+        [
+          5,
+          1286,
+          1545
+        ],
+        [
+          6,
+          1558,
+          1694
+        ],
+        [
+          7,
+          1708,
+          2387
+        ]
+      ]
+    },
+    "chapters/c02/line-1": {
+      "text": "Omar had a blue notebook.",
+      "path": "assets/group-five-audio/chapters/c02/line-1.mp3",
+      "audio_sha256": "860e0c4887f9c65a8da30707a98a94191f5286ecda9f64c4c27378415538ac8e",
+      "duration_ms": 2592,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          485
+        ],
+        [
+          1,
+          498,
+          661
+        ],
+        [
+          2,
+          675,
+          729
+        ],
+        [
+          3,
+          743,
+          960
+        ],
+        [
+          4,
+          974,
+          1640
+        ]
+      ]
+    },
+    "chapters/c02/line-2": {
+      "text": "He forgot to put it in his bag.",
+      "path": "assets/group-five-audio/chapters/c02/line-2.mp3",
+      "audio_sha256": "628fe46c7de9c37a06f0acca137b64c8608ae4f1a01c633b18cfab9336497091",
+      "duration_ms": 2904,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          281
+        ],
+        [
+          1,
+          295,
+          743
+        ],
+        [
+          2,
+          757,
+          852
+        ],
+        [
+          3,
+          865,
+          1055
+        ],
+        [
+          4,
+          1069,
+          1164
+        ],
+        [
+          5,
+          1178,
+          1273
+        ],
+        [
+          6,
+          1286,
+          1449
+        ],
+        [
+          7,
+          1463,
+          1966
+        ]
+      ]
+    },
+    "chapters/c02/line-3": {
+      "text": "When he arrived at school, he looked everywhere.",
+      "path": "assets/group-five-audio/chapters/c02/line-3.mp3",
+      "audio_sha256": "338c36a7192641803046c38ee848c6ebd99719df5edba2c55fd9df4f745125d3",
+      "duration_ms": 3672,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          295
+        ],
+        [
+          1,
+          308,
+          417
+        ],
+        [
+          2,
+          430,
+          811
+        ],
+        [
+          3,
+          824,
+          933
+        ],
+        [
+          4,
+          947,
+          1477
+        ],
+        [
+          5,
+          1626,
+          1735
+        ],
+        [
+          6,
+          1748,
+          2034
+        ],
+        [
+          7,
+          2047,
+          2727
+        ]
+      ]
+    },
+    "chapters/c02/line-4": {
+      "text": "His friend asked, 'Did you see it at home?'",
+      "path": "assets/group-five-audio/chapters/c02/line-4.mp3",
+      "audio_sha256": "b4fe6f49d5fd4118ea9116e8783b94e7d6e7def8506120c78d969eba9f14e7f7",
+      "duration_ms": 3408,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          362
+        ],
+        [
+          1,
+          376,
+          661
+        ],
+        [
+          2,
+          675,
+          1191
+        ],
+        [
+          3,
+          1300,
+          1449
+        ],
+        [
+          4,
+          1463,
+          1572
+        ],
+        [
+          5,
+          1585,
+          1803
+        ],
+        [
+          6,
+          1816,
+          1911
+        ],
+        [
+          7,
+          1925,
+          2020
+        ],
+        [
+          8,
+          2034,
+          2455
+        ]
+      ]
+    },
+    "chapters/c02/line-5": {
+      "text": "Omar remembered that he left it on his desk.",
+      "path": "assets/group-five-audio/chapters/c02/line-5.mp3",
+      "audio_sha256": "1f8f1c9b864b54be982df6a773b257c7e4cada375bcc25734d58fc6f7a38e565",
+      "duration_ms": 3600,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          485
+        ],
+        [
+          1,
+          498,
+          1001
+        ],
+        [
+          2,
+          1015,
+          1151
+        ],
+        [
+          3,
+          1164,
+          1273
+        ],
+        [
+          4,
+          1286,
+          1599
+        ],
+        [
+          5,
+          1612,
+          1708
+        ],
+        [
+          6,
+          1721,
+          1857
+        ],
+        [
+          7,
+          1871,
+          2047
+        ],
+        [
+          8,
+          2061,
+          2659
+        ]
+      ]
+    },
+    "chapters/c02/line-6": {
+      "text": "He decided to bring it the next day.",
+      "path": "assets/group-five-audio/chapters/c02/line-6.mp3",
+      "audio_sha256": "1d7ba97474d5d44a0cf839212025ab01542713c36940d1f1496150a7e707d64a",
+      "duration_ms": 3048,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          281
+        ],
+        [
+          1,
+          295,
+          784
+        ],
+        [
+          2,
+          797,
+          892
+        ],
+        [
+          3,
+          906,
+          1164
+        ],
+        [
+          4,
+          1178,
+          1259
+        ],
+        [
+          5,
+          1273,
+          1341
+        ],
+        [
+          6,
+          1354,
+          1708
+        ],
+        [
+          7,
+          1721,
+          2102
+        ]
+      ]
+    },
+    "chapters/c03/line-1": {
+      "text": "Last weekend, we went to the park.",
+      "path": "assets/group-five-audio/chapters/c03/line-1.mp3",
+      "audio_sha256": "f51d0be39d2c4aaeaf399712766eb3bdd76fe150a97d581083a5c69b1dc3b8a2",
+      "duration_ms": 3264,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          498
+        ],
+        [
+          1,
+          512,
+          1015
+        ],
+        [
+          2,
+          1151,
+          1273
+        ],
+        [
+          3,
+          1286,
+          1490
+        ],
+        [
+          4,
+          1504,
+          1585
+        ],
+        [
+          5,
+          1599,
+          1694
+        ],
+        [
+          6,
+          1708,
+          2305
+        ]
+      ]
+    },
+    "chapters/c03/line-2": {
+      "text": "I saw a bird beside a small tree.",
+      "path": "assets/group-five-audio/chapters/c03/line-2.mp3",
+      "audio_sha256": "eb28f3f74625d30de8f94fe2a07fd15a1e3a6b714152b20db5941d23357254f0",
+      "duration_ms": 3096,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          267
+        ],
+        [
+          1,
+          281,
+          485
+        ],
+        [
+          2,
+          498,
+          566
+        ],
+        [
+          3,
+          580,
+          865
+        ],
+        [
+          4,
+          879,
+          1246
+        ],
+        [
+          5,
+          1259,
+          1314
+        ],
+        [
+          6,
+          1327,
+          1653
+        ],
+        [
+          7,
+          1667,
+          2142
+        ]
+      ]
+    },
+    "chapters/c03/line-3": {
+      "text": "While I was taking a photo, it started to rain.",
+      "path": "assets/group-five-audio/chapters/c03/line-3.mp3",
+      "audio_sha256": "5ac30153b80a4fac42b17d2d3bb6c6fb34030dee9f5dc8d193cc97377f5d5947",
+      "duration_ms": 3864,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          308
+        ],
+        [
+          1,
+          322,
+          403
+        ],
+        [
+          2,
+          417,
+          593
+        ],
+        [
+          3,
+          607,
+          1001
+        ],
+        [
+          4,
+          1015,
+          1069
+        ],
+        [
+          5,
+          1083,
+          1640
+        ],
+        [
+          6,
+          1789,
+          1911
+        ],
+        [
+          7,
+          1925,
+          2319
+        ],
+        [
+          8,
+          2333,
+          2455
+        ],
+        [
+          9,
+          2468,
+          2917
+        ]
+      ]
+    },
+    "chapters/c03/line-4": {
+      "text": "We ran to a little shelter.",
+      "path": "assets/group-five-audio/chapters/c03/line-4.mp3",
+      "audio_sha256": "c9ab412e6bb606ffb6d4028a4521c5d837ad89ac3cbf3c7f044845c775821e9e",
+      "duration_ms": 2664,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          281
+        ],
+        [
+          1,
+          295,
+          553
+        ],
+        [
+          2,
+          566,
+          689
+        ],
+        [
+          3,
+          702,
+          756
+        ],
+        [
+          4,
+          770,
+          1055
+        ],
+        [
+          5,
+          1069,
+          1721
+        ]
+      ]
+    },
+    "chapters/c03/line-5": {
+      "text": "I wasn't upset, because the rain was gentle.",
+      "path": "assets/group-five-audio/chapters/c03/line-5.mp3",
+      "audio_sha256": "fb82c93c6931f10f5380dfa3c010f0ead7a2458e6f160b73d133e9151c478ee0",
+      "duration_ms": 3816,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          240
+        ],
+        [
+          1,
+          254,
+          634
+        ],
+        [
+          2,
+          648,
+          1191
+        ],
+        [
+          3,
+          1354,
+          1694
+        ],
+        [
+          4,
+          1708,
+          1816
+        ],
+        [
+          5,
+          1830,
+          2088
+        ],
+        [
+          6,
+          2102,
+          2278
+        ],
+        [
+          7,
+          2292,
+          2876
+        ]
+      ]
+    },
+    "chapters/c03/line-6": {
+      "text": "That afternoon, we made a wonderful memory.",
+      "path": "assets/group-five-audio/chapters/c03/line-6.mp3",
+      "audio_sha256": "509134d72196503283a5b1a99c35709b46f64fdeaa353aadc2c075deb7c137ca",
+      "duration_ms": 3672,
+      "language": "en",
+      "voice": "en-US-JennyNeural",
+      "timing_source": "WordBoundary from the same Edge Neural TTS MP3",
+      "small_overlap_repairs": [],
+      "cues": [
+        [
+          0,
+          104,
+          349
+        ],
+        [
+          1,
+          362,
+          1001
+        ],
+        [
+          2,
+          1178,
+          1286
+        ],
+        [
+          3,
+          1300,
+          1490
+        ],
+        [
+          4,
+          1504,
+          1558
+        ],
+        [
+          5,
+          1572,
+          2088
+        ],
+        [
+          6,
+          2102,
+          2713
+        ]
+      ]
+    }
+  },
+  "verified_count": 197
 }
