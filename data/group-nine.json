@@ -265,8 +265,8 @@
         },
         {
           "id": 2,
-          "en": "The road was blocked. That's why we turned back.",
-          "ar": "كان الطريق مغلقًا. لهذا السبب عدنا.",
+          "en": "A fallen tree blocked the road. That's why we turned back.",
+          "ar": "سدت شجرة ساقطة الطريق. لهذا السبب عدنا.",
           "context": "طريق مغلق",
           "icon": "🚧",
           "photo": null
