@@ -87,6 +87,9 @@ jobs:
           python scripts/audit_ten_groups.py --require-ten-audio
           cp index.html *.js styles.css manifest.webmanifest _site/
           cp -r data assets _site/
+          mkdir -p _site/nasaq
+          cp nasaq/index.html _site/nasaq/
+          cp -r nasaq/dist _site/nasaq/
           echo "## Pattern Universe preview" >> "$GITHUB_STEP_SUMMARY"
           echo "3 original deep lessons, Groups One through Ten: 180 authored patterns, 720 scenes and three deep original journeys. Group Ten has 198 verified MP3s and measured word cues. All ten linked to navigation." >> "$GITHUB_STEP_SUMMARY"
           echo "Kokoro setup: ${{ steps.setup_tts.outcome }}" >> "$GITHUB_STEP_SUMMARY"
@@ -127,3 +130,4 @@ jobs:
         if: steps.pages.outcome == 'success'
         id: deployment
         uses: actions/deploy-pages@v4
+

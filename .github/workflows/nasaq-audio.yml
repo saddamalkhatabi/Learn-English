@@ -1,0 +1,71 @@
+name: Nasaq snapshot, measured audio and archive
+on:
+  push:
+    branches: [main]
+    paths: ['nasaq/**', 'scripts/check_nasaq_snapshot.py', '.github/workflows/nasaq-audio.yml']
+  workflow_dispatch:
+    inputs:
+      regenerate:
+        description: 'Render missing or changed recordings with Kokoro and measured alignment'
+        type: boolean
+        default: false
+permissions:
+  contents: read
+jobs:
+  verify-and-archive:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Verify exact Sites source, all voice hashes, timings and downloadable archive
+        run: python scripts/check_nasaq_snapshot.py
+      - name: Verify curriculum and sequencer
+        run: npm run nasaq:check
+      - uses: actions/upload-artifact@v4
+        with:
+          name: nasaq-full-verified-production
+          path: |
+            nasaq/dist/downloads/nasaq-media-library-20261102.zip
+            nasaq/SITE-SNAPSHOT.json
+            nasaq/dist/generation-index.json
+            nasaq/dist/pilot-audit.json
+            nasaq/dist/qa-report.json
+          retention-days: 90
+  render-changed-audio:
+    if: github.event_name == 'workflow_dispatch' && inputs.regenerate
+    needs: verify-and-archive
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    defaults:
+      run:
+        working-directory: nasaq
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg espeak-ng
+      - run: pip install torch==2.6.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cpu
+      - run: pip install -r scripts/audio-requirements.txt
+      - run: python scripts/produce_audio.py
+      - run: python scripts/produce_audio.py --manifest dist/supplement.json
+      - run: node --test tests/*.cjs
+      - run: python scripts/audit_pilot.py --require-complete
+      - run: python scripts/archive_production.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: nasaq-regenerated-production
+          path: |
+            nasaq/dist/downloads/nasaq-media-library-20261102.zip
+            nasaq/dist/generation-index.json
+            nasaq/dist/pilot-audit.json
+          retention-days: 90
+

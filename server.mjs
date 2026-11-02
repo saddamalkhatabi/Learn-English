@@ -12,6 +12,7 @@ const types = {
   ".json": "application/json; charset=utf-8",
   ".webmanifest": "application/manifest+json; charset=utf-8",
   ".mp3": "audio/mpeg",
+  ".zip": "application/zip",
   ".wav": "audio/wav",
   ".png": "image/png",
   ".jpg": "image/jpeg",
@@ -25,8 +26,8 @@ const topFiles = new Set(["/index.html", "/app.js", "/styles.css", "/manifest.we
 function safePath(requestUrl) {
   const pathname = decodeURIComponent(new URL(requestUrl, "http://local").pathname);
   if (pathname.includes("\0") || pathname.includes("\\")) return null;
-  const p = pathname === "/" ? "/index.html" : pathname;
-  if (!topFiles.has(p) && !p.startsWith("/assets/") && !p.startsWith("/data/")) return null;
+  const p = pathname === "/" ? "/index.html" : pathname === "/nasaq/" ? "/nasaq/index.html" : pathname === "/nasaq/dist/" ? "/nasaq/dist/index.html" : pathname;
+  if (!topFiles.has(p) && !p.startsWith("/assets/") && !p.startsWith("/data/") && p !== "/nasaq/index.html" && !p.startsWith("/nasaq/dist/")) return null;
   const full = resolve(root, "." + p);
   const rel = relative(root, full);
   if (!rel || rel.startsWith(".." + sep) || rel === "..") return null;
@@ -40,6 +41,10 @@ createServer(async (req, res) => {
   }
   if (!["GET", "HEAD"].includes(req.method || "")) {
     res.writeHead(405, {allow: "GET, HEAD"}); res.end(); return;
+  }
+  const canonical = new URL(req.url || "/", "http://local").pathname;
+  if (canonical === "/nasaq" || canonical === "/nasaq/dist") {
+    res.writeHead(302, {location: canonical + "/"}); res.end(); return;
   }
   let path;
   try { path = safePath(req.url || "/"); } catch { path = null; }
@@ -75,3 +80,4 @@ createServer(async (req, res) => {
     res.end("Not found");
   }
 }).listen(port, "0.0.0.0", () => console.log("Learn English preview listening on " + port));
+

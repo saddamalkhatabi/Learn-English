@@ -1,0 +1,1900 @@
+{
+  "schema": 1,
+  "generated_at": "2026-11-02T00:29:38.268851+00:00",
+  "patterns": 13,
+  "sentences": 156,
+  "unique_sentences": 156,
+  "recordings_verified": 312,
+  "word_cues_verified": 2042,
+  "visual_scenes_reviewed": 156,
+  "audio_bytes": 3973992,
+  "structural_errors": [],
+  "review_notes": [
+    "have-11/male: ASR mismatch needs listening review",
+    "have-11/female: ASR mismatch needs listening review",
+    "have-12/male: ASR mismatch needs listening review",
+    "have-12/female: ASR mismatch needs listening review",
+    "this-05/male: ASR mismatch needs listening review",
+    "this-07/female: ASR mismatch needs listening review",
+    "feel-06/male: ASR mismatch needs listening review",
+    "feel-06/female: ASR mismatch needs listening review"
+  ],
+  "ctc_transcripts": [
+    {
+      "id": "want-01/male",
+      "expected": "I want to learn English.",
+      "recognized": "I WANT TO LEARN ENGLISH",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "want-01/female",
+      "expected": "I want to learn English.",
+      "recognized": "I WANT TO LEARN ENGLISH",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "want-02/male",
+      "expected": "I want to go home.",
+      "recognized": "I WANT TO GO HOME",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "want-02/female",
+      "expected": "I want to go home.",
+      "recognized": "I WANT TO GO HOME",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "want-03/male",
+      "expected": "I want to buy a new phone.",
+      "recognized": "I WANT TO BUY A NEW PHONE",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "want-03/female",
+      "expected": "I want to buy a new phone.",
+      "recognized": "I WANT TO BUY A NEW PHONE",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "want-04/male",
+      "expected": "I want to visit my friend.",
+      "recognized": "I WANT A VISIT MY FRIEND",
+      "word_error_rate": 0.167
+    },
+    {
+      "id": "want-04/female",
+      "expected": "I want to visit my friend.",
+      "recognized": "I WANT A VISIT MY FRIEND",
+      "word_error_rate": 0.167
+    },
+    {
+      "id": "want-05/male",
+      "expected": "I want to ask you something.",
+      "recognized": "I WANT TO ASK YOU SOMETHING",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "want-05/female",
+      "expected": "I want to ask you something.",
+      "recognized": "I WANT TO ASK YOU SOMETHING",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "want-06/male",
+      "expected": "I want to improve my pronunciation.",
+      "recognized": "I WANT TO IMPROVE MY PRONUNCIATION",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "want-06/female",
+      "expected": "I want to improve my pronunciation.",
+      "recognized": "I WANT TO IMPROVE MY PRONUNCIATION",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "want-07/male",
+      "expected": "I want to understand this lesson.",
+      "recognized": "I WANT TO UNDERSTAND THIS LESSON",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "want-07/female",
+      "expected": "I want to understand this lesson.",
+      "recognized": "I WANT TO UNDERSTAND THIS LESSON",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "want-08/male",
+      "expected": "I want to travel next year.",
+      "recognized": "I WANT A TRAVEL NEXT YEAR",
+      "word_error_rate": 0.167
+    },
+    {
+      "id": "want-08/female",
+      "expected": "I want to travel next year.",
+      "recognized": "I WANT A TRAVEL NEXT YEAR",
+      "word_error_rate": 0.167
+    },
+    {
+      "id": "want-09/male",
+      "expected": "I want to make a difference.",
+      "recognized": "I WANT TO MAKE A DIFFERENCE",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "want-09/female",
+      "expected": "I want to make a difference.",
+      "recognized": "I WANT TO MAKE A DIFFERENCE",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "want-10/male",
+      "expected": "I want to become more confident.",
+      "recognized": "I WANT TO BECOME MORE CONFIDENT",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "want-10/female",
+      "expected": "I want to become more confident.",
+      "recognized": "I WANT TO BECOME MORE CONFIDENT",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "want-11/male",
+      "expected": "I want to know what happened.",
+      "recognized": "I WANT TO KNOW WHAT HAPPENED",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "want-11/female",
+      "expected": "I want to know what happened.",
+      "recognized": "I WANT TO KNOW WHAT HAPPENED",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "want-12/male",
+      "expected": "I want to spend more time with my family.",
+      "recognized": "I WANT TO SPEND MORE TIME WITH MY FAMILY",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "want-12/female",
+      "expected": "I want to spend more time with my family.",
+      "recognized": "I WANT TO SPEND MORE TIME WITH MY FAMILY",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "need-01/male",
+      "expected": "I need to drink some water.",
+      "recognized": "I NEED TO DRINK SOME WATER",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "need-01/female",
+      "expected": "I need to drink some water.",
+      "recognized": "I NEED TO DRINK SOME WATER",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "need-02/male",
+      "expected": "I need to catch the bus.",
+      "recognized": "I NEED TO CATCH THE BUS",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "need-02/female",
+      "expected": "I need to catch the bus.",
+      "recognized": "I NEED TO CATCH THE BUS",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "need-03/male",
+      "expected": "I need to finish this report.",
+      "recognized": "I NEED TO FINISH THIS REPORT",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "need-03/female",
+      "expected": "I need to finish this report.",
+      "recognized": "I NEED TO FINISH THIS REPORT",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "need-04/male",
+      "expected": "I need to see a doctor.",
+      "recognized": "I NEED TO SEE A DOCTOR",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "need-04/female",
+      "expected": "I need to see a doctor.",
+      "recognized": "I NEED TO SEE A DOCTOR",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "need-05/male",
+      "expected": "I need to charge my phone.",
+      "recognized": "I NEED TO CHARGE MY PHONE",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "need-05/female",
+      "expected": "I need to charge my phone.",
+      "recognized": "I NEED TO CHARGE MY PHONE",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "need-06/male",
+      "expected": "I need to get some fuel.",
+      "recognized": "I NEED TO GET SOME FUEL",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "need-06/female",
+      "expected": "I need to get some fuel.",
+      "recognized": "I NEED TO GET SOME FUEL",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "need-07/male",
+      "expected": "I need to buy some bread.",
+      "recognized": "I NEED TO BUY SOME BREAD",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "need-07/female",
+      "expected": "I need to buy some bread.",
+      "recognized": "I NEED TO BUY SOME BREAD",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "need-08/male",
+      "expected": "I need to ask for help.",
+      "recognized": "I NEED TO ASK FOR HELP",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "need-08/female",
+      "expected": "I need to ask for help.",
+      "recognized": "I NEED TO ASK FOR HELP",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "need-09/male",
+      "expected": "I need to find my hotel.",
+      "recognized": "I NEED TO FIND MY HOTEL",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "need-09/female",
+      "expected": "I need to find my hotel.",
+      "recognized": "I NEED TO FIND MY HOTEL",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "need-10/male",
+      "expected": "I need to take a break.",
+      "recognized": "I NEED TO TAKE A BREAK",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "need-10/female",
+      "expected": "I need to take a break.",
+      "recognized": "I NEED TO TAKE A BREAK",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "need-11/male",
+      "expected": "I need to fix the kitchen tap.",
+      "recognized": "I NEED TO FIX THE KITCHEN TAP",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "need-11/female",
+      "expected": "I need to fix the kitchen tap.",
+      "recognized": "I NEED TO FIX THE KITCHEN TAP",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "need-12/male",
+      "expected": "I need to talk to my team before we decide.",
+      "recognized": "I NEED TO TALK TO MY TEAM BEFORE WE DECIDE",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "need-12/female",
+      "expected": "I need to talk to my team before we decide.",
+      "recognized": "I NEED TO TALK TO MY TEAM BEFORE WE DECIDE",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "have-01/male",
+      "expected": "I have to finish my work.",
+      "recognized": "I HAVE TO FINISH MY WORK",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "have-01/female",
+      "expected": "I have to finish my work.",
+      "recognized": "I HAVE TO FINISH MY WORK",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "have-02/male",
+      "expected": "I have to catch the bus.",
+      "recognized": "I HAVE TO CATCH THE BUS",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "have-02/female",
+      "expected": "I have to catch the bus.",
+      "recognized": "I HAVE TO CATCH THE BUS",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "have-03/male",
+      "expected": "I have to leave now.",
+      "recognized": "I HAVE TO LEAVE NOW",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "have-03/female",
+      "expected": "I have to leave now.",
+      "recognized": "I HAVE TO LEAVE NOW",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "have-04/male",
+      "expected": "I have to study for my exam.",
+      "recognized": "I HAVE TO STUDY FOR MY EXAM",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "have-04/female",
+      "expected": "I have to study for my exam.",
+      "recognized": "I HAVE TO STUDY FOR MY EXAM",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "have-05/male",
+      "expected": "I have to pick up my child from school.",
+      "recognized": "I HAVE TO PICK UP MY CHILD FROM SCHOOL",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "have-05/female",
+      "expected": "I have to pick up my child from school.",
+      "recognized": "I HAVE TO PICK UP MY CHILD FROM SCHOOL",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "have-06/male",
+      "expected": "I have to pay the electricity bill.",
+      "recognized": "I HAVE TO PAY THE ELECTRICITY BILL",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "have-06/female",
+      "expected": "I have to pay the electricity bill.",
+      "recognized": "I HAVE TO PAY THE ELECTRICITY BILL",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "have-07/male",
+      "expected": "I have to clean the kitchen.",
+      "recognized": "I HAVE TO CLEAN THE KITCHEN",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "have-07/female",
+      "expected": "I have to clean the kitchen.",
+      "recognized": "I HAVE TO CLEAN THE KITCHEN",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "have-08/male",
+      "expected": "I have to show my passport.",
+      "recognized": "I HAVE TO SHOW MY PASSPORT",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "have-08/female",
+      "expected": "I have to show my passport.",
+      "recognized": "I HAVE TO SHOW MY PASSPORT",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "have-09/male",
+      "expected": "I have to wait for my appointment.",
+      "recognized": "I HAVE TO WAIT FOR MY APPOINTMENT",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "have-09/female",
+      "expected": "I have to wait for my appointment.",
+      "recognized": "I HAVE TO WAIT FOR MY APPOINTMENT",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "have-10/male",
+      "expected": "I have to wear a helmet on this site.",
+      "recognized": "I HAVE TO WEAR A HELMET ON THIS SITE",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "have-10/female",
+      "expected": "I have to wear a helmet on this site.",
+      "recognized": "I HAVE TO WEAR A HELMET ON THIS SITE",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "have-11/male",
+      "expected": "I have to return this book today.",
+      "recognized": "I HAVE TO RETURN THIS BOOK TO DAY",
+      "word_error_rate": 0.286
+    },
+    {
+      "id": "have-11/female",
+      "expected": "I have to return this book today.",
+      "recognized": "I HAVE TO RETURN THIS BOOK TO DAY",
+      "word_error_rate": 0.286
+    },
+    {
+      "id": "have-12/male",
+      "expected": "I have to get up early tomorrow.",
+      "recognized": "I HAVE TO GET UP EARLY TO MORROW",
+      "word_error_rate": 0.286
+    },
+    {
+      "id": "have-12/female",
+      "expected": "I have to get up early tomorrow.",
+      "recognized": "I HAVE TO GET UP EARLY TO MORROW",
+      "word_error_rate": 0.286
+    },
+    {
+      "id": "like-01/male",
+      "expected": "I'd like to book a room.",
+      "recognized": "I'D LIKE TO BOOK A ROOM",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "like-01/female",
+      "expected": "I'd like to book a room.",
+      "recognized": "I'D LIKE TO BOOK A ROOM",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "like-02/male",
+      "expected": "I'd like to order lunch.",
+      "recognized": "I'D LIKE TO ORDER LUNCH",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "like-02/female",
+      "expected": "I'd like to order lunch.",
+      "recognized": "I'D LIKE TO ORDER LUNCH",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "like-03/male",
+      "expected": "I'd like to ask a question.",
+      "recognized": "I'D LIKE TO ASK A QUESTION",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "like-03/female",
+      "expected": "I'd like to ask a question.",
+      "recognized": "I'D LIKE TO ASK A QUESTION",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "like-04/male",
+      "expected": "I'd like to try this jacket on.",
+      "recognized": "I'D LIKE TO TRY THIS JACKET ON",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "like-04/female",
+      "expected": "I'd like to try this jacket on.",
+      "recognized": "I'D LIKE TO TRY THIS JACKET ON",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "like-05/male",
+      "expected": "I'd like to change my appointment.",
+      "recognized": "I'D LIKE TO CHANGE MY APPOINTMENT",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "like-05/female",
+      "expected": "I'd like to change my appointment.",
+      "recognized": "I'D LIKE TO CHANGE MY APPOINTMENT",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "like-06/male",
+      "expected": "I'd like to open a bank account.",
+      "recognized": "I'D LIKE TO OPEN A BANK ACCOUNT",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "like-06/female",
+      "expected": "I'd like to open a bank account.",
+      "recognized": "I'D LIKE TO OPEN A BANK ACCOUNT",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "like-07/male",
+      "expected": "I'd like to speak to the manager.",
+      "recognized": "I'D LIKE TO SPEAK TO THE MANAGER",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "like-07/female",
+      "expected": "I'd like to speak to the manager.",
+      "recognized": "I'D LIKE TO SPEAK TO THE MANAGER",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "like-08/male",
+      "expected": "I'd like to learn how to cook.",
+      "recognized": "I'D LIKE TO LEARN HOW TO COOK",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "like-08/female",
+      "expected": "I'd like to learn how to cook.",
+      "recognized": "I'D LIKE TO LEARN HOW TO COOK",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "like-09/male",
+      "expected": "I'd like to invite you to dinner.",
+      "recognized": "I'D LIKE TO INVITE YOU TO DINNER",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "like-09/female",
+      "expected": "I'd like to invite you to dinner.",
+      "recognized": "I'D LIKE TO INVITE YOU TO DINNER",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "like-10/male",
+      "expected": "I'd like to know more about this course.",
+      "recognized": "I'D LIKE TO KNOW MORE ABOUT THIS COURSE",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "like-10/female",
+      "expected": "I'd like to know more about this course.",
+      "recognized": "I'D LIKE TO KNOW MORE ABOUT THIS COURSE",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "like-11/male",
+      "expected": "I'd like to help with the project.",
+      "recognized": "I'D LIKE TO HELP WITH THE PROJECT",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "like-11/female",
+      "expected": "I'd like to help with the project.",
+      "recognized": "I'D LIKE TO HELP WITH THE PROJECT",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "like-12/male",
+      "expected": "I'd like to spend the weekend by the sea.",
+      "recognized": "I'D LIKE TO SPEND THE WEEK END BY THE SEA",
+      "word_error_rate": 0.222
+    },
+    {
+      "id": "like-12/female",
+      "expected": "I'd like to spend the weekend by the sea.",
+      "recognized": "I'D LIKE TO SPEND THE WEEK END BY THE SEA",
+      "word_error_rate": 0.222
+    },
+    {
+      "id": "can-01/male",
+      "expected": "Can I ask a question?",
+      "recognized": "CAN I ASK A QUESTION",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "can-01/female",
+      "expected": "Can I ask a question?",
+      "recognized": "CAN I ASK A QUESTION",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "can-02/male",
+      "expected": "Can I sit here?",
+      "recognized": "CAN I SIT HERE",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "can-02/female",
+      "expected": "Can I sit here?",
+      "recognized": "CAN I SIT HERE",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "can-03/male",
+      "expected": "Can I pay by card?",
+      "recognized": "CAN I PAY BY CARD",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "can-03/female",
+      "expected": "Can I pay by card?",
+      "recognized": "CAN I PAY BY CARD",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "can-04/male",
+      "expected": "Can I borrow your pen?",
+      "recognized": "CAN I BORROW YOUR PEN",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "can-04/female",
+      "expected": "Can I borrow your pen?",
+      "recognized": "CAN I BORROW YOUR PEN",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "can-05/male",
+      "expected": "Can I try these shoes on?",
+      "recognized": "CAN I TRY THESE SHOES ON",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "can-05/female",
+      "expected": "Can I try these shoes on?",
+      "recognized": "CAN I TRY THESE SHOES ON",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "can-06/male",
+      "expected": "Can I open the window?",
+      "recognized": "CAN I OPEN THE WINDOW",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "can-06/female",
+      "expected": "Can I open the window?",
+      "recognized": "CAN I OPEN THE WINDOW",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "can-07/male",
+      "expected": "Can I take a photo here?",
+      "recognized": "CAN I TAKE A PHOTO HERE",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "can-07/female",
+      "expected": "Can I take a photo here?",
+      "recognized": "CAN I TAKE A PHOTO HERE",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "can-08/male",
+      "expected": "Can I use your phone for a moment?",
+      "recognized": "CAN I USE YOUR PHONE FOR A MOMENT",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "can-08/female",
+      "expected": "Can I use your phone for a moment?",
+      "recognized": "CAN I USE YOUR PHONE FOR A MOMENT",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "can-09/male",
+      "expected": "Can I leave a message?",
+      "recognized": "CAN I LEAVE A MESSAGE",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "can-09/female",
+      "expected": "Can I leave a message?",
+      "recognized": "CAN I LEAVE A MESSAGE",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "can-10/male",
+      "expected": "Can I change my seat?",
+      "recognized": "CAN I CHANGE MY SEAT",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "can-10/female",
+      "expected": "Can I change my seat?",
+      "recognized": "CAN I CHANGE MY SEAT",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "can-11/male",
+      "expected": "Can I bring a friend to the meeting?",
+      "recognized": "CAN I BRING A FRIEND TO THE MEETING",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "can-11/female",
+      "expected": "Can I bring a friend to the meeting?",
+      "recognized": "CAN I BRING A FRIEND TO THE MEETING",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "can-12/male",
+      "expected": "Can I get a glass of water, please?",
+      "recognized": "CAN I GET A GLASS OF WATER PLEASE",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "can-12/female",
+      "expected": "Can I get a glass of water, please?",
+      "recognized": "CAN I GET A GLASS OF WATER PLEASE",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "this-01/male",
+      "expected": "This is my house.",
+      "recognized": "THIS IS MY HOUSE",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "this-01/female",
+      "expected": "This is my house.",
+      "recognized": "THIS IS MY HOUSE",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "this-02/male",
+      "expected": "This is my friend.",
+      "recognized": "THIS IS MY FRIEND",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "this-02/female",
+      "expected": "This is my friend.",
+      "recognized": "THIS IS MY FRIEND",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "this-03/male",
+      "expected": "This is a good idea.",
+      "recognized": "THIS IS A GOOD IDEA",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "this-03/female",
+      "expected": "This is a good idea.",
+      "recognized": "THIS IS A GOOD IDEA",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "this-04/male",
+      "expected": "This is my new phone.",
+      "recognized": "THIS IS MY NEW PHONE",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "this-04/female",
+      "expected": "This is my new phone.",
+      "recognized": "THIS IS MY NEW PHONE",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "this-05/male",
+      "expected": "This is our classroom.",
+      "recognized": "THIS IS OUR CLASS ROOM",
+      "word_error_rate": 0.5
+    },
+    {
+      "id": "this-05/female",
+      "expected": "This is our classroom.",
+      "recognized": "THIS IS OUR CLASSROOM",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "this-06/male",
+      "expected": "This is the bus to the city centre.",
+      "recognized": "THIS IS THE BUS TO THE CITY CENTRE",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "this-06/female",
+      "expected": "This is the bus to the city centre.",
+      "recognized": "THIS IS THE BUS TO THE CITY CENTRE",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "this-07/male",
+      "expected": "This is my favourite book.",
+      "recognized": "THIS IS MY FAVORITE BOOK",
+      "word_error_rate": 0.2
+    },
+    {
+      "id": "this-07/female",
+      "expected": "This is my favourite book.",
+      "recognized": "THIS IS MY FAVORITE BOK",
+      "word_error_rate": 0.4
+    },
+    {
+      "id": "this-08/male",
+      "expected": "This is the key to your room.",
+      "recognized": "THIS IS THE KAY TO YOUR ROOM",
+      "word_error_rate": 0.143
+    },
+    {
+      "id": "this-08/female",
+      "expected": "This is the key to your room.",
+      "recognized": "THIS IS THE KEY TO YOU ROOM",
+      "word_error_rate": 0.143
+    },
+    {
+      "id": "this-09/male",
+      "expected": "This is a difficult decision.",
+      "recognized": "THIS IS A DIFFICULT DECISION",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "this-09/female",
+      "expected": "This is a difficult decision.",
+      "recognized": "THIS IS A DIFFICULT DECISION",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "this-10/male",
+      "expected": "This is the first time I've been here.",
+      "recognized": "THIS IS THE FIRST TIME I'VE BEEN HERE",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "this-10/female",
+      "expected": "This is the first time I've been here.",
+      "recognized": "THIS IS THE FIRST TIME I'VE BEEN HERE",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "this-11/male",
+      "expected": "This is what I was looking for.",
+      "recognized": "THIS IS WHAT I WAS LOOKING FOR",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "this-11/female",
+      "expected": "This is what I was looking for.",
+      "recognized": "THIS IS WHAT I WAS LOOKING FOR",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "this-12/male",
+      "expected": "This is the person who helped me.",
+      "recognized": "THIS IS THE PERSON WHO HELPED ME",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "this-12/female",
+      "expected": "This is the person who helped me.",
+      "recognized": "THIS IS THE PERSON WHO HELPED ME",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "lets-01/male",
+      "expected": "Let's go to the park.",
+      "recognized": "LET'S GO TO THE PARK",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "lets-01/female",
+      "expected": "Let's go to the park.",
+      "recognized": "LET'S GO TO THE PARK",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "lets-02/male",
+      "expected": "Let's take a break.",
+      "recognized": "LET'S TAKE A BREAK",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "lets-02/female",
+      "expected": "Let's take a break.",
+      "recognized": "LET'S TAKE A BREAK",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "lets-03/male",
+      "expected": "Let's try again.",
+      "recognized": "LET'S TRY AGAIN",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "lets-03/female",
+      "expected": "Let's try again.",
+      "recognized": "LET'S TRY AGAIN",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "lets-04/male",
+      "expected": "Let's cook dinner together.",
+      "recognized": "LET'S COOK DINNER TOGETHER",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "lets-04/female",
+      "expected": "Let's cook dinner together.",
+      "recognized": "LET'S COOK DINNER TOGETHER",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "lets-05/male",
+      "expected": "Let's check the map.",
+      "recognized": "LET'S CHECK THE MAP",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "lets-05/female",
+      "expected": "Let's check the map.",
+      "recognized": "LET'S CHECK THE MAP",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "lets-06/male",
+      "expected": "Let's start with an easy question.",
+      "recognized": "LET'S START WITH AN EASY QUESTION",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "lets-06/female",
+      "expected": "Let's start with an easy question.",
+      "recognized": "LET'S START WITH AN EASY QUESTION",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "lets-07/male",
+      "expected": "Let's meet outside the library.",
+      "recognized": "LET'S MEET OUTSIDE THE LIBRARY",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "lets-07/female",
+      "expected": "Let's meet outside the library.",
+      "recognized": "LET'S MEET OUTSIDE THE LIBRARY",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "lets-08/male",
+      "expected": "Let's save some money for the trip.",
+      "recognized": "LET'S SAVE SOME MONEY FOR THE TRIP",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "lets-08/female",
+      "expected": "Let's save some money for the trip.",
+      "recognized": "LET'S SAVE SOME MONEY FOR THE TRIP",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "lets-09/male",
+      "expected": "Let's ask someone for directions.",
+      "recognized": "LET'S ASK SOMEONE FOR DIRECTIONS",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "lets-09/female",
+      "expected": "Let's ask someone for directions.",
+      "recognized": "LET'S ASK SOMEONE FOR DIRECTIONS",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "lets-10/male",
+      "expected": "Let's talk about what happened.",
+      "recognized": "LET'S TALK ABOUT WHAT HAPPENED",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "lets-10/female",
+      "expected": "Let's talk about what happened.",
+      "recognized": "LET'S TALK ABOUT WHAT HAPPENED",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "lets-11/male",
+      "expected": "Let's not make the same mistake again.",
+      "recognized": "LET'S NOT MAKE THE SAME MISTAKE AGAIN",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "lets-11/female",
+      "expected": "Let's not make the same mistake again.",
+      "recognized": "LET'S NOT MAKE THE SAME MISTAKE AGAIN",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "lets-12/male",
+      "expected": "Let's find a solution that works for everyone.",
+      "recognized": "LET'S FIND A SOLUTION THAT WORKS FOR EVERYONE",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "lets-12/female",
+      "expected": "Let's find a solution that works for everyone.",
+      "recognized": "LET'S FIND A SOLUTION THAT WORKS FOR EVERYONE",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "feel-01/male",
+      "expected": "I feel like going for a walk.",
+      "recognized": "I FEEL LIKE GOING FOR A WALK",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "feel-01/female",
+      "expected": "I feel like going for a walk.",
+      "recognized": "I FEEL LIKE GOING FOR A WALK",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "feel-02/male",
+      "expected": "I feel like reading a book.",
+      "recognized": "I FEEL LIKE READING A BOOK",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "feel-02/female",
+      "expected": "I feel like reading a book.",
+      "recognized": "I FEEL LIKE READING A BOOK",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "feel-03/male",
+      "expected": "I feel like staying home.",
+      "recognized": "I FEEL LIKE STAYING HOME",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "feel-03/female",
+      "expected": "I feel like staying home.",
+      "recognized": "I FEEL LIKE STAYING HOME",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "feel-04/male",
+      "expected": "I feel like making some soup.",
+      "recognized": "I FEEL LIKE MAKING SOME SOUP",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "feel-04/female",
+      "expected": "I feel like making some soup.",
+      "recognized": "I FEEL LIKE MAKING SOME SOUP",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "feel-05/male",
+      "expected": "I feel like calling an old friend.",
+      "recognized": "I FEEL LIKE CALLING AN OLD FRIEND",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "feel-05/female",
+      "expected": "I feel like calling an old friend.",
+      "recognized": "I FEEL LIKE CALLING AN OLD FRIEND",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "feel-06/male",
+      "expected": "I feel like watching a film tonight.",
+      "recognized": "I FEEL LIKE WATCHING A FILM TO NIGHT",
+      "word_error_rate": 0.286
+    },
+    {
+      "id": "feel-06/female",
+      "expected": "I feel like watching a film tonight.",
+      "recognized": "I FEEL LIKE WATCHING A FILM TO NIGHT",
+      "word_error_rate": 0.286
+    },
+    {
+      "id": "feel-07/male",
+      "expected": "I feel like learning something new.",
+      "recognized": "I FEEL LIKE LEARNING SOMETHING NEW",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "feel-07/female",
+      "expected": "I feel like learning something new.",
+      "recognized": "I FEEL LIKE LEARNING SOMETHING NEW",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "feel-08/male",
+      "expected": "I feel like taking a different route today.",
+      "recognized": "I FEEL LIKE TAKING A DIFFERENT ROUTE TO DAY",
+      "word_error_rate": 0.25
+    },
+    {
+      "id": "feel-08/female",
+      "expected": "I feel like taking a different route today.",
+      "recognized": "I FEEL LIKE TAKING A DIFFERENT ROUTE TO DAY",
+      "word_error_rate": 0.25
+    },
+    {
+      "id": "feel-09/male",
+      "expected": "I feel like spending some time alone.",
+      "recognized": "I FEEL LIKE SPENDING SOME TIME ALONE",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "feel-09/female",
+      "expected": "I feel like spending some time alone.",
+      "recognized": "I FEEL LIKE SPENDING SOME TIME ALONE",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "feel-10/male",
+      "expected": "I feel like doing something creative.",
+      "recognized": "I FEEL LIKE DOING SOMETHING CREATIVE",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "feel-10/female",
+      "expected": "I feel like doing something creative.",
+      "recognized": "I FEEL LIKE DOING SOMETHING CREATIVE",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "feel-11/male",
+      "expected": "I don't feel like going out in this rain.",
+      "recognized": "I DON'T FEEL LIKE GOING OUT IN THIS RAIN",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "feel-11/female",
+      "expected": "I don't feel like going out in this rain.",
+      "recognized": "I DON'T FEEL LIKE GOING OUT IN THIS RAIN",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "feel-12/male",
+      "expected": "Do you feel like joining us for lunch?",
+      "recognized": "DO YOU FEEL LIKE JOINING US FOR LUNCH",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "feel-12/female",
+      "expected": "Do you feel like joining us for lunch?",
+      "recognized": "DO YOU FEEL LIKE JOINING US FOR LUNCH",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "used-01/male",
+      "expected": "I used to live near the sea.",
+      "recognized": "I USED TO LIVE NEAR THE SEA",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "used-01/female",
+      "expected": "I used to live near the sea.",
+      "recognized": "I USED TO LIVE NEAR THE SEA",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "used-02/male",
+      "expected": "I used to walk to school.",
+      "recognized": "I USED TO WALK TO SCHOOL",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "used-02/female",
+      "expected": "I used to walk to school.",
+      "recognized": "I USED TO WALK TO SCHOOL",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "used-03/male",
+      "expected": "I used to play football.",
+      "recognized": "I USED TO PLAY FOOTBALL",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "used-03/female",
+      "expected": "I used to play football.",
+      "recognized": "I USED TO PLAY FOOTBALL",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "used-04/male",
+      "expected": "I used to work in a small shop.",
+      "recognized": "I USED TO WORK IN A SMALL SHOP",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "used-04/female",
+      "expected": "I used to work in a small shop.",
+      "recognized": "I USED TO WORK IN A SMALL SHOP",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "used-05/male",
+      "expected": "I used to read before bed.",
+      "recognized": "I USED TO READ BEFORE BED",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "used-05/female",
+      "expected": "I used to read before bed.",
+      "recognized": "I USED TO READ BEFORE BAD",
+      "word_error_rate": 0.167
+    },
+    {
+      "id": "used-06/male",
+      "expected": "I used to drink coffee every morning.",
+      "recognized": "I USED TO DRINK COFFEE EVERY MORNING",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "used-06/female",
+      "expected": "I used to drink coffee every morning.",
+      "recognized": "I USED TO DRINK COFFEE EVERY MORNING",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "used-07/male",
+      "expected": "I used to visit my grandparents every week.",
+      "recognized": "I USED TO VISIT MY GRANDPARENTS EVERY WEEK",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "used-07/female",
+      "expected": "I used to visit my grandparents every week.",
+      "recognized": "I USED TO VISIT MY GRANDPARENTS EVERY WEEK",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "used-08/male",
+      "expected": "We used to spend summers in the countryside.",
+      "recognized": "WE USED TO SPEND SUMMERS IN THE COUNTRYSIDE",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "used-08/female",
+      "expected": "We used to spend summers in the countryside.",
+      "recognized": "WE USED TO SPEND SUMMERS IN THE COUNTRYSIDE",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "used-09/male",
+      "expected": "There used to be a bakery on this corner.",
+      "recognized": "THERE USED TO BE A BAKERY ON THIS CORNER",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "used-09/female",
+      "expected": "There used to be a bakery on this corner.",
+      "recognized": "THERE USED TO BE A BAKERY ON THIS CORNER",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "used-10/male",
+      "expected": "Did you use to take this bus?",
+      "recognized": "DID YOU USE TO TAKE THIS BUSS",
+      "word_error_rate": 0.143
+    },
+    {
+      "id": "used-10/female",
+      "expected": "Did you use to take this bus?",
+      "recognized": "DID YOU USE TO TAKE THIS BUSS",
+      "word_error_rate": 0.143
+    },
+    {
+      "id": "used-11/male",
+      "expected": "I didn't use to enjoy cooking.",
+      "recognized": "I DIDN'T USE TO ENJOY COOKING",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "used-11/female",
+      "expected": "I didn't use to enjoy cooking.",
+      "recognized": "I DIDN'T USE TO ENJOY COOKING",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "used-12/male",
+      "expected": "I'm used to getting up early now.",
+      "recognized": "I'M USED TO GETTING UP EARLY NOW",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "used-12/female",
+      "expected": "I'm used to getting up early now.",
+      "recognized": "I'M USED TO GETTING UP EARLY NOW",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "managed-01/male",
+      "expected": "I managed to finish on time.",
+      "recognized": "I MANAGE TO FINISH ON TIME",
+      "word_error_rate": 0.167
+    },
+    {
+      "id": "managed-01/female",
+      "expected": "I managed to finish on time.",
+      "recognized": "I MANAGED TO FINISH ON TIME",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "managed-02/male",
+      "expected": "I managed to find my keys.",
+      "recognized": "I MANAGED TO FIND MY KEYS",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "managed-02/female",
+      "expected": "I managed to find my keys.",
+      "recognized": "I MANAGED TO FIND MY KEYS",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "managed-03/male",
+      "expected": "I managed to solve the problem.",
+      "recognized": "I MANAGED TO SOLVE THE PROBLEM",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "managed-03/female",
+      "expected": "I managed to solve the problem.",
+      "recognized": "I MANAGED TO SOLVE THE PROBLEM",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "managed-04/male",
+      "expected": "I managed to catch the last train.",
+      "recognized": "I MANAGED TO CATCH THE LAST TRAIN",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "managed-04/female",
+      "expected": "I managed to catch the last train.",
+      "recognized": "I MANAGED TO CATCH THE LAST TRAIN",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "managed-05/male",
+      "expected": "I managed to repair the chair.",
+      "recognized": "I MANAGE TO REPAIR THE CHAIR",
+      "word_error_rate": 0.167
+    },
+    {
+      "id": "managed-05/female",
+      "expected": "I managed to repair the chair.",
+      "recognized": "I MANAGED TO REPAIR THE CHAIR",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "managed-06/male",
+      "expected": "I managed to save enough money.",
+      "recognized": "I MANAGED TO SAVE ENOUGH MONEY",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "managed-06/female",
+      "expected": "I managed to save enough money.",
+      "recognized": "I MANAGED TO SAVE ENOUGH MONEY",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "managed-07/male",
+      "expected": "We managed to reach the village before dark.",
+      "recognized": "WE MANAGED TO REACH THE VILLAGE BEFORE DARK",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "managed-07/female",
+      "expected": "We managed to reach the village before dark.",
+      "recognized": "WE MANAGED TO REACH THE VILLAGE BEFORE DARK",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "managed-08/male",
+      "expected": "She managed to explain the idea clearly.",
+      "recognized": "SHE MANAGED TO EXPLAIN THE IDEA CLEARLY",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "managed-08/female",
+      "expected": "She managed to explain the idea clearly.",
+      "recognized": "SHE MANAGED TO EXPLAIN THE IDEA CLEARLY",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "managed-09/male",
+      "expected": "They managed to organise the event in one week.",
+      "recognized": "THEY MANAGED TO ORGANIZE THE EVENT IN ONE WEEK",
+      "word_error_rate": 0.111
+    },
+    {
+      "id": "managed-09/female",
+      "expected": "They managed to organise the event in one week.",
+      "recognized": "THEY MANAGED TO ORGANIZE THE EVENT IN ONE WEEK",
+      "word_error_rate": 0.111
+    },
+    {
+      "id": "managed-10/male",
+      "expected": "Did you manage to speak to the doctor?",
+      "recognized": "DID YOU MANAGE TO SPEAK TO THE DOCTOR",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "managed-10/female",
+      "expected": "Did you manage to speak to the doctor?",
+      "recognized": "DID YOU MANAGE TO SPEAK TO THE DOCTOR",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "managed-11/male",
+      "expected": "I didn't manage to book a ticket.",
+      "recognized": "I DIDN'T MANAGE TO BOOK A TICKET",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "managed-11/female",
+      "expected": "I didn't manage to book a ticket.",
+      "recognized": "I DIDN'T MANAGE TO BOOK A TICKET",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "managed-12/male",
+      "expected": "We tried to fix it, but we didn't manage to.",
+      "recognized": "WE TRIED TO FIX IT BUT WE DIDN'T MANAGE TOO",
+      "word_error_rate": 0.1
+    },
+    {
+      "id": "managed-12/female",
+      "expected": "We tried to fix it, but we didn't manage to.",
+      "recognized": "WE TRIED TO FIX IT BUT WE DIDN'T MANAGE TOO",
+      "word_error_rate": 0.1
+    },
+    {
+      "id": "takes-01/male",
+      "expected": "It takes ten minutes to get there.",
+      "recognized": "IT TAKES TEN MINUTES TO GET THERE",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "takes-01/female",
+      "expected": "It takes ten minutes to get there.",
+      "recognized": "IT TAKES TEN MINUTES TO GET THERE",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "takes-02/male",
+      "expected": "It takes time to learn a language.",
+      "recognized": "IT TAKES TIME TO LEARN A LANGUAGE",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "takes-02/female",
+      "expected": "It takes time to learn a language.",
+      "recognized": "IT TAKES TIME TO LEARN A LANGUAGE",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "takes-03/male",
+      "expected": "It takes an hour to cook dinner.",
+      "recognized": "IT TAKES AN HOUR TO COOK DINNER",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "takes-03/female",
+      "expected": "It takes an hour to cook dinner.",
+      "recognized": "IT TAKES AN HOUR TO COOK DINNER",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "takes-04/male",
+      "expected": "It takes me twenty minutes to walk to work.",
+      "recognized": "IT TAKES ME TWENTY MINUTES TO WALK TO WORK",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "takes-04/female",
+      "expected": "It takes me twenty minutes to walk to work.",
+      "recognized": "IT TAKES ME TWENTY MINUTES TO WALK TO WORK",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "takes-05/male",
+      "expected": "It takes two people to move this table.",
+      "recognized": "IT TAKES TWO PEOPLE TO MOVE THIS TABLE",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "takes-05/female",
+      "expected": "It takes two people to move this table.",
+      "recognized": "IT TAKES TWO PEOPLE TO MOVE THIS TABLE",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "takes-06/male",
+      "expected": "It takes patience to teach a child.",
+      "recognized": "IT TAKES PATIENCE TO TEACH A CHILD",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "takes-06/female",
+      "expected": "It takes patience to teach a child.",
+      "recognized": "IT TAKES PATIENCE TO TEACH A CHILD",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "takes-07/male",
+      "expected": "How long does it take to charge this battery?",
+      "recognized": "HOW LONG DOES IT TAKE TO CHARGE THIS BATTERY",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "takes-07/female",
+      "expected": "How long does it take to charge this battery?",
+      "recognized": "HOW LONG DOES IT TAKE TO CHARGE THIS BATTERY",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "takes-08/male",
+      "expected": "It took us three hours to finish the job.",
+      "recognized": "IT TOOK US THREE HOURS TO FINISH THE JOB",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "takes-08/female",
+      "expected": "It took us three hours to finish the job.",
+      "recognized": "IT TOOK US THREE HOURS TO FINISH THE JOB",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "takes-09/male",
+      "expected": "It will take a few days to repair the car.",
+      "recognized": "IT WILL TAKE A FEW DAYS TO REPAIR THE CAR",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "takes-09/female",
+      "expected": "It will take a few days to repair the car.",
+      "recognized": "IT WILL TAKE A FEW DAYS TO REPAIR THE CAR",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "takes-10/male",
+      "expected": "It doesn't take long to make this meal.",
+      "recognized": "IT DOESN'T TAKE LONG TO MAKE THIS MEAL",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "takes-10/female",
+      "expected": "It doesn't take long to make this meal.",
+      "recognized": "IT DOESN'T TAKE LONG TO MAKE THIS MEAL",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "takes-11/male",
+      "expected": "It took longer than I expected to find the address.",
+      "recognized": "IT TOOK LONGER THAN I EXPECTED TO FIND THE ADDRESS",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "takes-11/female",
+      "expected": "It took longer than I expected to find the address.",
+      "recognized": "IT TOOK LONGER THAN I EXPECTED TO FIND THE ADDRESS",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "takes-12/male",
+      "expected": "Learning this skill takes practice.",
+      "recognized": "LEARNING THIS SKILL TAKES PRACTICE",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "takes-12/female",
+      "expected": "Learning this skill takes practice.",
+      "recognized": "LEARNING THE SKILL TAKES PRACTICE",
+      "word_error_rate": 0.2
+    },
+    {
+      "id": "worth-01/male",
+      "expected": "It's worth trying again.",
+      "recognized": "IT'S WORTH TRYING AGAIN",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "worth-01/female",
+      "expected": "It's worth trying again.",
+      "recognized": "IT'S WORTH TRYING AGAIN",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "worth-02/male",
+      "expected": "It's worth visiting the museum.",
+      "recognized": "IT'S WORTH VISITING THE MUSEUM",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "worth-02/female",
+      "expected": "It's worth visiting the museum.",
+      "recognized": "IT'S WORTH VISITING THE MUSEUM",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "worth-03/male",
+      "expected": "It's worth thinking about.",
+      "recognized": "IT'S WORTH THINKING ABOUT",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "worth-03/female",
+      "expected": "It's worth thinking about.",
+      "recognized": "IT'S WORTH THINKING ABOUT",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "worth-04/male",
+      "expected": "It's worth checking the details.",
+      "recognized": "IT'S WORTH CHECKING THE DETAILS",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "worth-04/female",
+      "expected": "It's worth checking the details.",
+      "recognized": "IT'S WORTH CHECKING THE DETAILS",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "worth-05/male",
+      "expected": "It's worth learning a few local words.",
+      "recognized": "IT'S WORTH LEARNING A FEW LOCAL WORDS",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "worth-05/female",
+      "expected": "It's worth learning a few local words.",
+      "recognized": "IT'S WORTH LEARNING A FEW LOCAL WORDS",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "worth-06/male",
+      "expected": "It's worth spending time with your family.",
+      "recognized": "IT'S WORTH SPENDING TIME WITH YOUR FAMILY",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "worth-06/female",
+      "expected": "It's worth spending time with your family.",
+      "recognized": "IT'S WORTH SPENDING TIME WITH YOUR FAMILY",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "worth-07/male",
+      "expected": "It's worth asking for a second opinion.",
+      "recognized": "IT'S WORTH ASKING FOR A SECOND OPINION",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "worth-07/female",
+      "expected": "It's worth asking for a second opinion.",
+      "recognized": "IT'S WORTH ASKING FOR A SECOND OPINION",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "worth-08/male",
+      "expected": "It's worth booking in advance.",
+      "recognized": "IT'S WORTH BOOKING IN ADVANCE",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "worth-08/female",
+      "expected": "It's worth booking in advance.",
+      "recognized": "IT'S WORTH BOOKING IN ADVANCE",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "worth-09/male",
+      "expected": "Is it worth taking a taxi?",
+      "recognized": "IS IT WORTH TAKING A TAXI",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "worth-09/female",
+      "expected": "Is it worth taking a taxi?",
+      "recognized": "IS IT WORTH TAKING A TAXI",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "worth-10/male",
+      "expected": "It isn't worth arguing about.",
+      "recognized": "IT ISN'T WORTH ARGUING ABOUT",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "worth-10/female",
+      "expected": "It isn't worth arguing about.",
+      "recognized": "IT ISN'T WORTH ARGUING ABOUT",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "worth-11/male",
+      "expected": "This book is worth reading twice.",
+      "recognized": "THIS BOOK IS WORTH READING TWICE",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "worth-11/female",
+      "expected": "This book is worth reading twice.",
+      "recognized": "THIS BOOK IS WORTH READING TWICE",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "worth-12/male",
+      "expected": "The view was well worth the long walk.",
+      "recognized": "THE VIEW WAS WELL WORTH THE LONG WALK",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "worth-12/female",
+      "expected": "The view was well worth the long walk.",
+      "recognized": "THE VIEW WAS WELL WORTH THE LONG WALK",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "know-01/male",
+      "expected": "Do you know where the station is?",
+      "recognized": "DO YOU KNOW WHERE THE STATION IS",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "know-01/female",
+      "expected": "Do you know where the station is?",
+      "recognized": "DO YOU KNOW WHERE THE STATION IS",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "know-02/male",
+      "expected": "Do you know where she works?",
+      "recognized": "DO YOU KNOW WHERE SHE WORKS",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "know-02/female",
+      "expected": "Do you know where she works?",
+      "recognized": "DO YOU KNOW WHERE SHE WORKS",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "know-03/male",
+      "expected": "Do you know where I can buy a ticket?",
+      "recognized": "DO YOU KNOW WHERE I CAN BUY A TICKET",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "know-03/female",
+      "expected": "Do you know where I can buy a ticket?",
+      "recognized": "DO YOU KNOW WHERE I CAN BUY A TICKET",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "know-04/male",
+      "expected": "Do you know where my keys are?",
+      "recognized": "DO YOU KNOW WHERE MY KEYS ARE",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "know-04/female",
+      "expected": "Do you know where my keys are?",
+      "recognized": "DO YOU KNOW WHERE MY KEYS ARE",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "know-05/male",
+      "expected": "Do you know where the meeting will be?",
+      "recognized": "DO YOU KNOW WHERE THE MEETING WILL BE",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "know-05/female",
+      "expected": "Do you know where the meeting will be?",
+      "recognized": "DO YOU KNOW WHERE THE MEETING WILL BE",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "know-06/male",
+      "expected": "Do you know when the shop closes?",
+      "recognized": "DO YOU KNOW WHEN THE SHOP CLOSES",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "know-06/female",
+      "expected": "Do you know when the shop closes?",
+      "recognized": "DO YOU KNOW WHEN THE SHOP CLOSES",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "know-07/male",
+      "expected": "Do you know how much this costs?",
+      "recognized": "DO YOU KNOW HOW MUCH THIS COSTS",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "know-07/female",
+      "expected": "Do you know how much this costs?",
+      "recognized": "DO YOU KNOW HOW MUCH THIS COSTS",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "know-08/male",
+      "expected": "Do you know why the bus is late?",
+      "recognized": "DO YOU KNOW WHY THE BUSS IS LATE",
+      "word_error_rate": 0.125
+    },
+    {
+      "id": "know-08/female",
+      "expected": "Do you know why the bus is late?",
+      "recognized": "DO YOU KNOW WHY THE BUS IS LATE",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "know-09/male",
+      "expected": "Do you know if the library is open?",
+      "recognized": "DO YOU KNOW IF THE LIBRARY IS OPEN",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "know-09/female",
+      "expected": "Do you know if the library is open?",
+      "recognized": "DO YOU KNOW IF THE LIBRARY IS OPEN",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "know-10/male",
+      "expected": "Could you tell me where the nearest pharmacy is?",
+      "recognized": "COULD YOU TELL ME WHERE THE NEAREST FHARMECEE IS",
+      "word_error_rate": 0.111
+    },
+    {
+      "id": "know-10/female",
+      "expected": "Could you tell me where the nearest pharmacy is?",
+      "recognized": "COULD YOU TELL ME WHERE THE NEAREST PHARMESEE IS",
+      "word_error_rate": 0.111
+    },
+    {
+      "id": "know-11/male",
+      "expected": "I don't know where he went.",
+      "recognized": "I DON'T KNOW WHERE HE WENT",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "know-11/female",
+      "expected": "I don't know where he went.",
+      "recognized": "I DON'T KNOW WHERE HE WENT",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "know-12/male",
+      "expected": "Do you know what happened?",
+      "recognized": "DO YOU KNOW WHAT HAPPENED",
+      "word_error_rate": 0.0
+    },
+    {
+      "id": "know-12/female",
+      "expected": "Do you know what happened?",
+      "recognized": "DO YOU KNOW WHAT HAPPENED",
+      "word_error_rate": 0.0
+    }
+  ],
+  "validation_status": "pass",
+  "auditory_review": "not an independent human sign-off",
+  "acoustic_alignment": "Wav2Vec2 CTC measured on each exact MP3",
+  "browser_test_report": "qa-report.json"
+}

@@ -1,0 +1,1991 @@
+{
+  "schema": 1,
+  "site_project_id": "appgprj_6ae7c48ef1b481919c4655e4e52d4159",
+  "sites_commit": "1911f09fd43a376b5227025fc79b02509ae63fc5",
+  "site_url": "https://nasaq-english-lab.saddamalkhattabi.chatgpt.site",
+  "synced_on": "2026-11-02",
+  "preservation": "Every source-controlled file from the published Sites commit is copied byte-for-byte under nasaq/. Integration files are additional. Original GitHub files remain except README/navigation/server/preview integration.",
+  "files": [
+    {
+      "path": ".github/workflows/nasaq-audio.yml",
+      "size": 1420,
+      "sha": "f5cd7c958683634e061d8bff108c5f0f867b5b3b"
+    },
+    {
+      "path": ".gitignore",
+      "size": 49,
+      "sha": "525286f31b79b68fde6b9ac9cf6fa49692078c14"
+    },
+    {
+      "path": ".openai/hosting.json",
+      "size": 106,
+      "sha": "07be448ea37e113fed7c5bfae3fe61e75c90794d"
+    },
+    {
+      "path": "README.md",
+      "size": 6721,
+      "sha": "54d0e7676820414fe054b23381d931b5832adb59"
+    },
+    {
+      "path": "dist/app.js",
+      "size": 44858,
+      "sha": "6fab5fcc532ccded558cbc4df4e8cb352111b2d3"
+    },
+    {
+      "path": "dist/assets/audio/can-01-female.mp3",
+      "size": 9525,
+      "sha": "7ffcaa657b08e515e9151496ae979518c7e3da9a"
+    },
+    {
+      "path": "dist/assets/audio/can-01-male.mp3",
+      "size": 9861,
+      "sha": "777f12d06fde8d13dfce39b71f817ed526bf400f"
+    },
+    {
+      "path": "dist/assets/audio/can-02-female.mp3",
+      "size": 7701,
+      "sha": "8f7db1b70395010ba9dd3e7e0cff6be17b3e73bc"
+    },
+    {
+      "path": "dist/assets/audio/can-02-male.mp3",
+      "size": 7533,
+      "sha": "2d59bc0899b1fb1a8f1e0bdc094b8a7db331f81d"
+    },
+    {
+      "path": "dist/assets/audio/can-03-female.mp3",
+      "size": 9213,
+      "sha": "62587adb37cf7fa01ff4b959c54375ee23873ad2"
+    },
+    {
+      "path": "dist/assets/audio/can-03-male.mp3",
+      "size": 9741,
+      "sha": "0654fe86beefb44906a4332cb29ddf7fc6de75ec"
+    },
+    {
+      "path": "dist/assets/audio/can-04-female.mp3",
+      "size": 8973,
+      "sha": "b79159ca23c70370ef63a0ea780938d353480721"
+    },
+    {
+      "path": "dist/assets/audio/can-04-male.mp3",
+      "size": 9717,
+      "sha": "9c3fed055f8ce569044bdb45dd199431313bd0c8"
+    },
+    {
+      "path": "dist/assets/audio/can-05-female.mp3",
+      "size": 10845,
+      "sha": "dccd67adbf5ab0cb4ebbd0a08dee2cc48c353b5a"
+    },
+    {
+      "path": "dist/assets/audio/can-05-male.mp3",
+      "size": 11637,
+      "sha": "b7d6785238535c2df08447895384ec0ae0b0e1a7"
+    },
+    {
+      "path": "dist/assets/audio/can-06-female.mp3",
+      "size": 9813,
+      "sha": "2f5a7c97cb9e5724e88bf45a08ee72327243de11"
+    },
+    {
+      "path": "dist/assets/audio/can-06-male.mp3",
+      "size": 9909,
+      "sha": "af63e09e778a8b45fcc676862e204f7e57a2c6d8"
+    },
+    {
+      "path": "dist/assets/audio/can-07-female.mp3",
+      "size": 9885,
+      "sha": "5aa2aa71a9d4852b2509674897fa87e68a04fa97"
+    },
+    {
+      "path": "dist/assets/audio/can-07-male.mp3",
+      "size": 10509,
+      "sha": "4f9f4d46c520b20318d1a9d1012d45ed5d35c76c"
+    },
+    {
+      "path": "dist/assets/audio/can-08-female.mp3",
+      "size": 12813,
+      "sha": "f4eb7423fa3d313d029d063d2b53467a1555d71e"
+    },
+    {
+      "path": "dist/assets/audio/can-08-male.mp3",
+      "size": 12909,
+      "sha": "55428c2c736f67c535d0c3f90d1193ab84a604a3"
+    },
+    {
+      "path": "dist/assets/audio/can-09-female.mp3",
+      "size": 9333,
+      "sha": "39b2187fe03ff9019618cc9a15ed868b06844572"
+    },
+    {
+      "path": "dist/assets/audio/can-09-male.mp3",
+      "size": 9765,
+      "sha": "d5276c2e939298e26f62e82e7e9de9018966f108"
+    },
+    {
+      "path": "dist/assets/audio/can-10-female.mp3",
+      "size": 9381,
+      "sha": "da52d5fde8a38d21ad98410704e088782a18496d"
+    },
+    {
+      "path": "dist/assets/audio/can-10-male.mp3",
+      "size": 9837,
+      "sha": "d9d00a6e9e2ee365c819eb07166fdad7483ce4dd"
+    },
+    {
+      "path": "dist/assets/audio/can-11-female.mp3",
+      "size": 12309,
+      "sha": "301adf26a874978cb8106ce8d121ab067ad8e57b"
+    },
+    {
+      "path": "dist/assets/audio/can-11-male.mp3",
+      "size": 11925,
+      "sha": "a531dd63f8d3385c0460ca236a05235e73f44fff"
+    },
+    {
+      "path": "dist/assets/audio/can-12-female.mp3",
+      "size": 14685,
+      "sha": "4275f5eceddd8887ce15fdbc124b7d768fe944d9"
+    },
+    {
+      "path": "dist/assets/audio/can-12-male.mp3",
+      "size": 14421,
+      "sha": "d63fcfbd1c3cda7ee079e557bd2b774ff8c949b9"
+    },
+    {
+      "path": "dist/assets/audio/feel-01-female.mp3",
+      "size": 10365,
+      "sha": "98f442b7bda148532830b011005e3b41c77afaf4"
+    },
+    {
+      "path": "dist/assets/audio/feel-01-male.mp3",
+      "size": 11613,
+      "sha": "4a62cb21e53f434895ee6aa13b9faa46ec606dfa"
+    },
+    {
+      "path": "dist/assets/audio/feel-02-female.mp3",
+      "size": 10917,
+      "sha": "9ac7a05ebddbb79608b5f607eb2efa727cd265a8"
+    },
+    {
+      "path": "dist/assets/audio/feel-02-male.mp3",
+      "size": 11853,
+      "sha": "050ead4bc196733b414e48feefc26b0b8ea7ec1b"
+    },
+    {
+      "path": "dist/assets/audio/feel-03-female.mp3",
+      "size": 10629,
+      "sha": "0da8332ac4f45f10d6cfcb399ef2bfa068434094"
+    },
+    {
+      "path": "dist/assets/audio/feel-03-male.mp3",
+      "size": 11301,
+      "sha": "47dcb9db07e5c6ddd302ead9d4d9218832f4dd85"
+    },
+    {
+      "path": "dist/assets/audio/feel-04-female.mp3",
+      "size": 12165,
+      "sha": "57527fe916b600cb1996aa87f17addb6535dea1e"
+    },
+    {
+      "path": "dist/assets/audio/feel-04-male.mp3",
+      "size": 12621,
+      "sha": "07a69fed28d5385dcb882811046b0cc6da71f626"
+    },
+    {
+      "path": "dist/assets/audio/feel-05-female.mp3",
+      "size": 12573,
+      "sha": "467fba5fea19e4929068819c07685af7bc79d165"
+    },
+    {
+      "path": "dist/assets/audio/feel-05-male.mp3",
+      "size": 13533,
+      "sha": "dab07e854100b77702bcdb142758d40ba37b0832"
+    },
+    {
+      "path": "dist/assets/audio/feel-06-female.mp3",
+      "size": 13941,
+      "sha": "5d3e5cc43ad588ce3df380df79c5026a293ba14c"
+    },
+    {
+      "path": "dist/assets/audio/feel-06-male.mp3",
+      "size": 14613,
+      "sha": "e7c6d694fa273c5eb9c9986ad067c6e7ad5b8be2"
+    },
+    {
+      "path": "dist/assets/audio/feel-07-female.mp3",
+      "size": 12597,
+      "sha": "5452742c92cff4f3f46cd4206608b09546cb106e"
+    },
+    {
+      "path": "dist/assets/audio/feel-07-male.mp3",
+      "size": 13581,
+      "sha": "5d073e90b81d5ed9fa970191b82b3c1fc485bff0"
+    },
+    {
+      "path": "dist/assets/audio/feel-08-female.mp3",
+      "size": 14469,
+      "sha": "dd4b0400ff4a27ba4d39a89a364a45511ed54a48"
+    },
+    {
+      "path": "dist/assets/audio/feel-08-male.mp3",
+      "size": 14541,
+      "sha": "6678dead027dddb8d3d4840a4ad10b1cf368649d"
+    },
+    {
+      "path": "dist/assets/audio/feel-09-female.mp3",
+      "size": 14397,
+      "sha": "ac6cfd53303cd43ac162d98521c2c7103898772d"
+    },
+    {
+      "path": "dist/assets/audio/feel-09-male.mp3",
+      "size": 14349,
+      "sha": "d6d1de7c6a85df975ad6847f777f2fcb896d7dcc"
+    },
+    {
+      "path": "dist/assets/audio/feel-10-female.mp3",
+      "size": 13821,
+      "sha": "b361bc6fc7ae6f1623b9582338e62969430a7c11"
+    },
+    {
+      "path": "dist/assets/audio/feel-10-male.mp3",
+      "size": 14757,
+      "sha": "ba89dc36f6a1a026cdd99651d0dbdd353c8fa328"
+    },
+    {
+      "path": "dist/assets/audio/feel-11-female.mp3",
+      "size": 13965,
+      "sha": "1e71896c5c3a8a5592aab07aff0e286dd17f9981"
+    },
+    {
+      "path": "dist/assets/audio/feel-11-male.mp3",
+      "size": 15573,
+      "sha": "2f16c93d13e94573880add9726803467683bdc27"
+    },
+    {
+      "path": "dist/assets/audio/feel-12-female.mp3",
+      "size": 13365,
+      "sha": "6eb33b3b2026da64084bd18e02dcdaf744b52959"
+    },
+    {
+      "path": "dist/assets/audio/feel-12-male.mp3",
+      "size": 13917,
+      "sha": "10b7ae934009e2ea78bb13bb207afef44f334f95"
+    },
+    {
+      "path": "dist/assets/audio/have-01-female.mp3",
+      "size": 10533,
+      "sha": "3f7948c0157a52f5d38a9372ad9001a60122812b"
+    },
+    {
+      "path": "dist/assets/audio/have-01-male.mp3",
+      "size": 10605,
+      "sha": "401823cd8db7054929f0ffec964436e16dd6dda6"
+    },
+    {
+      "path": "dist/assets/audio/have-02-female.mp3",
+      "size": 10005,
+      "sha": "b9e666d89e31b2849e661bb45cc6c0f851ebd521"
+    },
+    {
+      "path": "dist/assets/audio/have-02-male.mp3",
+      "size": 10605,
+      "sha": "0c477d9906b1a7a445d37b05b3842fc951e7289b"
+    },
+    {
+      "path": "dist/assets/audio/have-03-female.mp3",
+      "size": 8637,
+      "sha": "8aca1e1acaca3cf9cd102842d894a5781b43f3b3"
+    },
+    {
+      "path": "dist/assets/audio/have-03-male.mp3",
+      "size": 9597,
+      "sha": "fca0cbf43254980d324c41762cdd1c52c0029f32"
+    },
+    {
+      "path": "dist/assets/audio/have-04-female.mp3",
+      "size": 13293,
+      "sha": "70aca63e753cb33d5b28abf0d0e0c7b9e82280e5"
+    },
+    {
+      "path": "dist/assets/audio/have-04-male.mp3",
+      "size": 14013,
+      "sha": "0e07d3b084d80645d73540f350bad80492f5bb3f"
+    },
+    {
+      "path": "dist/assets/audio/have-05-female.mp3",
+      "size": 14637,
+      "sha": "38fd4d15590c9ff18474fb27ad714f23492ef396"
+    },
+    {
+      "path": "dist/assets/audio/have-05-male.mp3",
+      "size": 15549,
+      "sha": "c88b7354cebebbae52f796f2ef08a6e197fbdfbf"
+    },
+    {
+      "path": "dist/assets/audio/have-06-female.mp3",
+      "size": 14661,
+      "sha": "7dd6a5c5f394e7500ad85cd537949906ecaa2c00"
+    },
+    {
+      "path": "dist/assets/audio/have-06-male.mp3",
+      "size": 14565,
+      "sha": "44ef5f03d56f58dc695ef4da55cc16893bec67e6"
+    },
+    {
+      "path": "dist/assets/audio/have-07-female.mp3",
+      "size": 10389,
+      "sha": "2c23a46a0d4b26bc3338263f22de09647d1f671a"
+    },
+    {
+      "path": "dist/assets/audio/have-07-male.mp3",
+      "size": 11229,
+      "sha": "b5c89d75b6f44291035cfce027122e6a1d96c403"
+    },
+    {
+      "path": "dist/assets/audio/have-08-female.mp3",
+      "size": 10917,
+      "sha": "faa836e0b715533564488b24812cd7d94f96b75e"
+    },
+    {
+      "path": "dist/assets/audio/have-08-male.mp3",
+      "size": 11133,
+      "sha": "666fbbae1080ea699e111b0ee5cab6c6003e762d"
+    },
+    {
+      "path": "dist/assets/audio/have-09-female.mp3",
+      "size": 12453,
+      "sha": "6f9eda215039f0134db72f1ac12aa4a4a3635fe4"
+    },
+    {
+      "path": "dist/assets/audio/have-09-male.mp3",
+      "size": 13005,
+      "sha": "75f1833bc72ff1d34e22d31f3f8bf2a5858efc37"
+    },
+    {
+      "path": "dist/assets/audio/have-10-female.mp3",
+      "size": 13869,
+      "sha": "c7e650260cbe5d7dfc00f1f95a3269ae0c736f6b"
+    },
+    {
+      "path": "dist/assets/audio/have-10-male.mp3",
+      "size": 13101,
+      "sha": "2870c99e8876812d15bd40ea7de9b393fa4dc2b5"
+    },
+    {
+      "path": "dist/assets/audio/have-11-female.mp3",
+      "size": 12621,
+      "sha": "ae9dc5709240c5f88b0b82a58e1f796757a9c3c2"
+    },
+    {
+      "path": "dist/assets/audio/have-11-male.mp3",
+      "size": 12693,
+      "sha": "f8c91e3b8fa470b909d149a77d92eb43a2feb740"
+    },
+    {
+      "path": "dist/assets/audio/have-12-female.mp3",
+      "size": 12141,
+      "sha": "adb6f513141efe29dafd0110aadfc51be486442d"
+    },
+    {
+      "path": "dist/assets/audio/have-12-male.mp3",
+      "size": 12165,
+      "sha": "27cc74ddc94a19f8b8cfed7a833b512f045b3177"
+    },
+    {
+      "path": "dist/assets/audio/know-01-female.mp3",
+      "size": 11517,
+      "sha": "72b24522d00c550983baa1d2856d1e17b5678d6f"
+    },
+    {
+      "path": "dist/assets/audio/know-01-male.mp3",
+      "size": 12093,
+      "sha": "220a57ba5e3998a5980e3af922cb76198d89bb63"
+    },
+    {
+      "path": "dist/assets/audio/know-02-female.mp3",
+      "size": 9573,
+      "sha": "6216afa9479c7b7a0f66a5f4f74e0fc8993d24d0"
+    },
+    {
+      "path": "dist/assets/audio/know-02-male.mp3",
+      "size": 9165,
+      "sha": "e1bfe6bd3322bdbfa82400ee2ffba2ae3e11417e"
+    },
+    {
+      "path": "dist/assets/audio/know-03-female.mp3",
+      "size": 12501,
+      "sha": "81a1107885a4077c9a33f922a4ca5ef41d73315d"
+    },
+    {
+      "path": "dist/assets/audio/know-03-male.mp3",
+      "size": 12381,
+      "sha": "930163196dd8d3b37ce2100ff8048209815bead1"
+    },
+    {
+      "path": "dist/assets/audio/know-04-female.mp3",
+      "size": 10413,
+      "sha": "625deabc1c97208b0bd9fe405f1af4f6fda1327d"
+    },
+    {
+      "path": "dist/assets/audio/know-04-male.mp3",
+      "size": 10773,
+      "sha": "5dc721c354d099c1faba618382bbc19afd48322e"
+    },
+    {
+      "path": "dist/assets/audio/know-05-female.mp3",
+      "size": 12765,
+      "sha": "01d304b7916999f7a4ae5f1f817a10a8574a9375"
+    },
+    {
+      "path": "dist/assets/audio/know-05-male.mp3",
+      "size": 13725,
+      "sha": "81405d986743e00613cd088e9373f8ab07874f3b"
+    },
+    {
+      "path": "dist/assets/audio/know-06-female.mp3",
+      "size": 12669,
+      "sha": "fe047e85035117d4a41fb448f166420911902036"
+    },
+    {
+      "path": "dist/assets/audio/know-06-male.mp3",
+      "size": 12117,
+      "sha": "62883b464ff6f4329efdad1c989ce188465a91b8"
+    },
+    {
+      "path": "dist/assets/audio/know-07-female.mp3",
+      "size": 12501,
+      "sha": "650a6299e7e8d52538d4208fa4cfbb87c0c76899"
+    },
+    {
+      "path": "dist/assets/audio/know-07-male.mp3",
+      "size": 12549,
+      "sha": "2c2455beb13ee724e286e01288a955e5df156062"
+    },
+    {
+      "path": "dist/assets/audio/know-08-female.mp3",
+      "size": 11637,
+      "sha": "2dc501a741f5f81312a0252bce73e2c71fced660"
+    },
+    {
+      "path": "dist/assets/audio/know-08-male.mp3",
+      "size": 12741,
+      "sha": "92949479bdd73df0a0ecc9ac5ecbc33e08ad189f"
+    },
+    {
+      "path": "dist/assets/audio/know-09-female.mp3",
+      "size": 14205,
+      "sha": "000bc384a76d3ea84ec5ec0aa4d7ca30731ab324"
+    },
+    {
+      "path": "dist/assets/audio/know-09-male.mp3",
+      "size": 15333,
+      "sha": "10a5addfaf3800dc0dea016685b4c66e3d5e3a09"
+    },
+    {
+      "path": "dist/assets/audio/know-10-female.mp3",
+      "size": 18021,
+      "sha": "411b0dcac6a6cd2d92a70df20ad61e36cfb23acb"
+    },
+    {
+      "path": "dist/assets/audio/know-10-male.mp3",
+      "size": 18429,
+      "sha": "bf9b87d4fb34e8989bc27a30df0c2a15aefae4ba"
+    },
+    {
+      "path": "dist/assets/audio/know-11-female.mp3",
+      "size": 9381,
+      "sha": "19a7c1e6de2786a72114823df691a93fe519093b"
+    },
+    {
+      "path": "dist/assets/audio/know-11-male.mp3",
+      "size": 9669,
+      "sha": "f34cd78f6caabe2489868972ac8aa2a0b1d9cecb"
+    },
+    {
+      "path": "dist/assets/audio/know-12-female.mp3",
+      "size": 9189,
+      "sha": "f9c6f5f322ba98848fc0bd7b672b5f30d3c91157"
+    },
+    {
+      "path": "dist/assets/audio/know-12-male.mp3",
+      "size": 9285,
+      "sha": "9617b3fe4c967bee93260cc782866dc5799edee2"
+    },
+    {
+      "path": "dist/assets/audio/lets-01-female.mp3",
+      "size": 9237,
+      "sha": "fe868ef39bb0a4d235bb476c824b302731ee8906"
+    },
+    {
+      "path": "dist/assets/audio/lets-01-male.mp3",
+      "size": 9333,
+      "sha": "3efbda9695d689e8d91a680c7ca55e2e3c3a825e"
+    },
+    {
+      "path": "dist/assets/audio/lets-02-female.mp3",
+      "size": 8829,
+      "sha": "9aa67400c77d20ec432ed4a3a260d407ba060281"
+    },
+    {
+      "path": "dist/assets/audio/lets-02-male.mp3",
+      "size": 9117,
+      "sha": "78d65794c3e3f21d40d19c7121f7d883c1443909"
+    },
+    {
+      "path": "dist/assets/audio/lets-03-female.mp3",
+      "size": 8013,
+      "sha": "4395c3d59381a6d476389c4c819bb3a41355f31b"
+    },
+    {
+      "path": "dist/assets/audio/lets-03-male.mp3",
+      "size": 8445,
+      "sha": "b4473483dbe30c180e5b04dcd57e941891c302d6"
+    },
+    {
+      "path": "dist/assets/audio/lets-04-female.mp3",
+      "size": 10893,
+      "sha": "3287526701cb4d371d6e20e710c990e00d0a1e93"
+    },
+    {
+      "path": "dist/assets/audio/lets-04-male.mp3",
+      "size": 12429,
+      "sha": "97c3b708b1fb5466f2a8da34da6c023b9974e312"
+    },
+    {
+      "path": "dist/assets/audio/lets-05-female.mp3",
+      "size": 9141,
+      "sha": "6d6012a484d969947ed47160dd35e6aa5a75ea04"
+    },
+    {
+      "path": "dist/assets/audio/lets-05-male.mp3",
+      "size": 9405,
+      "sha": "03610a494c7ed0a7fe0eac02fe14ce211cabbf94"
+    },
+    {
+      "path": "dist/assets/audio/lets-06-female.mp3",
+      "size": 13893,
+      "sha": "aad2428fc79b8f68cc340f8a1428d2a45c2a46b6"
+    },
+    {
+      "path": "dist/assets/audio/lets-06-male.mp3",
+      "size": 14709,
+      "sha": "63056d636ebc6ae32baebc2f84c4da723352956f"
+    },
+    {
+      "path": "dist/assets/audio/lets-07-female.mp3",
+      "size": 13173,
+      "sha": "ac03c656e3e07d308010fe439a3e94b17833cfa2"
+    },
+    {
+      "path": "dist/assets/audio/lets-07-male.mp3",
+      "size": 13821,
+      "sha": "aaf09df53f7415f20b954ebbf1d949c7b96d6ae9"
+    },
+    {
+      "path": "dist/assets/audio/lets-08-female.mp3",
+      "size": 12717,
+      "sha": "7ab87327ca4c8a06a6d3f77e1fa85c31939808cd"
+    },
+    {
+      "path": "dist/assets/audio/lets-08-male.mp3",
+      "size": 13461,
+      "sha": "e55bf9dde7bdfdb66568acec559bf5fe8899ac9e"
+    },
+    {
+      "path": "dist/assets/audio/lets-09-female.mp3",
+      "size": 14037,
+      "sha": "2ec28ed89673b50eab911c5d9d9085573cd38f51"
+    },
+    {
+      "path": "dist/assets/audio/lets-09-male.mp3",
+      "size": 14781,
+      "sha": "d0e1c297b1da5835a1a94d713791e18c63007783"
+    },
+    {
+      "path": "dist/assets/audio/lets-10-female.mp3",
+      "size": 12237,
+      "sha": "669bf9b2af4b4039d7614200613a6f6f49bd281a"
+    },
+    {
+      "path": "dist/assets/audio/lets-10-male.mp3",
+      "size": 12381,
+      "sha": "45b5900ece20ceef6defcaf51329e58f83b0ccf0"
+    },
+    {
+      "path": "dist/assets/audio/lets-11-female.mp3",
+      "size": 15501,
+      "sha": "46158c80fa352a5e10289d580ac2a327750f47d3"
+    },
+    {
+      "path": "dist/assets/audio/lets-11-male.mp3",
+      "size": 16077,
+      "sha": "f7250c35f4f96ef762db8738bf5679d63a0ad825"
+    },
+    {
+      "path": "dist/assets/audio/lets-12-female.mp3",
+      "size": 18381,
+      "sha": "7a504990f1542eed11c1a459dc68bddf8ba098c9"
+    },
+    {
+      "path": "dist/assets/audio/lets-12-male.mp3",
+      "size": 18165,
+      "sha": "1533bd9a833a57766b0daa7c527380c1b4e5acbf"
+    },
+    {
+      "path": "dist/assets/audio/like-01-female.mp3",
+      "size": 9789,
+      "sha": "2183c05270ae48cdc197542d14eeb959bdce26ad"
+    },
+    {
+      "path": "dist/assets/audio/like-01-male.mp3",
+      "size": 10701,
+      "sha": "1b3732186ae4227c69ab325624407ab093f89d40"
+    },
+    {
+      "path": "dist/assets/audio/like-02-female.mp3",
+      "size": 9861,
+      "sha": "e668e80357f7bb144d68c6c4c09a8c4ab7a6e212"
+    },
+    {
+      "path": "dist/assets/audio/like-02-male.mp3",
+      "size": 11013,
+      "sha": "95b7800d1b546de11eab2ade562af85fd6653074"
+    },
+    {
+      "path": "dist/assets/audio/like-03-female.mp3",
+      "size": 11373,
+      "sha": "4fb84dfc0bd76ae039578d1a300e4c41d3e0b30d"
+    },
+    {
+      "path": "dist/assets/audio/like-03-male.mp3",
+      "size": 11301,
+      "sha": "1a1afe772094056dd1531a0ae725656304d233c5"
+    },
+    {
+      "path": "dist/assets/audio/like-04-female.mp3",
+      "size": 13125,
+      "sha": "c6d89a738cbb86e3b6a282088c34c39315ab8f9a"
+    },
+    {
+      "path": "dist/assets/audio/like-04-male.mp3",
+      "size": 13725,
+      "sha": "a656d8a503cbb65d6c1cfb2f67b8ed9c726d9f1f"
+    },
+    {
+      "path": "dist/assets/audio/like-05-female.mp3",
+      "size": 12933,
+      "sha": "a73940d289085dafc6f3a8a06751eb45a3e1a734"
+    },
+    {
+      "path": "dist/assets/audio/like-05-male.mp3",
+      "size": 13341,
+      "sha": "4e65d4fcee8fb6d035a40fa907bf2158f3fca860"
+    },
+    {
+      "path": "dist/assets/audio/like-06-female.mp3",
+      "size": 13389,
+      "sha": "1de66e6b2cdb40a6f7c243e1a4ce905e41b6ab94"
+    },
+    {
+      "path": "dist/assets/audio/like-06-male.mp3",
+      "size": 12813,
+      "sha": "67c4d5ea8676ae5cf1ff162fa4a1fe9acf5e281d"
+    },
+    {
+      "path": "dist/assets/audio/like-07-female.mp3",
+      "size": 12957,
+      "sha": "c31856495ff7188a73496662f95b6d003f2d3761"
+    },
+    {
+      "path": "dist/assets/audio/like-07-male.mp3",
+      "size": 12357,
+      "sha": "7658936887efa86fa754e6ed0af06764390936f7"
+    },
+    {
+      "path": "dist/assets/audio/like-08-female.mp3",
+      "size": 11349,
+      "sha": "4448d9b990f737d27906a748eac884568f20f18f"
+    },
+    {
+      "path": "dist/assets/audio/like-08-male.mp3",
+      "size": 11133,
+      "sha": "e9a2b4354bf15a81feccda85ec9aaf4abb5d8d98"
+    },
+    {
+      "path": "dist/assets/audio/like-09-female.mp3",
+      "size": 13101,
+      "sha": "d8e184f67e72d242162e268b92c6b9618621ddd5"
+    },
+    {
+      "path": "dist/assets/audio/like-09-male.mp3",
+      "size": 12501,
+      "sha": "81ce161b9386fd701d97fdefe7453c160e61099c"
+    },
+    {
+      "path": "dist/assets/audio/like-10-female.mp3",
+      "size": 13701,
+      "sha": "20cc54d1d265c06f2aa8964180b5e5a90fcafa3d"
+    },
+    {
+      "path": "dist/assets/audio/like-10-male.mp3",
+      "size": 13605,
+      "sha": "71070c82b8a581f74f37f57f0b7956c818da191f"
+    },
+    {
+      "path": "dist/assets/audio/like-11-female.mp3",
+      "size": 13173,
+      "sha": "569fa7c9304ccc752a162a4a9aab5feefb41734f"
+    },
+    {
+      "path": "dist/assets/audio/like-11-male.mp3",
+      "size": 12765,
+      "sha": "d4766fadf031f974c24a81759bec37b12e2918cb"
+    },
+    {
+      "path": "dist/assets/audio/like-12-female.mp3",
+      "size": 15693,
+      "sha": "c54331b6f94c51e07ef36e5e2bd4fc127a16efe0"
+    },
+    {
+      "path": "dist/assets/audio/like-12-male.mp3",
+      "size": 15309,
+      "sha": "adb3268b60fff11fcad76519e9132f12c6a491f9"
+    },
+    {
+      "path": "dist/assets/audio/managed-01-female.mp3",
+      "size": 12525,
+      "sha": "7c13039e9decdbbbf2db0851aebb6dc50cc33b3d"
+    },
+    {
+      "path": "dist/assets/audio/managed-01-male.mp3",
+      "size": 13389,
+      "sha": "530db60320819a5775d6b0b95e7d3088c50ce8c3"
+    },
+    {
+      "path": "dist/assets/audio/managed-02-female.mp3",
+      "size": 12645,
+      "sha": "069cca7e83ede0b97c51f8ce4b9e1b11c4965a58"
+    },
+    {
+      "path": "dist/assets/audio/managed-02-male.mp3",
+      "size": 13341,
+      "sha": "3615ca98d80d96133c58e7ee3cea31f3333e9e0d"
+    },
+    {
+      "path": "dist/assets/audio/managed-03-female.mp3",
+      "size": 14229,
+      "sha": "a3f4cbcc4b5352624fabcf79ba15d53e71f5a9fe"
+    },
+    {
+      "path": "dist/assets/audio/managed-03-male.mp3",
+      "size": 13557,
+      "sha": "20a260abcf713af9b06780707bcb3d37baf01a58"
+    },
+    {
+      "path": "dist/assets/audio/managed-04-female.mp3",
+      "size": 14925,
+      "sha": "f6f11fdb753a607b017430bae3f5921952ba09e5"
+    },
+    {
+      "path": "dist/assets/audio/managed-04-male.mp3",
+      "size": 14661,
+      "sha": "43a4b4e6635dd0d5893e14f859e441d92b1988ea"
+    },
+    {
+      "path": "dist/assets/audio/managed-05-female.mp3",
+      "size": 12717,
+      "sha": "82132233b9fa6db9cc18e47b8066e1e09c7b5e9f"
+    },
+    {
+      "path": "dist/assets/audio/managed-05-male.mp3",
+      "size": 13461,
+      "sha": "ef75ccd6977d4ef4995cb0e755a4d91dd06f02bb"
+    },
+    {
+      "path": "dist/assets/audio/managed-06-female.mp3",
+      "size": 13749,
+      "sha": "3b5a27b2a7f0c2c827b666dd8dd15e930596c2c4"
+    },
+    {
+      "path": "dist/assets/audio/managed-06-male.mp3",
+      "size": 13101,
+      "sha": "f7ca08e6da9efd13cc91ee866bfc2f566da103c7"
+    },
+    {
+      "path": "dist/assets/audio/managed-07-female.mp3",
+      "size": 17733,
+      "sha": "9ddb4118cb15ee8c277fbf95f9e870f9a1ed94b8"
+    },
+    {
+      "path": "dist/assets/audio/managed-07-male.mp3",
+      "size": 17373,
+      "sha": "fe2f2176dd7c5609f998cb273af0719a14555af5"
+    },
+    {
+      "path": "dist/assets/audio/managed-08-female.mp3",
+      "size": 16605,
+      "sha": "0d8263f21c30652325008423a51171efa0cbd289"
+    },
+    {
+      "path": "dist/assets/audio/managed-08-male.mp3",
+      "size": 16317,
+      "sha": "fd063d5a6e4e131d86010662ea800ea06fb8fcff"
+    },
+    {
+      "path": "dist/assets/audio/managed-09-female.mp3",
+      "size": 19941,
+      "sha": "e2733844e6902c678fe72dd9dcead8b7b6c4cac9"
+    },
+    {
+      "path": "dist/assets/audio/managed-09-male.mp3",
+      "size": 19317,
+      "sha": "5444e2f66ec2e467883604c782990809c75a4769"
+    },
+    {
+      "path": "dist/assets/audio/managed-10-female.mp3",
+      "size": 15405,
+      "sha": "853100fdfe1100f745ae120445ee5fd3c1d0df75"
+    },
+    {
+      "path": "dist/assets/audio/managed-10-male.mp3",
+      "size": 15261,
+      "sha": "8e109903e407fe35e064842b6dc32a5cb7b3dc80"
+    },
+    {
+      "path": "dist/assets/audio/managed-11-female.mp3",
+      "size": 13125,
+      "sha": "f0ea68366262a751d1fdb6dac01bd7ff494793cd"
+    },
+    {
+      "path": "dist/assets/audio/managed-11-male.mp3",
+      "size": 13461,
+      "sha": "4aa70f82159bacdd86c8e46a443ff7626e6002ac"
+    },
+    {
+      "path": "dist/assets/audio/managed-12-female.mp3",
+      "size": 17157,
+      "sha": "62b2630c61a441d69f26e752a46fafa72420c1c7"
+    },
+    {
+      "path": "dist/assets/audio/managed-12-male.mp3",
+      "size": 16749,
+      "sha": "8a5c91d9c8eabc058b0d8468748ab52262e00952"
+    },
+    {
+      "path": "dist/assets/audio/need-01-female.mp3",
+      "size": 10869,
+      "sha": "33b1cd2bb92993269e06cc4cebdeb3b9d3d1ab56"
+    },
+    {
+      "path": "dist/assets/audio/need-01-male.mp3",
+      "size": 11805,
+      "sha": "3caa73e530f6fbd161b7a7036fea85fe23892261"
+    },
+    {
+      "path": "dist/assets/audio/need-02-female.mp3",
+      "size": 10317,
+      "sha": "71f2e006603fa5165eba15598a0fbf39a370a825"
+    },
+    {
+      "path": "dist/assets/audio/need-02-male.mp3",
+      "size": 10773,
+      "sha": "cd8d4a8f97d13807c4fd3e71431d15363fd5751a"
+    },
+    {
+      "path": "dist/assets/audio/need-03-female.mp3",
+      "size": 12453,
+      "sha": "b036add37773bf31e37f60692e4692feace188af"
+    },
+    {
+      "path": "dist/assets/audio/need-03-male.mp3",
+      "size": 12261,
+      "sha": "ce9f784c7c551514fb49b7b3b1d561fc3608ee05"
+    },
+    {
+      "path": "dist/assets/audio/need-04-female.mp3",
+      "size": 10197,
+      "sha": "039c1150327d7bdc0620a65182a9545f52815af8"
+    },
+    {
+      "path": "dist/assets/audio/need-04-male.mp3",
+      "size": 10461,
+      "sha": "ce6db5e9e0c52a2c7483df1afafc41b07883ef45"
+    },
+    {
+      "path": "dist/assets/audio/need-05-female.mp3",
+      "size": 10821,
+      "sha": "0196a0f794386481a76f1105c20fab1537f2eaa5"
+    },
+    {
+      "path": "dist/assets/audio/need-05-male.mp3",
+      "size": 12285,
+      "sha": "237298f49f05aaf1d993888a826f2973bc7c4452"
+    },
+    {
+      "path": "dist/assets/audio/need-06-female.mp3",
+      "size": 10269,
+      "sha": "bae528f2c76a1bb4d42687de70bd4056c8b8b771"
+    },
+    {
+      "path": "dist/assets/audio/need-06-male.mp3",
+      "size": 11037,
+      "sha": "6243d7178cc96ce89419349896b748d69a8f57b7"
+    },
+    {
+      "path": "dist/assets/audio/need-07-female.mp3",
+      "size": 10221,
+      "sha": "df5dd5a38a1768b20788a1157deff4e86a99d496"
+    },
+    {
+      "path": "dist/assets/audio/need-07-male.mp3",
+      "size": 10965,
+      "sha": "ad5e2eae24205b6f2224bdc627d64d25b8dcadd5"
+    },
+    {
+      "path": "dist/assets/audio/need-08-female.mp3",
+      "size": 9837,
+      "sha": "e472cf959437f05fdde4121eb891f5ced65c886f"
+    },
+    {
+      "path": "dist/assets/audio/need-08-male.mp3",
+      "size": 9813,
+      "sha": "eec32889d01966fc58a7cb0629cb04efd97120db"
+    },
+    {
+      "path": "dist/assets/audio/need-09-female.mp3",
+      "size": 10677,
+      "sha": "856a7caa60160dab22caa0d24618b1e1e4aa213f"
+    },
+    {
+      "path": "dist/assets/audio/need-09-male.mp3",
+      "size": 10821,
+      "sha": "efa3215f8e6f2354a5a2c7061d26e9143efd1aab"
+    },
+    {
+      "path": "dist/assets/audio/need-10-female.mp3",
+      "size": 9861,
+      "sha": "c1fb678d0fb4665c72a66cd5d9874d2070ddf726"
+    },
+    {
+      "path": "dist/assets/audio/need-10-male.mp3",
+      "size": 10149,
+      "sha": "fa46f55c388f6c0e26f95ca2bdf0aef735c9b77c"
+    },
+    {
+      "path": "dist/assets/audio/need-11-female.mp3",
+      "size": 11829,
+      "sha": "c5e51b0feef3d1ac6487590ae2df75fb84bcbc0e"
+    },
+    {
+      "path": "dist/assets/audio/need-11-male.mp3",
+      "size": 12597,
+      "sha": "8a5a1c04e2501f88342b3971fde877c48bce70ec"
+    },
+    {
+      "path": "dist/assets/audio/need-12-female.mp3",
+      "size": 17469,
+      "sha": "5c6c360cd234b3b764401436730862680df63243"
+    },
+    {
+      "path": "dist/assets/audio/need-12-male.mp3",
+      "size": 18093,
+      "sha": "7dc020b7ba6785efbb7dd06123a4d46590a53e12"
+    },
+    {
+      "path": "dist/assets/audio/supplement-dialogue-cafe-female.mp3",
+      "size": 21621,
+      "sha": "532882ad8d950df97b80a2c172626254e5ea2e13"
+    },
+    {
+      "path": "dist/assets/audio/supplement-dialogue-cafe-male.mp3",
+      "size": 20253,
+      "sha": "1f894673359deb4a185278feb9c39d6e926e067f"
+    },
+    {
+      "path": "dist/assets/audio/supplement-dialogue-else-female.mp3",
+      "size": 18189,
+      "sha": "681bf89c882afcb83e458b9686f870d4315f36c5"
+    },
+    {
+      "path": "dist/assets/audio/supplement-dialogue-else-male.mp3",
+      "size": 17229,
+      "sha": "517d45d32b89192aaeeff72dec73ad2eaec0c12b"
+    },
+    {
+      "path": "dist/assets/audio/supplement-dialogue-friend-female.mp3",
+      "size": 18069,
+      "sha": "deef95c5806ea191681227ad379af9d06562cc4d"
+    },
+    {
+      "path": "dist/assets/audio/supplement-dialogue-friend-male.mp3",
+      "size": 18501,
+      "sha": "7d4bd6048178a4028e1c4d8c8020410fa3ced78a"
+    },
+    {
+      "path": "dist/assets/audio/supplement-dialogue-hotel-female.mp3",
+      "size": 21093,
+      "sha": "f85da06df537802c1e61d9ba27b8e7486dc3eaf1"
+    },
+    {
+      "path": "dist/assets/audio/supplement-dialogue-hotel-male.mp3",
+      "size": 20685,
+      "sha": "df8324a65820870525f4bd798a7facf8d544e524"
+    },
+    {
+      "path": "dist/assets/audio/supplement-dialogue-memory-female.mp3",
+      "size": 17661,
+      "sha": "65f169cae8942fd357b31cf29b36c60bad07491d"
+    },
+    {
+      "path": "dist/assets/audio/supplement-dialogue-memory-male.mp3",
+      "size": 17037,
+      "sha": "696af62fdaff4cf374418df3542cac6b6dd2339c"
+    },
+    {
+      "path": "dist/assets/audio/supplement-dialogue-more-female.mp3",
+      "size": 20421,
+      "sha": "5a9d315096333074f8bb0cd7828cd86c575b048b"
+    },
+    {
+      "path": "dist/assets/audio/supplement-dialogue-more-male.mp3",
+      "size": 19125,
+      "sha": "cd03bcb3e09971d114d7ba5c999783c7d2701a1d"
+    },
+    {
+      "path": "dist/assets/audio/supplement-dialogue-station-female.mp3",
+      "size": 14685,
+      "sha": "bf75292154c234fb0d30e3280ff963719d60ff10"
+    },
+    {
+      "path": "dist/assets/audio/supplement-dialogue-station-male.mp3",
+      "size": 14253,
+      "sha": "d8b494c628aa6538629f5cead861493da6a614bc"
+    },
+    {
+      "path": "dist/assets/audio/supplement-dialogue-transfer-female.mp3",
+      "size": 30477,
+      "sha": "edce7e2a4c1b24e2c67bc0a812710fd2d8ce9e05"
+    },
+    {
+      "path": "dist/assets/audio/supplement-dialogue-transfer-male.mp3",
+      "size": 27357,
+      "sha": "f07c0efa13c863eb2ef8a0b965e578bbbf44691a"
+    },
+    {
+      "path": "dist/assets/audio/supplement-dialogue-work-female.mp3",
+      "size": 14541,
+      "sha": "6247e6340d4568caf0dfd91fa7d986234445e252"
+    },
+    {
+      "path": "dist/assets/audio/supplement-dialogue-work-male.mp3",
+      "size": 15045,
+      "sha": "73af9636bb48fbb5e49ca3aa3e35eaafd0a31930"
+    },
+    {
+      "path": "dist/assets/audio/supplement-story-01-female.mp3",
+      "size": 20925,
+      "sha": "3bad12b49b451e49820f256b02475db404ac9493"
+    },
+    {
+      "path": "dist/assets/audio/supplement-story-01-male.mp3",
+      "size": 21333,
+      "sha": "5431c0f6acf1000d716dcf7a27e4b87657482f29"
+    },
+    {
+      "path": "dist/assets/audio/supplement-story-02-female.mp3",
+      "size": 10605,
+      "sha": "5a411f236ae618607c6e971abd7c0dfedd753191"
+    },
+    {
+      "path": "dist/assets/audio/supplement-story-02-male.mp3",
+      "size": 11517,
+      "sha": "37279228b0e38e4db9044ad02490146d767424f3"
+    },
+    {
+      "path": "dist/assets/audio/supplement-story-03-female.mp3",
+      "size": 16365,
+      "sha": "98bbfa026189930cae7c0599133aebbee2980eb6"
+    },
+    {
+      "path": "dist/assets/audio/supplement-story-03-male.mp3",
+      "size": 15429,
+      "sha": "98cbe496670c775cf2310fddad7a340137274c23"
+    },
+    {
+      "path": "dist/assets/audio/supplement-story-04-female.mp3",
+      "size": 16485,
+      "sha": "72512b945692001947566472efa69ffdd2c09be0"
+    },
+    {
+      "path": "dist/assets/audio/supplement-story-04-male.mp3",
+      "size": 16269,
+      "sha": "bc3659a67d09a6755636fcd8cdd9bd948a9276cc"
+    },
+    {
+      "path": "dist/assets/audio/supplement-story-05-female.mp3",
+      "size": 16125,
+      "sha": "dab33cc64ad18d20d2d7cc2463ce96e21cbc1b0f"
+    },
+    {
+      "path": "dist/assets/audio/supplement-story-05-male.mp3",
+      "size": 15549,
+      "sha": "6f595dabad68030eb8546d974a431f66da92403e"
+    },
+    {
+      "path": "dist/assets/audio/takes-01-female.mp3",
+      "size": 12909,
+      "sha": "e61c9e8dd03648642a9718219dbd02123f3329ab"
+    },
+    {
+      "path": "dist/assets/audio/takes-01-male.mp3",
+      "size": 13485,
+      "sha": "fd855c1ab4bafc658f453572e2e0c159db027ab7"
+    },
+    {
+      "path": "dist/assets/audio/takes-02-female.mp3",
+      "size": 13149,
+      "sha": "6f9ee696fd786cfef8ba276997d3a37d46dd2169"
+    },
+    {
+      "path": "dist/assets/audio/takes-02-male.mp3",
+      "size": 14349,
+      "sha": "02df6abf12b07f77798700242fc5f50d05735e6b"
+    },
+    {
+      "path": "dist/assets/audio/takes-03-female.mp3",
+      "size": 12717,
+      "sha": "17047bd14d80b5768deffb9af11d4def5c00d41d"
+    },
+    {
+      "path": "dist/assets/audio/takes-03-male.mp3",
+      "size": 13173,
+      "sha": "fefb3f4d1047bea35cd2aa5025bc8b635238e1d9"
+    },
+    {
+      "path": "dist/assets/audio/takes-04-female.mp3",
+      "size": 16725,
+      "sha": "cf10347a0626d4e22f05420a0ba09118039d98f2"
+    },
+    {
+      "path": "dist/assets/audio/takes-04-male.mp3",
+      "size": 16557,
+      "sha": "24963590c8011a1ac0008d043e5ae6a82fec9b09"
+    },
+    {
+      "path": "dist/assets/audio/takes-05-female.mp3",
+      "size": 15141,
+      "sha": "a3ca719f9a0b38ed761e0bbfdda6bbf97f498ae8"
+    },
+    {
+      "path": "dist/assets/audio/takes-05-male.mp3",
+      "size": 16173,
+      "sha": "6b9b7459ec58d0520880160aa932c62460a0c292"
+    },
+    {
+      "path": "dist/assets/audio/takes-06-female.mp3",
+      "size": 14709,
+      "sha": "17db85c52d0a593d0cad6bc6f282941fe5320d28"
+    },
+    {
+      "path": "dist/assets/audio/takes-06-male.mp3",
+      "size": 15381,
+      "sha": "39dde8a9153f1d2ff3e323f467b1f78a225de72b"
+    },
+    {
+      "path": "dist/assets/audio/takes-07-female.mp3",
+      "size": 16629,
+      "sha": "89eadb35cb704523b6c9bc09f3dd4f25e541eb89"
+    },
+    {
+      "path": "dist/assets/audio/takes-07-male.mp3",
+      "size": 17013,
+      "sha": "8e90f13ae2b83dbe279ef2d6332afa57164191bc"
+    },
+    {
+      "path": "dist/assets/audio/takes-08-female.mp3",
+      "size": 16341,
+      "sha": "dc1f8af3bb631ee6ae5926ff367aed011c54c588"
+    },
+    {
+      "path": "dist/assets/audio/takes-08-male.mp3",
+      "size": 17589,
+      "sha": "e015418bfff0193af0a98003cd6c01fefe85aa81"
+    },
+    {
+      "path": "dist/assets/audio/takes-09-female.mp3",
+      "size": 15669,
+      "sha": "68f7fd0f26ed5b636d8a4beb3228901e4a2e656a"
+    },
+    {
+      "path": "dist/assets/audio/takes-09-male.mp3",
+      "size": 17205,
+      "sha": "d72c2ed3e125f16fdfcabbe37f0d77d07351bcfe"
+    },
+    {
+      "path": "dist/assets/audio/takes-10-female.mp3",
+      "size": 15453,
+      "sha": "4422944e51ae360fbd8147490ef21901607d8efb"
+    },
+    {
+      "path": "dist/assets/audio/takes-10-male.mp3",
+      "size": 15645,
+      "sha": "6bf4f34d414c9a2d1152883312989e20d0a11846"
+    },
+    {
+      "path": "dist/assets/audio/takes-11-female.mp3",
+      "size": 19821,
+      "sha": "92609d412e09cceec11ad7014e2abc71ab00d0d1"
+    },
+    {
+      "path": "dist/assets/audio/takes-11-male.mp3",
+      "size": 19653,
+      "sha": "a52b3f5002f542a5199326e3efe576fe4f40143a"
+    },
+    {
+      "path": "dist/assets/audio/takes-12-female.mp3",
+      "size": 14469,
+      "sha": "d415a3ae5503a20a5c4b0cb9a7be385a8fdf2c39"
+    },
+    {
+      "path": "dist/assets/audio/takes-12-male.mp3",
+      "size": 14301,
+      "sha": "3496427328a071790ab6b04406bb292911c93921"
+    },
+    {
+      "path": "dist/assets/audio/this-01-female.mp3",
+      "size": 8493,
+      "sha": "9d592f5614e9577460ca7d31d657d6e76f0f2bb1"
+    },
+    {
+      "path": "dist/assets/audio/this-01-male.mp3",
+      "size": 9405,
+      "sha": "6b42a9d1887daf722f548a7676099e089f3305b7"
+    },
+    {
+      "path": "dist/assets/audio/this-02-female.mp3",
+      "size": 8517,
+      "sha": "e04a9835618a21bc0a29f8ac65b082da949da23c"
+    },
+    {
+      "path": "dist/assets/audio/this-02-male.mp3",
+      "size": 10149,
+      "sha": "a99f0c3aa7175e5338bf0985cf5a17d135d7909f"
+    },
+    {
+      "path": "dist/assets/audio/this-03-female.mp3",
+      "size": 8853,
+      "sha": "8328db92ad443b5204b326371982109961054534"
+    },
+    {
+      "path": "dist/assets/audio/this-03-male.mp3",
+      "size": 10629,
+      "sha": "817f4ca94e4cff3daf3bb178cb57de199096a236"
+    },
+    {
+      "path": "dist/assets/audio/this-04-female.mp3",
+      "size": 9645,
+      "sha": "55bdf95083aa504545e27eadcf8737de8965b1ff"
+    },
+    {
+      "path": "dist/assets/audio/this-04-male.mp3",
+      "size": 10101,
+      "sha": "9332303d991c36859441267cd9c68e4b03c0b848"
+    },
+    {
+      "path": "dist/assets/audio/this-05-female.mp3",
+      "size": 9549,
+      "sha": "a47ac133c81fc4ba2b0a7fa93557f2f06453e910"
+    },
+    {
+      "path": "dist/assets/audio/this-05-male.mp3",
+      "size": 9789,
+      "sha": "f32dd1d25b7f527f9a77ca85a0366bd40c376504"
+    },
+    {
+      "path": "dist/assets/audio/this-06-female.mp3",
+      "size": 14349,
+      "sha": "776422ce2e6452953727cae8c84a5ac45df9b991"
+    },
+    {
+      "path": "dist/assets/audio/this-06-male.mp3",
+      "size": 15357,
+      "sha": "77c5a1c8e40ee358086fd82c00b077e0a2b1c946"
+    },
+    {
+      "path": "dist/assets/audio/this-07-female.mp3",
+      "size": 10221,
+      "sha": "5fa788e5121ed9eb33eeee77c4aecec05a2a1dcd"
+    },
+    {
+      "path": "dist/assets/audio/this-07-male.mp3",
+      "size": 10869,
+      "sha": "066e7b5255cb84baeb6b153da82447b16e73a819"
+    },
+    {
+      "path": "dist/assets/audio/this-08-female.mp3",
+      "size": 10773,
+      "sha": "5e15d5fcf727b9d738ab57cdf84b2f473c0e9857"
+    },
+    {
+      "path": "dist/assets/audio/this-08-male.mp3",
+      "size": 11517,
+      "sha": "f0c5d650abf15863cd065f1d0f51d366aec58730"
+    },
+    {
+      "path": "dist/assets/audio/this-09-female.mp3",
+      "size": 13269,
+      "sha": "48ffaa1ed24380025b30b0e0d1aa80a8e2bd8741"
+    },
+    {
+      "path": "dist/assets/audio/this-09-male.mp3",
+      "size": 13533,
+      "sha": "49a04220a30922bf59b9344ef5b2964163ab520b"
+    },
+    {
+      "path": "dist/assets/audio/this-10-female.mp3",
+      "size": 13461,
+      "sha": "3652c835bd7aa4662110ee37fcf184ad62233f70"
+    },
+    {
+      "path": "dist/assets/audio/this-10-male.mp3",
+      "size": 14085,
+      "sha": "57d005db18488062de73b49a0e64dd5033dc39da"
+    },
+    {
+      "path": "dist/assets/audio/this-11-female.mp3",
+      "size": 14517,
+      "sha": "5fd4213087d58469e8787784475c8c1e7983524f"
+    },
+    {
+      "path": "dist/assets/audio/this-11-male.mp3",
+      "size": 12765,
+      "sha": "ce85b934f63bace0b2c4fac90a020389a7ee61fa"
+    },
+    {
+      "path": "dist/assets/audio/this-12-female.mp3",
+      "size": 14301,
+      "sha": "7379846738e7c4657ce7193dca2b7e0af243022a"
+    },
+    {
+      "path": "dist/assets/audio/this-12-male.mp3",
+      "size": 14349,
+      "sha": "df2eb9004cddb0da9193e02a4a60e10e7623cb51"
+    },
+    {
+      "path": "dist/assets/audio/used-01-female.mp3",
+      "size": 10893,
+      "sha": "73d6bce492618399f6ea1423e8ddf14b2f2bccfa"
+    },
+    {
+      "path": "dist/assets/audio/used-01-male.mp3",
+      "size": 11421,
+      "sha": "88b13226a3e2e3d838c7e6589b27e508c422ee8e"
+    },
+    {
+      "path": "dist/assets/audio/used-02-female.mp3",
+      "size": 10965,
+      "sha": "15a029b23522ae5c97929366bd772834046c811b"
+    },
+    {
+      "path": "dist/assets/audio/used-02-male.mp3",
+      "size": 10485,
+      "sha": "580db5b06f85b15599093a97c66d3557f5ad00f1"
+    },
+    {
+      "path": "dist/assets/audio/used-03-female.mp3",
+      "size": 10149,
+      "sha": "f2e003d1ee4b3b1211fb2acdb68b24f355a09774"
+    },
+    {
+      "path": "dist/assets/audio/used-03-male.mp3",
+      "size": 10053,
+      "sha": "2fa5a3891e6dcf03a0f982f06c0f68b4d4631483"
+    },
+    {
+      "path": "dist/assets/audio/used-04-female.mp3",
+      "size": 12093,
+      "sha": "936d9841c26d715f75f3be9e3e38584a35b3c217"
+    },
+    {
+      "path": "dist/assets/audio/used-04-male.mp3",
+      "size": 13173,
+      "sha": "b0859fa66939c5faab4b503944eb7463a0807aeb"
+    },
+    {
+      "path": "dist/assets/audio/used-05-female.mp3",
+      "size": 11037,
+      "sha": "ed12c039c5a5954539415a43cf211bc8063ad49c"
+    },
+    {
+      "path": "dist/assets/audio/used-05-male.mp3",
+      "size": 11973,
+      "sha": "86ff14781cd335f554b737e138c30f8bbda85814"
+    },
+    {
+      "path": "dist/assets/audio/used-06-female.mp3",
+      "size": 14181,
+      "sha": "2207b5e489ce5f181f8e8056765cb70bf173385a"
+    },
+    {
+      "path": "dist/assets/audio/used-06-male.mp3",
+      "size": 15285,
+      "sha": "5ff77a22174629280801848d06edecce1b48de29"
+    },
+    {
+      "path": "dist/assets/audio/used-07-female.mp3",
+      "size": 17877,
+      "sha": "d839739a55707ca75bc8d5c26482b2f4d4064bae"
+    },
+    {
+      "path": "dist/assets/audio/used-07-male.mp3",
+      "size": 18549,
+      "sha": "a5a026ca081395c1151aef657dedf8dd0b4e04ce"
+    },
+    {
+      "path": "dist/assets/audio/used-08-female.mp3",
+      "size": 17853,
+      "sha": "92091a863a52c002951fd9a00c6ad4b6ab322caf"
+    },
+    {
+      "path": "dist/assets/audio/used-08-male.mp3",
+      "size": 17949,
+      "sha": "1df765ad748d832730278c74983f36fdc21f90c0"
+    },
+    {
+      "path": "dist/assets/audio/used-09-female.mp3",
+      "size": 15501,
+      "sha": "de36817075bf3d9793deeff7695df590a38080c9"
+    },
+    {
+      "path": "dist/assets/audio/used-09-male.mp3",
+      "size": 15069,
+      "sha": "b2a747b3a3690d91d5fa2ffe08935e49f08e6eee"
+    },
+    {
+      "path": "dist/assets/audio/used-10-female.mp3",
+      "size": 11733,
+      "sha": "7c1d58b53d75649e224bc538d8d8ad4b83fd82cf"
+    },
+    {
+      "path": "dist/assets/audio/used-10-male.mp3",
+      "size": 12477,
+      "sha": "9e5a299c3603d65f935407ff886de7482b749751"
+    },
+    {
+      "path": "dist/assets/audio/used-11-female.mp3",
+      "size": 12525,
+      "sha": "d3d8db0f201e9be39635fcf57bae73fcc31fb6b1"
+    },
+    {
+      "path": "dist/assets/audio/used-11-male.mp3",
+      "size": 13509,
+      "sha": "d8c6440a2537c7010b426a48f575d39e1204701e"
+    },
+    {
+      "path": "dist/assets/audio/used-12-female.mp3",
+      "size": 12477,
+      "sha": "7fe89f92318fd056a97e00e0d367d3ab1f67d51c"
+    },
+    {
+      "path": "dist/assets/audio/used-12-male.mp3",
+      "size": 13773,
+      "sha": "d92026cce35cc31ec072970a6388cb8f04bad0e9"
+    },
+    {
+      "path": "dist/assets/audio/want-01-female.mp3",
+      "size": 10221,
+      "sha": "5f549bb4d0e9774f1cfddb99697357d8d0bd7a68"
+    },
+    {
+      "path": "dist/assets/audio/want-01-male.mp3",
+      "size": 10701,
+      "sha": "6c14d13cc9e924225b8d68127ed7066b26eace36"
+    },
+    {
+      "path": "dist/assets/audio/want-02-female.mp3",
+      "size": 8085,
+      "sha": "21797a3e13d2a294b995ec256fcb2992f7590eac"
+    },
+    {
+      "path": "dist/assets/audio/want-02-male.mp3",
+      "size": 9837,
+      "sha": "28c9288aa6aa3ecdb1c91552d442e7d9fe3066a0"
+    },
+    {
+      "path": "dist/assets/audio/want-03-female.mp3",
+      "size": 10149,
+      "sha": "cff2703f6a37bd28c893727d9c9a7784d0334925"
+    },
+    {
+      "path": "dist/assets/audio/want-03-male.mp3",
+      "size": 11229,
+      "sha": "bea8ea29d04434d303a1cd8b7797b1f6c6facf8d"
+    },
+    {
+      "path": "dist/assets/audio/want-04-female.mp3",
+      "size": 10461,
+      "sha": "418efda2bb461febf10601880930b861ed5cea40"
+    },
+    {
+      "path": "dist/assets/audio/want-04-male.mp3",
+      "size": 11709,
+      "sha": "166d6a9caa7a5b4695488a055bd974b3b77298dc"
+    },
+    {
+      "path": "dist/assets/audio/want-05-female.mp3",
+      "size": 10893,
+      "sha": "3ddb03af3d84a4979ef7357e341e8c9072fcbbeb"
+    },
+    {
+      "path": "dist/assets/audio/want-05-male.mp3",
+      "size": 10821,
+      "sha": "078c9416dc4199b05b91c9bf20fd29b937431c4f"
+    },
+    {
+      "path": "dist/assets/audio/want-06-female.mp3",
+      "size": 14973,
+      "sha": "9ba18571006504267bb81ee03a243adbd38d33cc"
+    },
+    {
+      "path": "dist/assets/audio/want-06-male.mp3",
+      "size": 15549,
+      "sha": "cc8c6ba63798fbbf9cf95185bc0c43f2d0fce8ef"
+    },
+    {
+      "path": "dist/assets/audio/want-07-female.mp3",
+      "size": 13773,
+      "sha": "298e6ddbd1d085fc0e4269f50f46e3ed56d948fd"
+    },
+    {
+      "path": "dist/assets/audio/want-07-male.mp3",
+      "size": 14085,
+      "sha": "96123788ff79fa4b3e453350c63e3f74edb6d33a"
+    },
+    {
+      "path": "dist/assets/audio/want-08-female.mp3",
+      "size": 11301,
+      "sha": "15ce1cc667c12d77a3b30161f485e7df63273951"
+    },
+    {
+      "path": "dist/assets/audio/want-08-male.mp3",
+      "size": 11781,
+      "sha": "29ad2d25644c145fbdf6f6299dd0f90f79de0b32"
+    },
+    {
+      "path": "dist/assets/audio/want-09-female.mp3",
+      "size": 10149,
+      "sha": "1883ed9fef725fcae2d5eba238b49ddcdf501d3e"
+    },
+    {
+      "path": "dist/assets/audio/want-09-male.mp3",
+      "size": 10533,
+      "sha": "dec102841980775ee1736e575d646f4f36773446"
+    },
+    {
+      "path": "dist/assets/audio/want-10-female.mp3",
+      "size": 12333,
+      "sha": "c7dec7a052876a3a852be8752cd688198d18d16a"
+    },
+    {
+      "path": "dist/assets/audio/want-10-male.mp3",
+      "size": 13389,
+      "sha": "155b288307f8079e006003d36054b4669f607591"
+    },
+    {
+      "path": "dist/assets/audio/want-11-female.mp3",
+      "size": 11109,
+      "sha": "b5b4c5458f9f2e717bfb5ed4d7c5de8d08df6903"
+    },
+    {
+      "path": "dist/assets/audio/want-11-male.mp3",
+      "size": 11133,
+      "sha": "bca0c8df348df10ccd91627f7ba93c1f55a355b0"
+    },
+    {
+      "path": "dist/assets/audio/want-12-female.mp3",
+      "size": 15429,
+      "sha": "d44c36353f40961de15a7fdee45d0e54abf91879"
+    },
+    {
+      "path": "dist/assets/audio/want-12-male.mp3",
+      "size": 16149,
+      "sha": "3c6452b9145270ecf87c9d41a3c638d430699075"
+    },
+    {
+      "path": "dist/assets/audio/worth-01-female.mp3",
+      "size": 10389,
+      "sha": "f7004670f7465d7408786d106fb97facecfc37b5"
+    },
+    {
+      "path": "dist/assets/audio/worth-01-male.mp3",
+      "size": 10773,
+      "sha": "623bd292a5c7527153e17367c6523851ff8c1369"
+    },
+    {
+      "path": "dist/assets/audio/worth-02-female.mp3",
+      "size": 13701,
+      "sha": "69e8626ec8b77682c35a4a9dcadac5aff5a3b84d"
+    },
+    {
+      "path": "dist/assets/audio/worth-02-male.mp3",
+      "size": 14421,
+      "sha": "14720c62bd94a5dd1fe01e12ffc478ff4f033421"
+    },
+    {
+      "path": "dist/assets/audio/worth-03-female.mp3",
+      "size": 10917,
+      "sha": "6414f59cb404c7e1f8aa3b5af146a37a4d66cde1"
+    },
+    {
+      "path": "dist/assets/audio/worth-03-male.mp3",
+      "size": 10893,
+      "sha": "ba5b6d7f67d360c73fb65de5ce8a9adee9809c81"
+    },
+    {
+      "path": "dist/assets/audio/worth-04-female.mp3",
+      "size": 12789,
+      "sha": "8f8d3f0584e56d89b47fff750eb201b07055f74a"
+    },
+    {
+      "path": "dist/assets/audio/worth-04-male.mp3",
+      "size": 13989,
+      "sha": "5e5167f939b3889c4d95a917b375796e62b6a052"
+    },
+    {
+      "path": "dist/assets/audio/worth-05-female.mp3",
+      "size": 15285,
+      "sha": "af4fe1662fb375bc6abfcd14c8b22cd33aa769fe"
+    },
+    {
+      "path": "dist/assets/audio/worth-05-male.mp3",
+      "size": 16101,
+      "sha": "d026974fad9ea8fc6364cc7f4eeeec56164d6726"
+    },
+    {
+      "path": "dist/assets/audio/worth-06-female.mp3",
+      "size": 16053,
+      "sha": "9db0fceac521391da5272580dd58de2958fec3c9"
+    },
+    {
+      "path": "dist/assets/audio/worth-06-male.mp3",
+      "size": 16341,
+      "sha": "5daf7385fe2ff70cb74f72de351e018ea2774183"
+    },
+    {
+      "path": "dist/assets/audio/worth-07-female.mp3",
+      "size": 16101,
+      "sha": "fda028db5b237c652ad6bb0035d6ea642b5d7675"
+    },
+    {
+      "path": "dist/assets/audio/worth-07-male.mp3",
+      "size": 17517,
+      "sha": "78d5770962cbb33eaa354aef6a79c4045e5eaa37"
+    },
+    {
+      "path": "dist/assets/audio/worth-08-female.mp3",
+      "size": 11973,
+      "sha": "ca21a064210f927f9b3b06efa852ee7b79f96ebd"
+    },
+    {
+      "path": "dist/assets/audio/worth-08-male.mp3",
+      "size": 14373,
+      "sha": "8ba0df1d9a997016af703dd91248c70288574b56"
+    },
+    {
+      "path": "dist/assets/audio/worth-09-female.mp3",
+      "size": 11781,
+      "sha": "a9e124700bab134bc4ac7c47505bc92bc66cea17"
+    },
+    {
+      "path": "dist/assets/audio/worth-09-male.mp3",
+      "size": 11733,
+      "sha": "6a7dbf50214a0c6e9d412c79e35803be51fcffd9"
+    },
+    {
+      "path": "dist/assets/audio/worth-10-female.mp3",
+      "size": 11685,
+      "sha": "180f276b9e6d6af65889a58879c3de01c272c128"
+    },
+    {
+      "path": "dist/assets/audio/worth-10-male.mp3",
+      "size": 12189,
+      "sha": "0ca2242da5ee472dc068edc79878ec4e16b4f608"
+    },
+    {
+      "path": "dist/assets/audio/worth-11-female.mp3",
+      "size": 12765,
+      "sha": "b5f5c1572066af2f5c4f7177eb56d4148552b0f7"
+    },
+    {
+      "path": "dist/assets/audio/worth-11-male.mp3",
+      "size": 13821,
+      "sha": "42ba882687b22c8f6a90f85b784f3ac8b81ce927"
+    },
+    {
+      "path": "dist/assets/audio/worth-12-female.mp3",
+      "size": 14901,
+      "sha": "ee6a5d839c2b437cde7dc2ec9d7d4beae2de3837"
+    },
+    {
+      "path": "dist/assets/audio/worth-12-male.mp3",
+      "size": 15405,
+      "sha": "bd42bfaf29a176c842f8540469d852c7ff3891a1"
+    },
+    {
+      "path": "dist/assets/scenes/can-atlas.webp",
+      "size": 248994,
+      "sha": "1fc0a62c5c8693957a1961213de70b3d42349bac"
+    },
+    {
+      "path": "dist/assets/scenes/feel-atlas.webp",
+      "size": 327140,
+      "sha": "f59d8bb0907ac02e4b962a9f9956e0f38d45765b"
+    },
+    {
+      "path": "dist/assets/scenes/have-atlas.webp",
+      "size": 231552,
+      "sha": "86f0615f9065e04679cff546eea770cf4e8b9b20"
+    },
+    {
+      "path": "dist/assets/scenes/know-atlas.webp",
+      "size": 269684,
+      "sha": "0cce271180258181ce89e48595c1d3a0364d518e"
+    },
+    {
+      "path": "dist/assets/scenes/lets-atlas.webp",
+      "size": 292944,
+      "sha": "5fc6a42e378082e15d9a1485115edb4dc51d6176"
+    },
+    {
+      "path": "dist/assets/scenes/like-atlas.webp",
+      "size": 274480,
+      "sha": "14584055ebd1e4c41fbf895d3a174d2e0ff43766"
+    },
+    {
+      "path": "dist/assets/scenes/managed-atlas.webp",
+      "size": 270310,
+      "sha": "2a79b177dad8ca97d692ab08f2d3335e258c4359"
+    },
+    {
+      "path": "dist/assets/scenes/need-atlas.webp",
+      "size": 263182,
+      "sha": "4662aa216e10cf0717535b15efeb910d4ca0bc1d"
+    },
+    {
+      "path": "dist/assets/scenes/takes-atlas.webp",
+      "size": 275606,
+      "sha": "38a389508f326f8a516334406cb496743fd676e6"
+    },
+    {
+      "path": "dist/assets/scenes/this-atlas.webp",
+      "size": 249034,
+      "sha": "3933a9474fca30d28a0a31617a39433564cd5b23"
+    },
+    {
+      "path": "dist/assets/scenes/used-atlas.webp",
+      "size": 319850,
+      "sha": "ee85f164372b29c0a0eea3064218a7ff2652c425"
+    },
+    {
+      "path": "dist/assets/scenes/want-atlas.webp",
+      "size": 268280,
+      "sha": "bb6baed4234bc310d736064a818203b573fa84bc"
+    },
+    {
+      "path": "dist/assets/scenes/worth-atlas.webp",
+      "size": 281292,
+      "sha": "baef5cae2a170261c03acf589ed03dc7cb6110f4"
+    },
+    {
+      "path": "dist/curriculum.json",
+      "size": 128246,
+      "sha": "5e000ebd05c8317b8de1c5f92d0fac9a75f039d8"
+    },
+    {
+      "path": "dist/data.js",
+      "size": 10556,
+      "sha": "aabb9f6058fb554199899aeedfb6738199d397e8"
+    },
+    {
+      "path": "dist/downloads/nasaq-media-library-20261102.zip",
+      "size": 8136803,
+      "sha": "1d07dd9203c07fc52d4832c2b78a549e9afee1ee"
+    },
+    {
+      "path": "dist/enhancements.js",
+      "size": 21347,
+      "sha": "ee7e5ca5ad97d03eb29d46eb53242889bde38192"
+    },
+    {
+      "path": "dist/generation-index.json",
+      "size": 479478,
+      "sha": "1cea675cc372b6ac94cc254abf74df1b0a5dfdf3"
+    },
+    {
+      "path": "dist/icon.svg",
+      "size": 252,
+      "sha": "7ef1e08b7d985af3d8376aa4ea1d90ebb683198e"
+    },
+    {
+      "path": "dist/index.html",
+      "size": 2097,
+      "sha": "a877578ebac11e07d776c6747cac5b9dc937d962"
+    },
+    {
+      "path": "dist/learning.js",
+      "size": 17958,
+      "sha": "5fa911ce85d6f97010de25ed02160ced8bce9561"
+    },
+    {
+      "path": "dist/manifest.json",
+      "size": 294,
+      "sha": "1e5a81935ac5a121bf783004aa8279e89a40d2b8"
+    },
+    {
+      "path": "dist/pilot-audit.json",
+      "size": 56789,
+      "sha": "d108da45126505643100175f6d761428e398a5e2"
+    },
+    {
+      "path": "dist/pilot-ui.js",
+      "size": 23411,
+      "sha": "b5c3159d19225f6ec14bb85949f8fa0fabb15b33"
+    },
+    {
+      "path": "dist/pilot.json",
+      "size": 765977,
+      "sha": "584ec0f9278a25813e59a2dad16b34cd0662eaf1"
+    },
+    {
+      "path": "dist/qa-report.json",
+      "size": 3244,
+      "sha": "659aee37e295f1ef2786df76727553d292b492b6"
+    },
+    {
+      "path": "dist/route-player.js",
+      "size": 8315,
+      "sha": "d48daffff0ff6a09c1a4c878db849fb94ae75150"
+    },
+    {
+      "path": "dist/source.json",
+      "size": 167697,
+      "sha": "d69f7da0a28d5583bd8139b684bb5e05de8e3968"
+    },
+    {
+      "path": "dist/style.css",
+      "size": 28705,
+      "sha": "fc159592359a19c6e725663a50a27b9f52b039bb"
+    },
+    {
+      "path": "dist/supplement.json",
+      "size": 60254,
+      "sha": "cfd2e214a3f5210c62f08417934ba30e522a8724"
+    },
+    {
+      "path": "dist/sw.js",
+      "size": 959,
+      "sha": "54af2d978f520e5550a8602f180bdcce7685c2dd"
+    },
+    {
+      "path": "docs/PROVENANCE.md",
+      "size": 2320,
+      "sha": "1c1d56b9d6191891a495c1fbfc36e213a28d5998"
+    },
+    {
+      "path": "docs/RESTORE.md",
+      "size": 880,
+      "sha": "745a3d2129efd23084e46251c8d300da011e8b62"
+    },
+    {
+      "path": "docs/learning-preview-v3.jpg",
+      "size": 63262,
+      "sha": "c3e81174fadf0ac612104c0268744c7b9221c1fc"
+    },
+    {
+      "path": "docs/teacher-preview.jpg",
+      "size": 100802,
+      "sha": "89a6cd5a3321b1b69407d7581f37785ca89342ee"
+    },
+    {
+      "path": "scripts/archive_production.py",
+      "size": 3375,
+      "sha": "0867537ec80649f91d8a593ebf90e10064f59aaa"
+    },
+    {
+      "path": "scripts/audio-requirements.txt",
+      "size": 138,
+      "sha": "25c136a0302b01294bdcd3728b9d921128f87d85"
+    },
+    {
+      "path": "scripts/audit_pilot.py",
+      "size": 4485,
+      "sha": "38197a17878e884f587d5315fc275930790b9b2b"
+    },
+    {
+      "path": "scripts/author_learning.py",
+      "size": 32121,
+      "sha": "e8da7ac4bd9b7dabfaaecc35d6d21b9b0823a0f2"
+    },
+    {
+      "path": "scripts/author_supplement.py",
+      "size": 2720,
+      "sha": "0105d7028da4e3dbbedeb3eb67f7628f7bfabef8"
+    },
+    {
+      "path": "scripts/build_pilot.py",
+      "size": 10101,
+      "sha": "53853392f8b850669e5d5c742b3fca8a2c12aedf"
+    },
+    {
+      "path": "scripts/enrich_exercises.py",
+      "size": 2979,
+      "sha": "d05b925797abbccfc8d37d87fd366833d4d0b0c9"
+    },
+    {
+      "path": "scripts/expand_curriculum.py",
+      "size": 22820,
+      "sha": "57c3265b1e10151bc2e892e9e172d748f8f7ff3a"
+    },
+    {
+      "path": "scripts/finalize_curriculum.py",
+      "size": 1454,
+      "sha": "b88586c5802de56ec221e3adda3d023856c64bc5"
+    },
+    {
+      "path": "scripts/generated-scene-sources.json",
+      "size": 9288,
+      "sha": "9cc019c0808537c5affb53dc50fd475018186778"
+    },
+    {
+      "path": "scripts/produce_audio.py",
+      "size": 2910,
+      "sha": "355fa04a191eb3da2c678ced3549c263aca4f605"
+    },
+    {
+      "path": "scripts/upstream/acoustic_pattern_fallback.py",
+      "size": 3862,
+      "sha": "c6a8d827fde74bbfdfefd1df9d7cc432a5fd4932"
+    },
+    {
+      "path": "scripts/upstream/generate_audio.py",
+      "size": 3993,
+      "sha": "0245be2bdae9c0a55ac0191476dc06e3df8fa28a"
+    },
+    {
+      "path": "tests/curriculum.test.cjs",
+      "size": 1733,
+      "sha": "3759d9a81b7c0a2f2038ce6b866eadfb16ecba7a"
+    },
+    {
+      "path": "tests/route-player.test.cjs",
+      "size": 6099,
+      "sha": "eddda40a5234a151ddafaac118b8b9af21866540"
+    },
+    {
+      "path": "verify.mjs",
+      "size": 1121,
+      "sha": "2da5af88df8ce0e4ab8e790f4536705fc4ea94d4"
+    }
+  ]
+}
+

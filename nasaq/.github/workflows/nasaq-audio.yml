@@ -1,0 +1,37 @@
+name: Nasaq full measured dual-voice archive
+on:
+  workflow_dispatch:
+  push:
+    paths: ['scripts/produce_audio.py', 'scripts/audio-requirements.txt', 'dist/pilot.json', 'dist/supplement.json']
+permissions:
+  contents: read
+jobs:
+  audio:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg espeak-ng
+      - run: pip install torch==2.6.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cpu
+      - run: pip install -r scripts/audio-requirements.txt
+      - name: Render or verify all curriculum recordings
+        run: python scripts/produce_audio.py
+      - name: Render or verify story and dialogue recordings
+        run: python scripts/produce_audio.py --manifest dist/supplement.json
+      - run: node --test tests/*.cjs
+      - run: python scripts/audit_pilot.py --require-complete
+      - run: python scripts/archive_production.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: nasaq-full-verified-production
+          path: |
+            dist/downloads/nasaq-media-library-20261102.zip
+            dist/generation-index.json
+            dist/pilot-audit.json
+          retention-days: 90

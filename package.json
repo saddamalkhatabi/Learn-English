@@ -6,9 +6,11 @@
   "description": "Read-only public preview of the Learn English learning prototype",
   "scripts": {
     "start": "node server.mjs",
-    "check": "node --check app.js && node --check server.mjs"
+    "check": "node --check app.js && node --check server.mjs",
+    "nasaq:check": "cd nasaq && node --test tests/*.cjs && node verify.mjs"
   },
   "engines": {
     "node": ">=20"
   }
 }
+

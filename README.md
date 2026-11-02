@@ -1,5 +1,17 @@
 # Learn English · Pattern Universe
 
+## نسخة نسق المنشورة — مزامنة 2026-11-02
+
+نُقلت نسخة الموقع المنشورة بالكامل إلى [`nasaq/`](nasaq/README.md)، من تعديل Sites `1911f09fd43a376b5227025fc79b02509ae63fc5`.
+بعد `npm start` افتح `/nasaq/`، أو قدّم `nasaq/dist` من خادم ملفات ثابتة. يحتوي النقل على 13 نمطًا و156 جملة مصوّرة و340 ملف MP3 مع التوقيتات المستقلة، والأرشيف القابل للتنزيل، والاختبارات ومحركات التعلم. بقيت المجموعات العشر وملفاتها السابقة محفوظة.
+
+- [الموقع المنشور](https://nasaq-english-lab.saddamalkhattabi.chatgpt.site/)
+- [بيانات المصدر والبصمات المطابقة](nasaq/SITE-SNAPSHOT.json)
+- [أرشيف الإنتاج الكامل](nasaq/dist/downloads/nasaq-media-library-20261102.zip)
+- نقطة الاسترجاع: `checkpoint-before-nasaq-site-sync-20261102`.
+- تحقق محليًا: `npm run nasaq:check`.
+
+
 An Arabic-first, offline-friendly learning prototype that teaches English **through scenes, patterns, contrasts, and active recall**.
 
 ## المجموعة الأولى — المسار التفاعلي
@@ -83,3 +95,4 @@ The uploaded corpus is the source of truth, not necessarily a quality-assured gr
 - [Recorded English audio folder](assets/audio)
 - [Arabic system and pedagogy blueprint](docs/ARCHITECTURE-AR.md)
 - [How to test and enable Pages](docs/TESTING-DEPLOYMENT.md)
+

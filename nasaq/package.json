@@ -1,0 +1,9 @@
+{
+  "name": "nasaq-site-snapshot",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "check": "node --test tests/*.cjs && node verify.mjs"
+  }
+}
+

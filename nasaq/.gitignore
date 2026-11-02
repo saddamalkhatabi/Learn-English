@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+production-backups/
+dist/_qa/
